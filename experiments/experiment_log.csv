@@ -1,0 +1,8 @@
+experiment,hypothesis,method,primary_metric,result,decision
+T1-B0,lexical features can identify intent,TF-IDF + Logistic Regression,Macro F1,TBD,baseline
+R-B0,lexical retrieval provides reasonable baseline,BM25,NDCG@10,TBD,baseline
+R-E1,supplied entities improve ranking,BM25 + entity features,NDCG@10,TBD,TBD
+R-E2,contextual slots improve constrained queries,structured contextual matching,NDCG@10,TBD,TBD
+R-E3,semantic retrieval improves lexical mismatch,dense sentence embeddings,Recall@10,TBD,TBD
+R-E4,hybrid retrieval improves overall ranking,sparse + dense + structured scoring,NDCG@10,TBD,TBD
+R-E5,intent improves ranking,hybrid scoring with intent-aware weights,NDCG@10,TBD,TBD

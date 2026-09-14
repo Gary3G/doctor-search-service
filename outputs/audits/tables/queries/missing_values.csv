@@ -1,0 +1,11 @@
+column,missing_count
+query_id,0
+query_text,0
+language,0
+disease_entity,0
+icd10_code,0
+molecule_entity,0
+atc_code,0
+drug_class_entity,0
+atc_class,0
+therapeutic_area,0

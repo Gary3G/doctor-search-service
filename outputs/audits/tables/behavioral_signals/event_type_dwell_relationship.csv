@@ -1,0 +1,5 @@
+event_type,count,mean,median,min,max
+click,944,14.45,10.5,0,111
+return_visit,29,224.59,213.0,92,353
+save_bookmark,91,100.67,94.0,31,179
+scroll_deep,436,150.97,152.0,61,239

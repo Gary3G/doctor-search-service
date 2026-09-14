@@ -1,0 +1,31 @@
+query_id_a,query_id_b,similarity,query_text_a,query_text_b
+Q151,Q377,0.9657,latest guideline Preeclampsia management 2024,latest Preeclampsia management guidelines 2024
+Q177,Q309,0.9606,Bedaquiline long term outcomes Tuberculosis,Bedaquiline long term outcomes MDR Tuberculosis
+Q150,Q170,0.9541,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients
+Q242,Q361,0.9361,penanganan Type 2 Diabetes Mellitus di ICU panduan 2023,penanganan Type 2 Diabetes Mellitus di ICU panduan 2022
+Q240,Q500,0.9286,Antituberculotics terbaru untuk Tuberculosis 2024,Antituberculotics terbaru untuk Tuberculosis 2025
+Q235,Q392,0.9253,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever,switch from Artemether-lumefantrine to Artemether-lumefantrine in Typhoid Fever
+Q176,Q252,0.9094,latest guideline Major Depressive Disorder management terbaru,latest guideline Major Depressive Disorder management 2022
+Q117,Q392,0.9002,switch dari Artemether-lumefantrine ke Artemether-lumefantrine Typhoid Fever progresif,switch from Artemether-lumefantrine to Artemether-lumefantrine in Typhoid Fever
+Q235,Q403,0.8961,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever
+Q009,Q209,0.8942,Tenofovir+Lamivudine drug interaction with Tenofovir+Lamivudine in Urinary Tract Infection,switch from Tenofovir+Lamivudine to Tenofovir+Lamivudine in Urinary Tract Infection
+Q115,Q235,0.8859,dosis Artemether-lumefantrine untuk pasien Typhoid Fever,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever
+Q117,Q235,0.8802,switch dari Artemether-lumefantrine ke Artemether-lumefantrine Typhoid Fever progresif,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever
+Q392,Q403,0.8649,switch from Artemether-lumefantrine to Artemether-lumefantrine in Typhoid Fever,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever
+Q155,Q235,0.8583,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever
+Q154,Q444,0.8517,Apixaban hepatic impairment dose in Community-acquired Pneumonia,Rivaroxaban hepatic impairment dose in Community-acquired Pneumonia
+Q382,Q407,0.8456,when to start Methylphenidate in Breast Cancer HER2-positive,Breast Cancer HER2-positive pada anak dosis Methylphenidate
+Q196,Q397,0.8428,Gout risk stratification approach,Malaria risk stratification approach
+Q085,Q407,0.8423,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive,Breast Cancer HER2-positive pada anak dosis Methylphenidate
+Q062,Q120,0.8416,latest COPD management guidelines terbaru,latest Hypertension management guidelines terbaru
+Q066,Q276,0.8387,monitoring parameters Rosuvastatin in Acute Coronary Syndrome,monitoring parameters Atorvastatin in Acute Coronary Syndrome
+Q155,Q403,0.8339,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever
+Q137,Q472,0.8329,ARBs mechanism untuk Heart Failure bagaimana cara kerjanya,ARBs mechanism untuk Hypertension bagaimana cara kerjanya
+Q391,Q439,0.8321,when to start Secukinumab in Disseminated Intravascular Coagulation,Secukinumab loading dose Disseminated Intravascular Coagulation emergency
+Q299,Q395,0.8291,Zinc hepatic impairment dose in Stunting / Malnutrition,Vitamin A hepatic impairment dose in Stunting / Malnutrition
+Q155,Q392,0.8278,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,switch from Artemether-lumefantrine to Artemether-lumefantrine in Typhoid Fever
+Q085,Q382,0.8255,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive,when to start Methylphenidate in Breast Cancer HER2-positive
+Q117,Q403,0.8248,switch dari Artemether-lumefantrine ke Artemether-lumefantrine Typhoid Fever progresif,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever
+Q283,Q487,0.8248,monitoring Centrally acting antihypertensives pada Hypertension in Pregnancy parameter apa,Centrally acting antihypertensives terbaru untuk Hypertension in Pregnancy 2025
+Q196,Q200,0.8215,Gout risk stratification approach,Tuberculosis risk stratification approach
+Q020,Q113,0.8206,latest Malaria management guidelines 2025,latest Obesity management guidelines 2025

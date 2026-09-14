@@ -1,0 +1,501 @@
+query_id,query_text,language,disease_entity,icd10_code,molecule_entity,atc_code,drug_class_entity,atc_class,therapeutic_area,age_group,pregnancy_status,year,recency_flag,dose_context_flag,route,renal_function_group,hepatic_impairment_flag,comparison_flag,negation_flag,prior_treatment_failure_flag
+Q001,is Diazepam safe in Febrile Seizure with immunocompromised,EN,Febrile Seizure,R56.0,Diazepam,N05BA01,Benzodiazepines,N05BA,Pediatrics,,,,False,False,,,False,False,False,False
+Q002,SGLT2 inhibitors adverse effects monitoring in Atrial Fibrillation,EN,Atrial Fibrillation,I48,Dapagliflozin,A10BK01,SGLT2 inhibitors,A10BK,Cardiology,,,,False,False,,,False,False,False,False
+Q003,interaksi obat Nivolumab dan Nivolumab pada Colorectal Cancer,ID,Colorectal Cancer,C18,Nivolumab; Nivolumab,L01FF01; L01FF01,PD-1 inhibitors; PD-1 inhibitors,L01FF; L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q004,Apixaban efficacy pada Deep Vein Thrombosis clinical outcome data,MIXED,Deep Vein Thrombosis,I82,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Haematology,,,,False,False,,,False,False,False,False
+Q005,Penicillins in pregnancy and HIV/AIDS,EN,HIV/AIDS,B20,Amoxicillin,J01CA04,Penicillins,J01CA,Infectious Disease,,pregnant,,False,False,,,False,False,False,False
+Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak,MIXED,Heart Failure,I50,Metoprolol; Metoprolol,C07AB02; C07AB02,Beta blockers selective; Beta blockers selective,C07AB; C07AB,Cardiology,,,,False,False,,,False,False,True,False
+Q007,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis,EN,Rheumatoid Arthritis,M05,Hydroxychloroquine,P01BA02,Antimalarials,P01BA,Rheumatology,,,,False,True,,,True,False,False,False
+Q008,Short-acting beta2-agonists adverse effects monitoring in Asthma,EN,Asthma,J45,Salbutamol,R03AC02,Short-acting beta2-agonists,R03AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q009,Tenofovir+Lamivudine drug interaction with Tenofovir+Lamivudine in Urinary Tract Infection,EN,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine; Tenofovir+Lamivudine,J05AF; J05AF,NRTIs combination; NRTIs combination,J05AF; J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q010,renal dose adjustment Magnesium sulphate in Preeclampsia,EN,Preeclampsia,O14,Magnesium sulphate,A12CC02,Magnesium,A12CC,Obstetrics,,pregnancy_related,,False,True,,renal_impairment,False,False,False,False
+Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical,MIXED,Psoriasis,L40,Tacrolimus topical,D11AH01,Topical calcineurin inhibitors,D11AH,Dermatology,,,,False,True,topical,renal_impairment,False,False,False,False
+Q012,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment,MIXED,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,elderly,,,False,True,,,False,False,False,False
+Q013,kontraindikasi Bedaquiline pada Tuberculosis dengan anaemia,MIXED,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q014,Malaria pediatric dosing Tenofovir disoproxil,EN,Malaria,B50,Tenofovir disoproxil,J05AF07,NRTIs,J05AF,Infectious Disease,pediatric,,,False,True,,,False,False,False,False
+Q015,Peptic Ulcer Disease prophylaxis Lansoprazole indication,EN,Peptic Ulcer Disease,K27,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q016,is Bortezomib safe in Rheumatoid Arthritis with renal impairment,EN,Rheumatoid Arthritis,M05,Bortezomib,L01XG01,Proteasome inhibitors,L01XG,Rheumatology,,,,False,False,,renal_impairment,False,False,False,False
+Q017,PD-1 inhibitors mechanism untuk Colorectal Cancer bagaimana cara kerjanya,MIXED,Colorectal Cancer,C18,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q018,interaksi obat Losartan dan Empagliflozin pada Chronic Kidney Disease,ID,Chronic Kidney Disease,N18,Losartan; Empagliflozin,C09CA01; A10BK03,ARBs; SGLT2 inhibitors,C09CA; A10BK,Nephrology,,,,False,False,,,False,False,False,False
+Q019,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib,MIXED,Rheumatoid Arthritis,M05,Bortezomib,L01XG01,Proteasome inhibitors,L01XG,Rheumatology,,,,False,True,,renal_impairment,False,False,False,False
+Q020,latest Malaria management guidelines 2025,EN,Malaria,B50,Dolutegravir,J05AJ03,Integrase inhibitors,J05AJ,Infectious Disease,,,2025,True,False,,,False,False,False,False
+Q021,dosis titrasi Tenofovir disoproxil Malaria toleransi pasien,MIXED,Malaria,B50,Tenofovir disoproxil,J05AF07,NRTIs,J05AF,Infectious Disease,,,,False,True,,,False,False,False,False
+Q022,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa,ID,Hypertension in Pregnancy,O10,Methyldopa; Methyldopa,C02AB01; C02AB01,Centrally acting antihypertensives; Centrally acting antihypertensives,C02AB; C02AB,Obstetrics,,pregnant,,False,False,,,False,False,False,True
+Q023,indikasi Sitagliptin pada Type 2 Diabetes Mellitus guideline terbaru,MIXED,Type 2 Diabetes Mellitus,E11,Sitagliptin,A10BH01,DPP-4 inhibitors,A10BH,Endocrinology,,,,True,False,,,False,False,False,False
+Q024,Gout dengan renal impairment penyesuaian dosis Adalimumab,MIXED,Gout,M10,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,True,,renal_impairment,False,False,False,False
+Q025,Acute Coronary Syndrome guideline update 2023 summary,EN,Acute Coronary Syndrome,I24,Atorvastatin,C10AA05,Statins,C10AA,Cardiology,,,2023,True,False,,,False,False,False,False
+Q026,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,MIXED,Hypertension in Pregnancy,O10,Labetalol,C07AG01,Beta blockers non-selective,C07AG,Obstetrics,,pregnant,,False,False,,,False,False,False,False
+Q027,Vitamin A adverse effects monitoring in Stunting / Malnutrition,EN,Stunting / Malnutrition,E43,Vitamin A,A11CA01,Vitamin A,A11CA,Pediatrics,,,,False,False,,,False,False,False,False
+Q028,ACE inhibitors adverse effects monitoring in Hypertension,EN,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,,,,False,False,,,False,False,False,False
+Q029,Empagliflozin efficacy pada Type 2 Diabetes Mellitus clinical outcome data,MIXED,Type 2 Diabetes Mellitus,E11,Empagliflozin,A10BK03,SGLT2 inhibitors,A10BK,Endocrinology,,,,False,False,,,False,False,False,False
+Q030,is Losartan safe in Hypertension with liver disease,EN,Hypertension,I10,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,,False,False,,,True,False,False,False
+Q031,Ibuprofen side effect pada pasien Psoriatic Arthritis apa saja,MIXED,Psoriatic Arthritis,M07,Ibuprofen,M01AE01,NSAIDs,M01AE,Rheumatology,,,,False,False,,,False,False,False,False
+Q032,interaksi obat Ramipril dan Spironolactone pada Heart Failure,ID,Heart Failure,I50,Ramipril; Spironolactone,C09AA05; C03DA01,ACE inhibitors; Aldosterone antagonists,C09AA; C03DA,Cardiology,,,,False,False,,,False,False,False,False
+Q033,dosis Semaglutide pada Obesity pasien hypertension aman tidak,MIXED,Obesity,E66,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,True,,,False,False,True,False
+Q034,Typhoid Fever treatment algorithm Antimalarials first line,EN,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q035,algoritma terapi HIV/AIDS step up,ID,HIV/AIDS,B20,Levofloxacin,J01MA12,Fluoroquinolones,J01MA,Infectious Disease,,,,False,False,,,False,False,False,False
+Q036,Atrial Fibrillation pediatric dosing Empagliflozin,EN,Atrial Fibrillation,I48,Empagliflozin,A10BK03,SGLT2 inhibitors,A10BK,Cardiology,pediatric,,,False,True,,,False,False,False,False
+Q037,SSRIs in pregnancy and ADHD,EN,ADHD,F90,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,pregnant,,False,False,,,False,False,False,False
+Q038,Integrase inhibitors terbaru untuk Malaria terbaru,MIXED,Malaria,B50,Dolutegravir,J05AJ03,Integrase inhibitors,J05AJ,Infectious Disease,,,,True,False,,,False,False,False,False
+Q039,algoritma terapi Chronic Kidney Disease step up,ID,Chronic Kidney Disease,N18,Dapagliflozin,A10BK01,SGLT2 inhibitors,A10BK,Nephrology,,,,False,False,,,False,False,False,False
+Q040,resistensi Desmopressin pada Diabetes Insipidus alternatif Desmopressin,ID,Diabetes Insipidus,E23.2,Desmopressin; Desmopressin,H01BA02; H01BA02,Vasopressin analogues; Vasopressin analogues,H01BA; H01BA,Endocrinology,,,,False,False,,,False,False,False,True
+Q041,SGLT2 inhibitors mechanism of action in Chronic Kidney Disease,EN,Chronic Kidney Disease,N18,Empagliflozin,A10BK03,SGLT2 inhibitors,A10BK,Nephrology,,,,False,False,,,False,False,False,False
+Q042,switch from Piperacillin-tazobactam to Norepinephrine in Sepsis,EN,Sepsis,A41,Piperacillin-tazobactam; Norepinephrine,J01CR05; C01CA03,Beta-lactam combinations; Adrenergic agonists,J01CR; C01CA,Critical Care,,,,False,False,,,False,False,False,False
+Q043,Thyroid hormones kontraindikasi pada Hyperthyroidism dengan hepatic impairment,ID,Hyperthyroidism,E05,Levothyroxine,H03AA01,Thyroid hormones,H03AA,Endocrinology,,,,False,False,,,True,False,False,False
+Q044,Malaria with pregnancy first line drug,EN,Malaria,B50,Tenofovir disoproxil,J05AF07,NRTIs,J05AF,Infectious Disease,,pregnant,,False,False,,,False,False,False,False
+Q045,switch from Diazepam to Diazepam in Febrile Seizure,EN,Febrile Seizure,R56.0,Diazepam; Diazepam,N05BA01; N05BA01,Benzodiazepines; Benzodiazepines,N05BA; N05BA,Pediatrics,,,,False,False,,,False,False,False,False
+Q046,kapan mulai terapi Adalimumab pada Gout,ID,Gout,M10,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q047,Tiotropium long term outcomes COPD,EN,COPD,J44,Tiotropium,R03BB04,Long-acting antimuscarinics,R03BB,Pulmonology,,,,False,False,,,False,False,False,False
+Q048,Ibuprofen long term outcomes Systemic Lupus Erythematosus,EN,Systemic Lupus Erythematosus,M32,Ibuprofen,M01AE01,NSAIDs,M01AE,Rheumatology,,,,False,False,,,False,False,False,False
+Q049,Calcium channel blockers mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,MIXED,Atrial Fibrillation,I48,Amlodipine,C08CA01,Calcium channel blockers,C08CA,Cardiology,,,,False,False,,,False,False,False,False
+Q050,Levofloxacin hepatic impairment dose in HIV/AIDS,EN,HIV/AIDS,B20,Levofloxacin,J01MA12,Fluoroquinolones,J01MA,Infectious Disease,,,,False,True,,,True,False,False,False
+Q051,add on therapy Malaria after Dolutegravir failure,EN,Malaria,B50,Dolutegravir,J05AJ03,Integrase inhibitors,J05AJ,Infectious Disease,,,,False,False,,,False,False,False,True
+Q052,HIV/AIDS first line Penicillins evidence based,MIXED,HIV/AIDS,B20,Amoxicillin,J01CA04,Penicillins,J01CA,Infectious Disease,,,,False,False,,,False,False,False,False
+Q053,Atypical antipsychotics mechanism of action in Schizophrenia,EN,Schizophrenia,F20,Clozapine,N05AH02,Atypical antipsychotics,N05AH,Psychiatry,,,,False,False,,,False,False,False,False
+Q054,is Empagliflozin safe in Chronic Kidney Disease with renal impairment,EN,Chronic Kidney Disease,N18,Empagliflozin,A10BK03,SGLT2 inhibitors,A10BK,Nephrology,,,,False,False,,renal_impairment,False,False,False,False
+Q055,Methimazole side effect pada pasien Hyperthyroidism apa saja,MIXED,Hyperthyroidism,E05,Methimazole,H03BB02,Antithyroid agents,H03BB,Endocrinology,,,,False,False,,,False,False,False,False
+Q056,Sepsis emergency Piperacillin-tazobactam loading dose berapa,MIXED,Sepsis,A41,Piperacillin-tazobactam,J01CR05,Beta-lactam combinations,J01CR,Critical Care,,,,False,True,,,False,False,False,False
+Q057,Dapagliflozin vs Dapagliflozin untuk pasien Chronic Kidney Disease mana lebih efektif,MIXED,Chronic Kidney Disease,N18,Dapagliflozin; Dapagliflozin,A10BK01; A10BK01,SGLT2 inhibitors; SGLT2 inhibitors,A10BK; A10BK,Nephrology,,,,False,False,,,False,True,False,False
+Q058,Thrombolytics role in Ischaemic Stroke pathophysiology,EN,Ischaemic Stroke,I63,Alteplase,B01AD02,Thrombolytics,B01AD,Neurology,,,,False,False,,,False,False,False,False
+Q059,switch dari Dupilumab ke Cyclosporine Psoriasis progresif,MIXED,Psoriasis,L40,Dupilumab; Cyclosporine,D11AH05; L04AD01,IL-4/IL-13 inhibitors; Calcineurin inhibitors,D11AH; L04AD,Dermatology,,,,False,False,,,False,False,False,False
+Q060,Migraine with liver disease first line drug,EN,Migraine,G43,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,,,,False,False,,,True,False,False,False
+Q061,Epilepsy first line Antiepileptics other evidence based,MIXED,Epilepsy,G40,Levetiracetam,N03AX14,Antiepileptics other,N03AX,Neurology,,,,False,False,,,False,False,False,False
+Q062,latest COPD management guidelines terbaru,EN,COPD,J44,Prednisolone,H02AB06,Corticosteroids,H02AB,Pulmonology,,,,True,False,,,False,False,False,False
+Q063,Malaria pada anak dosis Tenofovir disoproxil,ID,Malaria,B50,Tenofovir disoproxil,J05AF07,NRTIs,J05AF,Infectious Disease,pediatric,,,False,True,,,False,False,False,False
+Q064,monitoring parameters Methyldopa in Hypertension in Pregnancy,EN,Hypertension in Pregnancy,O10,Methyldopa,C02AB01,Centrally acting antihypertensives,C02AB,Obstetrics,,pregnant,,False,False,,,False,False,False,False
+Q065,Semaglutide efficacy pada Type 2 Diabetes Mellitus clinical outcome data,MIXED,Type 2 Diabetes Mellitus,E11,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q066,monitoring parameters Rosuvastatin in Acute Coronary Syndrome,EN,Acute Coronary Syndrome,I24,Rosuvastatin,C10AA07,Statins,C10AA,Cardiology,,,,False,False,,,False,False,False,False
+Q067,kapan start Atorvastatin di Acute Coronary Syndrome evidence terbaru 2025,MIXED,Acute Coronary Syndrome,I24,Atorvastatin,C10AA05,Statins,C10AA,Cardiology,,,2025,True,False,,,False,False,False,False
+Q068,Labetalol resistance in Hypertension in Pregnancy alternative therapy,EN,Hypertension in Pregnancy,O10,Labetalol,C07AG01,Beta blockers non-selective,C07AG,Obstetrics,,pregnant,,False,False,,,False,False,False,True
+Q069,dosis titrasi Alendronate Osteoporosis toleransi pasien,MIXED,Osteoporosis,M81,Alendronate,M05BA04,Bisphosphonates,M05BA,Rheumatology,,,,False,True,,,False,False,False,False
+Q070,Furosemide long term outcomes Nephrotic Syndrome,EN,Nephrotic Syndrome,N04,Furosemide,C03CA01,Loop diuretics,C03CA,Nephrology,,,,False,False,,,False,False,False,False
+Q071,Vancomycin vs Piperacillin-tazobactam in Sepsis patients,EN,Sepsis,A41,Vancomycin; Piperacillin-tazobactam,J01XA01; J01CR05,Glycopeptides; Beta-lactam combinations,J01XA; J01CR,Critical Care,,,,False,False,,,False,True,False,False
+Q072,prophylaxis Typhoid Fever Artemether-lumefantrine kapan bisa dihentikan,MIXED,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q073,is Valproate safe in Epilepsy with hypertension,EN,Epilepsy,G40,Valproate,N03AG01,Fatty acid derivatives,N03AG,Neurology,,,,False,False,,,False,False,False,False
+Q074,Zinc supplements role in Stunting / Malnutrition pathophysiology,EN,Stunting / Malnutrition,E43,Zinc,A12CB01,Zinc supplements,A12CB,Pediatrics,,,,False,False,,,False,False,False,False
+Q075,Psoriasis guideline update terbaru summary,EN,Psoriasis,L40,Tacrolimus topical,D11AH01,Topical calcineurin inhibitors,D11AH,Dermatology,,,,True,False,,,False,False,False,False
+Q076,Acute Coronary Syndrome dengan renal impairment penyesuaian dosis Ezetimibe,MIXED,Acute Coronary Syndrome,I24,Ezetimibe,C10AX09,Cholesterol absorption inhibitors,C10AX,Cardiology,,,,False,True,,renal_impairment,False,False,False,False
+Q077,algoritma terapi Iron Deficiency Anaemia step up,ID,Iron Deficiency Anaemia,D50,Erythropoietin,B03XA01,Erythropoiesis stimulating agents,B03XA,Haematology,,,,False,False,,,False,False,False,False
+Q078,apakah Risperidone aman untuk Schizophrenia dengan anaemia,ID,Schizophrenia,F20,Risperidone,N05AX08,Atypical antipsychotics,N05AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q079,Benzodiazepines mechanism of action in Febrile Seizure,EN,Febrile Seizure,R56.0,Diazepam,N05BA01,Benzodiazepines,N05BA,Pediatrics,,,,False,False,,,False,False,False,False
+Q080,Urinary Tract Infection dengan obesity pilihan drug terbaik,MIXED,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q081,Stable Angina dengan hypertension pilihan drug terbaik,MIXED,Stable Angina,I20,Atorvastatin,C10AA05,Statins,C10AA,Cardiology,,,,False,False,,,False,False,False,False
+Q082,add on therapy Tuberculosis after Isoniazid failure,EN,Tuberculosis,A15,Isoniazid,J04AC01,Antituberculotics,J04AC,Pulmonology,,,,False,False,,,False,False,False,True
+Q083,latest Pulmonary Embolism management guidelines terbaru,EN,Pulmonary Embolism,I26,Metronidazole,J01XD01,Nitroimidazoles,J01XD,Pulmonology,,,,True,False,,,False,False,False,False
+Q084,algoritma terapi COPD step up,ID,COPD,J44,Salmeterol,R03AC12,Long-acting beta2-agonists,R03AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q085,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive,EN,Breast Cancer HER2-positive,C50,Methylphenidate; Methylphenidate,N06BA04; N06BA04,CNS stimulants; CNS stimulants,N06BA; N06BA,Oncology,,,,False,False,,,False,True,False,False
+Q086,add on Norepinephrine setelah Piperacillin-tazobactam gagal Sepsis,MIXED,Sepsis,A41,Norepinephrine; Piperacillin-tazobactam,C01CA03; J01CR05,Adrenergic agonists; Beta-lactam combinations,C01CA; J01CR,Critical Care,,,,False,False,,,False,False,False,True
+Q087,Rheumatoid Arthritis dengan renal impairment pilihan drug terbaik,MIXED,Rheumatoid Arthritis,M05,Hydroxychloroquine,P01BA02,Antimalarials,P01BA,Rheumatology,,,,False,False,,renal_impairment,False,False,False,False
+Q088,renal dose adjustment Diazepam in Febrile Seizure,EN,Febrile Seizure,R56.0,Diazepam,N05BA01,Benzodiazepines,N05BA,Pediatrics,,,,False,True,,renal_impairment,False,False,False,False
+Q089,biomarkers Community-acquired Pneumonia treatment response Rivaroxaban,EN,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,False,False,False,False
+Q090,algoritma terapi Community-acquired Pneumonia step up,ID,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,False,False,False,False
+Q091,Liraglutide pada pasien elderly Obesity apa perlu adjustment,MIXED,Obesity,E66,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,elderly,,,False,True,,,False,False,False,False
+Q092,switch dari Levothyroxine ke Levothyroxine Hyperthyroidism progresif,MIXED,Hyperthyroidism,E05,Levothyroxine; Levothyroxine,H03AA01; H03AA01,Thyroid hormones; Thyroid hormones,H03AA; H03AA,Endocrinology,,,,False,False,,,False,False,False,False
+Q093,penggantian Ezetimibe ke Amlodipine pada Acute Coronary Syndrome,ID,Acute Coronary Syndrome,I24,Ezetimibe; Amlodipine,C10AX09; C08CA01,Cholesterol absorption inhibitors; Calcium channel blockers,C10AX; C08CA,Cardiology,,,,False,False,,,False,False,False,False
+Q094,kapan start Azithromycin di Asthma evidence terbaru 2022,MIXED,Asthma,J45,Azithromycin,J01FA10,Macrolides,J01FA,Pulmonology,,,2022,True,False,,,False,False,False,False
+Q095,monitoring parameters Empagliflozin in Atrial Fibrillation,EN,Atrial Fibrillation,I48,Empagliflozin,A10BK03,SGLT2 inhibitors,A10BK,Cardiology,,,,False,False,,,False,False,False,False
+Q096,Epilepsy risk stratification approach,EN,Epilepsy,G40,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,,,,False,False,,,False,False,False,False
+Q097,Iron Deficiency Anaemia pada anak dosis Ferrous sulphate,ID,Iron Deficiency Anaemia,D50,Ferrous sulphate,B03AA07,Iron preparations,B03AA,Haematology,pediatric,,,False,True,,,False,False,False,False
+Q098,ARBs terbaru untuk Hypertension 2022,MIXED,Hypertension,I10,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,2022,True,False,,,False,False,False,False
+Q099,Atrial Fibrillation emergency Apixaban loading dose berapa,MIXED,Atrial Fibrillation,I48,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Cardiology,,,,False,True,,,False,False,False,False
+Q100,prophylaxis Ischaemic Stroke Alteplase kapan bisa dihentikan,MIXED,Ischaemic Stroke,I63,Alteplase,B01AD02,Thrombolytics,B01AD,Neurology,,,,False,False,,,False,False,False,False
+Q101,Dolutegravir drug interaction with Tenofovir disoproxil in Malaria,EN,Malaria,B50,Dolutegravir; Tenofovir disoproxil,J05AJ03; J05AF07,Integrase inhibitors; NRTIs,J05AJ; J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q102,Antimalarials kontraindikasi pada Typhoid Fever dengan obesity,ID,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q103,biomarkers Ischaemic Stroke treatment response Alteplase,EN,Ischaemic Stroke,I63,Alteplase,B01AD02,Thrombolytics,B01AD,Neurology,,,,False,False,,,False,False,False,False
+Q104,Erythropoietin loading dose Iron Deficiency Anaemia emergency,EN,Iron Deficiency Anaemia,D50,Erythropoietin,B03XA01,Erythropoiesis stimulating agents,B03XA,Haematology,,,,False,True,,,False,False,False,False
+Q105,tatalaksana Breast Cancer HER2-positive panduan terbaru 2025,ID,Breast Cancer HER2-positive,C50,Methylphenidate,N06BA04,CNS stimulants,N06BA,Oncology,,,2025,True,False,,,False,False,False,False
+Q106,titration protocol Metoprolol in Heart Failure,EN,Heart Failure,I50,Metoprolol,C07AB02,Beta blockers selective,C07AB,Cardiology,,,,False,False,,,False,False,False,False
+Q107,algoritma terapi Asthma step up,ID,Asthma,J45,Salmeterol,R03AC12,Long-acting beta2-agonists,R03AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q108,Antituberculotics adverse effects monitoring in Tuberculosis,EN,Tuberculosis,A15,Rifampicin,J04AB02,Antituberculotics,J04AB,Pulmonology,,,,False,False,,,False,False,False,False
+Q109,kapan start Levetiracetam di Epilepsy evidence terbaru terbaru,MIXED,Epilepsy,G40,Levetiracetam,N03AX14,Antiepileptics other,N03AX,Neurology,,,,True,False,,,False,False,False,False
+Q110,dosis titrasi Topiramate Epilepsy toleransi pasien,MIXED,Epilepsy,G40,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,,,,False,True,,,False,False,False,False
+Q111,Erythropoietin contraindication in Iron Deficiency Anaemia with anaemia,EN,Iron Deficiency Anaemia,D50,Erythropoietin,B03XA01,Erythropoiesis stimulating agents,B03XA,Haematology,,,,False,False,,,False,False,False,False
+Q112,Alteplase vs Aspirin in Ischaemic Stroke patients,EN,Ischaemic Stroke,I63,Alteplase; Aspirin,B01AD02; B01AC06,Thrombolytics; Platelet aggregation inhibitors,B01AD; B01AC,Neurology,,,,False,False,,,False,True,False,False
+Q113,latest Obesity management guidelines 2025,EN,Obesity,E66,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,2025,True,False,,,False,False,False,False
+Q114,Colchicine vs Colchicine in Psoriatic Arthritis patients,EN,Psoriatic Arthritis,M07,Colchicine; Colchicine,M04AC01; M04AC01,Gout preparations; Gout preparations,M04AC; M04AC,Rheumatology,,,,False,False,,,False,True,False,False
+Q115,dosis Artemether-lumefantrine untuk pasien Typhoid Fever,ID,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,True,,,False,False,False,False
+Q116,Osteoporosis dengan elderly patients pilihan drug terbaik,MIXED,Osteoporosis,M81,Alendronate,M05BA04,Bisphosphonates,M05BA,Rheumatology,elderly,,,False,False,,,False,False,False,False
+Q117,switch dari Artemether-lumefantrine ke Artemether-lumefantrine Typhoid Fever progresif,MIXED,Typhoid Fever,A01.0,Artemether-lumefantrine; Artemether-lumefantrine,P01BF01; P01BF01,Antimalarials; Antimalarials,P01BF; P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q118,Chronic Lymphocytic Leukaemia emergency Ibrutinib loading dose berapa,MIXED,Chronic Lymphocytic Leukaemia,C91.1,Ibrutinib,L01EL01,BTK inhibitors,L01EL,Oncology,,,,False,True,,,False,False,False,False
+Q119,Gout first line TNF inhibitors evidence based,MIXED,Gout,M10,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q120,latest Hypertension management guidelines terbaru,EN,Hypertension,I10,Amlodipine,C08CA01,Calcium channel blockers,C08CA,Cardiology,,,,True,False,,,False,False,False,False
+Q121,when to start Venlafaxine in Major Depressive Disorder,EN,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q122,Tenofovir+Lamivudine pada pasien elderly Urinary Tract Infection apa perlu adjustment,MIXED,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,elderly,,,False,True,,,False,False,False,False
+Q123,kapan mulai terapi Rivaroxaban pada Deep Vein Thrombosis,ID,Deep Vein Thrombosis,I82,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Haematology,,,,False,False,,,False,False,False,False
+Q124,add on Tenofovir disoproxil setelah Tenofovir disoproxil gagal Malaria,MIXED,Malaria,B50,Tenofovir disoproxil; Tenofovir disoproxil,J05AF07; J05AF07,NRTIs; NRTIs,J05AF; J05AF,Infectious Disease,,,,False,False,,,False,False,False,True
+Q125,kontraindikasi Secukinumab pada Gout dengan heart failure,MIXED,Gout,M10,Secukinumab,L04AC10,IL-17 inhibitors,L04AC,Rheumatology,,,,False,False,,,False,False,False,False
+Q126,add on therapy HIV/AIDS after Levofloxacin failure,EN,HIV/AIDS,B20,Levofloxacin,J01MA12,Fluoroquinolones,J01MA,Infectious Disease,,,,False,False,,,False,False,False,True
+Q127,Tuberculosis with CKD first line drug,EN,Tuberculosis,A15,Isoniazid,J04AC01,Antituberculotics,J04AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q128,kapan start Alendronate di Osteoporosis evidence terbaru 2022,MIXED,Osteoporosis,M81,Alendronate,M05BA04,Bisphosphonates,M05BA,Rheumatology,,,2022,True,False,,,False,False,False,False
+Q129,Imatinib pada ibu hamil dengan Chronic Myeloid Leukaemia,ID,Chronic Myeloid Leukaemia,C92.1,Imatinib,L01EA01,BCR-ABL inhibitors,L01EA,Oncology,,pregnant,,False,False,,,False,False,False,False
+Q130,Bisoprolol dosing in Heart Failure with hypertension,EN,Heart Failure,I50,Bisoprolol,C07AB07,Beta blockers selective,C07AB,Cardiology,,,,False,True,,,False,False,False,False
+Q131,kontraindikasi Rifampicin pada Tuberculosis dengan COPD,MIXED,Tuberculosis,A15,Rifampicin,J04AB02,Antituberculotics,J04AB,Pulmonology,,,,False,False,,,False,False,False,False
+Q132,Methotrexate dosing in Systemic Lupus Erythematosus with heart failure,EN,Systemic Lupus Erythematosus,M32,Methotrexate,L04AX03,Antimetabolites,L04AX,Rheumatology,,,,False,True,,,False,False,False,False
+Q133,Omeprazole contraindication in Peptic Ulcer Disease with hypertension,EN,Peptic Ulcer Disease,K27,Omeprazole,A02BC01,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q134,Non-Small Cell Lung Cancer prophylaxis Pembrolizumab indication,EN,Non-Small Cell Lung Cancer,C34,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q135,Rosuvastatin hepatic impairment dose in Acute Coronary Syndrome,EN,Acute Coronary Syndrome,I24,Rosuvastatin,C10AA07,Statins,C10AA,Cardiology,,,,False,True,,,True,False,False,False
+Q136,add on therapy Hypertension in Pregnancy after Methyldopa failure,EN,Hypertension in Pregnancy,O10,Methyldopa,C02AB01,Centrally acting antihypertensives,C02AB,Obstetrics,,pregnant,,False,False,,,False,False,False,True
+Q137,ARBs mechanism untuk Heart Failure bagaimana cara kerjanya,MIXED,Heart Failure,I50,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,,False,False,,,False,False,False,False
+Q138,Pembrolizumab pada ibu hamil dengan Non-Small Cell Lung Cancer,ID,Non-Small Cell Lung Cancer,C34,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,pregnant,,False,False,,,False,False,False,False
+Q139,dosis titrasi Artemether-lumefantrine Typhoid Fever toleransi pasien,MIXED,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,True,,,False,False,False,False
+Q140,Beta blockers selective role in Stable Angina pathophysiology,EN,Stable Angina,I20,Metoprolol,C07AB02,Beta blockers selective,C07AB,Cardiology,,,,False,False,,,False,False,False,False
+Q141,prophylaxis Colorectal Cancer Pembrolizumab kapan bisa dihentikan,MIXED,Colorectal Cancer,C18,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q142,Vitamin A kontraindikasi pada Stunting / Malnutrition dengan COPD,ID,Stunting / Malnutrition,E43,Vitamin A,A11CA01,Vitamin A,A11CA,Pediatrics,,,,False,False,,,False,False,False,False
+Q143,switch dari Adalimumab ke Adalimumab Systemic Lupus Erythematosus progresif,MIXED,Systemic Lupus Erythematosus,M32,Adalimumab; Adalimumab,L04AB04; L04AB04,TNF inhibitors; TNF inhibitors,L04AB; L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q144,Colchicine loading dose Psoriatic Arthritis emergency,EN,Psoriatic Arthritis,M07,Colchicine,M04AC01,Gout preparations,M04AC,Rheumatology,,,,False,True,,,False,False,False,False
+Q145,titration protocol Rivaroxaban in Community-acquired Pneumonia,EN,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,False,False,False,False
+Q146,Bedaquiline vs Rifampicin untuk pasien Tuberculosis mana lebih efektif,MIXED,Tuberculosis,A15,Bedaquiline; Rifampicin,J04AK05; J04AB02,Antituberculotics; Antituberculotics,J04AK; J04AB,Pulmonology,,,,False,False,,,False,True,False,False
+Q147,Chronic Kidney Disease first line ARBs evidence based,MIXED,Chronic Kidney Disease,N18,Losartan,C09CA01,ARBs,C09CA,Nephrology,,,,False,False,,,False,False,False,False
+Q148,MDR Tuberculosis dengan renal impairment penyesuaian dosis Bedaquiline,MIXED,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,True,,renal_impairment,False,False,False,False
+Q149,Factor Xa inhibitors mechanism of action in Community-acquired Pneumonia,EN,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,False,False,False,False
+Q150,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia,ID,Preeclampsia,O14,Magnesium sulphate; Magnesium sulphate,A12CC02; A12CC02,Magnesium; Magnesium,A12CC; A12CC,Obstetrics,,pregnancy_related,,False,False,,,False,True,False,False
+Q151,latest guideline Preeclampsia management 2024,MIXED,Preeclampsia,O14,Magnesium sulphate,A12CC02,Magnesium,A12CC,Obstetrics,,pregnancy_related,2024,True,False,,,False,False,False,False
+Q152,apakah Bedaquiline aman untuk Tuberculosis dengan obesity,ID,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q153,Rheumatoid Arthritis guideline update 2023 summary,EN,Rheumatoid Arthritis,M05,Mycophenolate mofetil,L04AA06,Immunosuppressants,L04AA,Rheumatology,,,2023,True,False,,,False,False,False,False
+Q154,Apixaban hepatic impairment dose in Community-acquired Pneumonia,EN,Community-acquired Pneumonia,J18,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,True,,,True,False,False,False
+Q155,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,MIXED,Typhoid Fever,A01.0,Artemether-lumefantrine; Artemether-lumefantrine,P01BF01; P01BF01,Antimalarials; Antimalarials,P01BF; P01BF,Infectious Disease,,,,False,False,,,False,False,True,False
+Q156,indikasi Tenofovir+Lamivudine pada Urinary Tract Infection guideline terbaru,MIXED,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,True,False,,,False,False,False,False
+Q157,Benzodiazepines in pregnancy and Febrile Seizure,EN,Febrile Seizure,R56.0,Diazepam,N05BA01,Benzodiazepines,N05BA,Pediatrics,,pregnant,,False,False,,,False,False,False,False
+Q158,when to start Sertraline in ADHD,EN,ADHD,F90,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,,False,False,,,False,False,False,False
+Q159,titration protocol Cyclosporine in Psoriasis,EN,Psoriasis,L40,Cyclosporine,L04AD01,Calcineurin inhibitors,L04AD,Dermatology,,,,False,False,,,False,False,False,False
+Q160,Obesity pada anak dosis Liraglutide,ID,Obesity,E66,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,pediatric,,,False,True,,,False,False,False,False
+Q161,Magnesium sulphate pada pasien elderly Preeclampsia apa perlu adjustment,MIXED,Preeclampsia,O14,Magnesium sulphate,A12CC02,Magnesium,A12CC,Obstetrics,elderly,pregnancy_related,,False,True,,,False,False,False,False
+Q162,Diazepam contraindication in Febrile Seizure with diabetes,EN,Febrile Seizure,R56.0,Diazepam,N05BA01,Benzodiazepines,N05BA,Pediatrics,,,,False,False,,,False,False,False,False
+Q163,is Amlodipine safe in Acute Coronary Syndrome with obesity,EN,Acute Coronary Syndrome,I24,Amlodipine,C08CA01,Calcium channel blockers,C08CA,Cardiology,,,,False,False,,,False,False,False,False
+Q164,Systemic Lupus Erythematosus first line TNF inhibitors evidence based,MIXED,Systemic Lupus Erythematosus,M32,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q165,dosis Escitalopram untuk pasien ADHD,ID,ADHD,F90,Escitalopram,N06AB10,SSRIs,N06AB,Psychiatry,,,,False,True,,,False,False,False,False
+Q166,SGLT2 inhibitors role in Chronic Kidney Disease pathophysiology,EN,Chronic Kidney Disease,N18,Dapagliflozin,A10BK01,SGLT2 inhibitors,A10BK,Nephrology,,,,False,False,,,False,False,False,False
+Q167,penggantian Omeprazole ke Lansoprazole pada Peptic Ulcer Disease,ID,Peptic Ulcer Disease,K27,Omeprazole; Lansoprazole,A02BC01; A02BC03,Proton pump inhibitors; Proton pump inhibitors,A02BC; A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q168,Factor Xa inhibitors terbaru untuk Deep Vein Thrombosis 2022,MIXED,Deep Vein Thrombosis,I82,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Haematology,,,2022,True,False,,,False,False,False,False
+Q169,Basal insulins mechanism of action in Type 1 Diabetes Mellitus,EN,Type 1 Diabetes Mellitus,E10,Insulin degludec,A10AE06,Basal insulins,A10AE,Endocrinology,,,,False,False,,,False,False,False,False
+Q170,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients,EN,Preeclampsia,O14,Magnesium sulphate; Magnesium sulphate,A12CC02; A12CC02,Magnesium; Magnesium,A12CC; A12CC,Obstetrics,,pregnancy_related,,False,False,,,False,True,False,False
+Q171,Hyperthyroidism prophylaxis Methimazole indication,EN,Hyperthyroidism,E05,Methimazole,H03BB02,Antithyroid agents,H03BB,Endocrinology,,,,False,False,,,False,False,False,False
+Q172,kapan mulai terapi Aspirin pada Stable Angina,ID,Stable Angina,I20,Aspirin,B01AC06,Platelet aggregation inhibitors,B01AC,Cardiology,,,,False,False,,,False,False,False,False
+Q173,Stunting / Malnutrition first line Zinc supplements evidence based,MIXED,Stunting / Malnutrition,E43,Zinc,A12CB01,Zinc supplements,A12CB,Pediatrics,,,,False,False,,,False,False,False,False
+Q174,monitoring Thyroid hormones pada Hypothyroidism parameter apa,MIXED,Hypothyroidism,E03,Levothyroxine,H03AA01,Thyroid hormones,H03AA,Endocrinology,,,,False,False,,,False,False,False,False
+Q175,Warfarin dosing in Atrial Fibrillation with CKD,EN,Atrial Fibrillation,I48,Warfarin,B01AA03,Vitamin K antagonists,B01AA,Cardiology,,,,False,True,,,False,False,False,False
+Q176,latest guideline Major Depressive Disorder management terbaru,MIXED,Major Depressive Disorder,F32,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,,True,False,,,False,False,False,False
+Q177,Bedaquiline long term outcomes Tuberculosis,EN,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q178,add on Valproate setelah Valproate gagal Parkinson Disease,MIXED,Parkinson Disease,G20,Valproate; Valproate,N03AG01; N03AG01,Fatty acid derivatives; Fatty acid derivatives,N03AG; N03AG,Neurology,,,,False,False,,,False,False,False,True
+Q179,Type 2 Diabetes Mellitus treatment algorithm GLP-1 receptor agonists first line,EN,Type 2 Diabetes Mellitus,E11,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q180,tatalaksana Type 1 Diabetes Mellitus panduan terbaru 2023,ID,Type 1 Diabetes Mellitus,E10,Metformin,A10BA02,Biguanides,A10BA,Endocrinology,,,2023,True,False,,,False,False,False,False
+Q181,dosis Alteplase untuk pasien Ischaemic Stroke,ID,Ischaemic Stroke,I63,Alteplase,B01AD02,Thrombolytics,B01AD,Neurology,,,,False,True,,,False,False,False,False
+Q182,apakah Olanzapine aman untuk Schizophrenia dengan renal impairment,ID,Schizophrenia,F20,Olanzapine,N05AH03,Atypical antipsychotics,N05AH,Psychiatry,,,,False,False,,renal_impairment,False,False,False,False
+Q183,Hypertension in Pregnancy pediatric dosing Methyldopa,EN,Hypertension in Pregnancy,O10,Methyldopa,C02AB01,Centrally acting antihypertensives,C02AB,Obstetrics,pediatric,pregnant,,False,True,,,False,False,False,False
+Q184,Proton pump inhibitors mechanism of action in Peptic Ulcer Disease,EN,Peptic Ulcer Disease,K27,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q185,Isoniazid hepatic impairment dose in Tuberculosis,EN,Tuberculosis,A15,Isoniazid,J04AC01,Antituberculotics,J04AC,Pulmonology,,,,False,True,,,True,False,False,False
+Q186,dosis titrasi Rivaroxaban Deep Vein Thrombosis toleransi pasien,MIXED,Deep Vein Thrombosis,I82,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Haematology,,,,False,True,,,False,False,False,False
+Q187,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak,MIXED,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,,False,True,,,False,False,True,False
+Q188,interaksi obat Zinc dan Vitamin A pada Stunting / Malnutrition,ID,Stunting / Malnutrition,E43,Zinc; Vitamin A,A12CB01; A11CA01,Zinc supplements; Vitamin A,A12CB; A11CA,Pediatrics,,,,False,False,,,False,False,False,False
+Q189,renal dose adjustment Lansoprazole in Peptic Ulcer Disease,EN,Peptic Ulcer Disease,K27,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,True,,renal_impairment,False,False,False,False
+Q190,Macrolides mechanism of action in Asthma,EN,Asthma,J45,Azithromycin,J01FA10,Macrolides,J01FA,Pulmonology,,,,False,False,,,False,False,False,False
+Q191,Heart Failure dengan renal impairment penyesuaian dosis Bisoprolol,MIXED,Heart Failure,I50,Bisoprolol,C07AB07,Beta blockers selective,C07AB,Cardiology,,,,False,True,,renal_impairment,False,False,False,False
+Q192,Diabetes Insipidus emergency Desmopressin loading dose berapa,MIXED,Diabetes Insipidus,E23.2,Desmopressin,H01BA02,Vasopressin analogues,H01BA,Endocrinology,,,,False,True,,,False,False,False,False
+Q193,Obesity dengan obesity pilihan terapi,ID,Obesity,E66,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q194,Chronic Kidney Disease prophylaxis Losartan indication,EN,Chronic Kidney Disease,N18,Losartan,C09CA01,ARBs,C09CA,Nephrology,,,,False,False,,,False,False,False,False
+Q195,add on therapy Asthma after Amoxicillin failure,EN,Asthma,J45,Amoxicillin,J01CA04,Penicillins,J01CA,Pulmonology,,,,False,False,,,False,False,False,True
+Q196,Gout risk stratification approach,EN,Gout,M10,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q197,monitoring terapi Bedaquiline pada MDR Tuberculosis,ID,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q198,Calcium channel blockers new evidence Hypertension 2022,EN,Hypertension,I10,Amlodipine,C08CA01,Calcium channel blockers,C08CA,Cardiology,,,2022,False,False,,,False,False,False,False
+Q199,Rivaroxaban loading dose Community-acquired Pneumonia emergency,EN,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,True,,,False,False,False,False
+Q200,Tuberculosis risk stratification approach,EN,Tuberculosis,A15,Isoniazid,J04AC01,Antituberculotics,J04AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q201,interaksi obat Semaglutide dan Liraglutide pada Obesity,ID,Obesity,E66,Semaglutide; Liraglutide,A10BJ06; A10BJ02,GLP-1 receptor agonists; GLP-1 receptor agonists,A10BJ; A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q202,HIV/AIDS with obesity first line drug,EN,HIV/AIDS,B20,Amoxicillin,J01CA04,Penicillins,J01CA,Infectious Disease,,,,False,False,,,False,False,False,False
+Q203,Corticosteroids in pregnancy and Sepsis,EN,Sepsis,A41,Hydrocortisone,H02AB09,Corticosteroids,H02AB,Critical Care,,pregnant,,False,False,,,False,False,False,False
+Q204,Iron preparations mechanism untuk Iron Deficiency Anaemia bagaimana cara kerjanya,MIXED,Iron Deficiency Anaemia,D50,Ferrous sulphate,B03AA07,Iron preparations,B03AA,Haematology,,,,False,False,,,False,False,False,False
+Q205,terapi profilaksis Typhoid Fever dengan Artemether-lumefantrine,ID,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q206,Ischaemic Stroke pada anak dosis Aspirin,ID,Ischaemic Stroke,I63,Aspirin,B01AC06,Platelet aggregation inhibitors,B01AC,Neurology,pediatric,,,False,True,,,False,False,False,False
+Q207,Ramipril combination therapy Hypertension,EN,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,,,,False,False,,,False,False,False,False
+Q208,terapi profilaksis Hypertension dengan Ramipril,ID,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,,,,False,False,,,False,False,False,False
+Q209,switch from Tenofovir+Lamivudine to Tenofovir+Lamivudine in Urinary Tract Infection,EN,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine; Tenofovir+Lamivudine,J05AF; J05AF,NRTIs combination; NRTIs combination,J05AF; J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q210,switch dari Venlafaxine ke Escitalopram Major Depressive Disorder progresif,MIXED,Major Depressive Disorder,F32,Venlafaxine; Escitalopram,N06AX16; N06AB10,SNRIs; SSRIs,N06AX; N06AB,Psychiatry,,,,False,False,,,False,False,False,False
+Q211,Tuberculosis dengan atrial fibrillation pilihan terapi,ID,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q212,is Salmeterol safe in COPD with anaemia,EN,COPD,J44,Salmeterol,R03AC12,Long-acting beta2-agonists,R03AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q213,prophylaxis Hypertension Amlodipine kapan bisa dihentikan,MIXED,Hypertension,I10,Amlodipine,C08CA01,Calcium channel blockers,C08CA,Cardiology,,,,False,False,,,False,False,False,False
+Q214,Clozapine hepatic impairment dose in Schizophrenia,EN,Schizophrenia,F20,Clozapine,N05AH02,Atypical antipsychotics,N05AH,Psychiatry,,,,False,True,,,True,False,False,False
+Q215,Ferrous sulphate drug interaction with Erythropoietin in Iron Deficiency Anaemia,EN,Iron Deficiency Anaemia,D50,Ferrous sulphate; Erythropoietin,B03AA07; B03XA01,Iron preparations; Erythropoiesis stimulating agents,B03AA; B03XA,Haematology,,,,False,False,,,False,False,False,False
+Q216,Hyperthyroidism guideline update 2024 summary,EN,Hyperthyroidism,E05,Levothyroxine,H03AA01,Thyroid hormones,H03AA,Endocrinology,,,2024,True,False,,,False,False,False,False
+Q217,algoritma terapi Heart Failure step up,ID,Heart Failure,I50,Furosemide,C03CA01,Loop diuretics,C03CA,Cardiology,,,,False,False,,,False,False,False,False
+Q218,kapan mulai terapi Methimazole pada Hyperthyroidism,ID,Hyperthyroidism,E05,Methimazole,H03BB02,Antithyroid agents,H03BB,Endocrinology,,,,False,False,,,False,False,False,False
+Q219,Diabetes Insipidus dengan diabetes pilihan drug terbaik,MIXED,Diabetes Insipidus,E23.2,Desmopressin,H01BA02,Vasopressin analogues,H01BA,Endocrinology,,,,False,False,,,False,False,False,False
+Q220,dosis titrasi Nivolumab Colorectal Cancer toleransi pasien,MIXED,Colorectal Cancer,C18,Nivolumab,L01FF01,PD-1 inhibitors,L01FF,Oncology,,,,False,True,,,False,False,False,False
+Q221,Chronic Lymphocytic Leukaemia risk stratification approach,EN,Chronic Lymphocytic Leukaemia,C91.1,Ibrutinib,L01EL01,BTK inhibitors,L01EL,Oncology,,,,False,False,,,False,False,False,False
+Q222,MDR Tuberculosis with heart failure first line drug,EN,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q223,Rivaroxaban efficacy pada Community-acquired Pneumonia clinical outcome data,MIXED,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,False,False,False,False
+Q224,Losartan hepatic impairment dose in Hypertension,EN,Hypertension,I10,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,,False,True,,,True,False,False,False
+Q225,Psoriasis dengan elderly patients pilihan drug terbaik,MIXED,Psoriasis,L40,Tacrolimus topical,D11AH01,Topical calcineurin inhibitors,D11AH,Dermatology,elderly,,,False,False,,,False,False,False,False
+Q226,target Gout sudah tercapai kapan maintenance Secukinumab,MIXED,Gout,M10,Secukinumab,L04AC10,IL-17 inhibitors,L04AC,Rheumatology,,,,False,False,,,False,False,False,False
+Q227,Spironolactone contraindication in Heart Failure with hypertension,EN,Heart Failure,I50,Spironolactone,C03DA01,Aldosterone antagonists,C03DA,Cardiology,,,,False,False,,,False,False,False,False
+Q228,is Aspirin safe in Ischaemic Stroke with diabetes,EN,Ischaemic Stroke,I63,Aspirin,B01AC06,Platelet aggregation inhibitors,B01AC,Neurology,,,,False,False,,,False,False,False,False
+Q229,Hyperthyroidism treatment algorithm Antithyroid agents first line,EN,Hyperthyroidism,E05,Methimazole,H03BB02,Antithyroid agents,H03BB,Endocrinology,,,,False,False,,,False,False,False,False
+Q230,Cyclosporine contraindication in Disseminated Intravascular Coagulation with immunocompromised,EN,Disseminated Intravascular Coagulation,D65,Cyclosporine,L04AD01,Calcineurin inhibitors,L04AD,Critical Care,,,,False,False,,,False,False,False,False
+Q231,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak,MIXED,Sepsis,A41,Piperacillin-tazobactam; Norepinephrine,J01CR05; C01CA03,Beta-lactam combinations; Adrenergic agonists,J01CR; C01CA,Critical Care,,,,False,False,,,False,False,True,False
+Q232,Prednisolone side effect pada pasien Rheumatoid Arthritis apa saja,MIXED,Rheumatoid Arthritis,M05,Prednisolone,H02AB06,Corticosteroids,H02AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q233,kontraindikasi Budesonide pada Asthma dengan COPD,MIXED,Asthma,J45,Budesonide,R03BA02,Inhaled corticosteroids,R03BA,Pulmonology,,,,False,False,,,False,False,False,False
+Q234,PD-1 inhibitors mechanism untuk Non-Small Cell Lung Cancer bagaimana cara kerjanya,MIXED,Non-Small Cell Lung Cancer,C34,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q235,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever,ID,Typhoid Fever,A01.0,Artemether-lumefantrine; Artemether-lumefantrine,P01BF01; P01BF01,Antimalarials; Antimalarials,P01BF; P01BF,Infectious Disease,,,,False,False,,,False,True,False,False
+Q236,biomarkers Chronic Myeloid Leukaemia treatment response Imatinib,EN,Chronic Myeloid Leukaemia,C92.1,Imatinib,L01EA01,BCR-ABL inhibitors,L01EA,Oncology,,,,False,False,,,False,False,False,False
+Q237,monitoring BCR-ABL inhibitors pada Chronic Myeloid Leukaemia parameter apa,MIXED,Chronic Myeloid Leukaemia,C92.1,Imatinib,L01EA01,BCR-ABL inhibitors,L01EA,Oncology,,,,False,False,,,False,False,False,False
+Q238,Basal insulins in pregnancy and Type 1 Diabetes Mellitus,EN,Type 1 Diabetes Mellitus,E10,Insulin glargine,A10AE04,Basal insulins,A10AE,Endocrinology,,pregnant,,False,False,,,False,False,False,False
+Q239,Ramipril pada pasien elderly Hypertension apa perlu adjustment,MIXED,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,elderly,,,False,True,,,False,False,False,False
+Q240,Antituberculotics terbaru untuk Tuberculosis 2024,MIXED,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,2024,True,False,,,False,False,False,False
+Q241,dosis Dupilumab untuk pasien Psoriasis,ID,Psoriasis,L40,Dupilumab,D11AH05,IL-4/IL-13 inhibitors,D11AH,Dermatology,,,,False,True,,,False,False,False,False
+Q242,penanganan Type 2 Diabetes Mellitus di ICU panduan 2023,ID,Type 2 Diabetes Mellitus,E11,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,2023,False,False,,,False,False,False,False
+Q243,Mycophenolate mofetil dosing in Rheumatoid Arthritis with diabetes,EN,Rheumatoid Arthritis,M05,Mycophenolate mofetil,L04AA06,Immunosuppressants,L04AA,Rheumatology,,,,False,True,,,False,False,False,False
+Q244,Semaglutide vs Liraglutide untuk Obesity,ID,Obesity,E66,Semaglutide; Liraglutide,A10BJ06; A10BJ02,GLP-1 receptor agonists; GLP-1 receptor agonists,A10BJ; A10BJ,Endocrinology,,,,False,False,,,False,True,False,False
+Q245,kapan mulai terapi Pembrolizumab pada Non-Small Cell Lung Cancer,ID,Non-Small Cell Lung Cancer,C34,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q246,add on therapy Urinary Tract Infection after Tenofovir+Lamivudine failure,EN,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,True
+Q247,resistensi Aspirin pada Ischaemic Stroke alternatif Alteplase,ID,Ischaemic Stroke,I63,Aspirin; Alteplase,B01AC06; B01AD02,Platelet aggregation inhibitors; Thrombolytics,B01AC; B01AD,Neurology,,,,False,False,,,False,False,False,True
+Q248,Type 1 Diabetes Mellitus first line Basal insulins evidence based,MIXED,Type 1 Diabetes Mellitus,E10,Insulin glargine,A10AE04,Basal insulins,A10AE,Endocrinology,,,,False,False,,,False,False,False,False
+Q249,Sitagliptin pada pasien elderly Type 2 Diabetes Mellitus apa perlu adjustment,MIXED,Type 2 Diabetes Mellitus,E11,Sitagliptin,A10BH01,DPP-4 inhibitors,A10BH,Endocrinology,elderly,,,False,True,,,False,False,False,False
+Q250,efek samping Vitamin K antagonists pada Atrial Fibrillation,ID,Atrial Fibrillation,I48,Warfarin,B01AA03,Vitamin K antagonists,B01AA,Cardiology,,,,False,False,,,False,False,False,False
+Q251,Bipolar Disorder risk stratification approach,EN,Bipolar Disorder,F31,Lithium,N05AN01,Mood stabilisers,N05AN,Psychiatry,,,,False,False,,,False,False,False,False
+Q252,latest guideline Major Depressive Disorder management 2022,MIXED,Major Depressive Disorder,F32,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,2022,True,False,,,False,False,False,False
+Q253,Imatinib side effect pada pasien Chronic Myeloid Leukaemia apa saja,MIXED,Chronic Myeloid Leukaemia,C92.1,Imatinib,L01EA01,BCR-ABL inhibitors,L01EA,Oncology,,,,False,False,,,False,False,False,False
+Q254,NRTIs combination role in Urinary Tract Infection pathophysiology,EN,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q255,kontraindikasi Salmeterol pada Asthma dengan immunocompromised,MIXED,Asthma,J45,Salmeterol,R03AC12,Long-acting beta2-agonists,R03AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q256,Antituberculotics role in MDR Tuberculosis pathophysiology,EN,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q257,switch from Imatinib to Imatinib in Chronic Myeloid Leukaemia,EN,Chronic Myeloid Leukaemia,C92.1,Imatinib; Imatinib,L01EA01; L01EA01,BCR-ABL inhibitors; BCR-ABL inhibitors,L01EA; L01EA,Oncology,,,,False,False,,,False,False,False,False
+Q258,when to start Alteplase in Ischaemic Stroke,EN,Ischaemic Stroke,I63,Alteplase,B01AD02,Thrombolytics,B01AD,Neurology,,,,False,False,,,False,False,False,False
+Q259,monitoring Atypical antipsychotics pada Schizophrenia parameter apa,MIXED,Schizophrenia,F20,Clozapine,N05AH02,Atypical antipsychotics,N05AH,Psychiatry,,,,False,False,,,False,False,False,False
+Q260,terapi profilaksis Schizophrenia dengan Risperidone,ID,Schizophrenia,F20,Risperidone,N05AX08,Atypical antipsychotics,N05AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q261,Penicillins role in HIV/AIDS pathophysiology,EN,HIV/AIDS,B20,Amoxicillin,J01CA04,Penicillins,J01CA,Infectious Disease,,,,False,False,,,False,False,False,False
+Q262,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak,MIXED,Sepsis,A41,Piperacillin-tazobactam; Meropenem,J01CR05; J01DH02,Beta-lactam combinations; Carbapenems,J01CR; J01DH,Critical Care,,,,False,False,,,False,False,True,False
+Q263,titration protocol Levothyroxine in Hypothyroidism,EN,Hypothyroidism,E03,Levothyroxine,H03AA01,Thyroid hormones,H03AA,Endocrinology,,,,False,False,,,False,False,False,False
+Q264,dosis Levothyroxine untuk pasien Hypothyroidism,ID,Hypothyroidism,E03,Levothyroxine,H03AA01,Thyroid hormones,H03AA,Endocrinology,,,,False,True,,,False,False,False,False
+Q265,renal dose adjustment Allopurinol in Psoriatic Arthritis,EN,Psoriatic Arthritis,M07,Allopurinol,M04AA01,Xanthine oxidase inhibitors,M04AA,Rheumatology,,,,False,True,,renal_impairment,False,False,False,False
+Q266,monitoring terapi Artemether-lumefantrine pada Typhoid Fever,ID,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q267,Adalimumab side effect pada pasien Gout apa saja,MIXED,Gout,M10,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q268,Beta blockers non-selective mechanism of action in Hypertension in Pregnancy,EN,Hypertension in Pregnancy,O10,Labetalol,C07AG01,Beta blockers non-selective,C07AG,Obstetrics,,pregnant,,False,False,,,False,False,False,False
+Q269,Sertraline efficacy pada Major Depressive Disorder clinical outcome data,MIXED,Major Depressive Disorder,F32,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,,False,False,,,False,False,False,False
+Q270,Bedaquiline pada pasien elderly MDR Tuberculosis apa perlu adjustment,MIXED,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,elderly,,,False,True,,,False,False,False,False
+Q271,switch dari Alteplase ke Aspirin Ischaemic Stroke progresif,MIXED,Ischaemic Stroke,I63,Alteplase; Aspirin,B01AD02; B01AC06,Thrombolytics; Platelet aggregation inhibitors,B01AD; B01AC,Neurology,,,,False,False,,,False,False,False,False
+Q272,CNS stimulants role in Breast Cancer HER2-positive pathophysiology,EN,Breast Cancer HER2-positive,C50,Methylphenidate,N06BA04,CNS stimulants,N06BA,Oncology,,,,False,False,,,False,False,False,False
+Q273,Calcium channel blockers terbaru untuk Acute Coronary Syndrome 2025,MIXED,Acute Coronary Syndrome,I24,Amlodipine,C08CA01,Calcium channel blockers,C08CA,Cardiology,,,2025,True,False,,,False,False,False,False
+Q274,resistensi Alendronate pada Osteoporosis alternatif Alendronate,ID,Osteoporosis,M81,Alendronate; Alendronate,M05BA04; M05BA04,Bisphosphonates; Bisphosphonates,M05BA; M05BA,Rheumatology,,,,False,False,,,False,False,False,True
+Q275,obat MDR Tuberculosis lini pertama Antituberculotics,ID,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q276,monitoring parameters Atorvastatin in Acute Coronary Syndrome,EN,Acute Coronary Syndrome,I24,Atorvastatin,C10AA05,Statins,C10AA,Cardiology,,,,False,False,,,False,False,False,False
+Q277,Amoxicillin hepatic impairment dose in HIV/AIDS,EN,HIV/AIDS,B20,Amoxicillin,J01CA04,Penicillins,J01CA,Infectious Disease,,,,False,True,,,True,False,False,False
+Q278,add on Furosemide setelah Furosemide gagal Nephrotic Syndrome,MIXED,Nephrotic Syndrome,N04,Furosemide; Furosemide,C03CA01; C03CA01,Loop diuretics; Loop diuretics,C03CA; C03CA,Nephrology,,,,False,False,,,False,False,False,True
+Q279,prophylaxis MDR Tuberculosis Bedaquiline kapan bisa dihentikan,MIXED,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q280,algoritma terapi Malaria step up,ID,Malaria,B50,Tenofovir disoproxil,J05AF07,NRTIs,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q281,NRTIs combination mechanism of action in Urinary Tract Infection,EN,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q282,Vasopressin analogues kontraindikasi pada Diabetes Insipidus dengan hypertension,ID,Diabetes Insipidus,E23.2,Desmopressin,H01BA02,Vasopressin analogues,H01BA,Endocrinology,,,,False,False,,,False,False,False,False
+Q283,monitoring Centrally acting antihypertensives pada Hypertension in Pregnancy parameter apa,MIXED,Hypertension in Pregnancy,O10,Methyldopa,C02AB01,Centrally acting antihypertensives,C02AB,Obstetrics,,pregnant,,False,False,,,False,False,False,False
+Q284,Proton pump inhibitors adverse effects monitoring in Peptic Ulcer Disease,EN,Peptic Ulcer Disease,K27,Omeprazole,A02BC01,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q285,Olanzapine vs Lithium in Bipolar Disorder patients,EN,Bipolar Disorder,F31,Olanzapine; Lithium,N05AH03; N05AN01,Atypical antipsychotics; Mood stabilisers,N05AH; N05AN,Psychiatry,,,,False,False,,,False,True,False,False
+Q286,prophylaxis Urinary Tract Infection Tenofovir+Lamivudine kapan bisa dihentikan,MIXED,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q287,panduan klinis Epilepsy terbaru,ID,Epilepsy,G40,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,,,,True,False,,,False,False,False,False
+Q288,apakah Trastuzumab aman untuk Non-Small Cell Lung Cancer dengan hypertension,ID,Non-Small Cell Lung Cancer,C34,Trastuzumab,L01FD01,HER2-targeted agents,L01FD,Oncology,,,,False,False,,,False,False,False,False
+Q289,Apixaban pada ibu hamil dengan Deep Vein Thrombosis,ID,Deep Vein Thrombosis,I82,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Haematology,,pregnant,,False,False,,,False,False,False,False
+Q290,monitoring NRTIs combination pada Urinary Tract Infection parameter apa,MIXED,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q291,Peptic Ulcer Disease dengan hypertension pilihan terapi,ID,Peptic Ulcer Disease,K27,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q292,Amoxicillin vs Amoxicillin efficacy in HIV/AIDS,EN,HIV/AIDS,B20,Amoxicillin; Amoxicillin,J01CA04; J01CA04,Penicillins; Penicillins,J01CA; J01CA,Infectious Disease,,,,False,False,,,False,True,False,False
+Q293,resistensi Prednisolone pada Asthma alternatif Azithromycin,ID,Asthma,J45,Prednisolone; Azithromycin,H02AB06; J01FA10,Corticosteroids; Macrolides,H02AB; J01FA,Pulmonology,,,,False,False,,,False,False,False,True
+Q294,dosis titrasi Levothyroxine Hyperthyroidism toleransi pasien,MIXED,Hyperthyroidism,E05,Levothyroxine,H03AA01,Thyroid hormones,H03AA,Endocrinology,,,,False,True,,,False,False,False,False
+Q295,switch from Sertraline to Venlafaxine in Major Depressive Disorder,EN,Major Depressive Disorder,F32,Sertraline; Venlafaxine,N06AB06; N06AX16,SSRIs; SNRIs,N06AB; N06AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q296,resistensi Bedaquiline pada Tuberculosis alternatif Rifampicin,ID,Tuberculosis,A15,Bedaquiline; Rifampicin,J04AK05; J04AB02,Antituberculotics; Antituberculotics,J04AK; J04AB,Pulmonology,,,,False,False,,,False,False,False,True
+Q297,Colorectal Cancer with COPD first line drug,EN,Colorectal Cancer,C18,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q298,penggantian Apixaban ke Rivaroxaban pada Deep Vein Thrombosis,ID,Deep Vein Thrombosis,I82,Apixaban; Rivaroxaban,B01AF02; B01AF01,Factor Xa inhibitors; Factor Xa inhibitors,B01AF; B01AF,Haematology,,,,False,False,,,False,False,False,False
+Q299,Zinc hepatic impairment dose in Stunting / Malnutrition,EN,Stunting / Malnutrition,E43,Zinc,A12CB01,Zinc supplements,A12CB,Pediatrics,,,,False,True,,,True,False,False,False
+Q300,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak,MIXED,Community-acquired Pneumonia,J18,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,True,,,False,False,True,False
+Q301,monitoring parameters Topiramate in Epilepsy,EN,Epilepsy,G40,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,,,,False,False,,,False,False,False,False
+Q302,dosis titrasi Topiramate Migraine toleransi pasien,MIXED,Migraine,G43,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,,,,False,True,,,False,False,False,False
+Q303,Parkinson Disease treatment algorithm Dopaminergic agents first line,EN,Parkinson Disease,G20,Levodopa-carbidopa,N04BA02,Dopaminergic agents,N04BA,Neurology,,,,False,False,,,False,False,False,False
+Q304,target Major Depressive Disorder sudah tercapai kapan maintenance Venlafaxine,MIXED,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q305,when to start Diazepam in Febrile Seizure,EN,Febrile Seizure,R56.0,Diazepam,N05BA01,Benzodiazepines,N05BA,Pediatrics,,,,False,False,,,False,False,False,False
+Q306,Tenofovir+Lamivudine combination therapy Urinary Tract Infection,EN,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q307,Fluoroquinolones in pregnancy and HIV/AIDS,EN,HIV/AIDS,B20,Levofloxacin,J01MA12,Fluoroquinolones,J01MA,Infectious Disease,,pregnant,,False,False,,,False,False,False,False
+Q308,MDR Tuberculosis dengan CKD pilihan drug terbaik,MIXED,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q309,Bedaquiline long term outcomes MDR Tuberculosis,EN,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q310,target terapi Rheumatoid Arthritis dengan Proteasome inhibitors,ID,Rheumatoid Arthritis,M05,Bortezomib,L01XG01,Proteasome inhibitors,L01XG,Rheumatology,,,,False,False,,,False,False,False,False
+Q311,add on therapy Typhoid Fever after Artemether-lumefantrine failure,EN,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,True
+Q312,Tuberculosis prophylaxis Isoniazid indication,EN,Tuberculosis,A15,Isoniazid,J04AC01,Antituberculotics,J04AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q313,indikasi Losartan pada Chronic Kidney Disease guideline terbaru,MIXED,Chronic Kidney Disease,N18,Losartan,C09CA01,ARBs,C09CA,Nephrology,,,,True,False,,,False,False,False,False
+Q314,switch dari Rifampicin ke Isoniazid Tuberculosis progresif,MIXED,Tuberculosis,A15,Rifampicin; Isoniazid,J04AB02; J04AC01,Antituberculotics; Antituberculotics,J04AB; J04AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q315,latest guideline Rheumatoid Arthritis management 2023,MIXED,Rheumatoid Arthritis,M05,Hydroxychloroquine,P01BA02,Antimalarials,P01BA,Rheumatology,,,2023,True,False,,,False,False,False,False
+Q316,Lansoprazole vs Omeprazole untuk pasien Peptic Ulcer Disease mana lebih efektif,MIXED,Peptic Ulcer Disease,K27,Lansoprazole; Omeprazole,A02BC03; A02BC01,Proton pump inhibitors; Proton pump inhibitors,A02BC; A02BC,Gastroenterology,,,,False,False,,,False,True,False,False
+Q317,Methylphenidate efficacy pada Breast Cancer HER2-positive clinical outcome data,MIXED,Breast Cancer HER2-positive,C50,Methylphenidate,N06BA04,CNS stimulants,N06BA,Oncology,,,,False,False,,,False,False,False,False
+Q318,Venlafaxine vs Escitalopram efficacy in Major Depressive Disorder,EN,Major Depressive Disorder,F32,Venlafaxine; Escitalopram,N06AX16; N06AB10,SNRIs; SSRIs,N06AX; N06AB,Psychiatry,,,,False,False,,,False,True,False,False
+Q319,dosis titrasi Adalimumab Gout toleransi pasien,MIXED,Gout,M10,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,True,,,False,False,False,False
+Q320,is Bedaquiline safe in Tuberculosis with hepatic impairment,EN,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,True,False,False,False
+Q321,Escitalopram drug interaction with Sertraline in ADHD,EN,ADHD,F90,Escitalopram; Sertraline,N06AB10; N06AB06,SSRIs; SSRIs,N06AB; N06AB,Psychiatry,,,,False,False,,,False,False,False,False
+Q322,Dolutegravir hepatic impairment dose in Malaria,EN,Malaria,B50,Dolutegravir,J05AJ03,Integrase inhibitors,J05AJ,Infectious Disease,,,,False,True,,,True,False,False,False
+Q323,efek samping Inhaled corticosteroids pada Asthma,ID,Asthma,J45,Budesonide,R03BA02,Inhaled corticosteroids,R03BA,Pulmonology,,,,False,False,inhaled,,False,False,False,False
+Q324,monitoring parameters Aspirin in Stable Angina,EN,Stable Angina,I20,Aspirin,B01AC06,Platelet aggregation inhibitors,B01AC,Cardiology,,,,False,False,,,False,False,False,False
+Q325,target Systemic Lupus Erythematosus sudah tercapai kapan maintenance Adalimumab,MIXED,Systemic Lupus Erythematosus,M32,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q326,titration protocol Ferrous sulphate in Iron Deficiency Anaemia,EN,Iron Deficiency Anaemia,D50,Ferrous sulphate,B03AA07,Iron preparations,B03AA,Haematology,,,,False,False,,,False,False,False,False
+Q327,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak,MIXED,Diabetes Insipidus,E23.2,Desmopressin; Desmopressin,H01BA02; H01BA02,Vasopressin analogues; Vasopressin analogues,H01BA; H01BA,Endocrinology,,,,False,False,,,False,False,True,False
+Q328,kombinasi Piperacillin-tazobactam dan Hydrocortisone pada Sepsis aman atau tidak,MIXED,Sepsis,A41,Piperacillin-tazobactam; Hydrocortisone,J01CR05; H02AB09,Beta-lactam combinations; Corticosteroids,J01CR; H02AB,Critical Care,,,,False,False,,,False,False,True,False
+Q329,algoritma terapi Major Depressive Disorder step up,ID,Major Depressive Disorder,F32,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,,False,False,,,False,False,False,False
+Q330,Lithium side effect pada pasien Bipolar Disorder apa saja,MIXED,Bipolar Disorder,F31,Lithium,N05AN01,Mood stabilisers,N05AN,Psychiatry,,,,False,False,,,False,False,False,False
+Q331,Osteoporosis dengan renal impairment penyesuaian dosis Alendronate,MIXED,Osteoporosis,M81,Alendronate,M05BA04,Bisphosphonates,M05BA,Rheumatology,,,,False,True,,renal_impairment,False,False,False,False
+Q332,kapan mulai terapi Desmopressin pada Diabetes Insipidus,ID,Diabetes Insipidus,E23.2,Desmopressin,H01BA02,Vasopressin analogues,H01BA,Endocrinology,,,,False,False,,,False,False,False,False
+Q333,kontraindikasi Diazepam pada Febrile Seizure dengan hypertension,MIXED,Febrile Seizure,R56.0,Diazepam,N05BA01,Benzodiazepines,N05BA,Pediatrics,,,,False,False,,,False,False,False,False
+Q334,Community-acquired Pneumonia prophylaxis Apixaban indication,EN,Community-acquired Pneumonia,J18,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,False,False,False,False
+Q335,Metronidazole vs Omeprazole untuk pasien Pulmonary Embolism mana lebih efektif,MIXED,Pulmonary Embolism,I26,Metronidazole; Omeprazole,J01XD01; A02BC01,Nitroimidazoles; Proton pump inhibitors,J01XD; A02BC,Pulmonology,,,,False,False,,,False,True,False,False
+Q336,Lithium contraindication in Bipolar Disorder with anaemia,EN,Bipolar Disorder,F31,Lithium,N05AN01,Mood stabilisers,N05AN,Psychiatry,,,,False,False,,,False,False,False,False
+Q337,Chronic Kidney Disease with immunocompromised first line drug,EN,Chronic Kidney Disease,N18,Ramipril,C09AA05,ACE inhibitors,C09AA,Nephrology,,,,False,False,,,False,False,False,False
+Q338,Metronidazole vs Metronidazole in Inflammatory Bowel Disease patients,EN,Inflammatory Bowel Disease,K50,Metronidazole; Metronidazole,J01XD01; J01XD01,Nitroimidazoles; Nitroimidazoles,J01XD; J01XD,Gastroenterology,,,,False,False,,,False,True,False,False
+Q339,Clozapine vs Clozapine in Schizophrenia patients,EN,Schizophrenia,F20,Clozapine; Clozapine,N05AH02; N05AH02,Atypical antipsychotics; Atypical antipsychotics,N05AH; N05AH,Psychiatry,,,,False,False,,,False,True,False,False
+Q340,latest guideline Peptic Ulcer Disease management 2023,MIXED,Peptic Ulcer Disease,K27,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Gastroenterology,,,2023,True,False,,,False,False,False,False
+Q341,switch from Clopidogrel to Rosuvastatin in Stable Angina,EN,Stable Angina,I20,Clopidogrel; Rosuvastatin,B01AC04; C10AA07,Platelet aggregation inhibitors; Statins,B01AC; C10AA,Cardiology,,,,False,False,,,False,False,False,False
+Q342,dosis titrasi Vancomycin Sepsis toleransi pasien,MIXED,Sepsis,A41,Vancomycin,J01XA01,Glycopeptides,J01XA,Critical Care,,,,False,True,,,False,False,False,False
+Q343,obat HIV/AIDS lini pertama Penicillins,ID,HIV/AIDS,B20,Amoxicillin,J01CA04,Penicillins,J01CA,Infectious Disease,,,,False,False,,,False,False,False,False
+Q344,panduan klinis MDR Tuberculosis terbaru,ID,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,True,False,,,False,False,False,False
+Q345,monitoring parameters Apixaban in Community-acquired Pneumonia,EN,Community-acquired Pneumonia,J18,Apixaban,B01AF02,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,False,False,False,False
+Q346,Chronic Kidney Disease dengan renal impairment penyesuaian dosis Losartan,MIXED,Chronic Kidney Disease,N18,Losartan,C09CA01,ARBs,C09CA,Nephrology,,,,False,True,,renal_impairment,False,False,False,False
+Q347,Prednisolone hepatic impairment dose in Rheumatoid Arthritis,EN,Rheumatoid Arthritis,M05,Prednisolone,H02AB06,Corticosteroids,H02AB,Rheumatology,,,,False,True,,,True,False,False,False
+Q348,Ramipril side effect pada pasien Hypertension apa saja,MIXED,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,,,,False,False,,,False,False,False,False
+Q349,dosis Liraglutide untuk pasien Obesity,ID,Obesity,E66,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,True,,,False,False,False,False
+Q350,Valproate resistance in Epilepsy alternative therapy,EN,Epilepsy,G40,Valproate,N03AG01,Fatty acid derivatives,N03AG,Neurology,,,,False,False,,,False,False,False,True
+Q351,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak,MIXED,Tuberculosis,A15,Rifampicin,J04AB02,Antituberculotics,J04AB,Pulmonology,,pregnant,,False,True,,,False,False,True,False
+Q352,panduan klinis ADHD terbaru,ID,ADHD,F90,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,,True,False,,,False,False,False,False
+Q353,Nivolumab efficacy pada Non-Small Cell Lung Cancer clinical outcome data,MIXED,Non-Small Cell Lung Cancer,C34,Nivolumab,L01FF01,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q354,apakah Topiramate aman untuk Migraine dengan hypertension,ID,Migraine,G43,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,,,,False,False,,,False,False,False,False
+Q355,terapi profilaksis Chronic Kidney Disease dengan Empagliflozin,ID,Chronic Kidney Disease,N18,Empagliflozin,A10BK03,SGLT2 inhibitors,A10BK,Nephrology,,,,False,False,,,False,False,False,False
+Q356,apakah Dapagliflozin aman untuk Chronic Kidney Disease dengan pregnancy,ID,Chronic Kidney Disease,N18,Dapagliflozin,A10BK01,SGLT2 inhibitors,A10BK,Nephrology,,pregnant,,False,False,,,False,False,False,False
+Q357,Pembrolizumab long term outcomes Non-Small Cell Lung Cancer,EN,Non-Small Cell Lung Cancer,C34,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q358,Methylphenidate loading dose Breast Cancer HER2-positive emergency,EN,Breast Cancer HER2-positive,C50,Methylphenidate,N06BA04,CNS stimulants,N06BA,Oncology,,,,False,True,,,False,False,False,False
+Q359,dosis Adalimumab untuk pasien Systemic Lupus Erythematosus,ID,Systemic Lupus Erythematosus,M32,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,True,,,False,False,False,False
+Q360,is Semaglutide safe in Obesity with elderly patients,EN,Obesity,E66,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,elderly,,,False,False,,,False,False,False,False
+Q361,penanganan Type 2 Diabetes Mellitus di ICU panduan 2022,ID,Type 2 Diabetes Mellitus,E11,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,2022,False,False,,,False,False,False,False
+Q362,tatalaksana ADHD panduan terbaru terbaru,ID,ADHD,F90,Escitalopram,N06AB10,SSRIs,N06AB,Psychiatry,,,,True,False,,,False,False,False,False
+Q363,target Type 2 Diabetes Mellitus sudah tercapai kapan maintenance Liraglutide,MIXED,Type 2 Diabetes Mellitus,E11,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q364,switch from Aspirin to Aspirin in Ischaemic Stroke,EN,Ischaemic Stroke,I63,Aspirin; Aspirin,B01AC06; B01AC06,Platelet aggregation inhibitors; Platelet aggregation inhibitors,B01AC; B01AC,Neurology,,,,False,False,,,False,False,False,False
+Q365,Antimalarials in pregnancy and Typhoid Fever,EN,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,pregnant,,False,False,,,False,False,False,False
+Q366,Venlafaxine long term outcomes Major Depressive Disorder,EN,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q367,ARBs in pregnancy and Hypertension,EN,Hypertension,I10,Losartan,C09CA01,ARBs,C09CA,Cardiology,,pregnant,,False,False,,,False,False,False,False
+Q368,Community-acquired Pneumonia dengan hepatic impairment pilihan drug terbaik,MIXED,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,False,,,True,False,False,False
+Q369,Nivolumab vs Pembrolizumab untuk Non-Small Cell Lung Cancer,ID,Non-Small Cell Lung Cancer,C34,Nivolumab; Pembrolizumab,L01FF01; L01FF02,PD-1 inhibitors; PD-1 inhibitors,L01FF; L01FF,Oncology,,,,False,False,,,False,True,False,False
+Q370,obat Rheumatoid Arthritis lini pertama Antimalarials,ID,Rheumatoid Arthritis,M05,Hydroxychloroquine,P01BA02,Antimalarials,P01BA,Rheumatology,,,,False,False,,,False,False,False,False
+Q371,kapan start Losartan di Hypertension evidence terbaru terbaru,MIXED,Hypertension,I10,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,,True,False,,,False,False,False,False
+Q372,indikasi Semaglutide pada Type 2 Diabetes Mellitus guideline terbaru,MIXED,Type 2 Diabetes Mellitus,E11,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,True,False,,,False,False,False,False
+Q373,add on therapy Stable Angina after Metoprolol failure,EN,Stable Angina,I20,Metoprolol,C07AB02,Beta blockers selective,C07AB,Cardiology,,,,False,False,,,False,False,False,True
+Q374,kontraindikasi Ramipril pada Hypertension dengan diabetes,MIXED,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,,,,False,False,,,False,False,False,False
+Q375,Tuberculosis pada anak dosis Bedaquiline,ID,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,pediatric,,,False,True,,,False,False,False,False
+Q376,Antimalarials role in Typhoid Fever pathophysiology,EN,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q377,latest Preeclampsia management guidelines 2024,EN,Preeclampsia,O14,Magnesium sulphate,A12CC02,Magnesium,A12CC,Obstetrics,,pregnancy_related,2024,True,False,,,False,False,False,False
+Q378,add on therapy Schizophrenia after Olanzapine failure,EN,Schizophrenia,F20,Olanzapine,N05AH03,Atypical antipsychotics,N05AH,Psychiatry,,,,False,False,,,False,False,False,True
+Q379,kontraindikasi Prednisolone pada COPD dengan renal impairment,MIXED,COPD,J44,Prednisolone,H02AB06,Corticosteroids,H02AB,Pulmonology,,,,False,False,,renal_impairment,False,False,False,False
+Q380,Type 2 Diabetes Mellitus dengan renal impairment penyesuaian dosis Liraglutide,MIXED,Type 2 Diabetes Mellitus,E11,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,True,,renal_impairment,False,False,False,False
+Q381,renal dose adjustment Artemether-lumefantrine in Typhoid Fever,EN,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,True,,renal_impairment,False,False,False,False
+Q382,when to start Methylphenidate in Breast Cancer HER2-positive,EN,Breast Cancer HER2-positive,C50,Methylphenidate,N06BA04,CNS stimulants,N06BA,Oncology,,,,False,False,,,False,False,False,False
+Q383,SSRIs terbaru untuk ADHD 2023,MIXED,ADHD,F90,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,2023,True,False,,,False,False,False,False
+Q384,Iron preparations in pregnancy and Iron Deficiency Anaemia,EN,Iron Deficiency Anaemia,D50,Ferrous sulphate,B03AA07,Iron preparations,B03AA,Haematology,,pregnant,,False,False,,,False,False,False,False
+Q385,terapi profilaksis Tuberculosis dengan Isoniazid,ID,Tuberculosis,A15,Isoniazid,J04AC01,Antituberculotics,J04AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q386,Zinc side effect pada pasien Stunting / Malnutrition apa saja,MIXED,Stunting / Malnutrition,E43,Zinc,A12CB01,Zinc supplements,A12CB,Pediatrics,,,,False,False,,,False,False,False,False
+Q387,monitoring parameters Escitalopram in ADHD,EN,ADHD,F90,Escitalopram,N06AB10,SSRIs,N06AB,Psychiatry,,,,False,False,,,False,False,False,False
+Q388,Magnesium role in Preeclampsia pathophysiology,EN,Preeclampsia,O14,Magnesium sulphate,A12CC02,Magnesium,A12CC,Obstetrics,,pregnancy_related,,False,False,,,False,False,False,False
+Q389,algoritma terapi Pulmonary Embolism step up,ID,Pulmonary Embolism,I26,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Pulmonology,,,,False,False,,,False,False,False,False
+Q390,panduan klinis Ischaemic Stroke terbaru,ID,Ischaemic Stroke,I63,Aspirin,B01AC06,Platelet aggregation inhibitors,B01AC,Neurology,,,,True,False,,,False,False,False,False
+Q391,when to start Secukinumab in Disseminated Intravascular Coagulation,EN,Disseminated Intravascular Coagulation,D65,Secukinumab,L04AC10,IL-17 inhibitors,L04AC,Critical Care,,,,False,False,,,False,False,False,False
+Q392,switch from Artemether-lumefantrine to Artemether-lumefantrine in Typhoid Fever,EN,Typhoid Fever,A01.0,Artemether-lumefantrine; Artemether-lumefantrine,P01BF01; P01BF01,Antimalarials; Antimalarials,P01BF; P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q393,monitoring SSRIs pada ADHD parameter apa,MIXED,ADHD,F90,Escitalopram,N06AB10,SSRIs,N06AB,Psychiatry,,,,False,False,,,False,False,False,False
+Q394,Topical calcineurin inhibitors adverse effects monitoring in Psoriasis,EN,Psoriasis,L40,Tacrolimus topical,D11AH01,Topical calcineurin inhibitors,D11AH,Dermatology,,,,False,False,topical,,False,False,False,False
+Q395,Vitamin A hepatic impairment dose in Stunting / Malnutrition,EN,Stunting / Malnutrition,E43,Vitamin A,A11CA01,Vitamin A,A11CA,Pediatrics,,,,False,True,,,True,False,False,False
+Q396,Norepinephrine dosing in Sepsis with diabetes,EN,Sepsis,A41,Norepinephrine,C01CA03,Adrenergic agonists,C01CA,Critical Care,,,,False,True,,,False,False,False,False
+Q397,Malaria risk stratification approach,EN,Malaria,B50,Tenofovir disoproxil,J05AF07,NRTIs,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q398,Corticosteroids terbaru untuk Sepsis 2024,MIXED,Sepsis,A41,Hydrocortisone,H02AB09,Corticosteroids,H02AB,Critical Care,,,2024,True,False,,,False,False,False,False
+Q399,Beta blockers selective mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,MIXED,Atrial Fibrillation,I48,Bisoprolol,C07AB07,Beta blockers selective,C07AB,Cardiology,,,,False,False,,,False,False,False,False
+Q400,COPD pada anak dosis Salmeterol,ID,COPD,J44,Salmeterol,R03AC12,Long-acting beta2-agonists,R03AC,Pulmonology,pediatric,,,False,True,,,False,False,False,False
+Q401,when to start Bisoprolol in Heart Failure,EN,Heart Failure,I50,Bisoprolol,C07AB07,Beta blockers selective,C07AB,Cardiology,,,,False,False,,,False,False,False,False
+Q402,target Obesity sudah tercapai kapan maintenance Semaglutide,MIXED,Obesity,E66,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q403,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever,ID,Typhoid Fever,A01.0,Artemether-lumefantrine; Artemether-lumefantrine,P01BF01; P01BF01,Antimalarials; Antimalarials,P01BF; P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q404,Omeprazole loading dose Peptic Ulcer Disease emergency,EN,Peptic Ulcer Disease,K27,Omeprazole,A02BC01,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,True,,,False,False,False,False
+Q405,algoritma terapi Parkinson Disease step up,ID,Parkinson Disease,G20,Valproate,N03AG01,Fatty acid derivatives,N03AG,Neurology,,,,False,False,,,False,False,False,False
+Q406,Ischaemic Stroke with pregnancy first line drug,EN,Ischaemic Stroke,I63,Alteplase,B01AD02,Thrombolytics,B01AD,Neurology,,pregnant,,False,False,,,False,False,False,False
+Q407,Breast Cancer HER2-positive pada anak dosis Methylphenidate,ID,Breast Cancer HER2-positive,C50,Methylphenidate,N06BA04,CNS stimulants,N06BA,Oncology,pediatric,,,False,True,,,False,False,False,False
+Q408,prophylaxis COPD Salmeterol kapan bisa dihentikan,MIXED,COPD,J44,Salmeterol,R03AC12,Long-acting beta2-agonists,R03AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q409,Spironolactone dosing in Heart Failure with obesity,EN,Heart Failure,I50,Spironolactone,C03DA01,Aldosterone antagonists,C03DA,Cardiology,,,,False,True,,,False,False,False,False
+Q410,kapan mulai terapi Alteplase pada Ischaemic Stroke,ID,Ischaemic Stroke,I63,Alteplase,B01AD02,Thrombolytics,B01AD,Neurology,,,,False,False,,,False,False,False,False
+Q411,Alendronate pada pasien elderly Osteoporosis apa perlu adjustment,MIXED,Osteoporosis,M81,Alendronate,M05BA04,Bisphosphonates,M05BA,Rheumatology,elderly,,,False,True,,,False,False,False,False
+Q412,Aspirin long term outcomes Ischaemic Stroke,EN,Ischaemic Stroke,I63,Aspirin,B01AC06,Platelet aggregation inhibitors,B01AC,Neurology,,,,False,False,,,False,False,False,False
+Q413,SNRIs terbaru untuk Major Depressive Disorder 2024,MIXED,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,2024,True,False,,,False,False,False,False
+Q414,Stable Angina emergency Atorvastatin loading dose berapa,MIXED,Stable Angina,I20,Atorvastatin,C10AA05,Statins,C10AA,Cardiology,,,,False,True,,,False,False,False,False
+Q415,latest Breast Cancer HER2-positive management guidelines 2023,EN,Breast Cancer HER2-positive,C50,Methylphenidate,N06BA04,CNS stimulants,N06BA,Oncology,,,2023,True,False,,,False,False,False,False
+Q416,Urinary Tract Infection risk stratification approach,EN,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q417,Venlafaxine vs Venlafaxine untuk Major Depressive Disorder,ID,Major Depressive Disorder,F32,Venlafaxine; Venlafaxine,N06AX16; N06AX16,SNRIs; SNRIs,N06AX; N06AX,Psychiatry,,,,False,False,,,False,True,False,False
+Q418,monitoring Xanthine oxidase inhibitors pada Psoriatic Arthritis parameter apa,MIXED,Psoriatic Arthritis,M07,Allopurinol,M04AA01,Xanthine oxidase inhibitors,M04AA,Rheumatology,,,,False,False,,,False,False,False,False
+Q419,add on therapy Systemic Lupus Erythematosus after Methotrexate failure,EN,Systemic Lupus Erythematosus,M32,Methotrexate,L04AX03,Antimetabolites,L04AX,Rheumatology,,,,False,False,,,False,False,False,True
+Q420,Atrial Fibrillation pada anak dosis Metoprolol,ID,Atrial Fibrillation,I48,Metoprolol,C07AB02,Beta blockers selective,C07AB,Cardiology,pediatric,,,False,True,,,False,False,False,False
+Q421,Bisoprolol loading dose Heart Failure emergency,EN,Heart Failure,I50,Bisoprolol,C07AB07,Beta blockers selective,C07AB,Cardiology,,,,False,True,,,False,False,False,False
+Q422,kapan start Rivaroxaban di Deep Vein Thrombosis evidence terbaru terbaru,MIXED,Deep Vein Thrombosis,I82,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Haematology,,,,True,False,,,False,False,False,False
+Q423,prophylaxis Hypertension in Pregnancy Methyldopa kapan bisa dihentikan,MIXED,Hypertension in Pregnancy,O10,Methyldopa,C02AB01,Centrally acting antihypertensives,C02AB,Obstetrics,,pregnant,,False,False,,,False,False,False,False
+Q424,monitoring parameters Prednisolone in COPD,EN,COPD,J44,Prednisolone,H02AB06,Corticosteroids,H02AB,Pulmonology,,,,False,False,,,False,False,False,False
+Q425,target Urinary Tract Infection sudah tercapai kapan maintenance Tenofovir+Lamivudine,MIXED,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q426,target Psoriasis sudah tercapai kapan maintenance Dupilumab,MIXED,Psoriasis,L40,Dupilumab,D11AH05,IL-4/IL-13 inhibitors,D11AH,Dermatology,,,,False,False,,,False,False,False,False
+Q427,kontraindikasi Lansoprazole pada Pulmonary Embolism dengan renal impairment,MIXED,Pulmonary Embolism,I26,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Pulmonology,,,,False,False,,renal_impairment,False,False,False,False
+Q428,penggantian Sertraline ke Venlafaxine pada Major Depressive Disorder,ID,Major Depressive Disorder,F32,Sertraline; Venlafaxine,N06AB06; N06AX16,SSRIs; SNRIs,N06AB; N06AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q429,dosis Dupilumab untuk pasien Disseminated Intravascular Coagulation,ID,Disseminated Intravascular Coagulation,D65,Dupilumab,D11AH05,IL-4/IL-13 inhibitors,D11AH,Critical Care,,,,False,True,,,False,False,False,False
+Q430,Major Depressive Disorder dengan renal impairment penyesuaian dosis Venlafaxine,MIXED,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,,False,True,,renal_impairment,False,False,False,False
+Q431,Proton pump inhibitors kontraindikasi pada Peptic Ulcer Disease dengan anaemia,ID,Peptic Ulcer Disease,K27,Omeprazole,A02BC01,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q432,Semaglutide combination therapy Obesity,EN,Obesity,E66,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q433,monitoring parameters Losartan in Chronic Kidney Disease,EN,Chronic Kidney Disease,N18,Losartan,C09CA01,ARBs,C09CA,Nephrology,,,,False,False,,,False,False,False,False
+Q434,Rosuvastatin contraindication in Acute Coronary Syndrome with anaemia,EN,Acute Coronary Syndrome,I24,Rosuvastatin,C10AA07,Statins,C10AA,Cardiology,,,,False,False,,,False,False,False,False
+Q435,Artemether-lumefantrine hepatic impairment dose in Typhoid Fever,EN,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,True,,,True,False,False,False
+Q436,Dupilumab vs Cyclosporine untuk pasien Psoriasis mana lebih efektif,MIXED,Psoriasis,L40,Dupilumab; Cyclosporine,D11AH05; L04AD01,IL-4/IL-13 inhibitors; Calcineurin inhibitors,D11AH; L04AD,Dermatology,,,,False,False,,,False,True,False,False
+Q437,Parkinson Disease with elderly patients first line drug,EN,Parkinson Disease,G20,Levodopa-carbidopa,N04BA02,Dopaminergic agents,N04BA,Neurology,elderly,,,False,False,,,False,False,False,False
+Q438,Schizophrenia emergency Risperidone loading dose berapa,MIXED,Schizophrenia,F20,Risperidone,N05AX08,Atypical antipsychotics,N05AX,Psychiatry,,,,False,True,,,False,False,False,False
+Q439,Secukinumab loading dose Disseminated Intravascular Coagulation emergency,EN,Disseminated Intravascular Coagulation,D65,Secukinumab,L04AC10,IL-17 inhibitors,L04AC,Critical Care,,,,False,True,,,False,False,False,False
+Q440,Atrial Fibrillation risk stratification approach,EN,Atrial Fibrillation,I48,Dapagliflozin,A10BK01,SGLT2 inhibitors,A10BK,Cardiology,,,,False,False,,,False,False,False,False
+Q441,Atorvastatin hepatic impairment dose in Stable Angina,EN,Stable Angina,I20,Atorvastatin,C10AA05,Statins,C10AA,Cardiology,,,,False,True,,,True,False,False,False
+Q442,add on Prednisolone setelah Tiotropium gagal COPD,MIXED,COPD,J44,Prednisolone; Tiotropium,H02AB06; R03BB04,Corticosteroids; Long-acting antimuscarinics,H02AB; R03BB,Pulmonology,,,,False,False,,,False,False,False,True
+Q443,prophylaxis Schizophrenia Risperidone kapan bisa dihentikan,MIXED,Schizophrenia,F20,Risperidone,N05AX08,Atypical antipsychotics,N05AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q444,Rivaroxaban hepatic impairment dose in Community-acquired Pneumonia,EN,Community-acquired Pneumonia,J18,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Pulmonology,,,,False,True,,,True,False,False,False
+Q445,indikasi Losartan pada Heart Failure guideline terbaru,MIXED,Heart Failure,I50,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,,True,False,,,False,False,False,False
+Q446,Type 1 Diabetes Mellitus dengan pregnancy pilihan terapi,ID,Type 1 Diabetes Mellitus,E10,Insulin degludec,A10AE06,Basal insulins,A10AE,Endocrinology,,pregnant,,False,False,,,False,False,False,False
+Q447,Lansoprazole vs Metronidazole untuk Pulmonary Embolism,ID,Pulmonary Embolism,I26,Lansoprazole; Metronidazole,A02BC03; J01XD01,Proton pump inhibitors; Nitroimidazoles,A02BC; J01XD,Pulmonology,,,,False,False,,,False,True,False,False
+Q448,Pembrolizumab vs Pembrolizumab untuk pasien Non-Small Cell Lung Cancer mana lebih efektif,MIXED,Non-Small Cell Lung Cancer,C34,Pembrolizumab; Pembrolizumab,L01FF02; L01FF02,PD-1 inhibitors; PD-1 inhibitors,L01FF; L01FF,Oncology,,,,False,False,,,False,True,False,False
+Q449,Beta-lactam combinations mechanism of action in Sepsis,EN,Sepsis,A41,Piperacillin-tazobactam,J01CR05,Beta-lactam combinations,J01CR,Critical Care,,,,False,False,,,False,False,False,False
+Q450,kontraindikasi Liraglutide pada Type 2 Diabetes Mellitus dengan CKD,MIXED,Type 2 Diabetes Mellitus,E11,Liraglutide,A10BJ02,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q451,Colorectal Cancer prophylaxis Pembrolizumab indication,EN,Colorectal Cancer,C18,Pembrolizumab,L01FF02,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q452,Prednisolone combination therapy Rheumatoid Arthritis,EN,Rheumatoid Arthritis,M05,Prednisolone,H02AB06,Corticosteroids,H02AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q453,Topiramate pada pasien elderly Migraine apa perlu adjustment,MIXED,Migraine,G43,Topiramate,N03AX11,Antiepileptics other,N03AX,Neurology,elderly,,,False,True,,,False,False,False,False
+Q454,switch dari Meropenem ke Vancomycin Sepsis progresif,MIXED,Sepsis,A41,Meropenem; Vancomycin,J01DH02; J01XA01,Carbapenems; Glycopeptides,J01DH; J01XA,Critical Care,,,,False,False,,,False,False,False,False
+Q455,obat Typhoid Fever lini pertama Antimalarials,ID,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q456,kapan start Zinc di Stunting / Malnutrition evidence terbaru 2023,MIXED,Stunting / Malnutrition,E43,Zinc,A12CB01,Zinc supplements,A12CB,Pediatrics,,,2023,True,False,,,False,False,False,False
+Q457,is Nivolumab safe in Non-Small Cell Lung Cancer with atrial fibrillation,EN,Non-Small Cell Lung Cancer,C34,Nivolumab,L01FF01,PD-1 inhibitors,L01FF,Oncology,,,,False,False,,,False,False,False,False
+Q458,NRTIs mechanism of action in Malaria,EN,Malaria,B50,Tenofovir disoproxil,J05AF07,NRTIs,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q459,prophylaxis Gout Adalimumab kapan bisa dihentikan,MIXED,Gout,M10,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q460,Sepsis guideline update terbaru summary,EN,Sepsis,A41,Meropenem,J01DH02,Carbapenems,J01DH,Critical Care,,,,True,False,,,False,False,False,False
+Q461,is Semaglutide safe in Type 2 Diabetes Mellitus with COPD,EN,Type 2 Diabetes Mellitus,E11,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q462,Aspirin combination therapy Ischaemic Stroke,EN,Ischaemic Stroke,I63,Aspirin,B01AC06,Platelet aggregation inhibitors,B01AC,Neurology,,,,False,False,,,False,False,False,False
+Q463,Tuberculosis with renal impairment first line drug,EN,Tuberculosis,A15,Rifampicin,J04AB02,Antituberculotics,J04AB,Pulmonology,,,,False,False,,renal_impairment,False,False,False,False
+Q464,kontraindikasi Semaglutide pada Obesity dengan diabetes,MIXED,Obesity,E66,Semaglutide,A10BJ06,GLP-1 receptor agonists,A10BJ,Endocrinology,,,,False,False,,,False,False,False,False
+Q465,Hypertension prophylaxis Ramipril indication,EN,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,,,,False,False,,,False,False,False,False
+Q466,panduan klinis Major Depressive Disorder terbaru,ID,Major Depressive Disorder,F32,Sertraline,N06AB06,SSRIs,N06AB,Psychiatry,,,,True,False,,,False,False,False,False
+Q467,Artemether-lumefantrine side effect pada pasien Typhoid Fever apa saja,MIXED,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q468,Systemic Lupus Erythematosus prophylaxis Methotrexate indication,EN,Systemic Lupus Erythematosus,M32,Methotrexate,L04AX03,Antimetabolites,L04AX,Rheumatology,,,,False,False,,,False,False,False,False
+Q469,indikasi Bedaquiline pada MDR Tuberculosis guideline terbaru,MIXED,MDR Tuberculosis,A15.0,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,True,False,,,False,False,False,False
+Q470,HIV/AIDS pada anak dosis Amoxicillin,ID,HIV/AIDS,B20,Amoxicillin,J01CA04,Penicillins,J01CA,Infectious Disease,pediatric,,,False,True,,,False,False,False,False
+Q471,monitoring terapi Venlafaxine pada Major Depressive Disorder,ID,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,,False,False,,,False,False,False,False
+Q472,ARBs mechanism untuk Hypertension bagaimana cara kerjanya,MIXED,Hypertension,I10,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,,False,False,,,False,False,False,False
+Q473,Tenofovir+Lamivudine efficacy pada Urinary Tract Infection clinical outcome data,MIXED,Urinary Tract Infection,N39.0,Tenofovir+Lamivudine,J05AF,NRTIs combination,J05AF,Infectious Disease,,,,False,False,,,False,False,False,False
+Q474,Antituberculotics mechanism untuk Tuberculosis bagaimana cara kerjanya,MIXED,Tuberculosis,A15,Rifampicin,J04AB02,Antituberculotics,J04AB,Pulmonology,,,,False,False,,,False,False,False,False
+Q475,Vitamin K antagonists kontraindikasi pada Deep Vein Thrombosis dengan heart failure,ID,Deep Vein Thrombosis,I82,Warfarin,B01AA03,Vitamin K antagonists,B01AA,Haematology,,,,False,False,,,False,False,False,False
+Q476,Bortezomib vs Prednisolone untuk Rheumatoid Arthritis,ID,Rheumatoid Arthritis,M05,Bortezomib; Prednisolone,L01XG01; H02AB06,Proteasome inhibitors; Corticosteroids,L01XG; H02AB,Rheumatology,,,,False,False,,,False,True,False,False
+Q477,Losartan long term outcomes Heart Failure,EN,Heart Failure,I50,Losartan,C09CA01,ARBs,C09CA,Cardiology,,,,False,False,,,False,False,False,False
+Q478,kontraindikasi Bedaquiline pada Tuberculosis dengan immunocompromised,MIXED,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q479,BCR-ABL inhibitors in pregnancy and Chronic Myeloid Leukaemia,EN,Chronic Myeloid Leukaemia,C92.1,Imatinib,L01EA01,BCR-ABL inhibitors,L01EA,Oncology,,pregnant,,False,False,,,False,False,False,False
+Q480,Venlafaxine dosing in Major Depressive Disorder with atrial fibrillation,EN,Major Depressive Disorder,F32,Venlafaxine,N06AX16,SNRIs,N06AX,Psychiatry,,,,False,True,,,False,False,False,False
+Q481,Metoprolol long term outcomes Stable Angina,EN,Stable Angina,I20,Metoprolol,C07AB02,Beta blockers selective,C07AB,Cardiology,,,,False,False,,,False,False,False,False
+Q482,Lansoprazole long term outcomes Peptic Ulcer Disease,EN,Peptic Ulcer Disease,K27,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,False
+Q483,Hypertension dengan pregnancy pilihan drug terbaik,MIXED,Hypertension,I10,Amlodipine,C08CA01,Calcium channel blockers,C08CA,Cardiology,,pregnant,,False,False,,,False,False,False,False
+Q484,titration protocol Bedaquiline in Tuberculosis,EN,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q485,Lansoprazole resistance in Peptic Ulcer Disease alternative therapy,EN,Peptic Ulcer Disease,K27,Lansoprazole,A02BC03,Proton pump inhibitors,A02BC,Gastroenterology,,,,False,False,,,False,False,False,True
+Q486,switch from Alteplase to Alteplase in Ischaemic Stroke,EN,Ischaemic Stroke,I63,Alteplase; Alteplase,B01AD02; B01AD02,Thrombolytics; Thrombolytics,B01AD; B01AD,Neurology,,,,False,False,,,False,False,False,False
+Q487,Centrally acting antihypertensives terbaru untuk Hypertension in Pregnancy 2025,MIXED,Hypertension in Pregnancy,O10,Methyldopa,C02AB01,Centrally acting antihypertensives,C02AB,Obstetrics,,pregnant,2025,True,False,,,False,False,False,False
+Q488,Artemether-lumefantrine pada ibu hamil dengan Typhoid Fever,ID,Typhoid Fever,A01.0,Artemether-lumefantrine,P01BF01,Antimalarials,P01BF,Infectious Disease,,pregnant,,False,False,,,False,False,False,False
+Q489,switch from Bedaquiline to Bedaquiline in MDR Tuberculosis,EN,MDR Tuberculosis,A15.0,Bedaquiline; Bedaquiline,J04AK05; J04AK05,Antituberculotics; Antituberculotics,J04AK; J04AK,Pulmonology,,,,False,False,,,False,False,False,False
+Q490,target terapi Hypothyroidism dengan Thyroid hormones,ID,Hypothyroidism,E03,Levothyroxine,H03AA01,Thyroid hormones,H03AA,Endocrinology,,,,False,False,,,False,False,False,False
+Q491,Empagliflozin long term outcomes Chronic Kidney Disease,EN,Chronic Kidney Disease,N18,Empagliflozin,A10BK03,SGLT2 inhibitors,A10BK,Nephrology,,,,False,False,,,False,False,False,False
+Q492,titration protocol Alendronate in Osteoporosis,EN,Osteoporosis,M81,Alendronate,M05BA04,Bisphosphonates,M05BA,Rheumatology,,,,False,False,,,False,False,False,False
+Q493,monitoring parameters Isoniazid in Tuberculosis,EN,Tuberculosis,A15,Isoniazid,J04AC01,Antituberculotics,J04AC,Pulmonology,,,,False,False,,,False,False,False,False
+Q494,Corticosteroids terbaru untuk COPD terbaru,MIXED,COPD,J44,Prednisolone,H02AB06,Corticosteroids,H02AB,Pulmonology,,,,True,False,,,False,False,False,False
+Q495,TNF inhibitors adverse effects monitoring in Systemic Lupus Erythematosus,EN,Systemic Lupus Erythematosus,M32,Adalimumab,L04AB04,TNF inhibitors,L04AB,Rheumatology,,,,False,False,,,False,False,False,False
+Q496,Insulin degludec side effect pada pasien Type 1 Diabetes Mellitus apa saja,MIXED,Type 1 Diabetes Mellitus,E10,Insulin degludec,A10AE06,Basal insulins,A10AE,Endocrinology,,,,False,False,,,False,False,False,False
+Q497,is Rosuvastatin safe in Acute Coronary Syndrome with diabetes,EN,Acute Coronary Syndrome,I24,Rosuvastatin,C10AA07,Statins,C10AA,Cardiology,,,,False,False,,,False,False,False,False
+Q498,monitoring Factor Xa inhibitors pada Deep Vein Thrombosis parameter apa,MIXED,Deep Vein Thrombosis,I82,Rivaroxaban,B01AF01,Factor Xa inhibitors,B01AF,Haematology,,,,False,False,,,False,False,False,False
+Q499,ACE inhibitors kontraindikasi pada Hypertension dengan hepatic impairment,ID,Hypertension,I10,Ramipril,C09AA05,ACE inhibitors,C09AA,Cardiology,,,,False,False,,,True,False,False,False
+Q500,Antituberculotics terbaru untuk Tuberculosis 2025,MIXED,Tuberculosis,A15,Bedaquiline,J04AK05,Antituberculotics,J04AK,Pulmonology,,,2025,True,False,,,False,False,False,False

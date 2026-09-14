@@ -1,0 +1,7 @@
+metric,value
+rows,500.0
+unique_query_ids,500.0
+duplicate_query_ids,0.0
+duplicate_normalized_query_texts,0.0
+queries_without_recognized_entities,0.0
+pct_without_recognized_entities,0.0

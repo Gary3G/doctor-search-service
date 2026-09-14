@@ -1,0 +1,275 @@
+{
+  "queries": {
+    "rows": 500,
+    "unique_query_ids": 500,
+    "duplicate_query_ids": 0,
+    "missing_values": 0,
+    "queries_without_entities": 0,
+    "pct_without_entities": 0.0,
+    "median_query_words": 7.0,
+    "near_duplicate_pairs": 30,
+    "manual_review_rows": 120,
+    "top_languages": [
+      {
+        "language": "EN",
+        "count": 222
+      },
+      {
+        "language": "MIXED",
+        "count": 173
+      },
+      {
+        "language": "ID",
+        "count": 105
+      }
+    ],
+    "language_examples": [
+      {
+        "language": "EN",
+        "query_id": "Q001",
+        "query_text": "is Diazepam safe in Febrile Seizure with immunocompromised"
+      },
+      {
+        "language": "EN",
+        "query_id": "Q002",
+        "query_text": "SGLT2 inhibitors adverse effects monitoring in Atrial Fibrillation"
+      },
+      {
+        "language": "EN",
+        "query_id": "Q005",
+        "query_text": "Penicillins in pregnancy and HIV/AIDS"
+      },
+      {
+        "language": "EN",
+        "query_id": "Q007",
+        "query_text": "Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis"
+      },
+      {
+        "language": "EN",
+        "query_id": "Q008",
+        "query_text": "Short-acting beta2-agonists adverse effects monitoring in Asthma"
+      },
+      {
+        "language": "ID",
+        "query_id": "Q003",
+        "query_text": "interaksi obat Nivolumab dan Nivolumab pada Colorectal Cancer"
+      },
+      {
+        "language": "ID",
+        "query_id": "Q018",
+        "query_text": "interaksi obat Losartan dan Empagliflozin pada Chronic Kidney Disease"
+      },
+      {
+        "language": "ID",
+        "query_id": "Q022",
+        "query_text": "resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa"
+      },
+      {
+        "language": "ID",
+        "query_id": "Q032",
+        "query_text": "interaksi obat Ramipril dan Spironolactone pada Heart Failure"
+      },
+      {
+        "language": "ID",
+        "query_id": "Q035",
+        "query_text": "algoritma terapi HIV/AIDS step up"
+      },
+      {
+        "language": "MIXED",
+        "query_id": "Q004",
+        "query_text": "Apixaban efficacy pada Deep Vein Thrombosis clinical outcome data"
+      },
+      {
+        "language": "MIXED",
+        "query_id": "Q006",
+        "query_text": "kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak"
+      },
+      {
+        "language": "MIXED",
+        "query_id": "Q011",
+        "query_text": "Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical"
+      },
+      {
+        "language": "MIXED",
+        "query_id": "Q012",
+        "query_text": "Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment"
+      },
+      {
+        "language": "MIXED",
+        "query_id": "Q013",
+        "query_text": "kontraindikasi Bedaquiline pada Tuberculosis dengan anaemia"
+      }
+    ],
+    "top_therapeutic_areas": [
+      {
+        "therapeutic_area": "Pulmonology",
+        "count": 73
+      },
+      {
+        "therapeutic_area": "Cardiology",
+        "count": 61
+      },
+      {
+        "therapeutic_area": "Infectious Disease",
+        "count": 60
+      },
+      {
+        "therapeutic_area": "Endocrinology",
+        "count": 48
+      },
+      {
+        "therapeutic_area": "Rheumatology",
+        "count": 43
+      },
+      {
+        "therapeutic_area": "Psychiatry",
+        "count": 41
+      },
+      {
+        "therapeutic_area": "Neurology",
+        "count": 33
+      },
+      {
+        "therapeutic_area": "Oncology",
+        "count": 32
+      },
+      {
+        "therapeutic_area": "Critical Care",
+        "count": 18
+      },
+      {
+        "therapeutic_area": "Pediatrics",
+        "count": 17
+      }
+    ]
+  },
+  "content": {
+    "rows": 345,
+    "unique_content_ids": 345,
+    "duplicate_content_ids": 0,
+    "missing_values": 0,
+    "median_word_count": 1068.0,
+    "near_duplicate_pairs": 23,
+    "content_type_distribution": [
+      {
+        "content_type": "article",
+        "count": 109
+      },
+      {
+        "content_type": "clinical_summary",
+        "count": 90
+      },
+      {
+        "content_type": "case_report",
+        "count": 50
+      },
+      {
+        "content_type": "guideline",
+        "count": 47
+      },
+      {
+        "content_type": "drug_profile",
+        "count": 35
+      },
+      {
+        "content_type": "review",
+        "count": 14
+      }
+    ],
+    "source_type_distribution": [
+      {
+        "source_type": "research_paper",
+        "count": 58
+      },
+      {
+        "source_type": "journal",
+        "count": 51
+      },
+      {
+        "source_type": "case_report",
+        "count": 50
+      },
+      {
+        "source_type": "hospital_protocol",
+        "count": 49
+      },
+      {
+        "source_type": "clinical_practice",
+        "count": 41
+      },
+      {
+        "source_type": "who",
+        "count": 21
+      },
+      {
+        "source_type": "drug_database",
+        "count": 19
+      },
+      {
+        "source_type": "pharmacology_reference",
+        "count": 16
+      },
+      {
+        "source_type": "professional_society",
+        "count": 16
+      },
+      {
+        "source_type": "ministry_of_health",
+        "count": 10
+      },
+      {
+        "source_type": "meta_analysis",
+        "count": 8
+      },
+      {
+        "source_type": "systematic_review",
+        "count": 6
+      }
+    ]
+  },
+  "behavioral_signals": {
+    "rows": 1500,
+    "missing_values": 0,
+    "unique_sessions": 663,
+    "unique_doctors": 117,
+    "unique_queries": 350,
+    "unique_content": 175,
+    "duplicate_events": 0,
+    "zero_dwell_events": 66,
+    "max_dwell_seconds": 353,
+    "median_dwell_seconds": 23.0,
+    "repeated_engagement_rows": 0,
+    "suspicious_rows": 79,
+    "event_type_distribution": [
+      {
+        "event_type": "click",
+        "count": 944
+      },
+      {
+        "event_type": "scroll_deep",
+        "count": 436
+      },
+      {
+        "event_type": "save_bookmark",
+        "count": 91
+      },
+      {
+        "event_type": "return_visit",
+        "count": 29
+      }
+    ]
+  },
+  "impressions": {
+    "rows": 7190,
+    "missing_values": 0,
+    "unique_sessions": 813,
+    "unique_queries": 500,
+    "unique_content": 345,
+    "duplicate_impression_ids": 0,
+    "engaged_impressions": 1500,
+    "unengaged_impressions": 5690,
+    "pct_engaged": 0.2086230876216968,
+    "pct_unengaged": 0.7913769123783032,
+    "explicit_rank_column_available": false
+  }
+}

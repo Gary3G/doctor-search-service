@@ -1,0 +1,12 @@
+column,populated_rows,population_pct,top_values
+age_group,25,0.05,elderly=13; pediatric=12
+pregnancy_status,37,0.074,pregnant=30; pregnancy_related=7
+year,29,0.058,2023=9; 2025=7; 2022=7; 2024=6
+recency_flag,49,0.098,true
+dose_context_flag,93,0.186,true
+route,3,0.006,topical=2; inhaled=1
+renal_function_group,22,0.044,renal_impairment=22
+hepatic_impairment_flag,21,0.042,true
+comparison_flag,23,0.046,true
+negation_flag,10,0.02,true
+prior_treatment_failure_flag,24,0.048,true

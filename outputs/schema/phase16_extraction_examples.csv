@@ -1,0 +1,84 @@
+column,query_id,query_text,extracted_value
+age_group,Q012,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment,elderly
+age_group,Q014,Malaria pediatric dosing Tenofovir disoproxil,pediatric
+age_group,Q036,Atrial Fibrillation pediatric dosing Empagliflozin,pediatric
+age_group,Q063,Malaria pada anak dosis Tenofovir disoproxil,pediatric
+age_group,Q091,Liraglutide pada pasien elderly Obesity apa perlu adjustment,elderly
+age_group,Q097,Iron Deficiency Anaemia pada anak dosis Ferrous sulphate,pediatric
+age_group,Q116,Osteoporosis dengan elderly patients pilihan drug terbaik,elderly
+age_group,Q122,Tenofovir+Lamivudine pada pasien elderly Urinary Tract Infection apa perlu adjustment,elderly
+pregnancy_status,Q005,Penicillins in pregnancy and HIV/AIDS,pregnant
+pregnancy_status,Q010,renal dose adjustment Magnesium sulphate in Preeclampsia,pregnancy_related
+pregnancy_status,Q022,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa,pregnant
+pregnancy_status,Q026,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,pregnant
+pregnancy_status,Q037,SSRIs in pregnancy and ADHD,pregnant
+pregnancy_status,Q044,Malaria with pregnancy first line drug,pregnant
+pregnancy_status,Q064,monitoring parameters Methyldopa in Hypertension in Pregnancy,pregnant
+pregnancy_status,Q068,Labetalol resistance in Hypertension in Pregnancy alternative therapy,pregnant
+year,Q020,latest Malaria management guidelines 2025,2025
+year,Q025,Acute Coronary Syndrome guideline update 2023 summary,2023
+year,Q067,kapan start Atorvastatin di Acute Coronary Syndrome evidence terbaru 2025,2025
+year,Q094,kapan start Azithromycin di Asthma evidence terbaru 2022,2022
+year,Q098,ARBs terbaru untuk Hypertension 2022,2022
+year,Q105,tatalaksana Breast Cancer HER2-positive panduan terbaru 2025,2025
+year,Q113,latest Obesity management guidelines 2025,2025
+year,Q128,kapan start Alendronate di Osteoporosis evidence terbaru 2022,2022
+recency_flag,Q020,latest Malaria management guidelines 2025,True
+recency_flag,Q023,indikasi Sitagliptin pada Type 2 Diabetes Mellitus guideline terbaru,True
+recency_flag,Q025,Acute Coronary Syndrome guideline update 2023 summary,True
+recency_flag,Q038,Integrase inhibitors terbaru untuk Malaria terbaru,True
+recency_flag,Q062,latest COPD management guidelines terbaru,True
+recency_flag,Q067,kapan start Atorvastatin di Acute Coronary Syndrome evidence terbaru 2025,True
+recency_flag,Q075,Psoriasis guideline update terbaru summary,True
+recency_flag,Q083,latest Pulmonary Embolism management guidelines terbaru,True
+dose_context_flag,Q007,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis,True
+dose_context_flag,Q010,renal dose adjustment Magnesium sulphate in Preeclampsia,True
+dose_context_flag,Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical,True
+dose_context_flag,Q012,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment,True
+dose_context_flag,Q014,Malaria pediatric dosing Tenofovir disoproxil,True
+dose_context_flag,Q019,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib,True
+dose_context_flag,Q021,dosis titrasi Tenofovir disoproxil Malaria toleransi pasien,True
+dose_context_flag,Q024,Gout dengan renal impairment penyesuaian dosis Adalimumab,True
+route,Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical,topical
+route,Q323,efek samping Inhaled corticosteroids pada Asthma,inhaled
+route,Q394,Topical calcineurin inhibitors adverse effects monitoring in Psoriasis,topical
+renal_function_group,Q010,renal dose adjustment Magnesium sulphate in Preeclampsia,renal_impairment
+renal_function_group,Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical,renal_impairment
+renal_function_group,Q016,is Bortezomib safe in Rheumatoid Arthritis with renal impairment,renal_impairment
+renal_function_group,Q019,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib,renal_impairment
+renal_function_group,Q024,Gout dengan renal impairment penyesuaian dosis Adalimumab,renal_impairment
+renal_function_group,Q054,is Empagliflozin safe in Chronic Kidney Disease with renal impairment,renal_impairment
+renal_function_group,Q076,Acute Coronary Syndrome dengan renal impairment penyesuaian dosis Ezetimibe,renal_impairment
+renal_function_group,Q087,Rheumatoid Arthritis dengan renal impairment pilihan drug terbaik,renal_impairment
+hepatic_impairment_flag,Q007,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis,True
+hepatic_impairment_flag,Q030,is Losartan safe in Hypertension with liver disease,True
+hepatic_impairment_flag,Q043,Thyroid hormones kontraindikasi pada Hyperthyroidism dengan hepatic impairment,True
+hepatic_impairment_flag,Q050,Levofloxacin hepatic impairment dose in HIV/AIDS,True
+hepatic_impairment_flag,Q060,Migraine with liver disease first line drug,True
+hepatic_impairment_flag,Q135,Rosuvastatin hepatic impairment dose in Acute Coronary Syndrome,True
+hepatic_impairment_flag,Q154,Apixaban hepatic impairment dose in Community-acquired Pneumonia,True
+hepatic_impairment_flag,Q185,Isoniazid hepatic impairment dose in Tuberculosis,True
+comparison_flag,Q057,Dapagliflozin vs Dapagliflozin untuk pasien Chronic Kidney Disease mana lebih efektif,True
+comparison_flag,Q071,Vancomycin vs Piperacillin-tazobactam in Sepsis patients,True
+comparison_flag,Q085,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive,True
+comparison_flag,Q112,Alteplase vs Aspirin in Ischaemic Stroke patients,True
+comparison_flag,Q114,Colchicine vs Colchicine in Psoriatic Arthritis patients,True
+comparison_flag,Q146,Bedaquiline vs Rifampicin untuk pasien Tuberculosis mana lebih efektif,True
+comparison_flag,Q150,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia,True
+comparison_flag,Q170,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients,True
+negation_flag,Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak,True
+negation_flag,Q033,dosis Semaglutide pada Obesity pasien hypertension aman tidak,True
+negation_flag,Q155,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,True
+negation_flag,Q187,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak,True
+negation_flag,Q231,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak,True
+negation_flag,Q262,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak,True
+negation_flag,Q300,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak,True
+negation_flag,Q327,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak,True
+prior_treatment_failure_flag,Q022,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa,True
+prior_treatment_failure_flag,Q040,resistensi Desmopressin pada Diabetes Insipidus alternatif Desmopressin,True
+prior_treatment_failure_flag,Q051,add on therapy Malaria after Dolutegravir failure,True
+prior_treatment_failure_flag,Q068,Labetalol resistance in Hypertension in Pregnancy alternative therapy,True
+prior_treatment_failure_flag,Q082,add on therapy Tuberculosis after Isoniazid failure,True
+prior_treatment_failure_flag,Q086,add on Norepinephrine setelah Piperacillin-tazobactam gagal Sepsis,True
+prior_treatment_failure_flag,Q124,add on Tenofovir disoproxil setelah Tenofovir disoproxil gagal Malaria,True
+prior_treatment_failure_flag,Q126,add on therapy HIV/AIDS after Levofloxacin failure,True

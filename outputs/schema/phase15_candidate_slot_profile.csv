@@ -1,0 +1,17 @@
+slot,candidate_columns,status,selected_columns,query_matches,query_pct,content_title_matches,content_title_pct,rationale
+age,age,defer,none,0,0.0,0,0.0,No explicit numeric ages appear in the 500 supplied queries; keep age_group instead.
+age_group,age_group,selected,age_group,25,0.05,3,0.0087,Pediatric and elderly constraints recur and materially change clinical relevance.
+sex,sex,defer,none,0,0.0,0,0.0,No sex-specific query constraints were observed.
+pregnancy,pregnancy_status,selected,pregnancy_status,37,0.074,24,0.0696,Pregnancy-related context is frequent and strongly affects medication safety and management relevance.
+year_or_recency,year,selected,year; recency_flag,52,0.104,45,0.1304,Year and latest/terbaru constraints recur and can match content.publication_year.
+dose_context,dose_value; dose_unit,selected_partial,dose_context_flag,93,0.186,33,0.0957,"Dosing information need is common, but explicit dose values/units are absent in query text."
+dose_value,dose_value; dose_unit,defer,none,0,0.0,0,0.0,No explicit numeric dose values are observed; extracting empty columns would add noise.
+route,route,selected_low_support,route,3,0.006,6,0.0174,Route is sparse but deterministic and clinically meaningful when present.
+duration,duration_value; duration_unit,defer,none,0,0.0,0,0.0,No explicit duration constraints are observed.
+renal_function,egfr; renal_function_group,selected_partial,renal_function_group,22,0.044,11,0.0319,"Renal dose/impairment context recurs, while broad CKD disease mentions remain covered by supplied disease NER."
+hepatic_function,none,selected,hepatic_impairment_flag,21,0.042,11,0.0319,Hepatic impairment is not in the initial candidate list but recurs and affects medication safety/dosing.
+lab_values,lab_name; lab_value; lab_unit,defer,none,14,0.028,11,0.0319,"Observed terms are mostly diagnoses/entities such as anaemia, not extractable lab value constraints."
+severity,severity,defer,none,0,0.0,6,0.0174,No clear severity constraints are observed in query text.
+comparison,comparison_flag,selected,comparison_flag,23,0.046,5,0.0145,Comparison requests recur and imply different content preferences.
+negation,negation_flag,selected_flag_only,negation_flag,10,0.02,0,0.0,Negation appears repeatedly; entity-level negation is deferred because it requires safer parsing.
+prior_treatment_failure,none,selected,prior_treatment_failure_flag,24,0.048,15,0.0435,"Prior failure/resistance changes relevance toward add-on, alternative, or refractory-case content."

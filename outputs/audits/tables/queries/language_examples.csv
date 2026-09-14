@@ -1,0 +1,16 @@
+language,query_id,query_text
+EN,Q001,is Diazepam safe in Febrile Seizure with immunocompromised
+EN,Q002,SGLT2 inhibitors adverse effects monitoring in Atrial Fibrillation
+EN,Q005,Penicillins in pregnancy and HIV/AIDS
+EN,Q007,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis
+EN,Q008,Short-acting beta2-agonists adverse effects monitoring in Asthma
+ID,Q003,interaksi obat Nivolumab dan Nivolumab pada Colorectal Cancer
+ID,Q018,interaksi obat Losartan dan Empagliflozin pada Chronic Kidney Disease
+ID,Q022,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa
+ID,Q032,interaksi obat Ramipril dan Spironolactone pada Heart Failure
+ID,Q035,algoritma terapi HIV/AIDS step up
+MIXED,Q004,Apixaban efficacy pada Deep Vein Thrombosis clinical outcome data
+MIXED,Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak
+MIXED,Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical
+MIXED,Q012,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment
+MIXED,Q013,kontraindikasi Bedaquiline pada Tuberculosis dengan anaemia

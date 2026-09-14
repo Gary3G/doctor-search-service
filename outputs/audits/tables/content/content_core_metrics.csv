@@ -1,0 +1,6 @@
+metric,value
+rows,345
+unique_content_ids,345
+duplicate_content_ids,0
+duplicate_normalized_titles,16
+content_without_recognized_entities,0

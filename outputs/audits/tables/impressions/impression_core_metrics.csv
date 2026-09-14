@@ -1,0 +1,9 @@
+metric,value
+impressions,7190
+unique_impression_ids,7190
+duplicate_impression_ids,0
+engaged_impressions,1500
+unengaged_impressions,5690
+pct_engaged,0.2086
+pct_unengaged,0.7914
+explicit_rank_column_available,False

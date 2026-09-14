@@ -1,0 +1,10 @@
+dimension,query_side,content_side
+language,available,available
+therapeutic_area,available,available
+disease_entity/icd10_code,available,available
+molecule_entity/atc_code,available,available
+drug_class_entity/atc_class,available,available
+publication_year,extractable from text,available
+age/pregnancy/renal/dose/etc.,extractable from text,title text only in raw file
+content_type/source_type,inferable intent proxy,available
+rank/position,not applicable,not in content; impression order can be inferred per session-query

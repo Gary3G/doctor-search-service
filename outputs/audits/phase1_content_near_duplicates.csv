@@ -1,0 +1,24 @@
+content_id_a,content_id_b,similarity,title_a,title_b
+C117,C120,1.0,Safety Profile of Bedaquiline in MDR Tuberculosis,Safety Profile of Bedaquiline in MDR Tuberculosis
+C131,C138,1.0,Treatment Intensification in Asthma: When and How,Treatment Intensification in Asthma: When and How
+C325,C336,1.0,A Case of Psoriasis Resistant to Cyclosporine,A Case of Psoriasis Resistant to Cyclosporine
+C285,C291,1.0,Perbandingan Diazepam dan Diazepam pada Febrile Seizure,Perbandingan Diazepam dan Diazepam pada Febrile Seizure
+C193,C205,1.0,Meta-analysis: Ibrutinib versus Standard of Care in Chronic Lymphocytic Leukaemia,Meta-analysis: Ibrutinib versus Standard of Care in Chronic Lymphocytic Leukaemia
+C185,C198,1.0,Dosis BCR-ABL inhibitors pada Chronic Myeloid Leukaemia: Referensi Cepat,Dosis BCR-ABL inhibitors pada Chronic Myeloid Leukaemia: Referensi Cepat
+C030,C046,1.0,Treatment Intensification in Atrial Fibrillation: When and How,Treatment Intensification in Atrial Fibrillation: When and How
+C149,C156,1.0,Switching Therapy in Peptic Ulcer Disease: A Step-by-Step Guide,Switching Therapy in Peptic Ulcer Disease: A Step-by-Step Guide
+C311,C317,1.0,Secukinumab pada Pasien Disseminated Intravascular Coagulation: Studi Kohort,Secukinumab pada Pasien Disseminated Intravascular Coagulation: Studi Kohort
+C323,C340,1.0,Switching Therapy in Psoriasis: A Step-by-Step Guide,Switching Therapy in Psoriasis: A Step-by-Step Guide
+C108,C115,1.0,Case Series: NRTIs combination in Refractory Urinary Tract Infection,Case Series: NRTIs combination in Refractory Urinary Tract Infection
+C102,C111,1.0,Biomarkers in Urinary Tract Infection: Implications for NRTIs combination Therapy,Biomarkers in Urinary Tract Infection: Implications for NRTIs combination Therapy
+C330,C337,1.0,New Insights into Psoriasis Pathophysiology and Treatment,New Insights into Psoriasis Pathophysiology and Treatment
+C074,C079,1.0,Topiramate Real-World Evidence in Migraine: A Retrospective Study,Topiramate Real-World Evidence in Migraine: A Retrospective Study
+C050,C068,1.0,Chronic Kidney Disease pada Populasi Khusus: Pendekatan Praktis,Chronic Kidney Disease pada Populasi Khusus: Pendekatan Praktis
+C037,C042,1.0,Atrial Fibrillation in Special Populations: Practical Guidance,Atrial Fibrillation in Special Populations: Practical Guidance
+C153,C160,0.9464,Konsensus Nasional: Inflammatory Bowel Disease di Indonesia 2021,Konsensus Nasional: Inflammatory Bowel Disease di Indonesia 2022
+C002,C020,0.9201,Clinical Practice Guideline: Type 1 Diabetes Mellitus Management 2023,Clinical Practice Guideline: Type 2 Diabetes Mellitus Management 2021
+C333,C335,0.8731,WHO Guideline Update: Psoriasis 2023,WHO Guideline Update: Psoriasis 2025
+C300,C307,0.8709,Case Series: Calcineurin inhibitors in Refractory Disseminated Intravascular Coagulation,Case Series: IL-17 inhibitors in Refractory Disseminated Intravascular Coagulation
+C101,C104,0.8623,"NRTIs combination: Mechanism, Indications, and Safety","NRTIs: Mechanism, Indications, and Safety"
+C318,C340,0.8604,Switching Therapy in Sepsis: A Step-by-Step Guide,Switching Therapy in Psoriasis: A Step-by-Step Guide
+C318,C323,0.8604,Switching Therapy in Sepsis: A Step-by-Step Guide,Switching Therapy in Psoriasis: A Step-by-Step Guide

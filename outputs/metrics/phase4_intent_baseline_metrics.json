@@ -1,0 +1,97 @@
+{
+  "experiment": "T1-B0",
+  "model": "word unigram/bigram TF-IDF + class-balanced Logistic Regression",
+  "primary_metric": "macro_f1",
+  "label_source": "Phase 3 weak labels excluding three-way disagreements",
+  "saved_model_fit": "refit on all 362 retained weak-label rows after cross-validation",
+  "n_weak_labeled_queries": 362,
+  "n_excluded_three_way_disagreements": 138,
+  "included_signal_agreement_counts": {
+    "unanimous": 151,
+    "two_signal_including_rule": 127,
+    "prototype_cluster_against_rule": 84
+  },
+  "out_of_fold_metrics": {
+    "macro_f1": 0.9807645756436333,
+    "macro_precision": 0.9910471237801747,
+    "macro_recall": 0.9721416941034685,
+    "weighted_f1": 0.9833140398300917,
+    "accuracy": 0.9834254143646409
+  },
+  "top_level_out_of_fold_metrics": {
+    "macro_f1": 0.9807806671007553,
+    "macro_precision": 0.9936026936026936,
+    "macro_recall": 0.9705882352941178,
+    "weighted_f1": 0.9943696762414758,
+    "accuracy": 0.994475138121547
+  },
+  "template_grouped_sensitivity": {
+    "purpose": "secondary unseen-template transfer diagnostic",
+    "n_queries": 354,
+    "n_classes": 10,
+    "excluded_classes": [
+      "Monitoring / Response / Risk Assessment"
+    ],
+    "excluded_reason": "fewer than two independent templates after weak-label filtering",
+    "n_splits": 2,
+    "template_overlap_each_fold": [
+      0,
+      0
+    ],
+    "macro_f1": 0.509102690880679,
+    "macro_precision": 0.5700049266653744,
+    "macro_recall": 0.5017800918582457,
+    "weighted_f1": 0.522386822328242,
+    "accuracy": 0.5480225988700564
+  },
+  "fold_macro_f1_mean": 0.9708544989689154,
+  "fold_macro_f1_std": 0.05106972179818536,
+  "taxonomy_sanity": {
+    "n_final_classes": 11,
+    "other_ambiguous_count": 0,
+    "other_ambiguous_proportion": 0.0,
+    "weak_label_training_size": 362,
+    "minimum_weak_label_class_count": 6,
+    "minimum_weak_label_template_groups": 1,
+    "classes_not_cv_evaluable": [
+      "Other / Ambiguous"
+    ],
+    "weighted_weak_label_cluster_purity": 0.580110497237569,
+    "prototype_disagreements_on_weak_set": 107
+  },
+  "cv_design": {
+    "strategy": "five-fold stratified row CV over retained weak labels",
+    "n_splits": 5,
+    "n_template_groups": 91,
+    "largest_template_group": 15,
+    "train_test_template_overlap_each_fold": [
+      36,
+      39,
+      36,
+      36,
+      41
+    ],
+    "all_subtypes_in_every_train_and_test_fold": true,
+    "random_seed": 42,
+    "near_duplicate_leakage_note": "near-identical templates cross primary folds because one class has only one template; use the separate grouped sensitivity result for unseen-template transfer"
+  },
+  "hyperparameters": {
+    "tfidf_ngram_range": [
+      1,
+      2
+    ],
+    "tfidf_sublinear_tf": true,
+    "logistic_regression_c": 1.0,
+    "class_weight": "balanced",
+    "solver": "liblinear",
+    "max_iter": 2000
+  },
+  "limitations": [
+    "targets are model-assisted weak labels, not independent clinician gold labels",
+    "prototype and cluster signals share an encoder and are not independent votes",
+    "row-stratified CV allows recurring templates across folds",
+    "one retained class has only one independent query template",
+    "84 retained targets follow the rule despite prototype and cluster disagreement",
+    "Other / Ambiguous has zero examples and is not learnable"
+  ]
+}

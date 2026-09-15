@@ -1,0 +1,496 @@
+experiment,intent,rank,feature,feature_family,coefficient
+T1-E1,Comparative Treatment Choice,1,structured::has::multiple_molecules,structured,2.0757159888542795
+T1-E1,Comparative Treatment Choice,2,text::vs,text,2.0486675923873214
+T1-E1,Comparative Treatment Choice,3,text::untuk,text,0.945303913791706
+T1-E1,Comparative Treatment Choice,4,text::patients,text,0.8151988726997687
+T1-E1,Comparative Treatment Choice,5,structured::count::molecule_entity,structured,0.7600877128817278
+T1-E1,Comparative Treatment Choice,6,structured::count::drug_class_entity,structured,0.7600877128817278
+T1-E1,Comparative Treatment Choice,7,text::efektif,text,0.5068118854172443
+T1-E1,Comparative Treatment Choice,8,text::lebih efektif,text,0.5068118854172443
+T1-E1,Comparative Treatment Choice,9,text::mana,text,0.5068118854172443
+T1-E1,Comparative Treatment Choice,10,text::mana lebih,text,0.5068118854172443
+T1-E1,Comparative Treatment Choice,11,text::lebih,text,0.5068118854172443
+T1-E1,Comparative Treatment Choice,12,text::efficacy in,text,0.4331734901329308
+T1-E1,Comparative Treatment Choice,13,text::metronidazole,text,0.42191494920507167
+T1-E1,Comparative Treatment Choice,14,text::untuk pasien,text,0.39379087520730865
+T1-E1,Comparative Treatment Choice,15,text::magnesium sulphate,text,0.37294935533000645
+T1-E1,Dosing / Administration,1,text::dosis,text,1.56040153095069
+T1-E1,Dosing / Administration,2,text::dose,text,1.4779040191875343
+T1-E1,Dosing / Administration,3,text::impairment,text,1.029817591244616
+T1-E1,Dosing / Administration,4,text::pasien,text,0.8596184371041325
+T1-E1,Dosing / Administration,5,text::dose in,text,0.8082213723202505
+T1-E1,Dosing / Administration,6,text::impairment dose,text,0.8082213723202505
+T1-E1,Dosing / Administration,7,text::renal,text,0.7807934656059716
+T1-E1,Dosing / Administration,8,text::adjustment,text,0.7606599951038211
+T1-E1,Dosing / Administration,9,text::loading dose,text,0.7410900386716933
+T1-E1,Dosing / Administration,10,text::emergency,text,0.7410900386716933
+T1-E1,Dosing / Administration,11,text::loading,text,0.7410900386716933
+T1-E1,Dosing / Administration,12,text::hepatic impairment,text,0.67586197327076
+T1-E1,Dosing / Administration,13,text::hepatic,text,0.67586197327076
+T1-E1,Dosing / Administration,14,text::anak,text,0.6434053527404296
+T1-E1,Dosing / Administration,15,text::anak dosis,text,0.6434053527404296
+T1-E1,Efficacy / Outcomes,1,text::term outcomes,text,2.0868159378612674
+T1-E1,Efficacy / Outcomes,2,text::long,text,2.0868159378612674
+T1-E1,Efficacy / Outcomes,3,text::long term,text,2.0868159378612674
+T1-E1,Efficacy / Outcomes,4,text::term,text,2.0868159378612674
+T1-E1,Efficacy / Outcomes,5,text::outcomes,text,2.0868159378612674
+T1-E1,Efficacy / Outcomes,6,text::data,text,1.4576242248692985
+T1-E1,Efficacy / Outcomes,7,text::efficacy pada,text,1.4576242248692985
+T1-E1,Efficacy / Outcomes,8,text::clinical,text,1.4576242248692985
+T1-E1,Efficacy / Outcomes,9,text::clinical outcome,text,1.4576242248692985
+T1-E1,Efficacy / Outcomes,10,text::outcome,text,1.4576242248692985
+T1-E1,Efficacy / Outcomes,11,text::outcome data,text,1.4576242248692985
+T1-E1,Efficacy / Outcomes,12,text::efficacy,text,1.3624920370101703
+T1-E1,Efficacy / Outcomes,13,text::bedaquiline long,text,0.43636713415360084
+T1-E1,Efficacy / Outcomes,14,text::mellitus clinical,text,0.42702852453987566
+T1-E1,Efficacy / Outcomes,15,text::pada type,text,0.38509635854197444
+T1-E1,Guideline / Evidence Lookup,1,text::summary,text,2.274813533453915
+T1-E1,Guideline / Evidence Lookup,2,text::update,text,2.274813533453915
+T1-E1,Guideline / Evidence Lookup,3,text::guideline,text,2.274813533453915
+T1-E1,Guideline / Evidence Lookup,4,text::guideline update,text,2.274813533453915
+T1-E1,Guideline / Evidence Lookup,5,text::2023,text,0.9959363601808191
+T1-E1,Guideline / Evidence Lookup,6,text::2023 summary,text,0.9959363601808191
+T1-E1,Guideline / Evidence Lookup,7,text::update 2023,text,0.9959363601808191
+T1-E1,Guideline / Evidence Lookup,8,text::terbaru,text,0.9800893809148407
+T1-E1,Guideline / Evidence Lookup,9,text::update terbaru,text,0.9800893809148407
+T1-E1,Guideline / Evidence Lookup,10,text::terbaru summary,text,0.9800893809148407
+T1-E1,Guideline / Evidence Lookup,11,text::evidence,text,0.8807550167304431
+T1-E1,Guideline / Evidence Lookup,12,text::evidence hypertension,text,0.8807550167304431
+T1-E1,Guideline / Evidence Lookup,13,text::hypertension 2022,text,0.8807550167304431
+T1-E1,Guideline / Evidence Lookup,14,text::blockers new,text,0.8807550167304431
+T1-E1,Guideline / Evidence Lookup,15,text::new,text,0.8807550167304431
+T1-E1,Interaction / Combination,1,text::combination therapy,text,1.9404133308485503
+T1-E1,Interaction / Combination,2,text::combination,text,1.801999659222464
+T1-E1,Interaction / Combination,3,text::therapy,text,1.7578743582248022
+T1-E1,Interaction / Combination,4,structured::has::multiple_molecules,structured,1.435503566768944
+T1-E1,Interaction / Combination,5,text::dan,text,1.3819788076762884
+T1-E1,Interaction / Combination,6,text::interaksi obat,text,0.894856588732503
+T1-E1,Interaction / Combination,7,text::interaksi,text,0.894856588732503
+T1-E1,Interaction / Combination,8,text::obat,text,0.7779406660504277
+T1-E1,Interaction / Combination,9,text::interaction with,text,0.6852443649009732
+T1-E1,Interaction / Combination,10,text::drug interaction,text,0.6852443649009732
+T1-E1,Interaction / Combination,11,text::interaction,text,0.6852443649009732
+T1-E1,Interaction / Combination,12,text::atau tidak,text,0.6847220018544382
+T1-E1,Interaction / Combination,13,text::aman atau,text,0.6847220018544382
+T1-E1,Interaction / Combination,14,text::atau,text,0.6847220018544382
+T1-E1,Interaction / Combination,15,text::kombinasi,text,0.6847220018544382
+T1-E1,Management / Treatment Selection,1,text::terapi,text,1.9234934790100966
+T1-E1,Management / Treatment Selection,2,text::line,text,1.2214498002415044
+T1-E1,Management / Treatment Selection,3,text::first line,text,1.2214498002415044
+T1-E1,Management / Treatment Selection,4,text::first,text,1.2214498002415044
+T1-E1,Management / Treatment Selection,5,text::drug,text,1.0502452391704233
+T1-E1,Management / Treatment Selection,6,text::algoritma,text,1.0414342014103997
+T1-E1,Management / Treatment Selection,7,text::step,text,1.0414342014103997
+T1-E1,Management / Treatment Selection,8,text::algoritma terapi,text,1.0414342014103997
+T1-E1,Management / Treatment Selection,9,text::step up,text,1.0414342014103997
+T1-E1,Management / Treatment Selection,10,text::up,text,1.0414342014103997
+T1-E1,Management / Treatment Selection,11,text::line drug,text,0.9259894552477819
+T1-E1,Management / Treatment Selection,12,text::pilihan,text,0.8705677462485597
+T1-E1,Management / Treatment Selection,13,text::mulai,text,0.8616801686646712
+T1-E1,Management / Treatment Selection,14,text::mulai terapi,text,0.8616801686646712
+T1-E1,Management / Treatment Selection,15,text::kapan mulai,text,0.8616801686646712
+T1-E1,Mechanism / Background Knowledge,1,text::mechanism,text,2.08916012816097
+T1-E1,Mechanism / Background Knowledge,2,text::pathophysiology,text,1.7761876468829676
+T1-E1,Mechanism / Background Knowledge,3,text::role,text,1.7761876468829676
+T1-E1,Mechanism / Background Knowledge,4,text::role in,text,1.7761876468829676
+T1-E1,Mechanism / Background Knowledge,5,text::of action,text,1.3670893452789388
+T1-E1,Mechanism / Background Knowledge,6,text::action in,text,1.3670893452789388
+T1-E1,Mechanism / Background Knowledge,7,text::action,text,1.3670893452789388
+T1-E1,Mechanism / Background Knowledge,8,text::mechanism of,text,1.3670893452789388
+T1-E1,Mechanism / Background Knowledge,9,text::of,text,1.3670893452789388
+T1-E1,Mechanism / Background Knowledge,10,text::bagaimana cara,text,1.0607719735364436
+T1-E1,Mechanism / Background Knowledge,11,text::cara,text,1.0607719735364436
+T1-E1,Mechanism / Background Knowledge,12,text::mechanism untuk,text,1.0607719735364436
+T1-E1,Mechanism / Background Knowledge,13,text::bagaimana,text,1.0607719735364436
+T1-E1,Mechanism / Background Knowledge,14,text::kerjanya,text,1.0607719735364436
+T1-E1,Mechanism / Background Knowledge,15,text::cara kerjanya,text,1.0607719735364436
+T1-E1,Monitoring / Response / Risk Assessment,1,text::risk stratification,text,2.549910075556141
+T1-E1,Monitoring / Response / Risk Assessment,2,text::stratification,text,2.549910075556141
+T1-E1,Monitoring / Response / Risk Assessment,3,text::stratification approach,text,2.549910075556141
+T1-E1,Monitoring / Response / Risk Assessment,4,text::approach,text,2.549910075556141
+T1-E1,Monitoring / Response / Risk Assessment,5,text::risk,text,2.549910075556141
+T1-E1,Monitoring / Response / Risk Assessment,6,text::infection risk,text,0.466720068071554
+T1-E1,Monitoring / Response / Risk Assessment,7,text::leukaemia risk,text,0.4642681173815449
+T1-E1,Monitoring / Response / Risk Assessment,8,text::disorder risk,text,0.4408346321291509
+T1-E1,Monitoring / Response / Risk Assessment,9,text::fibrillation risk,text,0.43998007189947586
+T1-E1,Monitoring / Response / Risk Assessment,10,text::chronic lymphocytic,text,0.421499532038821
+T1-E1,Monitoring / Response / Risk Assessment,11,text::lymphocytic leukaemia,text,0.421499532038821
+T1-E1,Monitoring / Response / Risk Assessment,12,text::lymphocytic,text,0.421499532038821
+T1-E1,Monitoring / Response / Risk Assessment,13,text::epilepsy risk,text,0.3976910366684594
+T1-E1,Monitoring / Response / Risk Assessment,14,text::gout risk,text,0.38920130372073014
+T1-E1,Monitoring / Response / Risk Assessment,15,text::malaria risk,text,0.3880390846549403
+T1-E1,Prophylaxis / Maintenance,1,text::prophylaxis,text,2.600620122640735
+T1-E1,Prophylaxis / Maintenance,2,text::indication,text,1.7832253292777371
+T1-E1,Prophylaxis / Maintenance,3,text::kapan,text,1.6253860339703492
+T1-E1,Prophylaxis / Maintenance,4,text::bisa dihentikan,text,1.2531973545120976
+T1-E1,Prophylaxis / Maintenance,5,text::bisa,text,1.2531973545120976
+T1-E1,Prophylaxis / Maintenance,6,text::dihentikan,text,1.2531973545120976
+T1-E1,Prophylaxis / Maintenance,7,text::kapan bisa,text,1.2531973545120976
+T1-E1,Prophylaxis / Maintenance,8,text::terapi profilaksis,text,1.226983781312203
+T1-E1,Prophylaxis / Maintenance,9,text::profilaksis,text,1.226983781312203
+T1-E1,Prophylaxis / Maintenance,10,text::maintenance,text,0.978510377358552
+T1-E1,Prophylaxis / Maintenance,11,text::tercapai kapan,text,0.978510377358552
+T1-E1,Prophylaxis / Maintenance,12,text::kapan maintenance,text,0.978510377358552
+T1-E1,Prophylaxis / Maintenance,13,text::sudah,text,0.978510377358552
+T1-E1,Prophylaxis / Maintenance,14,text::sudah tercapai,text,0.978510377358552
+T1-E1,Prophylaxis / Maintenance,15,text::tercapai,text,0.978510377358552
+T1-E1,Safety / Contraindication,1,text::kontraindikasi,text,1.30357611147926
+T1-E1,Safety / Contraindication,2,text::pada,text,1.1921515077683575
+T1-E1,Safety / Contraindication,3,text::and,text,1.038559052291771
+T1-E1,Safety / Contraindication,4,text::pregnancy and,text,1.038559052291771
+T1-E1,Safety / Contraindication,5,text::dengan,text,0.9874958073767411
+T1-E1,Safety / Contraindication,6,text::in pregnancy,text,0.9027324286018835
+T1-E1,Safety / Contraindication,7,text::pregnancy,text,0.8846760154976689
+T1-E1,Safety / Contraindication,8,text::saja,text,0.7756940668632932
+T1-E1,Safety / Contraindication,9,text::apa saja,text,0.7756940668632932
+T1-E1,Safety / Contraindication,10,text::effect,text,0.7756940668632932
+T1-E1,Safety / Contraindication,11,text::side,text,0.7756940668632932
+T1-E1,Safety / Contraindication,12,text::side effect,text,0.7756940668632932
+T1-E1,Safety / Contraindication,13,text::effect pada,text,0.7756940668632932
+T1-E1,Safety / Contraindication,14,text::safe in,text,0.7691025219633002
+T1-E1,Safety / Contraindication,15,text::safe,text,0.7691025219633002
+T1-E1,Treatment Change / Escalation,1,structured::has::multiple_molecules,structured,1.6325085348105632
+T1-E1,Treatment Change / Escalation,2,text::ke,text,1.4035042528457733
+T1-E1,Treatment Change / Escalation,3,text::resistance,text,1.1123437672531786
+T1-E1,Treatment Change / Escalation,4,text::alternative therapy,text,1.1123437672531786
+T1-E1,Treatment Change / Escalation,5,text::resistance in,text,1.1123437672531786
+T1-E1,Treatment Change / Escalation,6,text::alternative,text,1.1123437672531786
+T1-E1,Treatment Change / Escalation,7,text::resistensi,text,1.0090210222511802
+T1-E1,Treatment Change / Escalation,8,text::alternatif,text,1.0090210222511802
+T1-E1,Treatment Change / Escalation,9,text::switch,text,0.9188738461310871
+T1-E1,Treatment Change / Escalation,10,text::dari,text,0.9188738461310871
+T1-E1,Treatment Change / Escalation,11,text::progresif,text,0.9188738461310871
+T1-E1,Treatment Change / Escalation,12,text::switch dari,text,0.9188738461310871
+T1-E1,Treatment Change / Escalation,13,text::therapy,text,0.9028734278104497
+T1-E1,Treatment Change / Escalation,14,text::penggantian,text,0.6793998313803833
+T1-E1,Treatment Change / Escalation,15,structured::count::drug_class_entity,structured,0.5837999425995904
+T1-E2,Comparative Treatment Choice,1,structured::context::comparison_flag,structured,3.8746008660823974
+T1-E2,Comparative Treatment Choice,2,structured::has::multiple_molecules,structured,1.5152936769599121
+T1-E2,Comparative Treatment Choice,3,text::vs,text,0.7348627250150415
+T1-E2,Comparative Treatment Choice,4,structured::count::drug_class_entity,structured,0.47252019514820387
+T1-E2,Comparative Treatment Choice,5,structured::count::molecule_entity,structured,0.47252019514820387
+T1-E2,Comparative Treatment Choice,6,text::untuk,text,0.33384145816017347
+T1-E2,Comparative Treatment Choice,7,text::patients,text,0.28192145407666175
+T1-E2,Comparative Treatment Choice,8,structured::context::pregnancy_status::pregnancy_related,structured,0.24699225083545065
+T1-E2,Comparative Treatment Choice,9,text::mana,text,0.2023502500214679
+T1-E2,Comparative Treatment Choice,10,text::mana lebih,text,0.2023502500214679
+T1-E2,Comparative Treatment Choice,11,text::lebih efektif,text,0.2023502500214679
+T1-E2,Comparative Treatment Choice,12,text::lebih,text,0.2023502500214679
+T1-E2,Comparative Treatment Choice,13,text::efektif,text,0.2023502500214679
+T1-E2,Comparative Treatment Choice,14,text::metronidazole,text,0.15994949137841086
+T1-E2,Comparative Treatment Choice,15,text::untuk pasien,text,0.155973095207999
+T1-E2,Dosing / Administration,1,structured::context::dose_context_flag,structured,4.1273068059618145
+T1-E2,Dosing / Administration,2,structured::context::has_age_group,structured,0.7220580084238786
+T1-E2,Dosing / Administration,3,text::titration protocol,text,0.6670277759048568
+T1-E2,Dosing / Administration,4,text::titration,text,0.6670277759048568
+T1-E2,Dosing / Administration,5,text::protocol,text,0.6670277759048568
+T1-E2,Dosing / Administration,6,structured::context::renal_function_group::renal_impairment,structured,0.5530687208843604
+T1-E2,Dosing / Administration,7,structured::context::has_renal_function_group,structured,0.5530687208843604
+T1-E2,Dosing / Administration,8,structured::context::hepatic_impairment_flag,structured,0.5439757440569832
+T1-E2,Dosing / Administration,9,structured::context::age_group::pediatric,structured,0.4715966029640955
+T1-E2,Dosing / Administration,10,text::dose,text,0.40132821167700006
+T1-E2,Dosing / Administration,11,text::in,text,0.3034265071496839
+T1-E2,Dosing / Administration,12,text::loading,text,0.2544934018453883
+T1-E2,Dosing / Administration,13,text::loading dose,text,0.2544934018453883
+T1-E2,Dosing / Administration,14,text::emergency,text,0.2544934018453883
+T1-E2,Dosing / Administration,15,structured::context::age_group::elderly,structured,0.25046140545978307
+T1-E2,Efficacy / Outcomes,1,text::long,text,1.949282877834612
+T1-E2,Efficacy / Outcomes,2,text::long term,text,1.949282877834612
+T1-E2,Efficacy / Outcomes,3,text::outcomes,text,1.949282877834612
+T1-E2,Efficacy / Outcomes,4,text::term,text,1.949282877834612
+T1-E2,Efficacy / Outcomes,5,text::term outcomes,text,1.949282877834612
+T1-E2,Efficacy / Outcomes,6,text::data,text,1.357845798821695
+T1-E2,Efficacy / Outcomes,7,text::efficacy pada,text,1.357845798821695
+T1-E2,Efficacy / Outcomes,8,text::outcome data,text,1.357845798821695
+T1-E2,Efficacy / Outcomes,9,text::clinical,text,1.357845798821695
+T1-E2,Efficacy / Outcomes,10,text::clinical outcome,text,1.357845798821695
+T1-E2,Efficacy / Outcomes,11,text::outcome,text,1.357845798821695
+T1-E2,Efficacy / Outcomes,12,text::efficacy,text,1.2680870911329525
+T1-E2,Efficacy / Outcomes,13,text::bedaquiline long,text,0.409414878694156
+T1-E2,Efficacy / Outcomes,14,text::mellitus clinical,text,0.39920688566594265
+T1-E2,Efficacy / Outcomes,15,text::pada type,text,0.35200550150211246
+T1-E2,Guideline / Evidence Lookup,1,structured::context::recency_flag,structured,2.93856303437392
+T1-E2,Guideline / Evidence Lookup,2,structured::context::has_year,structured,2.6048838169200725
+T1-E2,Guideline / Evidence Lookup,3,text::guideline,text,0.902406456329523
+T1-E2,Guideline / Evidence Lookup,4,text::update,text,0.902406456329523
+T1-E2,Guideline / Evidence Lookup,5,text::summary,text,0.902406456329523
+T1-E2,Guideline / Evidence Lookup,6,text::guideline update,text,0.902406456329523
+T1-E2,Guideline / Evidence Lookup,7,text::update terbaru,text,0.7773183993698098
+T1-E2,Guideline / Evidence Lookup,8,text::terbaru summary,text,0.7773183993698098
+T1-E2,Guideline / Evidence Lookup,9,text::terbaru,text,0.7773183993698098
+T1-E2,Guideline / Evidence Lookup,10,text::blockers new,text,0.5447904142232722
+T1-E2,Guideline / Evidence Lookup,11,text::evidence,text,0.5447904142232722
+T1-E2,Guideline / Evidence Lookup,12,text::evidence hypertension,text,0.5447904142232722
+T1-E2,Guideline / Evidence Lookup,13,text::hypertension 2022,text,0.5447904142232722
+T1-E2,Guideline / Evidence Lookup,14,text::2022,text,0.5447904142232722
+T1-E2,Guideline / Evidence Lookup,15,text::new evidence,text,0.5447904142232722
+T1-E2,Interaction / Combination,1,text::combination therapy,text,1.8450502371485262
+T1-E2,Interaction / Combination,2,text::combination,text,1.7060672618557715
+T1-E2,Interaction / Combination,3,text::therapy,text,1.6857605048130289
+T1-E2,Interaction / Combination,4,structured::has::multiple_molecules,structured,1.440411816710336
+T1-E2,Interaction / Combination,5,structured::context::negation_flag,structured,1.3300162601012617
+T1-E2,Interaction / Combination,6,text::dan,text,0.9797645687702814
+T1-E2,Interaction / Combination,7,text::interaksi obat,text,0.7935383977557484
+T1-E2,Interaction / Combination,8,text::interaksi,text,0.7935383977557484
+T1-E2,Interaction / Combination,9,text::obat,text,0.6763798678391916
+T1-E2,Interaction / Combination,10,text::drug interaction,text,0.580864042434178
+T1-E2,Interaction / Combination,11,text::interaction,text,0.580864042434178
+T1-E2,Interaction / Combination,12,text::interaction with,text,0.580864042434178
+T1-E2,Interaction / Combination,13,structured::count::drug_class_entity,structured,0.5194795425206102
+T1-E2,Interaction / Combination,14,structured::count::molecule_entity,structured,0.5194795425206102
+T1-E2,Interaction / Combination,15,text::tenofovir,text,0.4985184870131066
+T1-E2,Management / Treatment Selection,1,text::terapi,text,1.738831649996871
+T1-E2,Management / Treatment Selection,2,text::first line,text,1.13701844581795
+T1-E2,Management / Treatment Selection,3,text::line,text,1.13701844581795
+T1-E2,Management / Treatment Selection,4,text::first,text,1.13701844581795
+T1-E2,Management / Treatment Selection,5,text::drug,text,0.985685077882547
+T1-E2,Management / Treatment Selection,6,text::step up,text,0.9529957356603371
+T1-E2,Management / Treatment Selection,7,text::up,text,0.9529957356603371
+T1-E2,Management / Treatment Selection,8,text::algoritma,text,0.9529957356603371
+T1-E2,Management / Treatment Selection,9,text::algoritma terapi,text,0.9529957356603371
+T1-E2,Management / Treatment Selection,10,text::step,text,0.9529957356603371
+T1-E2,Management / Treatment Selection,11,text::line drug,text,0.8675169144495338
+T1-E2,Management / Treatment Selection,12,text::pilihan,text,0.8259012541641888
+T1-E2,Management / Treatment Selection,13,text::kapan mulai,text,0.799971297357794
+T1-E2,Management / Treatment Selection,14,text::mulai,text,0.799971297357794
+T1-E2,Management / Treatment Selection,15,text::mulai terapi,text,0.799971297357794
+T1-E2,Mechanism / Background Knowledge,1,text::mechanism,text,1.9435128578972332
+T1-E2,Mechanism / Background Knowledge,2,text::pathophysiology,text,1.6228317084035093
+T1-E2,Mechanism / Background Knowledge,3,text::role,text,1.6228317084035093
+T1-E2,Mechanism / Background Knowledge,4,text::role in,text,1.6228317084035093
+T1-E2,Mechanism / Background Knowledge,5,text::of,text,1.27968395322504
+T1-E2,Mechanism / Background Knowledge,6,text::of action,text,1.27968395322504
+T1-E2,Mechanism / Background Knowledge,7,text::mechanism of,text,1.27968395322504
+T1-E2,Mechanism / Background Knowledge,8,text::action,text,1.27968395322504
+T1-E2,Mechanism / Background Knowledge,9,text::action in,text,1.27968395322504
+T1-E2,Mechanism / Background Knowledge,10,text::in,text,1.01960988078562
+T1-E2,Mechanism / Background Knowledge,11,text::bagaimana,text,0.978401751619752
+T1-E2,Mechanism / Background Knowledge,12,text::bagaimana cara,text,0.978401751619752
+T1-E2,Mechanism / Background Knowledge,13,text::kerjanya,text,0.978401751619752
+T1-E2,Mechanism / Background Knowledge,14,text::mechanism untuk,text,0.978401751619752
+T1-E2,Mechanism / Background Knowledge,15,text::cara,text,0.978401751619752
+T1-E2,Monitoring / Response / Risk Assessment,1,text::risk,text,2.44165260910391
+T1-E2,Monitoring / Response / Risk Assessment,2,text::approach,text,2.44165260910391
+T1-E2,Monitoring / Response / Risk Assessment,3,text::risk stratification,text,2.44165260910391
+T1-E2,Monitoring / Response / Risk Assessment,4,text::stratification approach,text,2.44165260910391
+T1-E2,Monitoring / Response / Risk Assessment,5,text::stratification,text,2.44165260910391
+T1-E2,Monitoring / Response / Risk Assessment,6,text::infection risk,text,0.44797547664563525
+T1-E2,Monitoring / Response / Risk Assessment,7,text::leukaemia risk,text,0.44078999793803136
+T1-E2,Monitoring / Response / Risk Assessment,8,text::disorder risk,text,0.4224877966746277
+T1-E2,Monitoring / Response / Risk Assessment,9,text::fibrillation risk,text,0.417887878122243
+T1-E2,Monitoring / Response / Risk Assessment,10,text::lymphocytic,text,0.40574141231928074
+T1-E2,Monitoring / Response / Risk Assessment,11,text::chronic lymphocytic,text,0.40574141231928074
+T1-E2,Monitoring / Response / Risk Assessment,12,text::lymphocytic leukaemia,text,0.40574141231928074
+T1-E2,Monitoring / Response / Risk Assessment,13,text::epilepsy risk,text,0.3816016605216299
+T1-E2,Monitoring / Response / Risk Assessment,14,text::gout risk,text,0.3744709748838832
+T1-E2,Monitoring / Response / Risk Assessment,15,text::malaria risk,text,0.37182313108828474
+T1-E2,Prophylaxis / Maintenance,1,text::prophylaxis,text,2.416023945211472
+T1-E2,Prophylaxis / Maintenance,2,text::indication,text,1.642128499442756
+T1-E2,Prophylaxis / Maintenance,3,text::kapan,text,1.4717879097566817
+T1-E2,Prophylaxis / Maintenance,4,text::bisa dihentikan,text,1.1784626457375695
+T1-E2,Prophylaxis / Maintenance,5,text::kapan bisa,text,1.1784626457375695
+T1-E2,Prophylaxis / Maintenance,6,text::dihentikan,text,1.1784626457375695
+T1-E2,Prophylaxis / Maintenance,7,text::bisa,text,1.1784626457375695
+T1-E2,Prophylaxis / Maintenance,8,text::terapi profilaksis,text,1.1428983602957077
+T1-E2,Prophylaxis / Maintenance,9,text::profilaksis,text,1.1428983602957077
+T1-E2,Prophylaxis / Maintenance,10,text::tercapai,text,0.9016907596342484
+T1-E2,Prophylaxis / Maintenance,11,text::kapan maintenance,text,0.9016907596342484
+T1-E2,Prophylaxis / Maintenance,12,text::maintenance,text,0.9016907596342484
+T1-E2,Prophylaxis / Maintenance,13,text::tercapai kapan,text,0.9016907596342484
+T1-E2,Prophylaxis / Maintenance,14,text::sudah,text,0.9016907596342484
+T1-E2,Prophylaxis / Maintenance,15,text::sudah tercapai,text,0.9016907596342484
+T1-E2,Safety / Contraindication,1,structured::context::negation_flag,structured,1.2784888779098909
+T1-E2,Safety / Contraindication,2,text::kontraindikasi,text,1.2421008769012756
+T1-E2,Safety / Contraindication,3,text::pada,text,1.1802688263172367
+T1-E2,Safety / Contraindication,4,structured::context::pregnancy_status::pregnant,structured,1.0538393056445021
+T1-E2,Safety / Contraindication,5,text::dengan,text,0.8090742592999921
+T1-E2,Safety / Contraindication,6,structured::context::has_pregnancy_status,structured,0.8061417662704597
+T1-E2,Safety / Contraindication,7,text::safe in,text,0.7564434570594402
+T1-E2,Safety / Contraindication,8,text::safe,text,0.7564434570594402
+T1-E2,Safety / Contraindication,9,text::is,text,0.7564434570594402
+T1-E2,Safety / Contraindication,10,text::saja,text,0.7460019764618833
+T1-E2,Safety / Contraindication,11,text::effect pada,text,0.7460019764618833
+T1-E2,Safety / Contraindication,12,text::apa saja,text,0.7460019764618833
+T1-E2,Safety / Contraindication,13,text::effect,text,0.7460019764618833
+T1-E2,Safety / Contraindication,14,text::side effect,text,0.7460019764618833
+T1-E2,Safety / Contraindication,15,text::side,text,0.7460019764618833
+T1-E2,Treatment Change / Escalation,1,structured::context::prior_treatment_failure_flag,structured,2.781584411789411
+T1-E2,Treatment Change / Escalation,2,structured::has::multiple_molecules,structured,1.742804731136435
+T1-E2,Treatment Change / Escalation,3,text::ke,text,1.3213331371617538
+T1-E2,Treatment Change / Escalation,4,text::switch dari,text,0.8610444288987027
+T1-E2,Treatment Change / Escalation,5,text::switch,text,0.8610444288987027
+T1-E2,Treatment Change / Escalation,6,text::dari,text,0.8610444288987027
+T1-E2,Treatment Change / Escalation,7,text::progresif,text,0.8610444288987027
+T1-E2,Treatment Change / Escalation,8,text::penggantian,text,0.6441594964575661
+T1-E2,Treatment Change / Escalation,9,structured::count::molecule_entity,structured,0.6320282167448775
+T1-E2,Treatment Change / Escalation,10,structured::count::drug_class_entity,structured,0.6320282167448775
+T1-E2,Treatment Change / Escalation,11,text::resistance,text,0.6022280357610217
+T1-E2,Treatment Change / Escalation,12,text::alternative therapy,text,0.6022280357610217
+T1-E2,Treatment Change / Escalation,13,text::alternative,text,0.6022280357610217
+T1-E2,Treatment Change / Escalation,14,text::resistance in,text,0.6022280357610217
+T1-E2,Treatment Change / Escalation,15,text::therapy,text,0.4778148796048651
+T1-E4,Comparative Treatment Choice,1,structured::context::comparison_flag,structured,2.0199425755406093
+T1-E4,Comparative Treatment Choice,2,structured::has::multiple_molecules,structured,1.3084005036312678
+T1-E4,Comparative Treatment Choice,3,embedding::104,embedding,0.6823301055175188
+T1-E4,Comparative Treatment Choice,4,embedding::036,embedding,0.6403959301400814
+T1-E4,Comparative Treatment Choice,5,embedding::309,embedding,0.627542152322343
+T1-E4,Comparative Treatment Choice,6,embedding::287,embedding,0.6241816043594469
+T1-E4,Comparative Treatment Choice,7,embedding::190,embedding,0.589216858638019
+T1-E4,Comparative Treatment Choice,8,embedding::184,embedding,0.573750978158852
+T1-E4,Comparative Treatment Choice,9,embedding::351,embedding,0.5605507916084077
+T1-E4,Comparative Treatment Choice,10,embedding::354,embedding,0.5432676044483267
+T1-E4,Comparative Treatment Choice,11,embedding::243,embedding,0.5283145204384727
+T1-E4,Comparative Treatment Choice,12,embedding::070,embedding,0.5138877129416393
+T1-E4,Comparative Treatment Choice,13,embedding::300,embedding,0.5084779045596468
+T1-E4,Comparative Treatment Choice,14,embedding::029,embedding,0.5048358995104776
+T1-E4,Comparative Treatment Choice,15,embedding::207,embedding,0.5000276339639229
+T1-E4,Dosing / Administration,1,structured::context::dose_context_flag,structured,2.8122951399773726
+T1-E4,Dosing / Administration,2,structured::context::has_age_group,structured,0.9077928881919218
+T1-E4,Dosing / Administration,3,embedding::296,embedding,0.7547337066594825
+T1-E4,Dosing / Administration,4,embedding::151,embedding,0.6737976589037651
+T1-E4,Dosing / Administration,5,embedding::017,embedding,0.6634539602098943
+T1-E4,Dosing / Administration,6,embedding::053,embedding,0.6415213580891151
+T1-E4,Dosing / Administration,7,embedding::165,embedding,0.6360167019510352
+T1-E4,Dosing / Administration,8,embedding::311,embedding,0.6271382997023193
+T1-E4,Dosing / Administration,9,embedding::200,embedding,0.5928779061015278
+T1-E4,Dosing / Administration,10,embedding::146,embedding,0.5674739489253793
+T1-E4,Dosing / Administration,11,embedding::152,embedding,0.5284867013406143
+T1-E4,Dosing / Administration,12,embedding::077,embedding,0.5254765080502491
+T1-E4,Dosing / Administration,13,structured::context::age_group::pediatric,structured,0.5235207362061005
+T1-E4,Dosing / Administration,14,embedding::092,embedding,0.5149975107946985
+T1-E4,Dosing / Administration,15,embedding::176,embedding,0.5088815446305807
+T1-E4,Efficacy / Outcomes,1,embedding::080,embedding,0.9940971969192437
+T1-E4,Efficacy / Outcomes,2,embedding::361,embedding,0.9649717395857479
+T1-E4,Efficacy / Outcomes,3,embedding::268,embedding,0.8179564636996487
+T1-E4,Efficacy / Outcomes,4,embedding::378,embedding,0.6939846127273047
+T1-E4,Efficacy / Outcomes,5,embedding::194,embedding,0.6601222257490503
+T1-E4,Efficacy / Outcomes,6,embedding::159,embedding,0.6519574376102597
+T1-E4,Efficacy / Outcomes,7,embedding::321,embedding,0.6475689189666627
+T1-E4,Efficacy / Outcomes,8,embedding::011,embedding,0.6346506313714342
+T1-E4,Efficacy / Outcomes,9,embedding::213,embedding,0.6334523960682117
+T1-E4,Efficacy / Outcomes,10,embedding::212,embedding,0.6319857855385566
+T1-E4,Efficacy / Outcomes,11,embedding::337,embedding,0.6177219313263784
+T1-E4,Efficacy / Outcomes,12,embedding::259,embedding,0.6067316289856094
+T1-E4,Efficacy / Outcomes,13,embedding::273,embedding,0.602135539673219
+T1-E4,Efficacy / Outcomes,14,embedding::244,embedding,0.6001892329620037
+T1-E4,Efficacy / Outcomes,15,embedding::090,embedding,0.5953956870336103
+T1-E4,Guideline / Evidence Lookup,1,structured::context::has_year,structured,1.5530435837093757
+T1-E4,Guideline / Evidence Lookup,2,structured::context::recency_flag,structured,1.4845163163320394
+T1-E4,Guideline / Evidence Lookup,3,embedding::176,embedding,1.1038509377939973
+T1-E4,Guideline / Evidence Lookup,4,embedding::189,embedding,0.8710298204555557
+T1-E4,Guideline / Evidence Lookup,5,embedding::098,embedding,0.8442554788605039
+T1-E4,Guideline / Evidence Lookup,6,embedding::060,embedding,0.7610816425190778
+T1-E4,Guideline / Evidence Lookup,7,embedding::308,embedding,0.7351607032909298
+T1-E4,Guideline / Evidence Lookup,8,embedding::347,embedding,0.6951982559904907
+T1-E4,Guideline / Evidence Lookup,9,embedding::231,embedding,0.6254898886886564
+T1-E4,Guideline / Evidence Lookup,10,embedding::095,embedding,0.5965384941234986
+T1-E4,Guideline / Evidence Lookup,11,embedding::004,embedding,0.5942354108304156
+T1-E4,Guideline / Evidence Lookup,12,embedding::281,embedding,0.5895574751154825
+T1-E4,Guideline / Evidence Lookup,13,embedding::279,embedding,0.5742079481355392
+T1-E4,Guideline / Evidence Lookup,14,embedding::120,embedding,0.5438490497482823
+T1-E4,Guideline / Evidence Lookup,15,embedding::366,embedding,0.5287416729980445
+T1-E4,Interaction / Combination,1,structured::has::multiple_molecules,structured,1.3609505571027496
+T1-E4,Interaction / Combination,2,structured::context::negation_flag,structured,0.9477192807683027
+T1-E4,Interaction / Combination,3,embedding::149,embedding,0.8900653376405648
+T1-E4,Interaction / Combination,4,embedding::382,embedding,0.672146510799625
+T1-E4,Interaction / Combination,5,embedding::047,embedding,0.6607047801928645
+T1-E4,Interaction / Combination,6,embedding::057,embedding,0.6566527555017788
+T1-E4,Interaction / Combination,7,embedding::304,embedding,0.6508528337098319
+T1-E4,Interaction / Combination,8,embedding::060,embedding,0.6279657978135007
+T1-E4,Interaction / Combination,9,embedding::006,embedding,0.6273909365176153
+T1-E4,Interaction / Combination,10,embedding::264,embedding,0.5804588207215872
+T1-E4,Interaction / Combination,11,embedding::296,embedding,0.5762579293944933
+T1-E4,Interaction / Combination,12,embedding::329,embedding,0.5698506362132065
+T1-E4,Interaction / Combination,13,embedding::267,embedding,0.5624203828229203
+T1-E4,Interaction / Combination,14,embedding::187,embedding,0.561640731942383
+T1-E4,Interaction / Combination,15,embedding::226,embedding,0.5543061288364677
+T1-E4,Management / Treatment Selection,1,embedding::271,embedding,1.1422793561562086
+T1-E4,Management / Treatment Selection,2,embedding::374,embedding,1.0720751406227982
+T1-E4,Management / Treatment Selection,3,embedding::324,embedding,0.8799460351116262
+T1-E4,Management / Treatment Selection,4,embedding::026,embedding,0.804454772369851
+T1-E4,Management / Treatment Selection,5,embedding::322,embedding,0.756467423774188
+T1-E4,Management / Treatment Selection,6,embedding::316,embedding,0.7502681371505603
+T1-E4,Management / Treatment Selection,7,embedding::226,embedding,0.6822032946706458
+T1-E4,Management / Treatment Selection,8,embedding::248,embedding,0.6612183652775725
+T1-E4,Management / Treatment Selection,9,embedding::032,embedding,0.6235362043788021
+T1-E4,Management / Treatment Selection,10,embedding::018,embedding,0.6151646702751796
+T1-E4,Management / Treatment Selection,11,embedding::164,embedding,0.6050841770060303
+T1-E4,Management / Treatment Selection,12,embedding::250,embedding,0.6032595507102583
+T1-E4,Management / Treatment Selection,13,embedding::047,embedding,0.5997323266894067
+T1-E4,Management / Treatment Selection,14,embedding::238,embedding,0.5894159050787008
+T1-E4,Management / Treatment Selection,15,embedding::291,embedding,0.5697426188808254
+T1-E4,Mechanism / Background Knowledge,1,embedding::161,embedding,0.9833182970107525
+T1-E4,Mechanism / Background Knowledge,2,embedding::196,embedding,0.9018181329131406
+T1-E4,Mechanism / Background Knowledge,3,embedding::149,embedding,0.8325654651451021
+T1-E4,Mechanism / Background Knowledge,4,embedding::279,embedding,0.7800354285754544
+T1-E4,Mechanism / Background Knowledge,5,embedding::142,embedding,0.7756790423013483
+T1-E4,Mechanism / Background Knowledge,6,embedding::322,embedding,0.693744568158289
+T1-E4,Mechanism / Background Knowledge,7,embedding::207,embedding,0.6596132805186989
+T1-E4,Mechanism / Background Knowledge,8,embedding::238,embedding,0.6506882657797304
+T1-E4,Mechanism / Background Knowledge,9,embedding::311,embedding,0.6039478934469608
+T1-E4,Mechanism / Background Knowledge,10,embedding::191,embedding,0.5952948338489148
+T1-E4,Mechanism / Background Knowledge,11,embedding::155,embedding,0.5781929042542497
+T1-E4,Mechanism / Background Knowledge,12,embedding::284,embedding,0.5758278694845189
+T1-E4,Mechanism / Background Knowledge,13,embedding::245,embedding,0.5488502462177025
+T1-E4,Mechanism / Background Knowledge,14,embedding::022,embedding,0.5480901780206059
+T1-E4,Mechanism / Background Knowledge,15,embedding::178,embedding,0.5367638745767195
+T1-E4,Monitoring / Response / Risk Assessment,1,embedding::098,embedding,0.9239100723544648
+T1-E4,Monitoring / Response / Risk Assessment,2,embedding::308,embedding,0.872525707917292
+T1-E4,Monitoring / Response / Risk Assessment,3,embedding::220,embedding,0.8623721155022328
+T1-E4,Monitoring / Response / Risk Assessment,4,embedding::116,embedding,0.7280004745196527
+T1-E4,Monitoring / Response / Risk Assessment,5,embedding::093,embedding,0.6584532627339756
+T1-E4,Monitoring / Response / Risk Assessment,6,embedding::173,embedding,0.6361091216074525
+T1-E4,Monitoring / Response / Risk Assessment,7,embedding::171,embedding,0.6158889171706746
+T1-E4,Monitoring / Response / Risk Assessment,8,embedding::345,embedding,0.6057044711858974
+T1-E4,Monitoring / Response / Risk Assessment,9,embedding::039,embedding,0.5857901800025171
+T1-E4,Monitoring / Response / Risk Assessment,10,embedding::306,embedding,0.5805631173978901
+T1-E4,Monitoring / Response / Risk Assessment,11,embedding::378,embedding,0.5678239936579877
+T1-E4,Monitoring / Response / Risk Assessment,12,embedding::272,embedding,0.5397581445090769
+T1-E4,Monitoring / Response / Risk Assessment,13,embedding::270,embedding,0.5389725102020584
+T1-E4,Monitoring / Response / Risk Assessment,14,embedding::012,embedding,0.5268333555442162
+T1-E4,Monitoring / Response / Risk Assessment,15,embedding::339,embedding,0.5221192508114061
+T1-E4,Prophylaxis / Maintenance,1,embedding::144,embedding,1.0562677162135357
+T1-E4,Prophylaxis / Maintenance,2,embedding::215,embedding,0.9370470442518982
+T1-E4,Prophylaxis / Maintenance,3,embedding::122,embedding,0.9185483457507149
+T1-E4,Prophylaxis / Maintenance,4,embedding::020,embedding,0.8685831378202843
+T1-E4,Prophylaxis / Maintenance,5,embedding::179,embedding,0.8001749498337983
+T1-E4,Prophylaxis / Maintenance,6,embedding::205,embedding,0.7763078544713452
+T1-E4,Prophylaxis / Maintenance,7,embedding::356,embedding,0.7189771921699696
+T1-E4,Prophylaxis / Maintenance,8,embedding::012,embedding,0.7068359984691422
+T1-E4,Prophylaxis / Maintenance,9,embedding::138,embedding,0.6987862171780057
+T1-E4,Prophylaxis / Maintenance,10,embedding::087,embedding,0.694841297276099
+T1-E4,Prophylaxis / Maintenance,11,embedding::085,embedding,0.6655806007005478
+T1-E4,Prophylaxis / Maintenance,12,embedding::054,embedding,0.6612602171627808
+T1-E4,Prophylaxis / Maintenance,13,embedding::342,embedding,0.6461546873152229
+T1-E4,Prophylaxis / Maintenance,14,embedding::052,embedding,0.635521022855718
+T1-E4,Prophylaxis / Maintenance,15,embedding::038,embedding,0.6354730892876108
+T1-E4,Safety / Contraindication,1,embedding::016,embedding,0.841013548500031
+T1-E4,Safety / Contraindication,2,embedding::185,embedding,0.8312894015523509
+T1-E4,Safety / Contraindication,3,embedding::023,embedding,0.7297707528968259
+T1-E4,Safety / Contraindication,4,embedding::210,embedding,0.6779092466765444
+T1-E4,Safety / Contraindication,5,embedding::003,embedding,0.6637392599372222
+T1-E4,Safety / Contraindication,6,embedding::014,embedding,0.6513213455681776
+T1-E4,Safety / Contraindication,7,embedding::304,embedding,0.6165189189919472
+T1-E4,Safety / Contraindication,8,embedding::005,embedding,0.6079779765066498
+T1-E4,Safety / Contraindication,9,embedding::138,embedding,0.6044971727488682
+T1-E4,Safety / Contraindication,10,structured::context::pregnancy_status::pregnant,structured,0.5956667500735756
+T1-E4,Safety / Contraindication,11,embedding::116,embedding,0.5876067969817608
+T1-E4,Safety / Contraindication,12,embedding::288,embedding,0.5857005605158939
+T1-E4,Safety / Contraindication,13,embedding::348,embedding,0.5681005516473321
+T1-E4,Safety / Contraindication,14,embedding::147,embedding,0.5656994477872668
+T1-E4,Safety / Contraindication,15,embedding::280,embedding,0.5505677390042746
+T1-E4,Treatment Change / Escalation,1,structured::has::multiple_molecules,structured,1.2935618584489177
+T1-E4,Treatment Change / Escalation,2,structured::context::prior_treatment_failure_flag,structured,1.2136393540243895
+T1-E4,Treatment Change / Escalation,3,embedding::088,embedding,0.8673822659871087
+T1-E4,Treatment Change / Escalation,4,embedding::370,embedding,0.7233023010560891
+T1-E4,Treatment Change / Escalation,5,embedding::172,embedding,0.7170255849047453
+T1-E4,Treatment Change / Escalation,6,embedding::102,embedding,0.6532558952645655
+T1-E4,Treatment Change / Escalation,7,embedding::191,embedding,0.624062817302633
+T1-E4,Treatment Change / Escalation,8,embedding::209,embedding,0.6133753395990027
+T1-E4,Treatment Change / Escalation,9,embedding::261,embedding,0.6084726546106753
+T1-E4,Treatment Change / Escalation,10,embedding::081,embedding,0.5985594219941225
+T1-E4,Treatment Change / Escalation,11,embedding::067,embedding,0.5951278590532905
+T1-E4,Treatment Change / Escalation,12,embedding::304,embedding,0.5933586914779015
+T1-E4,Treatment Change / Escalation,13,embedding::159,embedding,0.5725566570023891
+T1-E4,Treatment Change / Escalation,14,embedding::167,embedding,0.5704792259470207
+T1-E4,Treatment Change / Escalation,15,embedding::236,embedding,0.5450600235356421

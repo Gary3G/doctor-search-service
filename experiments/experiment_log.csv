@@ -1,8 +1,13 @@
 experiment,hypothesis,method,primary_metric,result,decision
-T1-B0,lexical features can identify intent,TF-IDF + Logistic Regression,Macro F1,TBD,baseline
+T1-B0,lexical features can identify intent,TF-IDF + Logistic Regression,Macro F1,5-fold weak-label Macro F1=0.981,retain; audit template-transfer sensitivity
 R-B0,lexical retrieval provides reasonable baseline,BM25,NDCG@10,TBD,baseline
 R-E1,supplied entities improve ranking,BM25 + entity features,NDCG@10,TBD,TBD
 R-E2,contextual slots improve constrained queries,structured contextual matching,NDCG@10,TBD,TBD
 R-E3,semantic retrieval improves lexical mismatch,dense sentence embeddings,Recall@10,TBD,TBD
 R-E4,hybrid retrieval improves overall ranking,sparse + dense + structured scoring,NDCG@10,TBD,TBD
 R-E5,intent improves ranking,hybrid scoring with intent-aware weights,NDCG@10,TBD,TBD
+T1-P0,intent definitions transfer without supervised fitting,frozen candidate-prototype cosine similarity,Macro F1,template-held-out Macro F1=0.651; delta vs T1-B0=+0.142,not selected
+T1-E1,supplied entities improve unseen-template intent transfer,TF-IDF + supplied entity indicators/counts + Logistic Regression,Macro F1,template-held-out Macro F1=0.514; delta vs T1-B0=+0.004,not selected
+T1-E2,contextual slots improve unseen-template intent transfer,TF-IDF + entities + contextual slots + Logistic Regression,Macro F1,template-held-out Macro F1=0.678; delta vs T1-B0=+0.169,not selected
+T1-E3,frozen semantic embeddings improve unseen-template intent transfer,frozen multilingual embeddings + Logistic Regression,Macro F1,template-held-out Macro F1=0.794; delta vs T1-B0=+0.285,not selected
+T1-E4,semantic and structured signals are complementary,L2-normalized frozen embeddings + entity/context features + Logistic Regression,Macro F1,template-held-out Macro F1=0.842; delta vs T1-B0=+0.333,selected

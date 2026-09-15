@@ -39,6 +39,9 @@ class ProjectConfig:
     bm25_k1: float = 1.5
     bm25_b: float = 0.75
     intent_model_name: str = "tfidf_logistic_regression"
+    intent_cv_splits: int = 5
+    intent_tfidf_ngram_range: tuple[int, int] = (1, 2)
+    intent_logreg_c: float = 1.0
     semantic_model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     positive_relevance_threshold: float = 1.0
     negative_relevance_threshold: float = 0.0

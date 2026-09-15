@@ -1,0 +1,13 @@
+intent,all_query_count,weak_label_count,weak_label_template_groups,average_prototype_margin_all,average_prototype_margin_weak_set,cv_evaluable,sparsity_note
+Management / Treatment Selection,58,50,20,0.06406903368034483,0.0696508383492,True,adequate_for_weak_label_cv
+Dosing / Administration,96,94,16,0.099375023078125,0.10133392875000001,True,adequate_for_weak_label_cv
+Safety / Contraindication,84,59,30,0.043857687061904765,0.050309733054237284,True,adequate_for_weak_label_cv
+Interaction / Combination,21,21,4,0.02242256338095238,0.02242256338095238,True,limited_independent_template_diversity
+Comparative Treatment Choice,23,23,4,0.09982848604347827,0.09982848604347827,True,limited_independent_template_diversity
+Monitoring / Response / Risk Assessment,33,8,1,0.043490287,0.119047016,True,limited_independent_template_diversity
+Efficacy / Outcomes,20,20,2,0.156713524,0.156713524,True,limited_independent_template_diversity
+Guideline / Evidence Lookup,59,6,3,0.04346457166101695,0.10153504816666666,True,limited_independent_template_diversity
+Treatment Change / Escalation,46,21,4,0.03134773976521739,0.03558929139047619,True,limited_independent_template_diversity
+Prophylaxis / Maintenance,31,31,4,0.1873463693548387,0.1873463693548387,True,limited_independent_template_diversity
+Mechanism / Background Knowledge,29,29,3,0.11024650751724138,0.11024650751724138,True,limited_independent_template_diversity
+Other / Ambiguous,0,0,0,,,False,not_observed

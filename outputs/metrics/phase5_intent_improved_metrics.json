@@ -1,0 +1,267 @@
+{
+  "phase4_baseline_metrics_path": "outputs/metrics/phase4_intent_baseline_metrics.json",
+  "label_source": "Phase 3 weak labels excluding 138 three-way disagreements",
+  "n_weak_labeled_queries": 362,
+  "evaluation_protocols": {
+    "row_stratified": "exact Phase 4 five-fold assignments; template overlap retained",
+    "template_grouped": "exact Phase 4 two-fold assignments; zero template overlap; Monitoring excluded"
+  },
+  "selected_experiment": "T1-E4",
+  "selected_representation": "frozen embeddings + entity indicators/counts + contextual slots",
+  "selection_reason": "simplest supervised representation within 0.010 grouped Macro F1 of the best; selection uses the Phase 4 template-held-out stress test",
+  "comparison": [
+    {
+      "protocol": "row_stratified",
+      "experiment": "T1-B0",
+      "representation": "word TF-IDF",
+      "n_queries": 362,
+      "n_classes": 11,
+      "macro_f1": 0.9807645756436333,
+      "macro_precision": 0.9910471237801747,
+      "macro_recall": 0.9721416941034685,
+      "weighted_f1": 0.9833140398300917,
+      "accuracy": 0.9834254143646409,
+      "macro_f1_delta_vs_phase4": 0.0
+    },
+    {
+      "protocol": "row_stratified",
+      "experiment": "T1-E4",
+      "representation": "frozen embeddings + entity indicators/counts + contextual slots",
+      "n_queries": 362,
+      "n_classes": 11,
+      "macro_f1": 0.9703229586727676,
+      "macro_precision": 0.9785217052922864,
+      "macro_recall": 0.9646944016435541,
+      "weighted_f1": 0.9637527437881582,
+      "accuracy": 0.9640883977900553,
+      "macro_f1_delta_vs_phase4": -0.010441616970865653
+    },
+    {
+      "protocol": "row_stratified",
+      "experiment": "T1-E1",
+      "representation": "word TF-IDF + supplied entity indicators/counts",
+      "n_queries": 362,
+      "n_classes": 11,
+      "macro_f1": 0.9692915714745296,
+      "macro_precision": 0.9845373800702955,
+      "macro_recall": 0.9576138490671489,
+      "weighted_f1": 0.9718791241566582,
+      "accuracy": 0.9723756906077348,
+      "macro_f1_delta_vs_phase4": -0.011473004169103684
+    },
+    {
+      "protocol": "row_stratified",
+      "experiment": "T1-E3",
+      "representation": "frozen multilingual sentence embeddings",
+      "n_queries": 362,
+      "n_classes": 11,
+      "macro_f1": 0.9690057224659644,
+      "macro_precision": 0.9774815157848074,
+      "macro_recall": 0.9631535695942475,
+      "weighted_f1": 0.9609006570952191,
+      "accuracy": 0.9613259668508287,
+      "macro_f1_delta_vs_phase4": -0.011758853177668893
+    },
+    {
+      "protocol": "row_stratified",
+      "experiment": "T1-E2",
+      "representation": "word TF-IDF + entity indicators/counts + contextual slots",
+      "n_queries": 362,
+      "n_classes": 11,
+      "macro_f1": 0.9614314877510026,
+      "macro_precision": 0.9705612993328511,
+      "macro_recall": 0.9542462515728721,
+      "weighted_f1": 0.9480323889974351,
+      "accuracy": 0.9475138121546961,
+      "macro_f1_delta_vs_phase4": -0.019333087892630663
+    },
+    {
+      "protocol": "row_stratified",
+      "experiment": "T1-P0",
+      "representation": "final-taxonomy prototype similarity",
+      "n_queries": 362,
+      "n_classes": 11,
+      "macro_f1": 0.6831281947481198,
+      "macro_precision": 0.7222975718595243,
+      "macro_recall": 0.7566511022335038,
+      "weighted_f1": 0.696153347979686,
+      "accuracy": 0.7044198895027625,
+      "macro_f1_delta_vs_phase4": -0.2976363808955135
+    },
+    {
+      "protocol": "template_grouped",
+      "experiment": "T1-E4",
+      "representation": "frozen embeddings + entity indicators/counts + contextual slots",
+      "n_queries": 354,
+      "n_classes": 10,
+      "macro_f1": 0.842487531755405,
+      "macro_precision": 0.878134275962838,
+      "macro_recall": 0.8334291442109922,
+      "weighted_f1": 0.8349490156259698,
+      "accuracy": 0.8418079096045198,
+      "macro_f1_delta_vs_phase4": 0.333384840874726
+    },
+    {
+      "protocol": "template_grouped",
+      "experiment": "T1-E3",
+      "representation": "frozen multilingual sentence embeddings",
+      "n_queries": 354,
+      "n_classes": 10,
+      "macro_f1": 0.7944113383215028,
+      "macro_precision": 0.804336812132511,
+      "macro_recall": 0.8203948165960661,
+      "weighted_f1": 0.7809096826012314,
+      "accuracy": 0.7796610169491526,
+      "macro_f1_delta_vs_phase4": 0.28530864744082374
+    },
+    {
+      "protocol": "template_grouped",
+      "experiment": "T1-E2",
+      "representation": "word TF-IDF + entity indicators/counts + contextual slots",
+      "n_queries": 354,
+      "n_classes": 10,
+      "macro_f1": 0.6782759866324161,
+      "macro_precision": 0.717934065934066,
+      "macro_recall": 0.6774542931528548,
+      "weighted_f1": 0.6995832313435852,
+      "accuracy": 0.711864406779661,
+      "macro_f1_delta_vs_phase4": 0.169173295751737
+    },
+    {
+      "protocol": "template_grouped",
+      "experiment": "T1-P0",
+      "representation": "final-taxonomy prototype similarity",
+      "n_queries": 354,
+      "n_classes": 10,
+      "macro_f1": 0.6514410142229318,
+      "macro_precision": 0.6945273290454768,
+      "macro_recall": 0.7323162124568543,
+      "weighted_f1": 0.6892867569735772,
+      "accuracy": 0.6977401129943502,
+      "macro_f1_delta_vs_phase4": 0.14233832334225271
+    },
+    {
+      "protocol": "template_grouped",
+      "experiment": "T1-E1",
+      "representation": "word TF-IDF + supplied entity indicators/counts",
+      "n_queries": 354,
+      "n_classes": 10,
+      "macro_f1": 0.5135618397814414,
+      "macro_precision": 0.6798076923076923,
+      "macro_recall": 0.5044249186751538,
+      "weighted_f1": 0.536006204422624,
+      "accuracy": 0.5706214689265536,
+      "macro_f1_delta_vs_phase4": 0.0044591489007623775
+    },
+    {
+      "protocol": "template_grouped",
+      "experiment": "T1-B0",
+      "representation": "word TF-IDF",
+      "n_queries": 354,
+      "n_classes": 10,
+      "macro_f1": 0.509102690880679,
+      "macro_precision": 0.5700049266653744,
+      "macro_recall": 0.5017800918582457,
+      "weighted_f1": 0.522386822328242,
+      "accuracy": 0.5480225988700564,
+      "macro_f1_delta_vs_phase4": 0.0
+    }
+  ],
+  "structured_prediction_changes": {
+    "total": 244,
+    "fixed_baseline_errors": 99,
+    "introduced_errors": 50,
+    "changed_but_both_wrong": 95
+  },
+  "fusion_vs_embedding_changes": {
+    "total": 61,
+    "fixed_embedding_errors": 28,
+    "introduced_errors": 5,
+    "changed_but_both_wrong": 28,
+    "grouped_fixed_embedding_errors": 27,
+    "grouped_introduced_errors": 5
+  },
+  "prototype_caveat": "final-taxonomy prototypes are used because literature seeds do not map one-to-one to final subtypes; prototype agreement influenced evaluation-row retention",
+  "embedding_experiment": {
+    "encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_dimension": 384,
+    "fine_tuned": false,
+    "cache_reused": "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase2_query_embeddings.npz",
+    "selection_bias_note": "the same frozen representation contributed prototype and cluster signals used by Phase 3 label-quality filtering"
+  },
+  "fusion_experiment": {
+    "experiment": "T1-E4",
+    "feature_blocks": [
+      "384-dimensional normalized frozen embedding",
+      "entity indicators/counts and contextual slots"
+    ],
+    "block_normalization": "independent L2 normalization; equal-weight concatenation",
+    "outer_fold_tuning": false
+  },
+  "most_common_selected_model_confusions": [
+    {
+      "true_intent": "Safety / Contraindication",
+      "predicted_intent": "Dosing / Administration",
+      "n_errors": 14,
+      "true_intent_support": 59,
+      "share_of_true_intent": 0.23728813559322035
+    },
+    {
+      "true_intent": "Prophylaxis / Maintenance",
+      "predicted_intent": "Management / Treatment Selection",
+      "n_errors": 12,
+      "true_intent_support": 31,
+      "share_of_true_intent": 0.3870967741935484
+    },
+    {
+      "true_intent": "Management / Treatment Selection",
+      "predicted_intent": "Prophylaxis / Maintenance",
+      "n_errors": 7,
+      "true_intent_support": 50,
+      "share_of_true_intent": 0.14
+    },
+    {
+      "true_intent": "Interaction / Combination",
+      "predicted_intent": "Comparative Treatment Choice",
+      "n_errors": 6,
+      "true_intent_support": 21,
+      "share_of_true_intent": 0.2857142857142857
+    },
+    {
+      "true_intent": "Management / Treatment Selection",
+      "predicted_intent": "Safety / Contraindication",
+      "n_errors": 6,
+      "true_intent_support": 50,
+      "share_of_true_intent": 0.12
+    },
+    {
+      "true_intent": "Interaction / Combination",
+      "predicted_intent": "Management / Treatment Selection",
+      "n_errors": 5,
+      "true_intent_support": 21,
+      "share_of_true_intent": 0.23809523809523808
+    },
+    {
+      "true_intent": "Management / Treatment Selection",
+      "predicted_intent": "Mechanism / Background Knowledge",
+      "n_errors": 2,
+      "true_intent_support": 50,
+      "share_of_true_intent": 0.04
+    },
+    {
+      "true_intent": "Safety / Contraindication",
+      "predicted_intent": "Mechanism / Background Knowledge",
+      "n_errors": 2,
+      "true_intent_support": 59,
+      "share_of_true_intent": 0.03389830508474576
+    }
+  ],
+  "limitations": [
+    "weak labels are not independent clinician gold labels",
+    "row-stratified CV permits template reuse",
+    "grouped sensitivity excludes one class and has only two folds",
+    "prototype evaluation is selection-biased",
+    "Other / Ambiguous has zero examples",
+    "structured features may encode dataset-specific shortcuts"
+  ]
+}

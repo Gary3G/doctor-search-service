@@ -1,0 +1,12 @@
+weak_label_intent,nearest_prototype_intent,n_queries,average_prototype_margin
+Safety / Contraindication,Comparative Treatment Choice,28,0.015691096092857144
+Dosing / Administration,Efficacy / Outcomes,26,0.028963948076923075
+Treatment Change / Escalation,Comparative Treatment Choice,21,0.03558929139047619
+Interaction / Combination,Comparative Treatment Choice,12,0.0254966615
+Safety / Contraindication,Dosing / Administration,6,0.04183200483333333
+Management / Treatment Selection,Safety / Contraindication,4,0.06428720925
+Safety / Contraindication,Guideline / Evidence Lookup,3,0.01755350853333333
+Safety / Contraindication,Efficacy / Outcomes,2,0.022109851
+Safety / Contraindication,Management / Treatment Selection,2,0.031244814
+Safety / Contraindication,Prophylaxis / Maintenance,2,0.043182507499999995
+Management / Treatment Selection,Prophylaxis / Maintenance,1,0.030868024

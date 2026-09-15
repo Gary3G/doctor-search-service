@@ -1,0 +1,16 @@
+cluster_id,weak_label_count,n_intents,dominant_intent,dominant_count,purity,entropy_nats
+0,149,8,Prophylaxis / Maintenance,31,0.2080536912751678,1.993328540332462
+1,19,3,Dosing / Administration,16,0.8421052631578947,0.5366645624845252
+2,11,3,Safety / Contraindication,8,0.7272727272727273,0.7595473914748635
+3,19,3,Dosing / Administration,15,0.7894736842105263,0.6330395116644678
+4,9,3,Safety / Contraindication,6,0.6666666666666666,0.8486855577264172
+5,17,1,Dosing / Administration,17,1.0,-0.0
+6,40,3,Mechanism / Background Knowledge,29,0.725,0.6719437041252312
+7,4,3,Safety / Contraindication,2,0.5,1.0397207708399179
+8,11,3,Dosing / Administration,9,0.8181818181818182,0.6001660731596457
+9,8,1,Monitoring / Response / Risk Assessment,8,1.0,-0.0
+10,33,1,Dosing / Administration,33,1.0,-0.0
+11,11,1,Management / Treatment Selection,11,1.0,-0.0
+12,7,1,Safety / Contraindication,7,1.0,-0.0
+13,4,3,Safety / Contraindication,2,0.5,1.0397207708399179
+14,20,2,Safety / Contraindication,16,0.8,0.5004024235381879

@@ -10,8 +10,6 @@ clinician gold data.
 
 from __future__ import annotations
 
-import json
-from pathlib import Path
 import re
 from typing import Any, Iterable
 
@@ -806,65 +804,3 @@ def validate_deliverables(deliverables: dict[str, pd.DataFrame]) -> None:
     history = deliverables["kappa_history"]
     if history["fleiss_kappa"].iloc[-1] < history["fleiss_kappa"].iloc[0]:
         raise AssertionError("Kappa optimization must not reduce its objective")
-
-
-def run_phase3_labeling() -> dict[str, Path]:
-    """Run Phase 3 and write all auditable annotation artifacts."""
-    queries = pd.read_csv(ENRICHED_QUERIES_PATH)
-    phase2 = pd.read_csv(PROTOTYPE_ASSIGNMENTS_PATH)
-    frame = build_annotation_frame(queries, phase2)
-    deliverables = build_deliverables(frame)
-    validate_deliverables(deliverables)
-    guidelines = build_guidelines()
-    metrics = build_metrics(deliverables)
-
-    PHASE3_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    deliverables["pilot"].to_csv(PILOT_PATH, index=False)
-    deliverables["gold"].to_csv(GOLD_PATH, index=False)
-    deliverables["audit"].to_csv(QUALITY_AUDIT_PATH, index=False)
-    deliverables["disagreements"].to_csv(DISAGREEMENT_PATH, index=False)
-    deliverables["signal_audit"].to_csv(SIGNAL_AUDIT_PATH, index=False)
-    deliverables["cluster_mapping"].to_csv(CLUSTER_MAPPING_PATH, index=False)
-    deliverables["kappa_history"].to_csv(KAPPA_HISTORY_PATH, index=False)
-    deliverables["labeled"].to_csv(LABELED_QUERIES_PATH, index=False)
-    deliverables["labeled"].to_csv(ROOT_LABELED_QUERIES_PATH, index=False)
-    guidelines.to_csv(GUIDELINES_PATH, index=False)
-    METRICS_PATH.write_text(
-        json.dumps(metrics, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-    )
-    kappa_diagnostics = {
-        key: value
-        for key, value in metrics.items()
-        if key.startswith("fleiss_kappa")
-        or key in {
-            "pairwise_cohen_kappa",
-            "signal_agreement_distribution",
-            "kappa_interpretation",
-        }
-    }
-    KAPPA_PATH.write_text(
-        json.dumps(kappa_diagnostics, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    REPORT_PATH.write_text(build_report(metrics), encoding="utf-8")
-    return {
-        "queries_labeled": LABELED_QUERIES_PATH,
-        "queries_labeled_root": ROOT_LABELED_QUERIES_PATH,
-        "pilot": PILOT_PATH,
-        "reviewed_subset": GOLD_PATH,
-        "quality_audit": QUALITY_AUDIT_PATH,
-        "adjudicated_disagreements": DISAGREEMENT_PATH,
-        "three_signal_assignments": SIGNAL_AUDIT_PATH,
-        "cluster_intent_mapping": CLUSTER_MAPPING_PATH,
-        "kappa_diagnostics": KAPPA_PATH,
-        "kappa_optimization_history": KAPPA_HISTORY_PATH,
-        "annotation_guidelines": GUIDELINES_PATH,
-        "metrics": METRICS_PATH,
-        "report": REPORT_PATH,
-    }
-
-
-if __name__ == "__main__":
-    for name, path in run_phase3_labeling().items():
-        print(f"{name}: {path}")

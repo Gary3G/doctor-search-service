@@ -1,0 +1,166 @@
+intent,rank,feature,coefficient
+Comparative Treatment Choice,1,vs,3.7078293254997554
+Comparative Treatment Choice,2,untuk,1.4625781460645624
+Comparative Treatment Choice,3,patients,1.4386897644248549
+Comparative Treatment Choice,4,efektif,0.9165586538504364
+Comparative Treatment Choice,5,lebih,0.9165586538504364
+Comparative Treatment Choice,6,mana,0.9165586538504364
+Comparative Treatment Choice,7,lebih efektif,0.9165586538504364
+Comparative Treatment Choice,8,mana lebih,0.9165586538504364
+Comparative Treatment Choice,9,efficacy in,0.7959908330190538
+Comparative Treatment Choice,10,metronidazole,0.7571592829897313
+Comparative Treatment Choice,11,magnesium sulphate,0.6374724646210088
+Comparative Treatment Choice,12,magnesium,0.5826805948491662
+Comparative Treatment Choice,13,venlafaxine vs,0.5531541703910166
+Comparative Treatment Choice,14,untuk pasien,0.5331252660784284
+Comparative Treatment Choice,15,sulphate,0.5330057280844149
+Dosing / Administration,1,dosis,1.639505775438159
+Dosing / Administration,2,dose,1.532443615182371
+Dosing / Administration,3,impairment,1.0752190889282165
+Dosing / Administration,4,pasien,0.8612119097570247
+Dosing / Administration,5,impairment dose,0.8385765545042732
+Dosing / Administration,6,dose in,0.8385765545042732
+Dosing / Administration,7,renal,0.8082338395730306
+Dosing / Administration,8,adjustment,0.7908592146844259
+Dosing / Administration,9,loading,0.7659350721832054
+Dosing / Administration,10,loading dose,0.7659350721832054
+Dosing / Administration,11,emergency,0.7659350721832054
+Dosing / Administration,12,hepatic impairment,0.7122214161753224
+Dosing / Administration,13,hepatic,0.7122214161753224
+Dosing / Administration,14,anak,0.6676785255950973
+Dosing / Administration,15,pada anak,0.6676785255950973
+Efficacy / Outcomes,1,term outcomes,2.0862210939978763
+Efficacy / Outcomes,2,outcomes,2.0862210939978763
+Efficacy / Outcomes,3,term,2.0862210939978763
+Efficacy / Outcomes,4,long term,2.0862210939978763
+Efficacy / Outcomes,5,long,2.0862210939978763
+Efficacy / Outcomes,6,efficacy pada,1.46585664068185
+Efficacy / Outcomes,7,data,1.46585664068185
+Efficacy / Outcomes,8,outcome data,1.46585664068185
+Efficacy / Outcomes,9,outcome,1.46585664068185
+Efficacy / Outcomes,10,clinical,1.46585664068185
+Efficacy / Outcomes,11,clinical outcome,1.46585664068185
+Efficacy / Outcomes,12,efficacy,1.3235447152172402
+Efficacy / Outcomes,13,bedaquiline long,0.4334015512381168
+Efficacy / Outcomes,14,mellitus clinical,0.42585574513714963
+Efficacy / Outcomes,15,pada type,0.3840589958032995
+Guideline / Evidence Lookup,1,guideline,2.234113499530901
+Guideline / Evidence Lookup,2,update,2.234113499530901
+Guideline / Evidence Lookup,3,summary,2.234113499530901
+Guideline / Evidence Lookup,4,guideline update,2.234113499530901
+Guideline / Evidence Lookup,5,update 2023,0.9805505415365817
+Guideline / Evidence Lookup,6,2023,0.9805505415365817
+Guideline / Evidence Lookup,7,2023 summary,0.9805505415365817
+Guideline / Evidence Lookup,8,terbaru summary,0.9623065550298989
+Guideline / Evidence Lookup,9,terbaru,0.9623065550298989
+Guideline / Evidence Lookup,10,update terbaru,0.9623065550298989
+Guideline / Evidence Lookup,11,2022,0.8631497908981451
+Guideline / Evidence Lookup,12,evidence,0.8631497908981451
+Guideline / Evidence Lookup,13,hypertension 2022,0.8631497908981451
+Guideline / Evidence Lookup,14,evidence hypertension,0.8631497908981451
+Guideline / Evidence Lookup,15,blockers new,0.8631497908981451
+Interaction / Combination,1,dan,2.084890020739709
+Interaction / Combination,2,combination therapy,1.6012228053696205
+Interaction / Combination,3,combination,1.453281131768211
+Interaction / Combination,4,therapy,1.4115655021923355
+Interaction / Combination,5,interaksi obat,1.364797685764223
+Interaction / Combination,6,interaksi,1.364797685764223
+Interaction / Combination,7,obat,1.150306585750424
+Interaction / Combination,8,drug interaction,1.070439614426301
+Interaction / Combination,9,interaction with,1.070439614426301
+Interaction / Combination,10,interaction,1.070439614426301
+Interaction / Combination,11,aman atau,1.0181966280387502
+Interaction / Combination,12,kombinasi,1.0181966280387502
+Interaction / Combination,13,atau,1.0181966280387502
+Interaction / Combination,14,atau tidak,1.0181966280387502
+Interaction / Combination,15,tidak,0.8467909660699166
+Management / Treatment Selection,1,terapi,1.9687770496401977
+Management / Treatment Selection,2,line,1.2489047750768316
+Management / Treatment Selection,3,first line,1.2489047750768316
+Management / Treatment Selection,4,first,1.2489047750768316
+Management / Treatment Selection,5,algoritma,1.0613885366629434
+Management / Treatment Selection,6,step up,1.0613885366629434
+Management / Treatment Selection,7,algoritma terapi,1.0613885366629434
+Management / Treatment Selection,8,up,1.0613885366629434
+Management / Treatment Selection,9,step,1.0613885366629434
+Management / Treatment Selection,10,drug,1.0039204926670495
+Management / Treatment Selection,11,line drug,0.9495500512563607
+Management / Treatment Selection,12,kapan mulai,0.8833318860380222
+Management / Treatment Selection,13,mulai terapi,0.8833318860380222
+Management / Treatment Selection,14,mulai,0.8833318860380222
+Management / Treatment Selection,15,pilihan,0.8819375562189369
+Mechanism / Background Knowledge,1,mechanism,2.1056759256978475
+Mechanism / Background Knowledge,2,role,1.7922706948249292
+Mechanism / Background Knowledge,3,role in,1.7922706948249292
+Mechanism / Background Knowledge,4,pathophysiology,1.7922706948249292
+Mechanism / Background Knowledge,5,of,1.3765676662845627
+Mechanism / Background Knowledge,6,of action,1.3765676662845627
+Mechanism / Background Knowledge,7,action,1.3765676662845627
+Mechanism / Background Knowledge,8,action in,1.3765676662845627
+Mechanism / Background Knowledge,9,mechanism of,1.3765676662845627
+Mechanism / Background Knowledge,10,bagaimana,1.0705737597091876
+Mechanism / Background Knowledge,11,kerjanya,1.0705737597091876
+Mechanism / Background Knowledge,12,cara kerjanya,1.0705737597091876
+Mechanism / Background Knowledge,13,mechanism untuk,1.0705737597091876
+Mechanism / Background Knowledge,14,cara,1.0705737597091876
+Mechanism / Background Knowledge,15,bagaimana cara,1.0705737597091876
+Monitoring / Response / Risk Assessment,1,stratification approach,2.4679844490362552
+Monitoring / Response / Risk Assessment,2,risk,2.4679844490362552
+Monitoring / Response / Risk Assessment,3,stratification,2.4679844490362552
+Monitoring / Response / Risk Assessment,4,approach,2.4679844490362552
+Monitoring / Response / Risk Assessment,5,risk stratification,2.4679844490362552
+Monitoring / Response / Risk Assessment,6,infection risk,0.453157153862658
+Monitoring / Response / Risk Assessment,7,leukaemia risk,0.4474552610273305
+Monitoring / Response / Risk Assessment,8,disorder risk,0.4281456596997292
+Monitoring / Response / Risk Assessment,9,fibrillation risk,0.4259506958029228
+Monitoring / Response / Risk Assessment,10,lymphocytic leukaemia,0.4037823507980052
+Monitoring / Response / Risk Assessment,11,lymphocytic,0.4037823507980052
+Monitoring / Response / Risk Assessment,12,chronic lymphocytic,0.4037823507980052
+Monitoring / Response / Risk Assessment,13,epilepsy risk,0.3832314588087696
+Monitoring / Response / Risk Assessment,14,gout risk,0.37586784617942187
+Monitoring / Response / Risk Assessment,15,malaria risk,0.3754033035607411
+Prophylaxis / Maintenance,1,prophylaxis,2.6274368286056076
+Prophylaxis / Maintenance,2,indication,1.801724151119797
+Prophylaxis / Maintenance,3,kapan,1.6499150173900088
+Prophylaxis / Maintenance,4,bisa,1.266011385778419
+Prophylaxis / Maintenance,5,bisa dihentikan,1.266011385778419
+Prophylaxis / Maintenance,6,kapan bisa,1.266011385778419
+Prophylaxis / Maintenance,7,dihentikan,1.266011385778419
+Prophylaxis / Maintenance,8,terapi profilaksis,1.237218324894489
+Prophylaxis / Maintenance,9,profilaksis,1.237218324894489
+Prophylaxis / Maintenance,10,kapan maintenance,0.9882700050547022
+Prophylaxis / Maintenance,11,sudah tercapai,0.9882700050547022
+Prophylaxis / Maintenance,12,sudah,0.9882700050547022
+Prophylaxis / Maintenance,13,tercapai,0.9882700050547022
+Prophylaxis / Maintenance,14,tercapai kapan,0.9882700050547022
+Prophylaxis / Maintenance,15,maintenance,0.9882700050547022
+Safety / Contraindication,1,kontraindikasi,1.3393439018855717
+Safety / Contraindication,2,and,1.064701244361524
+Safety / Contraindication,3,pregnancy and,1.064701244361524
+Safety / Contraindication,4,dengan,1.052612877804249
+Safety / Contraindication,5,pada,1.0381907554773544
+Safety / Contraindication,6,in pregnancy,0.9100294582469697
+Safety / Contraindication,7,pregnancy,0.9033794817835353
+Safety / Contraindication,8,side,0.7983487665180709
+Safety / Contraindication,9,saja,0.7983487665180709
+Safety / Contraindication,10,effect,0.7983487665180709
+Safety / Contraindication,11,side effect,0.7983487665180709
+Safety / Contraindication,12,apa saja,0.7983487665180709
+Safety / Contraindication,13,effect pada,0.7983487665180709
+Safety / Contraindication,14,is,0.7883220442731724
+Safety / Contraindication,15,safe in,0.7883220442731724
+Treatment Change / Escalation,1,ke,2.2710517679112043
+Treatment Change / Escalation,2,alternatif,1.653107232064522
+Treatment Change / Escalation,3,resistensi,1.653107232064522
+Treatment Change / Escalation,4,progresif,1.4666137457737192
+Treatment Change / Escalation,5,switch dari,1.4666137457737192
+Treatment Change / Escalation,6,switch,1.4666137457737192
+Treatment Change / Escalation,7,dari,1.4666137457737192
+Treatment Change / Escalation,8,penggantian,1.122133350177686
+Treatment Change / Escalation,9,resistance in,0.8968657837713432
+Treatment Change / Escalation,10,alternative,0.8968657837713432
+Treatment Change / Escalation,11,resistance,0.8968657837713432
+Treatment Change / Escalation,12,alternative therapy,0.8968657837713432
+Treatment Change / Escalation,13,therapy,0.6293653150076366
+Treatment Change / Escalation,14,pada,0.6038663388153304
+Treatment Change / Escalation,15,rifampicin,0.43749928847346675

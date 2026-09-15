@@ -1,0 +1,12 @@
+reviewed_intent,Management / Treatment Selection,Dosing / Administration,Safety / Contraindication,Interaction / Combination,Comparative Treatment Choice,Monitoring / Response / Risk Assessment,Efficacy / Outcomes,Guideline / Evidence Lookup,Treatment Change / Escalation,Prophylaxis / Maintenance,Mechanism / Background Knowledge
+Management / Treatment Selection,50,0,0,0,0,0,0,0,0,0,0
+Dosing / Administration,0,93,1,0,0,0,0,0,0,0,0
+Safety / Contraindication,0,2,57,0,0,0,0,0,0,0,0
+Interaction / Combination,0,1,0,20,0,0,0,0,0,0,0
+Comparative Treatment Choice,0,0,0,0,23,0,0,0,0,0,0
+Monitoring / Response / Risk Assessment,0,0,0,0,0,8,0,0,0,0,0
+Efficacy / Outcomes,0,0,0,0,0,0,20,0,0,0,0
+Guideline / Evidence Lookup,0,0,0,0,0,0,0,5,0,0,1
+Treatment Change / Escalation,0,0,1,0,0,0,0,0,20,0,0
+Prophylaxis / Maintenance,0,0,0,0,0,0,0,0,0,31,0
+Mechanism / Background Knowledge,0,0,0,0,0,0,0,0,0,0,29

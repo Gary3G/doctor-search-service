@@ -1,0 +1,355 @@
+query_id,query_text,fold,template_id,true_intent,predicted_intent,correct
+Q003,interaksi obat Nivolumab dan Nivolumab pada Colorectal Cancer,1,afa6fb7e3640,Interaction / Combination,Management / Treatment Selection,False
+Q004,Apixaban efficacy pada Deep Vein Thrombosis clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Treatment Change / Escalation,False
+Q005,Penicillins in pregnancy and HIV/AIDS,2,ed8667a89e88,Safety / Contraindication,Dosing / Administration,False
+Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak,2,1d1abfbd8194,Interaction / Combination,Interaction / Combination,True
+Q007,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q009,Tenofovir+Lamivudine drug interaction with Tenofovir+Lamivudine in Urinary Tract Infection,2,478837781f0e,Interaction / Combination,Interaction / Combination,True
+Q010,renal dose adjustment Magnesium sulphate in Preeclampsia,2,cd1052335e0a,Dosing / Administration,Comparative Treatment Choice,False
+Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q012,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q013,kontraindikasi Bedaquiline pada Tuberculosis dengan anaemia,1,9870c9a484f1,Safety / Contraindication,Safety / Contraindication,True
+Q014,Malaria pediatric dosing Tenofovir disoproxil,1,d5dfc84007de,Dosing / Administration,Interaction / Combination,False
+Q015,Peptic Ulcer Disease prophylaxis Lansoprazole indication,2,da816ba756d0,Prophylaxis / Maintenance,Treatment Change / Escalation,False
+Q017,PD-1 inhibitors mechanism untuk Colorectal Cancer bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q018,interaksi obat Losartan dan Empagliflozin pada Chronic Kidney Disease,1,afa6fb7e3640,Interaction / Combination,Management / Treatment Selection,False
+Q019,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q021,dosis titrasi Tenofovir disoproxil Malaria toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q022,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa,2,710c31cca86a,Treatment Change / Escalation,Safety / Contraindication,False
+Q024,Gout dengan renal impairment penyesuaian dosis Adalimumab,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q025,Acute Coronary Syndrome guideline update 2023 summary,1,6c58394a9978,Guideline / Evidence Lookup,Guideline / Evidence Lookup,True
+Q026,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,2,70678f52e3f5,Safety / Contraindication,Safety / Contraindication,True
+Q029,Empagliflozin efficacy pada Type 2 Diabetes Mellitus clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Management / Treatment Selection,False
+Q031,Ibuprofen side effect pada pasien Psoriatic Arthritis apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q032,interaksi obat Ramipril dan Spironolactone pada Heart Failure,1,afa6fb7e3640,Interaction / Combination,Interaction / Combination,True
+Q033,dosis Semaglutide pada Obesity pasien hypertension aman tidak,2,a4a2af11e084,Safety / Contraindication,Safety / Contraindication,True
+Q034,Typhoid Fever treatment algorithm Antimalarials first line,1,594746dc8026,Management / Treatment Selection,Management / Treatment Selection,True
+Q035,algoritma terapi HIV/AIDS step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q036,Atrial Fibrillation pediatric dosing Empagliflozin,1,d5dfc84007de,Dosing / Administration,Dosing / Administration,True
+Q037,SSRIs in pregnancy and ADHD,2,ed8667a89e88,Safety / Contraindication,Dosing / Administration,False
+Q039,algoritma terapi Chronic Kidney Disease step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q040,resistensi Desmopressin pada Diabetes Insipidus alternatif Desmopressin,2,710c31cca86a,Treatment Change / Escalation,Dosing / Administration,False
+Q041,SGLT2 inhibitors mechanism of action in Chronic Kidney Disease,1,5345ee42b4e3,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q043,Thyroid hormones kontraindikasi pada Hyperthyroidism dengan hepatic impairment,2,494372f04cda,Safety / Contraindication,Safety / Contraindication,True
+Q044,Malaria with pregnancy first line drug,1,cc5ac64caac5,Management / Treatment Selection,Management / Treatment Selection,True
+Q046,kapan mulai terapi Adalimumab pada Gout,2,8a9a544a6533,Management / Treatment Selection,Prophylaxis / Maintenance,False
+Q047,Tiotropium long term outcomes COPD,2,f01dddd287b1,Efficacy / Outcomes,Safety / Contraindication,False
+Q048,Ibuprofen long term outcomes Systemic Lupus Erythematosus,2,f01dddd287b1,Efficacy / Outcomes,Dosing / Administration,False
+Q049,Calcium channel blockers mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Dosing / Administration,False
+Q050,Levofloxacin hepatic impairment dose in HIV/AIDS,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q053,Atypical antipsychotics mechanism of action in Schizophrenia,1,5345ee42b4e3,Mechanism / Background Knowledge,Dosing / Administration,False
+Q055,Methimazole side effect pada pasien Hyperthyroidism apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q056,Sepsis emergency Piperacillin-tazobactam loading dose berapa,1,99a10b7361fd,Dosing / Administration,Interaction / Combination,False
+Q057,Dapagliflozin vs Dapagliflozin untuk pasien Chronic Kidney Disease mana lebih efektif,1,3fde7b2fc12a,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q058,Thrombolytics role in Ischaemic Stroke pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Comparative Treatment Choice,False
+Q059,switch dari Dupilumab ke Cyclosporine Psoriasis progresif,1,cc7ef385fde1,Treatment Change / Escalation,Dosing / Administration,False
+Q060,Migraine with liver disease first line drug,1,2d44e5be7a46,Management / Treatment Selection,Management / Treatment Selection,True
+Q063,Malaria pada anak dosis Tenofovir disoproxil,1,eaced383bf48,Dosing / Administration,Interaction / Combination,False
+Q065,Semaglutide efficacy pada Type 2 Diabetes Mellitus clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Safety / Contraindication,False
+Q068,Labetalol resistance in Hypertension in Pregnancy alternative therapy,1,972b8cd8de38,Treatment Change / Escalation,Safety / Contraindication,False
+Q069,dosis titrasi Alendronate Osteoporosis toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q070,Furosemide long term outcomes Nephrotic Syndrome,2,f01dddd287b1,Efficacy / Outcomes,Dosing / Administration,False
+Q071,Vancomycin vs Piperacillin-tazobactam in Sepsis patients,1,d6572fa1b039,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q072,prophylaxis Typhoid Fever Artemether-lumefantrine kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q074,Zinc supplements role in Stunting / Malnutrition pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Safety / Contraindication,False
+Q075,Psoriasis guideline update terbaru summary,2,218a65f48c2b,Guideline / Evidence Lookup,Guideline / Evidence Lookup,True
+Q076,Acute Coronary Syndrome dengan renal impairment penyesuaian dosis Ezetimibe,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q077,algoritma terapi Iron Deficiency Anaemia step up,1,abe2151a12ea,Management / Treatment Selection,Safety / Contraindication,False
+Q078,apakah Risperidone aman untuk Schizophrenia dengan anaemia,2,e49463e1274d,Safety / Contraindication,Safety / Contraindication,True
+Q079,Benzodiazepines mechanism of action in Febrile Seizure,1,5345ee42b4e3,Mechanism / Background Knowledge,Safety / Contraindication,False
+Q084,algoritma terapi COPD step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q085,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive,2,69ffe19b306b,Comparative Treatment Choice,Dosing / Administration,False
+Q088,renal dose adjustment Diazepam in Febrile Seizure,2,cd1052335e0a,Dosing / Administration,Dosing / Administration,True
+Q090,algoritma terapi Community-acquired Pneumonia step up,1,abe2151a12ea,Management / Treatment Selection,Dosing / Administration,False
+Q091,Liraglutide pada pasien elderly Obesity apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q092,switch dari Levothyroxine ke Levothyroxine Hyperthyroidism progresif,1,cc7ef385fde1,Treatment Change / Escalation,Dosing / Administration,False
+Q093,penggantian Ezetimibe ke Amlodipine pada Acute Coronary Syndrome,2,948b14698d5c,Treatment Change / Escalation,Safety / Contraindication,False
+Q097,Iron Deficiency Anaemia pada anak dosis Ferrous sulphate,1,eaced383bf48,Dosing / Administration,Safety / Contraindication,False
+Q099,Atrial Fibrillation emergency Apixaban loading dose berapa,1,99a10b7361fd,Dosing / Administration,Dosing / Administration,True
+Q100,prophylaxis Ischaemic Stroke Alteplase kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q101,Dolutegravir drug interaction with Tenofovir disoproxil in Malaria,2,478837781f0e,Interaction / Combination,Dosing / Administration,False
+Q102,Antimalarials kontraindikasi pada Typhoid Fever dengan obesity,2,c5da815fa0f2,Safety / Contraindication,Safety / Contraindication,True
+Q104,Erythropoietin loading dose Iron Deficiency Anaemia emergency,1,ac570d520b1e,Dosing / Administration,Safety / Contraindication,False
+Q106,titration protocol Metoprolol in Heart Failure,2,94c522035a7e,Dosing / Administration,Dosing / Administration,True
+Q107,algoritma terapi Asthma step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q110,dosis titrasi Topiramate Epilepsy toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q111,Erythropoietin contraindication in Iron Deficiency Anaemia with anaemia,2,0ba360344167,Safety / Contraindication,Dosing / Administration,False
+Q112,Alteplase vs Aspirin in Ischaemic Stroke patients,1,d6572fa1b039,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q114,Colchicine vs Colchicine in Psoriatic Arthritis patients,1,d6572fa1b039,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q115,dosis Artemether-lumefantrine untuk pasien Typhoid Fever,2,6b1965d20a53,Dosing / Administration,Dosing / Administration,True
+Q117,switch dari Artemether-lumefantrine ke Artemether-lumefantrine Typhoid Fever progresif,1,cc7ef385fde1,Treatment Change / Escalation,Dosing / Administration,False
+Q118,Chronic Lymphocytic Leukaemia emergency Ibrutinib loading dose berapa,1,99a10b7361fd,Dosing / Administration,Dosing / Administration,True
+Q121,when to start Venlafaxine in Major Depressive Disorder,2,13d11e4b4b23,Management / Treatment Selection,Dosing / Administration,False
+Q122,Tenofovir+Lamivudine pada pasien elderly Urinary Tract Infection apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q123,kapan mulai terapi Rivaroxaban pada Deep Vein Thrombosis,2,8a9a544a6533,Management / Treatment Selection,Dosing / Administration,False
+Q125,kontraindikasi Secukinumab pada Gout dengan heart failure,2,efff2666d08e,Safety / Contraindication,Safety / Contraindication,True
+Q127,Tuberculosis with CKD first line drug,1,5ff75f28c581,Management / Treatment Selection,Management / Treatment Selection,True
+Q129,Imatinib pada ibu hamil dengan Chronic Myeloid Leukaemia,1,8d3aa2c8633c,Safety / Contraindication,Safety / Contraindication,True
+Q130,Bisoprolol dosing in Heart Failure with hypertension,2,e057ee4b921e,Dosing / Administration,Dosing / Administration,True
+Q131,kontraindikasi Rifampicin pada Tuberculosis dengan COPD,1,138d4ede2b0b,Safety / Contraindication,Safety / Contraindication,True
+Q132,Methotrexate dosing in Systemic Lupus Erythematosus with heart failure,1,0eac518ed6a6,Dosing / Administration,Dosing / Administration,True
+Q134,Non-Small Cell Lung Cancer prophylaxis Pembrolizumab indication,2,da816ba756d0,Prophylaxis / Maintenance,Safety / Contraindication,False
+Q135,Rosuvastatin hepatic impairment dose in Acute Coronary Syndrome,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q137,ARBs mechanism untuk Heart Failure bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Dosing / Administration,False
+Q138,Pembrolizumab pada ibu hamil dengan Non-Small Cell Lung Cancer,1,8d3aa2c8633c,Safety / Contraindication,Management / Treatment Selection,False
+Q139,dosis titrasi Artemether-lumefantrine Typhoid Fever toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q140,Beta blockers selective role in Stable Angina pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Dosing / Administration,False
+Q141,prophylaxis Colorectal Cancer Pembrolizumab kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q142,Vitamin A kontraindikasi pada Stunting / Malnutrition dengan COPD,2,dc07a5051e20,Safety / Contraindication,Safety / Contraindication,True
+Q143,switch dari Adalimumab ke Adalimumab Systemic Lupus Erythematosus progresif,1,cc7ef385fde1,Treatment Change / Escalation,Prophylaxis / Maintenance,False
+Q144,Colchicine loading dose Psoriatic Arthritis emergency,1,ac570d520b1e,Dosing / Administration,Dosing / Administration,True
+Q145,titration protocol Rivaroxaban in Community-acquired Pneumonia,2,94c522035a7e,Dosing / Administration,Dosing / Administration,True
+Q146,Bedaquiline vs Rifampicin untuk pasien Tuberculosis mana lebih efektif,1,3fde7b2fc12a,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q148,MDR Tuberculosis dengan renal impairment penyesuaian dosis Bedaquiline,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q149,Factor Xa inhibitors mechanism of action in Community-acquired Pneumonia,1,5345ee42b4e3,Mechanism / Background Knowledge,Dosing / Administration,False
+Q150,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia,2,e57118fc321d,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q152,apakah Bedaquiline aman untuk Tuberculosis dengan obesity,1,b25b0107af64,Safety / Contraindication,Safety / Contraindication,True
+Q153,Rheumatoid Arthritis guideline update 2023 summary,1,6c58394a9978,Guideline / Evidence Lookup,Guideline / Evidence Lookup,True
+Q154,Apixaban hepatic impairment dose in Community-acquired Pneumonia,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q155,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,2,1d1abfbd8194,Interaction / Combination,Interaction / Combination,True
+Q157,Benzodiazepines in pregnancy and Febrile Seizure,2,ed8667a89e88,Safety / Contraindication,Mechanism / Background Knowledge,False
+Q158,when to start Sertraline in ADHD,2,13d11e4b4b23,Management / Treatment Selection,Dosing / Administration,False
+Q159,titration protocol Cyclosporine in Psoriasis,2,94c522035a7e,Dosing / Administration,Comparative Treatment Choice,False
+Q160,Obesity pada anak dosis Liraglutide,1,eaced383bf48,Dosing / Administration,Dosing / Administration,True
+Q161,Magnesium sulphate pada pasien elderly Preeclampsia apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q162,Diazepam contraindication in Febrile Seizure with diabetes,2,88e3032314c8,Safety / Contraindication,Safety / Contraindication,True
+Q163,is Amlodipine safe in Acute Coronary Syndrome with obesity,1,f6cb6a4cde79,Safety / Contraindication,Safety / Contraindication,True
+Q165,dosis Escitalopram untuk pasien ADHD,2,6b1965d20a53,Dosing / Administration,Comparative Treatment Choice,False
+Q166,SGLT2 inhibitors role in Chronic Kidney Disease pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q167,penggantian Omeprazole ke Lansoprazole pada Peptic Ulcer Disease,2,948b14698d5c,Treatment Change / Escalation,Treatment Change / Escalation,True
+Q169,Basal insulins mechanism of action in Type 1 Diabetes Mellitus,1,5345ee42b4e3,Mechanism / Background Knowledge,Safety / Contraindication,False
+Q170,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients,1,d6572fa1b039,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q171,Hyperthyroidism prophylaxis Methimazole indication,2,da816ba756d0,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q172,kapan mulai terapi Aspirin pada Stable Angina,2,8a9a544a6533,Management / Treatment Selection,Prophylaxis / Maintenance,False
+Q175,Warfarin dosing in Atrial Fibrillation with CKD,1,e60e69ebdbe6,Dosing / Administration,Dosing / Administration,True
+Q177,Bedaquiline long term outcomes Tuberculosis,2,f01dddd287b1,Efficacy / Outcomes,Safety / Contraindication,False
+Q179,Type 2 Diabetes Mellitus treatment algorithm GLP-1 receptor agonists first line,1,594746dc8026,Management / Treatment Selection,Management / Treatment Selection,True
+Q181,dosis Alteplase untuk pasien Ischaemic Stroke,2,6b1965d20a53,Dosing / Administration,Comparative Treatment Choice,False
+Q183,Hypertension in Pregnancy pediatric dosing Methyldopa,1,d5dfc84007de,Dosing / Administration,Safety / Contraindication,False
+Q184,Proton pump inhibitors mechanism of action in Peptic Ulcer Disease,1,5345ee42b4e3,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q185,Isoniazid hepatic impairment dose in Tuberculosis,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q186,dosis titrasi Rivaroxaban Deep Vein Thrombosis toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q187,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak,2,a4a2af11e084,Safety / Contraindication,Dosing / Administration,False
+Q188,interaksi obat Zinc dan Vitamin A pada Stunting / Malnutrition,1,afa6fb7e3640,Interaction / Combination,Safety / Contraindication,False
+Q189,renal dose adjustment Lansoprazole in Peptic Ulcer Disease,2,cd1052335e0a,Dosing / Administration,Dosing / Administration,True
+Q190,Macrolides mechanism of action in Asthma,1,5345ee42b4e3,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q191,Heart Failure dengan renal impairment penyesuaian dosis Bisoprolol,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q192,Diabetes Insipidus emergency Desmopressin loading dose berapa,1,99a10b7361fd,Dosing / Administration,Dosing / Administration,True
+Q193,Obesity dengan obesity pilihan terapi,1,457c0ade038c,Management / Treatment Selection,Management / Treatment Selection,True
+Q194,Chronic Kidney Disease prophylaxis Losartan indication,2,da816ba756d0,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q198,Calcium channel blockers new evidence Hypertension 2022,2,2722ee313648,Guideline / Evidence Lookup,Dosing / Administration,False
+Q199,Rivaroxaban loading dose Community-acquired Pneumonia emergency,1,ac570d520b1e,Dosing / Administration,Dosing / Administration,True
+Q201,interaksi obat Semaglutide dan Liraglutide pada Obesity,1,afa6fb7e3640,Interaction / Combination,Management / Treatment Selection,False
+Q202,HIV/AIDS with obesity first line drug,2,6b9561c7ac40,Management / Treatment Selection,Management / Treatment Selection,True
+Q203,Corticosteroids in pregnancy and Sepsis,2,ed8667a89e88,Safety / Contraindication,Dosing / Administration,False
+Q204,Iron preparations mechanism untuk Iron Deficiency Anaemia bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Dosing / Administration,False
+Q205,terapi profilaksis Typhoid Fever dengan Artemether-lumefantrine,1,58cb1c8a1f28,Prophylaxis / Maintenance,Management / Treatment Selection,False
+Q206,Ischaemic Stroke pada anak dosis Aspirin,1,eaced383bf48,Dosing / Administration,Treatment Change / Escalation,False
+Q207,Ramipril combination therapy Hypertension,1,8bc94590f860,Interaction / Combination,Dosing / Administration,False
+Q208,terapi profilaksis Hypertension dengan Ramipril,1,58cb1c8a1f28,Prophylaxis / Maintenance,Management / Treatment Selection,False
+Q210,switch dari Venlafaxine ke Escitalopram Major Depressive Disorder progresif,1,cc7ef385fde1,Treatment Change / Escalation,Comparative Treatment Choice,False
+Q211,Tuberculosis dengan atrial fibrillation pilihan terapi,2,e74531be4f90,Management / Treatment Selection,Dosing / Administration,False
+Q212,is Salmeterol safe in COPD with anaemia,2,9a9ff48865de,Safety / Contraindication,Safety / Contraindication,True
+Q213,prophylaxis Hypertension Amlodipine kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q214,Clozapine hepatic impairment dose in Schizophrenia,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q215,Ferrous sulphate drug interaction with Erythropoietin in Iron Deficiency Anaemia,2,478837781f0e,Interaction / Combination,Dosing / Administration,False
+Q216,Hyperthyroidism guideline update 2024 summary,1,6c58394a9978,Guideline / Evidence Lookup,Guideline / Evidence Lookup,True
+Q217,algoritma terapi Heart Failure step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q218,kapan mulai terapi Methimazole pada Hyperthyroidism,2,8a9a544a6533,Management / Treatment Selection,Prophylaxis / Maintenance,False
+Q219,Diabetes Insipidus dengan diabetes pilihan drug terbaik,2,335d99e17816,Management / Treatment Selection,Safety / Contraindication,False
+Q220,dosis titrasi Nivolumab Colorectal Cancer toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q222,MDR Tuberculosis with heart failure first line drug,1,29b7a91acd63,Management / Treatment Selection,Management / Treatment Selection,True
+Q223,Rivaroxaban efficacy pada Community-acquired Pneumonia clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Dosing / Administration,False
+Q224,Losartan hepatic impairment dose in Hypertension,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q226,target Gout sudah tercapai kapan maintenance Secukinumab,2,ac8159c853b8,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q228,is Aspirin safe in Ischaemic Stroke with diabetes,1,03e7d7c45bb9,Safety / Contraindication,Safety / Contraindication,True
+Q229,Hyperthyroidism treatment algorithm Antithyroid agents first line,1,594746dc8026,Management / Treatment Selection,Management / Treatment Selection,True
+Q231,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak,2,1d1abfbd8194,Interaction / Combination,Safety / Contraindication,False
+Q232,Prednisolone side effect pada pasien Rheumatoid Arthritis apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q233,kontraindikasi Budesonide pada Asthma dengan COPD,1,138d4ede2b0b,Safety / Contraindication,Safety / Contraindication,True
+Q234,PD-1 inhibitors mechanism untuk Non-Small Cell Lung Cancer bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Safety / Contraindication,False
+Q235,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever,2,e57118fc321d,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q238,Basal insulins in pregnancy and Type 1 Diabetes Mellitus,2,ed8667a89e88,Safety / Contraindication,Safety / Contraindication,True
+Q239,Ramipril pada pasien elderly Hypertension apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q241,dosis Dupilumab untuk pasien Psoriasis,2,6b1965d20a53,Dosing / Administration,Comparative Treatment Choice,False
+Q244,Semaglutide vs Liraglutide untuk Obesity,2,e57118fc321d,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q245,kapan mulai terapi Pembrolizumab pada Non-Small Cell Lung Cancer,2,8a9a544a6533,Management / Treatment Selection,Safety / Contraindication,False
+Q247,resistensi Aspirin pada Ischaemic Stroke alternatif Alteplase,2,710c31cca86a,Treatment Change / Escalation,Safety / Contraindication,False
+Q249,Sitagliptin pada pasien elderly Type 2 Diabetes Mellitus apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q250,efek samping Vitamin K antagonists pada Atrial Fibrillation,2,fb20690b2e7d,Safety / Contraindication,Dosing / Administration,False
+Q253,Imatinib side effect pada pasien Chronic Myeloid Leukaemia apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q254,NRTIs combination role in Urinary Tract Infection pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Interaction / Combination,False
+Q256,Antituberculotics role in MDR Tuberculosis pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Dosing / Administration,False
+Q258,when to start Alteplase in Ischaemic Stroke,2,13d11e4b4b23,Management / Treatment Selection,Comparative Treatment Choice,False
+Q260,terapi profilaksis Schizophrenia dengan Risperidone,1,58cb1c8a1f28,Prophylaxis / Maintenance,Management / Treatment Selection,False
+Q261,Penicillins role in HIV/AIDS pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Dosing / Administration,False
+Q262,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak,2,1d1abfbd8194,Interaction / Combination,Safety / Contraindication,False
+Q263,titration protocol Levothyroxine in Hypothyroidism,2,94c522035a7e,Dosing / Administration,Dosing / Administration,True
+Q264,dosis Levothyroxine untuk pasien Hypothyroidism,2,6b1965d20a53,Dosing / Administration,Dosing / Administration,True
+Q265,renal dose adjustment Allopurinol in Psoriatic Arthritis,2,cd1052335e0a,Dosing / Administration,Dosing / Administration,True
+Q267,Adalimumab side effect pada pasien Gout apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q268,Beta blockers non-selective mechanism of action in Hypertension in Pregnancy,1,5345ee42b4e3,Mechanism / Background Knowledge,Safety / Contraindication,False
+Q269,Sertraline efficacy pada Major Depressive Disorder clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Comparative Treatment Choice,False
+Q270,Bedaquiline pada pasien elderly MDR Tuberculosis apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q271,switch dari Alteplase ke Aspirin Ischaemic Stroke progresif,1,cc7ef385fde1,Treatment Change / Escalation,Treatment Change / Escalation,True
+Q272,CNS stimulants role in Breast Cancer HER2-positive pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Dosing / Administration,False
+Q274,resistensi Alendronate pada Osteoporosis alternatif Alendronate,2,710c31cca86a,Treatment Change / Escalation,Dosing / Administration,False
+Q275,obat MDR Tuberculosis lini pertama Antituberculotics,2,441ae74c04a7,Management / Treatment Selection,Interaction / Combination,False
+Q277,Amoxicillin hepatic impairment dose in HIV/AIDS,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q279,prophylaxis MDR Tuberculosis Bedaquiline kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q280,algoritma terapi Malaria step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q281,NRTIs combination mechanism of action in Urinary Tract Infection,1,5345ee42b4e3,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q285,Olanzapine vs Lithium in Bipolar Disorder patients,1,d6572fa1b039,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q286,prophylaxis Urinary Tract Infection Tenofovir+Lamivudine kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q289,Apixaban pada ibu hamil dengan Deep Vein Thrombosis,1,8d3aa2c8633c,Safety / Contraindication,Safety / Contraindication,True
+Q291,Peptic Ulcer Disease dengan hypertension pilihan terapi,2,04036e1561be,Management / Treatment Selection,Management / Treatment Selection,True
+Q292,Amoxicillin vs Amoxicillin efficacy in HIV/AIDS,2,69ffe19b306b,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q293,resistensi Prednisolone pada Asthma alternatif Azithromycin,2,710c31cca86a,Treatment Change / Escalation,Safety / Contraindication,False
+Q294,dosis titrasi Levothyroxine Hyperthyroidism toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q296,resistensi Bedaquiline pada Tuberculosis alternatif Rifampicin,2,710c31cca86a,Treatment Change / Escalation,Safety / Contraindication,False
+Q297,Colorectal Cancer with COPD first line drug,1,91afbce0a2ff,Management / Treatment Selection,Management / Treatment Selection,True
+Q298,penggantian Apixaban ke Rivaroxaban pada Deep Vein Thrombosis,2,948b14698d5c,Treatment Change / Escalation,Dosing / Administration,False
+Q299,Zinc hepatic impairment dose in Stunting / Malnutrition,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q300,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak,2,855581402132,Safety / Contraindication,Dosing / Administration,False
+Q302,dosis titrasi Topiramate Migraine toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q303,Parkinson Disease treatment algorithm Dopaminergic agents first line,1,594746dc8026,Management / Treatment Selection,Management / Treatment Selection,True
+Q304,target Major Depressive Disorder sudah tercapai kapan maintenance Venlafaxine,2,ac8159c853b8,Prophylaxis / Maintenance,Dosing / Administration,False
+Q305,when to start Diazepam in Febrile Seizure,2,13d11e4b4b23,Management / Treatment Selection,Mechanism / Background Knowledge,False
+Q306,Tenofovir+Lamivudine combination therapy Urinary Tract Infection,1,8bc94590f860,Interaction / Combination,Interaction / Combination,True
+Q307,Fluoroquinolones in pregnancy and HIV/AIDS,2,ed8667a89e88,Safety / Contraindication,Dosing / Administration,False
+Q309,Bedaquiline long term outcomes MDR Tuberculosis,2,f01dddd287b1,Efficacy / Outcomes,Dosing / Administration,False
+Q310,target terapi Rheumatoid Arthritis dengan Proteasome inhibitors,1,cd0c51cd0be8,Management / Treatment Selection,Management / Treatment Selection,True
+Q312,Tuberculosis prophylaxis Isoniazid indication,2,da816ba756d0,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q314,switch dari Rifampicin ke Isoniazid Tuberculosis progresif,1,cc7ef385fde1,Treatment Change / Escalation,Treatment Change / Escalation,True
+Q316,Lansoprazole vs Omeprazole untuk pasien Peptic Ulcer Disease mana lebih efektif,1,3fde7b2fc12a,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q317,Methylphenidate efficacy pada Breast Cancer HER2-positive clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Comparative Treatment Choice,False
+Q318,Venlafaxine vs Escitalopram efficacy in Major Depressive Disorder,2,69ffe19b306b,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q319,dosis titrasi Adalimumab Gout toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q320,is Bedaquiline safe in Tuberculosis with hepatic impairment,2,afd8e228f72c,Safety / Contraindication,Safety / Contraindication,True
+Q321,Escitalopram drug interaction with Sertraline in ADHD,2,478837781f0e,Interaction / Combination,Management / Treatment Selection,False
+Q322,Dolutegravir hepatic impairment dose in Malaria,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q323,efek samping Inhaled corticosteroids pada Asthma,2,fb20690b2e7d,Safety / Contraindication,Safety / Contraindication,True
+Q325,target Systemic Lupus Erythematosus sudah tercapai kapan maintenance Adalimumab,2,ac8159c853b8,Prophylaxis / Maintenance,Dosing / Administration,False
+Q326,titration protocol Ferrous sulphate in Iron Deficiency Anaemia,2,94c522035a7e,Dosing / Administration,Dosing / Administration,True
+Q327,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak,2,1d1abfbd8194,Interaction / Combination,Safety / Contraindication,False
+Q328,kombinasi Piperacillin-tazobactam dan Hydrocortisone pada Sepsis aman atau tidak,2,1d1abfbd8194,Interaction / Combination,Safety / Contraindication,False
+Q329,algoritma terapi Major Depressive Disorder step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q330,Lithium side effect pada pasien Bipolar Disorder apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q331,Osteoporosis dengan renal impairment penyesuaian dosis Alendronate,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q332,kapan mulai terapi Desmopressin pada Diabetes Insipidus,2,8a9a544a6533,Management / Treatment Selection,Prophylaxis / Maintenance,False
+Q334,Community-acquired Pneumonia prophylaxis Apixaban indication,2,da816ba756d0,Prophylaxis / Maintenance,Dosing / Administration,False
+Q335,Metronidazole vs Omeprazole untuk pasien Pulmonary Embolism mana lebih efektif,1,3fde7b2fc12a,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q336,Lithium contraindication in Bipolar Disorder with anaemia,2,0ba360344167,Safety / Contraindication,Comparative Treatment Choice,False
+Q337,Chronic Kidney Disease with immunocompromised first line drug,1,51728742c020,Management / Treatment Selection,Management / Treatment Selection,True
+Q338,Metronidazole vs Metronidazole in Inflammatory Bowel Disease patients,1,d6572fa1b039,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q339,Clozapine vs Clozapine in Schizophrenia patients,1,d6572fa1b039,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q342,dosis titrasi Vancomycin Sepsis toleransi pasien,1,53cd53b9af09,Dosing / Administration,Dosing / Administration,True
+Q343,obat HIV/AIDS lini pertama Penicillins,2,441ae74c04a7,Management / Treatment Selection,Dosing / Administration,False
+Q346,Chronic Kidney Disease dengan renal impairment penyesuaian dosis Losartan,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q347,Prednisolone hepatic impairment dose in Rheumatoid Arthritis,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q348,Ramipril side effect pada pasien Hypertension apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q349,dosis Liraglutide untuk pasien Obesity,2,6b1965d20a53,Dosing / Administration,Dosing / Administration,True
+Q350,Valproate resistance in Epilepsy alternative therapy,1,972b8cd8de38,Treatment Change / Escalation,Dosing / Administration,False
+Q351,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak,1,aa8770c5d11a,Safety / Contraindication,Safety / Contraindication,True
+Q353,Nivolumab efficacy pada Non-Small Cell Lung Cancer clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Comparative Treatment Choice,False
+Q355,terapi profilaksis Chronic Kidney Disease dengan Empagliflozin,1,58cb1c8a1f28,Prophylaxis / Maintenance,Management / Treatment Selection,False
+Q356,apakah Dapagliflozin aman untuk Chronic Kidney Disease dengan pregnancy,1,32af9b86a5cd,Safety / Contraindication,Safety / Contraindication,True
+Q357,Pembrolizumab long term outcomes Non-Small Cell Lung Cancer,2,f01dddd287b1,Efficacy / Outcomes,Safety / Contraindication,False
+Q358,Methylphenidate loading dose Breast Cancer HER2-positive emergency,1,ac570d520b1e,Dosing / Administration,Comparative Treatment Choice,False
+Q359,dosis Adalimumab untuk pasien Systemic Lupus Erythematosus,2,6b1965d20a53,Dosing / Administration,Dosing / Administration,True
+Q360,is Semaglutide safe in Obesity with elderly patients,1,410a928aa6e8,Safety / Contraindication,Safety / Contraindication,True
+Q363,target Type 2 Diabetes Mellitus sudah tercapai kapan maintenance Liraglutide,2,ac8159c853b8,Prophylaxis / Maintenance,Safety / Contraindication,False
+Q365,Antimalarials in pregnancy and Typhoid Fever,2,ed8667a89e88,Safety / Contraindication,Safety / Contraindication,True
+Q366,Venlafaxine long term outcomes Major Depressive Disorder,2,f01dddd287b1,Efficacy / Outcomes,Dosing / Administration,False
+Q367,ARBs in pregnancy and Hypertension,2,ed8667a89e88,Safety / Contraindication,Treatment Change / Escalation,False
+Q369,Nivolumab vs Pembrolizumab untuk Non-Small Cell Lung Cancer,2,e57118fc321d,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q370,obat Rheumatoid Arthritis lini pertama Antimalarials,2,441ae74c04a7,Management / Treatment Selection,Interaction / Combination,False
+Q374,kontraindikasi Ramipril pada Hypertension dengan diabetes,1,2b516a5fd267,Safety / Contraindication,Safety / Contraindication,True
+Q375,Tuberculosis pada anak dosis Bedaquiline,1,eaced383bf48,Dosing / Administration,Dosing / Administration,True
+Q376,Antimalarials role in Typhoid Fever pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Safety / Contraindication,False
+Q380,Type 2 Diabetes Mellitus dengan renal impairment penyesuaian dosis Liraglutide,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q381,renal dose adjustment Artemether-lumefantrine in Typhoid Fever,2,cd1052335e0a,Dosing / Administration,Dosing / Administration,True
+Q382,when to start Methylphenidate in Breast Cancer HER2-positive,2,13d11e4b4b23,Management / Treatment Selection,Dosing / Administration,False
+Q384,Iron preparations in pregnancy and Iron Deficiency Anaemia,2,ed8667a89e88,Safety / Contraindication,Dosing / Administration,False
+Q385,terapi profilaksis Tuberculosis dengan Isoniazid,1,58cb1c8a1f28,Prophylaxis / Maintenance,Management / Treatment Selection,False
+Q386,Zinc side effect pada pasien Stunting / Malnutrition apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q388,Magnesium role in Preeclampsia pathophysiology,2,c3bf7815a646,Mechanism / Background Knowledge,Comparative Treatment Choice,False
+Q389,algoritma terapi Pulmonary Embolism step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q391,when to start Secukinumab in Disseminated Intravascular Coagulation,2,13d11e4b4b23,Management / Treatment Selection,Dosing / Administration,False
+Q395,Vitamin A hepatic impairment dose in Stunting / Malnutrition,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q399,Beta blockers selective mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Dosing / Administration,False
+Q400,COPD pada anak dosis Salmeterol,1,eaced383bf48,Dosing / Administration,Safety / Contraindication,False
+Q401,when to start Bisoprolol in Heart Failure,2,13d11e4b4b23,Management / Treatment Selection,Dosing / Administration,False
+Q402,target Obesity sudah tercapai kapan maintenance Semaglutide,2,ac8159c853b8,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q403,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever,1,afa6fb7e3640,Interaction / Combination,Interaction / Combination,True
+Q404,Omeprazole loading dose Peptic Ulcer Disease emergency,1,ac570d520b1e,Dosing / Administration,Dosing / Administration,True
+Q405,algoritma terapi Parkinson Disease step up,1,abe2151a12ea,Management / Treatment Selection,Management / Treatment Selection,True
+Q406,Ischaemic Stroke with pregnancy first line drug,1,cc5ac64caac5,Management / Treatment Selection,Management / Treatment Selection,True
+Q407,Breast Cancer HER2-positive pada anak dosis Methylphenidate,1,eaced383bf48,Dosing / Administration,Comparative Treatment Choice,False
+Q408,prophylaxis COPD Salmeterol kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q409,Spironolactone dosing in Heart Failure with obesity,2,c071d979dfc4,Dosing / Administration,Dosing / Administration,True
+Q410,kapan mulai terapi Alteplase pada Ischaemic Stroke,2,8a9a544a6533,Management / Treatment Selection,Prophylaxis / Maintenance,False
+Q411,Alendronate pada pasien elderly Osteoporosis apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q412,Aspirin long term outcomes Ischaemic Stroke,2,f01dddd287b1,Efficacy / Outcomes,Dosing / Administration,False
+Q414,Stable Angina emergency Atorvastatin loading dose berapa,1,99a10b7361fd,Dosing / Administration,Dosing / Administration,True
+Q417,Venlafaxine vs Venlafaxine untuk Major Depressive Disorder,2,e57118fc321d,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q420,Atrial Fibrillation pada anak dosis Metoprolol,1,eaced383bf48,Dosing / Administration,Safety / Contraindication,False
+Q421,Bisoprolol loading dose Heart Failure emergency,1,ac570d520b1e,Dosing / Administration,Dosing / Administration,True
+Q423,prophylaxis Hypertension in Pregnancy Methyldopa kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Safety / Contraindication,False
+Q425,target Urinary Tract Infection sudah tercapai kapan maintenance Tenofovir+Lamivudine,2,ac8159c853b8,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q426,target Psoriasis sudah tercapai kapan maintenance Dupilumab,2,ac8159c853b8,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q428,penggantian Sertraline ke Venlafaxine pada Major Depressive Disorder,2,948b14698d5c,Treatment Change / Escalation,Treatment Change / Escalation,True
+Q429,dosis Dupilumab untuk pasien Disseminated Intravascular Coagulation,2,6b1965d20a53,Dosing / Administration,Dosing / Administration,True
+Q430,Major Depressive Disorder dengan renal impairment penyesuaian dosis Venlafaxine,1,4d2fa9d142ab,Dosing / Administration,Dosing / Administration,True
+Q431,Proton pump inhibitors kontraindikasi pada Peptic Ulcer Disease dengan anaemia,1,050ed7384d12,Safety / Contraindication,Safety / Contraindication,True
+Q432,Semaglutide combination therapy Obesity,1,8bc94590f860,Interaction / Combination,Safety / Contraindication,False
+Q434,Rosuvastatin contraindication in Acute Coronary Syndrome with anaemia,2,0ba360344167,Safety / Contraindication,Safety / Contraindication,True
+Q435,Artemether-lumefantrine hepatic impairment dose in Typhoid Fever,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q436,Dupilumab vs Cyclosporine untuk pasien Psoriasis mana lebih efektif,1,3fde7b2fc12a,Comparative Treatment Choice,Dosing / Administration,False
+Q437,Parkinson Disease with elderly patients first line drug,2,68a406c8e9f7,Management / Treatment Selection,Management / Treatment Selection,True
+Q438,Schizophrenia emergency Risperidone loading dose berapa,1,99a10b7361fd,Dosing / Administration,Dosing / Administration,True
+Q439,Secukinumab loading dose Disseminated Intravascular Coagulation emergency,1,ac570d520b1e,Dosing / Administration,Dosing / Administration,True
+Q441,Atorvastatin hepatic impairment dose in Stable Angina,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q443,prophylaxis Schizophrenia Risperidone kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q444,Rivaroxaban hepatic impairment dose in Community-acquired Pneumonia,2,f5b7d27c6f50,Dosing / Administration,Dosing / Administration,True
+Q446,Type 1 Diabetes Mellitus dengan pregnancy pilihan terapi,2,69e6d592b6a3,Management / Treatment Selection,Safety / Contraindication,False
+Q447,Lansoprazole vs Metronidazole untuk Pulmonary Embolism,2,e57118fc321d,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q448,Pembrolizumab vs Pembrolizumab untuk pasien Non-Small Cell Lung Cancer mana lebih efektif,1,3fde7b2fc12a,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q449,Beta-lactam combinations mechanism of action in Sepsis,1,5345ee42b4e3,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q450,kontraindikasi Liraglutide pada Type 2 Diabetes Mellitus dengan CKD,1,4ecfbc04de9c,Safety / Contraindication,Safety / Contraindication,True
+Q451,Colorectal Cancer prophylaxis Pembrolizumab indication,2,da816ba756d0,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q452,Prednisolone combination therapy Rheumatoid Arthritis,1,8bc94590f860,Interaction / Combination,Dosing / Administration,False
+Q453,Topiramate pada pasien elderly Migraine apa perlu adjustment,2,c59d8b67a8c4,Dosing / Administration,Safety / Contraindication,False
+Q454,switch dari Meropenem ke Vancomycin Sepsis progresif,1,cc7ef385fde1,Treatment Change / Escalation,Treatment Change / Escalation,True
+Q455,obat Typhoid Fever lini pertama Antimalarials,2,441ae74c04a7,Management / Treatment Selection,Interaction / Combination,False
+Q457,is Nivolumab safe in Non-Small Cell Lung Cancer with atrial fibrillation,1,e9f2b1957ae4,Safety / Contraindication,Safety / Contraindication,True
+Q458,NRTIs mechanism of action in Malaria,1,5345ee42b4e3,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q459,prophylaxis Gout Adalimumab kapan bisa dihentikan,1,2972fa4e0624,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q460,Sepsis guideline update terbaru summary,2,218a65f48c2b,Guideline / Evidence Lookup,Guideline / Evidence Lookup,True
+Q461,is Semaglutide safe in Type 2 Diabetes Mellitus with COPD,1,86d107d03507,Safety / Contraindication,Safety / Contraindication,True
+Q462,Aspirin combination therapy Ischaemic Stroke,1,8bc94590f860,Interaction / Combination,Management / Treatment Selection,False
+Q464,kontraindikasi Semaglutide pada Obesity dengan diabetes,1,2b516a5fd267,Safety / Contraindication,Safety / Contraindication,True
+Q465,Hypertension prophylaxis Ramipril indication,2,da816ba756d0,Prophylaxis / Maintenance,Prophylaxis / Maintenance,True
+Q467,Artemether-lumefantrine side effect pada pasien Typhoid Fever apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q468,Systemic Lupus Erythematosus prophylaxis Methotrexate indication,2,da816ba756d0,Prophylaxis / Maintenance,Dosing / Administration,False
+Q470,HIV/AIDS pada anak dosis Amoxicillin,1,eaced383bf48,Dosing / Administration,Dosing / Administration,True
+Q472,ARBs mechanism untuk Hypertension bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Mechanism / Background Knowledge,True
+Q473,Tenofovir+Lamivudine efficacy pada Urinary Tract Infection clinical outcome data,1,849e00fb468f,Efficacy / Outcomes,Interaction / Combination,False
+Q474,Antituberculotics mechanism untuk Tuberculosis bagaimana cara kerjanya,2,97495153da10,Mechanism / Background Knowledge,Safety / Contraindication,False
+Q475,Vitamin K antagonists kontraindikasi pada Deep Vein Thrombosis dengan heart failure,2,31e57af1ac2b,Safety / Contraindication,Safety / Contraindication,True
+Q476,Bortezomib vs Prednisolone untuk Rheumatoid Arthritis,2,e57118fc321d,Comparative Treatment Choice,Comparative Treatment Choice,True
+Q477,Losartan long term outcomes Heart Failure,2,f01dddd287b1,Efficacy / Outcomes,Dosing / Administration,False
+Q479,BCR-ABL inhibitors in pregnancy and Chronic Myeloid Leukaemia,2,ed8667a89e88,Safety / Contraindication,Safety / Contraindication,True
+Q480,Venlafaxine dosing in Major Depressive Disorder with atrial fibrillation,2,aaae9355d9cc,Dosing / Administration,Dosing / Administration,True
+Q481,Metoprolol long term outcomes Stable Angina,2,f01dddd287b1,Efficacy / Outcomes,Dosing / Administration,False
+Q482,Lansoprazole long term outcomes Peptic Ulcer Disease,2,f01dddd287b1,Efficacy / Outcomes,Treatment Change / Escalation,False
+Q483,Hypertension dengan pregnancy pilihan drug terbaik,2,ba1df8a62400,Management / Treatment Selection,Management / Treatment Selection,True
+Q484,titration protocol Bedaquiline in Tuberculosis,2,94c522035a7e,Dosing / Administration,Safety / Contraindication,False
+Q485,Lansoprazole resistance in Peptic Ulcer Disease alternative therapy,1,972b8cd8de38,Treatment Change / Escalation,Dosing / Administration,False
+Q488,Artemether-lumefantrine pada ibu hamil dengan Typhoid Fever,1,8d3aa2c8633c,Safety / Contraindication,Dosing / Administration,False
+Q490,target terapi Hypothyroidism dengan Thyroid hormones,1,cd0c51cd0be8,Management / Treatment Selection,Management / Treatment Selection,True
+Q491,Empagliflozin long term outcomes Chronic Kidney Disease,2,f01dddd287b1,Efficacy / Outcomes,Management / Treatment Selection,False
+Q492,titration protocol Alendronate in Osteoporosis,2,94c522035a7e,Dosing / Administration,Dosing / Administration,True
+Q496,Insulin degludec side effect pada pasien Type 1 Diabetes Mellitus apa saja,1,28a161bd9f40,Safety / Contraindication,Dosing / Administration,False
+Q497,is Rosuvastatin safe in Acute Coronary Syndrome with diabetes,1,03e7d7c45bb9,Safety / Contraindication,Safety / Contraindication,True
+Q499,ACE inhibitors kontraindikasi pada Hypertension dengan hepatic impairment,2,494372f04cda,Safety / Contraindication,Safety / Contraindication,True

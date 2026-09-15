@@ -1,0 +1,127 @@
+protocol,experiment,intent,precision,recall,f1,support
+row_stratified,T1-B0,Management / Treatment Selection,1.0,1.0,1.0,50
+row_stratified,T1-B0,Dosing / Administration,0.96875,0.9893617021276596,0.9789473684210527,94
+row_stratified,T1-B0,Safety / Contraindication,0.9661016949152542,0.9661016949152542,0.9661016949152542,59
+row_stratified,T1-B0,Interaction / Combination,1.0,0.9523809523809523,0.975609756097561,21
+row_stratified,T1-B0,Comparative Treatment Choice,1.0,1.0,1.0,23
+row_stratified,T1-B0,Monitoring / Response / Risk Assessment,1.0,1.0,1.0,8
+row_stratified,T1-B0,Efficacy / Outcomes,1.0,1.0,1.0,20
+row_stratified,T1-B0,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+row_stratified,T1-B0,Treatment Change / Escalation,1.0,0.9523809523809523,0.975609756097561,21
+row_stratified,T1-B0,Prophylaxis / Maintenance,1.0,1.0,1.0,31
+row_stratified,T1-B0,Mechanism / Background Knowledge,0.9666666666666667,1.0,0.9830508474576272,29
+template_grouped,T1-B0,Management / Treatment Selection,0.675,0.54,0.6,50
+template_grouped,T1-B0,Dosing / Administration,0.5074626865671642,0.723404255319149,0.5964912280701754,94
+template_grouped,T1-B0,Safety / Contraindication,0.4375,0.5932203389830508,0.5035971223021583,59
+template_grouped,T1-B0,Interaction / Combination,0.42857142857142855,0.2857142857142857,0.34285714285714286,21
+template_grouped,T1-B0,Comparative Treatment Choice,0.5833333333333334,0.9130434782608695,0.711864406779661,23
+template_grouped,T1-B0,Efficacy / Outcomes,0.0,0.0,0.0,20
+template_grouped,T1-B0,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+template_grouped,T1-B0,Treatment Change / Escalation,0.5,0.23809523809523808,0.3225806451612903,21
+template_grouped,T1-B0,Prophylaxis / Maintenance,0.75,0.5806451612903226,0.6545454545454545,31
+template_grouped,T1-B0,Mechanism / Background Knowledge,0.8181818181818182,0.3103448275862069,0.45,29
+row_stratified,T1-P0,Management / Treatment Selection,0.9574468085106383,0.9,0.9278350515463918,50
+row_stratified,T1-P0,Dosing / Administration,0.918918918918919,0.723404255319149,0.8095238095238095,94
+row_stratified,T1-P0,Safety / Contraindication,0.8,0.2711864406779661,0.4050632911392405,59
+row_stratified,T1-P0,Interaction / Combination,1.0,0.42857142857142855,0.6,21
+row_stratified,T1-P0,Comparative Treatment Choice,0.27380952380952384,1.0,0.42990654205607476,23
+row_stratified,T1-P0,Monitoring / Response / Risk Assessment,1.0,1.0,1.0,8
+row_stratified,T1-P0,Efficacy / Outcomes,0.4166666666666667,1.0,0.5882352941176471,20
+row_stratified,T1-P0,Guideline / Evidence Lookup,0.6666666666666666,1.0,0.8,6
+row_stratified,T1-P0,Treatment Change / Escalation,0.0,0.0,0.0,21
+row_stratified,T1-P0,Prophylaxis / Maintenance,0.9117647058823529,1.0,0.9538461538461539,31
+row_stratified,T1-P0,Mechanism / Background Knowledge,1.0,1.0,1.0,29
+template_grouped,T1-P0,Management / Treatment Selection,0.9574468085106383,0.9,0.9278350515463918,50
+template_grouped,T1-P0,Dosing / Administration,0.918918918918919,0.723404255319149,0.8095238095238095,94
+template_grouped,T1-P0,Safety / Contraindication,0.8,0.2711864406779661,0.4050632911392405,59
+template_grouped,T1-P0,Interaction / Combination,1.0,0.42857142857142855,0.6,21
+template_grouped,T1-P0,Comparative Treatment Choice,0.27380952380952384,1.0,0.42990654205607476,23
+template_grouped,T1-P0,Efficacy / Outcomes,0.4166666666666667,1.0,0.5882352941176471,20
+template_grouped,T1-P0,Guideline / Evidence Lookup,0.6666666666666666,1.0,0.8,6
+template_grouped,T1-P0,Treatment Change / Escalation,0.0,0.0,0.0,21
+template_grouped,T1-P0,Prophylaxis / Maintenance,0.9117647058823529,1.0,0.9538461538461539,31
+template_grouped,T1-P0,Mechanism / Background Knowledge,1.0,1.0,1.0,29
+row_stratified,T1-E1,Management / Treatment Selection,1.0,1.0,1.0,50
+row_stratified,T1-E1,Dosing / Administration,0.9393939393939394,0.9893617021276596,0.9637305699481865,94
+row_stratified,T1-E1,Safety / Contraindication,0.9655172413793104,0.9491525423728814,0.9572649572649573,59
+row_stratified,T1-E1,Interaction / Combination,1.0,0.9523809523809523,0.975609756097561,21
+row_stratified,T1-E1,Comparative Treatment Choice,0.9583333333333334,1.0,0.9787234042553191,23
+row_stratified,T1-E1,Monitoring / Response / Risk Assessment,1.0,1.0,1.0,8
+row_stratified,T1-E1,Efficacy / Outcomes,1.0,1.0,1.0,20
+row_stratified,T1-E1,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+row_stratified,T1-E1,Treatment Change / Escalation,1.0,0.8095238095238095,0.8947368421052632,21
+row_stratified,T1-E1,Prophylaxis / Maintenance,1.0,1.0,1.0,31
+row_stratified,T1-E1,Mechanism / Background Knowledge,0.9666666666666667,1.0,0.9830508474576272,29
+template_grouped,T1-E1,Management / Treatment Selection,0.7222222222222222,0.52,0.6046511627906976,50
+template_grouped,T1-E1,Dosing / Administration,0.5064102564102564,0.8404255319148937,0.632,94
+template_grouped,T1-E1,Safety / Contraindication,0.4861111111111111,0.5932203389830508,0.5343511450381679,59
+template_grouped,T1-E1,Interaction / Combination,1.0,0.14285714285714285,0.25,21
+template_grouped,T1-E1,Comparative Treatment Choice,0.5,1.0,0.6666666666666666,23
+template_grouped,T1-E1,Efficacy / Outcomes,0.0,0.0,0.0,20
+template_grouped,T1-E1,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+template_grouped,T1-E1,Treatment Change / Escalation,0.75,0.2857142857142857,0.41379310344827586,21
+template_grouped,T1-E1,Prophylaxis / Maintenance,0.8333333333333334,0.4838709677419355,0.6122448979591837,31
+template_grouped,T1-E1,Mechanism / Background Knowledge,1.0,0.3448275862068966,0.5128205128205128,29
+row_stratified,T1-E2,Management / Treatment Selection,0.8846153846153846,0.92,0.9019607843137255,50
+row_stratified,T1-E2,Dosing / Administration,0.9666666666666667,0.925531914893617,0.9456521739130435,94
+row_stratified,T1-E2,Safety / Contraindication,0.859375,0.9322033898305084,0.8943089430894309,59
+row_stratified,T1-E2,Interaction / Combination,1.0,1.0,1.0,21
+row_stratified,T1-E2,Comparative Treatment Choice,1.0,1.0,1.0,23
+row_stratified,T1-E2,Monitoring / Response / Risk Assessment,1.0,1.0,1.0,8
+row_stratified,T1-E2,Efficacy / Outcomes,1.0,1.0,1.0,20
+row_stratified,T1-E2,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+row_stratified,T1-E2,Treatment Change / Escalation,1.0,0.9523809523809523,0.975609756097561,21
+row_stratified,T1-E2,Prophylaxis / Maintenance,1.0,0.967741935483871,0.9836065573770492,31
+row_stratified,T1-E2,Mechanism / Background Knowledge,0.9655172413793104,0.9655172413793104,0.9655172413793104,29
+template_grouped,T1-E2,Management / Treatment Selection,0.42857142857142855,0.66,0.5196850393700787,50
+template_grouped,T1-E2,Dosing / Administration,0.9666666666666667,0.925531914893617,0.9456521739130435,94
+template_grouped,T1-E2,Safety / Contraindication,0.52,0.6610169491525424,0.582089552238806,59
+template_grouped,T1-E2,Interaction / Combination,1.0,0.42857142857142855,0.6,21
+template_grouped,T1-E2,Comparative Treatment Choice,1.0,1.0,1.0,23
+template_grouped,T1-E2,Efficacy / Outcomes,0.0,0.0,0.0,20
+template_grouped,T1-E2,Guideline / Evidence Lookup,1.0,1.0,1.0,6
+template_grouped,T1-E2,Treatment Change / Escalation,0.7307692307692307,0.9047619047619048,0.8085106382978723,21
+template_grouped,T1-E2,Prophylaxis / Maintenance,0.7,0.6774193548387096,0.6885245901639344,31
+template_grouped,T1-E2,Mechanism / Background Knowledge,0.8333333333333334,0.5172413793103449,0.6382978723404256,29
+row_stratified,T1-E3,Management / Treatment Selection,1.0,0.88,0.9361702127659575,50
+row_stratified,T1-E3,Dosing / Administration,0.9494949494949495,1.0,0.9740932642487047,94
+row_stratified,T1-E3,Safety / Contraindication,0.896551724137931,0.8813559322033898,0.8888888888888888,59
+row_stratified,T1-E3,Interaction / Combination,1.0,1.0,1.0,21
+row_stratified,T1-E3,Comparative Treatment Choice,1.0,1.0,1.0,23
+row_stratified,T1-E3,Monitoring / Response / Risk Assessment,1.0,1.0,1.0,8
+row_stratified,T1-E3,Efficacy / Outcomes,1.0,1.0,1.0,20
+row_stratified,T1-E3,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+row_stratified,T1-E3,Treatment Change / Escalation,1.0,1.0,1.0,21
+row_stratified,T1-E3,Prophylaxis / Maintenance,1.0,1.0,1.0,31
+row_stratified,T1-E3,Mechanism / Background Knowledge,0.90625,1.0,0.9508196721311475,29
+template_grouped,T1-E3,Management / Treatment Selection,0.7714285714285715,0.54,0.6352941176470588,50
+template_grouped,T1-E3,Dosing / Administration,0.9382716049382716,0.8085106382978723,0.8685714285714285,94
+template_grouped,T1-E3,Safety / Contraindication,0.6612903225806451,0.6949152542372882,0.6776859504132231,59
+template_grouped,T1-E3,Interaction / Combination,0.5769230769230769,0.7142857142857143,0.6382978723404256,21
+template_grouped,T1-E3,Comparative Treatment Choice,0.7666666666666667,1.0,0.8679245283018868,23
+template_grouped,T1-E3,Efficacy / Outcomes,1.0,1.0,1.0,20
+template_grouped,T1-E3,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+template_grouped,T1-E3,Treatment Change / Escalation,0.5,1.0,0.6666666666666666,21
+template_grouped,T1-E3,Prophylaxis / Maintenance,0.95,0.6129032258064516,0.7450980392156863,31
+template_grouped,T1-E3,Mechanism / Background Knowledge,0.8787878787878788,1.0,0.9354838709677419,29
+row_stratified,T1-E4,Management / Treatment Selection,1.0,0.88,0.9361702127659575,50
+row_stratified,T1-E4,Dosing / Administration,0.9591836734693877,1.0,0.9791666666666666,94
+row_stratified,T1-E4,Safety / Contraindication,0.8983050847457628,0.8983050847457628,0.8983050847457628,59
+row_stratified,T1-E4,Interaction / Combination,1.0,1.0,1.0,21
+row_stratified,T1-E4,Comparative Treatment Choice,1.0,1.0,1.0,23
+row_stratified,T1-E4,Monitoring / Response / Risk Assessment,1.0,1.0,1.0,8
+row_stratified,T1-E4,Efficacy / Outcomes,1.0,1.0,1.0,20
+row_stratified,T1-E4,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+row_stratified,T1-E4,Treatment Change / Escalation,1.0,1.0,1.0,21
+row_stratified,T1-E4,Prophylaxis / Maintenance,1.0,1.0,1.0,31
+row_stratified,T1-E4,Mechanism / Background Knowledge,0.90625,1.0,0.9508196721311475,29
+template_grouped,T1-E4,Management / Treatment Selection,0.660377358490566,0.7,0.6796116504854369,50
+template_grouped,T1-E4,Dosing / Administration,0.8703703703703703,1.0,0.9306930693069307,94
+template_grouped,T1-E4,Safety / Contraindication,0.875,0.711864406779661,0.7850467289719626,59
+template_grouped,T1-E4,Interaction / Combination,1.0,0.47619047619047616,0.6451612903225806,21
+template_grouped,T1-E4,Comparative Treatment Choice,0.7931034482758621,1.0,0.8846153846153846,23
+template_grouped,T1-E4,Efficacy / Outcomes,1.0,1.0,1.0,20
+template_grouped,T1-E4,Guideline / Evidence Lookup,1.0,0.8333333333333334,0.9090909090909091,6
+template_grouped,T1-E4,Treatment Change / Escalation,1.0,1.0,1.0,21
+template_grouped,T1-E4,Prophylaxis / Maintenance,0.7037037037037037,0.6129032258064516,0.6551724137931034,31
+template_grouped,T1-E4,Mechanism / Background Knowledge,0.8787878787878788,1.0,0.9354838709677419,29

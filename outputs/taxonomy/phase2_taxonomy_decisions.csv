@@ -1,0 +1,12 @@
+literature_or_candidate_intent,prototype_top1_count,decision,rationale
+Management / Treatment,100,split,"Supported but heterogeneous; split selection, change/escalation, prophylaxis/maintenance, and assessment workflows."
+Diagnosis / Differential Diagnosis,20,merge,No coherent diagnosis-seeking template is present; do not retain a zero-support class.
+Work-up / Test Selection,0,merge,No query asks which investigation to order; monitoring is not test selection.
+Test / Clinical Data Interpretation,0,merge,No query supplies an existing result for interpretation.
+Pharmacotherapy,254,split,"Strong, retrieval-distinct dose, safety, interaction, comparison, efficacy, and monitoring pockets."
+Evidence / Guideline Lookup,41,rename,Explicit guideline/latest/year language supports an operational Guideline / Evidence Lookup class.
+Procedures / Techniques,11,merge,No coherent procedural-technique pocket is observed.
+Epidemiology / Prognosis,74,merge,Treatment outcomes merge with Efficacy; eight risk queries merge with monitoring/assessment for support.
+Patient Communication / Education,0,merge,No patient-facing explanation or counseling query is observed.
+Other / Ambiguous,0,manual_review,"Retain as an annotation fallback, but no standalone learnable class is estimated from this template-rich sample."
+Mechanism / Background Knowledge,0,new_class,"A coherent, supported mechanism/pathophysiology pocket has distinct explanatory-content preference."

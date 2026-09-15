@@ -1,0 +1,17 @@
+method,n_clusters,silhouette_cosine,selected
+agglomerative_cosine,8,0.2700125,False
+kmeans_comparison,8,0.29877612,False
+agglomerative_cosine,9,0.26233777,False
+kmeans_comparison,9,0.3064361,False
+agglomerative_cosine,10,0.25197867,False
+kmeans_comparison,10,0.29826343,False
+agglomerative_cosine,11,0.2833972,False
+kmeans_comparison,11,0.3601486,False
+agglomerative_cosine,12,0.2896716,False
+kmeans_comparison,12,0.3496996,False
+agglomerative_cosine,13,0.30050707,False
+kmeans_comparison,13,0.3596234,False
+agglomerative_cosine,14,0.30271423,False
+kmeans_comparison,14,0.35589516,False
+agglomerative_cosine,15,0.35946423,True
+kmeans_comparison,15,0.39546657,False

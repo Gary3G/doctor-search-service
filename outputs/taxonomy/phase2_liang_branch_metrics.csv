@@ -1,0 +1,5 @@
+model,validation_rows,accuracy_vs_weak_anchor,macro_f1_vs_weak_anchor
+semantic,100,0.53,0.5290476383390822
+sentence_tfidf,100,0.83,0.8644585778206468
+class_centroid_tfidf,100,0.89,0.9127967991604354
+liang_three_branch_attention,100,0.99,0.9949141767323585

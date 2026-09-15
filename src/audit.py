@@ -716,37 +716,3 @@ def write_report(paths: AuditPaths, metrics: dict[str, Any]) -> None:
     paths.report.parent.mkdir(parents=True, exist_ok=True)
     paths.report.write_text("\n".join(lines), encoding="utf-8")
 
-
-def run_phase1_audit() -> AuditPaths:
-    set_random_seed()
-    AUDIT_DIR.mkdir(parents=True, exist_ok=True)
-    paths = AuditPaths(
-        report=AUDIT_DIR / "phase1_data_audit.md",
-        metrics=AUDIT_DIR / "phase1_metrics.json",
-        query_manual_review=AUDIT_DIR / "phase1_query_manual_review.csv",
-        query_near_duplicates=AUDIT_DIR / "phase1_query_near_duplicates.csv",
-        content_near_duplicates=AUDIT_DIR / "phase1_content_near_duplicates.csv",
-        suspicious_behavior=AUDIT_DIR / "phase1_suspicious_behavior.csv",
-        table_dir=AUDIT_DIR / "tables",
-    )
-    data = load_all_raw()
-    metrics = {
-        "queries": audit_queries(data["queries"], paths),
-        "content": audit_content(data["content"], paths),
-        "behavioral_signals": audit_behavioral_signals(data["behavioral_signals"], paths),
-        "impressions": audit_impressions(data["impressions"], data["behavioral_signals"], paths),
-    }
-    paths.metrics.write_text(json.dumps(metrics, indent=2), encoding="utf-8")
-    write_report(paths, metrics)
-    return paths
-
-
-def main() -> None:
-    paths = run_phase1_audit()
-    print(f"Wrote Phase 1 audit report: {paths.report}")
-    print(f"Wrote Phase 1 metrics: {paths.metrics}")
-    print(f"Wrote manual query review: {paths.query_manual_review}")
-
-
-if __name__ == "__main__":
-    main()

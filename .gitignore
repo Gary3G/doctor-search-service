@@ -1,6 +1,9 @@
-.DS_Store
-.venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+.DS_Store
+.venv/
 
+# Keep compact Phase 2 embedding matrices, but not the downloaded model weights.
+data/cache/huggingface/
+data/cache/matplotlib/

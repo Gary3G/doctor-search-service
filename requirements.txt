@@ -9,3 +9,5 @@ jupyter>=1.1,<2
 ipykernel>=6.29,<7
 tqdm>=4.66,<5
 joblib>=1.4,<2
+sentence-transformers>=3.0,<6
+torch>=2.1,<3

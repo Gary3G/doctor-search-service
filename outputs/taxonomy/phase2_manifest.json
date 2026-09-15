@@ -1,0 +1,77 @@
+{
+  "phase": 2,
+  "n_queries": 500,
+  "semantic_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "semantic_model_frozen": true,
+  "semantic_inference_device": "cpu",
+  "query_embedding_shape": [
+    500,
+    384
+  ],
+  "prototype_embedding_shape": [
+    10,
+    384
+  ],
+  "candidate_intent_embedding_shape": [
+    11,
+    384
+  ],
+  "tfidf_shape": [
+    500,
+    368
+  ],
+  "structured_feature_count": 13,
+  "selected_cluster_method": "agglomerative_cosine",
+  "selected_n_clusters": 15,
+  "selected_silhouette_cosine": 0.359464,
+  "final_taxonomy_size": 11,
+  "final_class_distribution": {
+    "Comparative Treatment Choice": 23,
+    "Dosing / Administration": 99,
+    "Efficacy / Outcomes": 20,
+    "Guideline / Evidence Lookup": 59,
+    "Interaction / Combination": 24,
+    "Management / Treatment Selection": 58,
+    "Mechanism / Background Knowledge": 29,
+    "Monitoring / Response / Risk Assessment": 40,
+    "Prophylaxis / Maintenance": 31,
+    "Safety / Contraindication": 73,
+    "Treatment Change / Escalation": 44
+  },
+  "final_assignments_derived_by": "Liang-style three-branch attention model",
+  "weak_anchor_rows": 500,
+  "mean_attention_weights": {
+    "semantic": 0.1094,
+    "sentence_tfidf": 0.319274,
+    "class_centroid_tfidf": 0.571326
+  },
+  "liang_validation_metrics_are_gold_accuracy": false,
+  "liang_model_anchor_disagreements": 23,
+  "manual_review_rows": 110,
+  "low_margin_review_rows": 50,
+  "cross_class_neighbor_pairs": 40,
+  "gold_labels_created": false,
+  "random_seed": 42,
+  "artifacts": {
+    "seed_taxonomy": "outputs/taxonomy/phase2_seed_taxonomy.csv",
+    "prototype_assignments": "outputs/taxonomy/phase2_prototype_assignments.csv",
+    "liang_assignments": "outputs/taxonomy/phase2_liang_hybrid_assignments.csv",
+    "liang_branch_metrics": "outputs/taxonomy/phase2_liang_branch_metrics.csv",
+    "liang_training_history": "outputs/taxonomy/phase2_liang_training_history.csv",
+    "liang_methodology": "outputs/taxonomy/phase2_liang_methodology.json",
+    "seed_to_final_derivation": "outputs/taxonomy/phase2_seed_to_final_derivation.csv",
+    "model_disagreements": "outputs/taxonomy/phase2_liang_model_disagreements.csv",
+    "cluster_comparison": "outputs/taxonomy/phase2_cluster_model_comparison.csv",
+    "nlp_analysis": "outputs/taxonomy/phase2_nlp_taxonomy_analysis.csv",
+    "tfidf_explanations": "outputs/taxonomy/phase2_tfidf_explanations.csv",
+    "structured_profiles": "outputs/taxonomy/phase2_structured_feature_profiles.csv",
+    "taxonomy_decisions": "outputs/taxonomy/phase2_taxonomy_decisions.csv",
+    "manual_review": "outputs/taxonomy/phase2_manual_clinical_review.csv",
+    "ambiguity_review": "outputs/taxonomy/phase2_low_margin_review.csv",
+    "cross_class_review": "outputs/taxonomy/phase2_cross_class_neighbors.csv",
+    "final_taxonomy": "outputs/taxonomy/phase2_final_taxonomy.csv",
+    "structured_features": "outputs/taxonomy/phase2_structured_query_features.csv",
+    "report": "outputs/taxonomy/phase2_taxonomy_report.md",
+    "completion_checklist": "outputs/taxonomy/phase2_completion_checklist.md"
+  }
+}

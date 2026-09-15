@@ -1,0 +1,55 @@
+{
+  "paper": "https://doi.org/10.1038/s41598-025-25783-x",
+  "status": "weakly supervised CPU adaptation; not an exact reproduction",
+  "published_branches": [
+    "RoBERTa-wwm-ext",
+    "sentence TF-IDF",
+    "class-centroid TF-IDF"
+  ],
+  "implemented_branches": [
+    "frozen multilingual candidate-prototype semantic similarity",
+    "sentence/candidate TF-IDF similarity",
+    "weak-anchor and soft-prediction class-centroid TF-IDF similarity"
+  ],
+  "attention": "learned sample-wise inter-branch attention",
+  "classification_head": "64-dimensional nonlinear head with dropout and weighted cross-entropy",
+  "gold_labels_used": false,
+  "weak_anchor_rows": 500,
+  "validation_rows": 100,
+  "selected_epochs": 15,
+  "soft_refinement_rounds": 2,
+  "tfidf_max_features": 200,
+  "tfidf_feature_selection": "chi-squared ranking on weak-anchor rows",
+  "candidate_intents": [
+    "Management / Treatment Selection",
+    "Dosing / Administration",
+    "Safety / Contraindication",
+    "Interaction / Combination",
+    "Comparative Treatment Choice",
+    "Monitoring / Response / Risk Assessment",
+    "Efficacy / Outcomes",
+    "Guideline / Evidence Lookup",
+    "Treatment Change / Escalation",
+    "Prophylaxis / Maintenance",
+    "Mechanism / Background Knowledge"
+  ],
+  "config": {
+    "random_seed": 42,
+    "tfidf_max_features": 200,
+    "hidden_dim": 64,
+    "dropout": 0.2,
+    "learning_rate": 0.01,
+    "weight_decay": 0.0001,
+    "max_epochs": 250,
+    "patience": 30,
+    "validation_size": 0.2,
+    "soft_refinement_rounds": 2,
+    "anchor_weight_in_soft_centroid": 0.9
+  },
+  "limitations": [
+    "The original paper uses gold labels; this adaptation uses high-precision weak anchors.",
+    "The original paper fine-tunes Chinese RoBERTa; this adaptation freezes multilingual MiniLM.",
+    "Validation metrics measure agreement with held-out weak anchors, not clinical gold accuracy.",
+    "Candidate intent names and definitions remain analyst hypotheses; the model estimates support and assignments."
+  ]
+}

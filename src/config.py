@@ -20,6 +20,8 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
 METRICS_DIR = OUTPUT_DIR / "metrics"
 FIGURES_DIR = OUTPUT_DIR / "figures"
+TAXONOMY_DIR = OUTPUT_DIR / "taxonomy"
+CACHE_DIR = DATA_DIR / "cache"
 EXPERIMENT_LOG_PATH = PROJECT_ROOT / "experiments" / "experiment_log.csv"
 
 QUERIES_PATH = RAW_DATA_DIR / "queries.csv"

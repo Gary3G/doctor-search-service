@@ -443,36 +443,3 @@ def write_schema_report(
     ]
     report_path.write_text("\n".join(lines), encoding="utf-8")
 
-
-def run_phase15_schema() -> dict[str, Path]:
-    queries = load_queries()
-    content = load_content()
-    SCHEMA_DIR.mkdir(parents=True, exist_ok=True)
-
-    candidate_profile = build_candidate_profile(queries, content)
-    schema_table = build_schema_table()
-
-    candidate_path = SCHEMA_DIR / "phase15_candidate_slot_profile.csv"
-    schema_path = SCHEMA_DIR / "phase15_extended_query_schema.csv"
-    report_path = SCHEMA_DIR / "phase15_extended_query_schema.md"
-
-    candidate_profile.to_csv(candidate_path, index=False)
-    schema_table.to_csv(schema_path, index=False)
-    write_schema_report(report_path, candidate_profile, schema_table)
-
-    return {
-        "report": report_path,
-        "schema": schema_path,
-        "candidate_profile": candidate_path,
-    }
-
-
-def main() -> None:
-    paths = run_phase15_schema()
-    print(f"Wrote Phase 1.5 schema report: {paths['report']}")
-    print(f"Wrote Phase 1.5 schema table: {paths['schema']}")
-    print(f"Wrote Phase 1.5 candidate profile: {paths['candidate_profile']}")
-
-
-if __name__ == "__main__":
-    main()

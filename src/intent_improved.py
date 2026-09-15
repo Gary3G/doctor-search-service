@@ -815,8 +815,8 @@ The selected-model confusion matrix and error table use the zero-template-overla
 """
 
 
-def run_phase5() -> dict[str, Path]:
-    """Run Phase 5, persist ablations, select a model, and update the log."""
+def build_phase5_artifacts() -> dict[str, Path]:
+    """Build and persist Phase 5 artifacts for notebook orchestration."""
     METRICS_DIR.mkdir(parents=True, exist_ok=True)
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
     labeled = pd.read_csv(LABELED_QUERIES_PATH)
@@ -1073,5 +1073,5 @@ def run_phase5() -> dict[str, Path]:
 
 
 if __name__ == "__main__":
-    for name, path in run_phase5().items():
+    for name, path in build_phase5_artifacts().items():
         print(f"{name}: {path}")

@@ -1,0 +1,81 @@
+{
+  "n_queries": 500,
+  "n_unique_query_ids": 500,
+  "n_pilot_reviewed": 60,
+  "n_gold_reviewed_including_pilot": 180,
+  "n_rule_propagated": 320,
+  "n_supported_intents_observed": 11,
+  "n_other_ambiguous": 0,
+  "n_medium_or_low_confidence": 353,
+  "n_phase2_model_disagreements_in_gold": 22,
+  "n_three_signal_disagreements_in_gold": 150,
+  "phase2_model_agreement_on_gold": 0.8778,
+  "phase2_model_agreement_all_queries": 0.954,
+  "fleiss_kappa_initial_cluster_mapping": 0.324317,
+  "fleiss_kappa_optimized_cluster_mapping": 0.356682,
+  "fleiss_kappa_absolute_improvement": 0.032366,
+  "pairwise_cohen_kappa": {
+    "rule_vs_prototype": 0.460245,
+    "rule_vs_cluster": 0.284416,
+    "prototype_vs_cluster": 0.376884
+  },
+  "signal_agreement_distribution": {
+    "prototype_cluster_against_rule": 84,
+    "three_way_disagreement": 138,
+    "two_signal_including_rule": 127,
+    "unanimous": 151
+  },
+  "intent_distribution": {
+    "Comparative Treatment Choice": 23,
+    "Dosing / Administration": 96,
+    "Efficacy / Outcomes": 20,
+    "Guideline / Evidence Lookup": 59,
+    "Interaction / Combination": 21,
+    "Management / Treatment Selection": 58,
+    "Mechanism / Background Knowledge": 29,
+    "Monitoring / Response / Risk Assessment": 33,
+    "Prophylaxis / Maintenance": 31,
+    "Safety / Contraindication": 84,
+    "Treatment Change / Escalation": 46
+  },
+  "gold_intent_distribution": {
+    "Comparative Treatment Choice": 12,
+    "Dosing / Administration": 14,
+    "Efficacy / Outcomes": 12,
+    "Guideline / Evidence Lookup": 33,
+    "Interaction / Combination": 12,
+    "Management / Treatment Selection": 13,
+    "Mechanism / Background Knowledge": 12,
+    "Monitoring / Response / Risk Assessment": 14,
+    "Prophylaxis / Maintenance": 12,
+    "Safety / Contraindication": 34,
+    "Treatment Change / Escalation": 12
+  },
+  "gold_language_distribution": {
+    "EN": 76,
+    "ID": 30,
+    "MIXED": 74
+  },
+  "gold_therapeutic_area_distribution": {
+    "Cardiology": 25,
+    "Critical Care": 6,
+    "Dermatology": 3,
+    "Endocrinology": 18,
+    "Gastroenterology": 7,
+    "Haematology": 6,
+    "Infectious Disease": 16,
+    "Nephrology": 6,
+    "Neurology": 9,
+    "Obstetrics": 7,
+    "Oncology": 12,
+    "Pediatrics": 6,
+    "Psychiatry": 11,
+    "Pulmonology": 30,
+    "Rheumatology": 18
+  },
+  "taxonomy_changes_after_pilot": 0,
+  "taxonomy_status": "frozen after pilot; all 11 supported classes retained",
+  "independent_clinician_review": false,
+  "inter_annotator_agreement_available": false,
+  "kappa_interpretation": "algorithmic signal agreement optimized in-sample; not inter-annotator reliability and not evidence of clinical accuracy"
+}

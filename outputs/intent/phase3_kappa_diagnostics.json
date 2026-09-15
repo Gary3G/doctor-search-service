@@ -1,0 +1,17 @@
+{
+  "fleiss_kappa_initial_cluster_mapping": 0.324317,
+  "fleiss_kappa_optimized_cluster_mapping": 0.356682,
+  "fleiss_kappa_absolute_improvement": 0.032366,
+  "pairwise_cohen_kappa": {
+    "rule_vs_prototype": 0.460245,
+    "rule_vs_cluster": 0.284416,
+    "prototype_vs_cluster": 0.376884
+  },
+  "signal_agreement_distribution": {
+    "prototype_cluster_against_rule": 84,
+    "three_way_disagreement": 138,
+    "two_signal_including_rule": 127,
+    "unanimous": 151
+  },
+  "kappa_interpretation": "algorithmic signal agreement optimized in-sample; not inter-annotator reliability and not evidence of clinical accuracy"
+}

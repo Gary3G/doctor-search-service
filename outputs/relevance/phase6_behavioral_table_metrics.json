@@ -1,0 +1,33 @@
+{
+  "orphan_impression_queries": 0,
+  "orphan_impression_content": 0,
+  "orphan_behavioral_signals": 0,
+  "doctor_id_mismatches": 0,
+  "negative_event_latency": 0,
+  "duplicate_impression_units_collapsed": 0,
+  "source_rows": {
+    "queries": 500,
+    "content": 345,
+    "impressions": 7190,
+    "behavioral_signals": 1500
+  },
+  "analytical_rows": 7190,
+  "unique_analytical_units": 7190,
+  "queries_represented": 500,
+  "content_represented": 345,
+  "sessions_represented": 813,
+  "doctors_represented": 118,
+  "engaged_rows": 1500,
+  "unengaged_rows": 5690,
+  "engagement_rate": 0.2086230876216968,
+  "behavioral_events_linked": 1500,
+  "event_flag_counts": {
+    "click": 944,
+    "scroll_deep": 436,
+    "return_visit": 29,
+    "save_bookmark": 91
+  },
+  "dwell_seconds_total": 95140,
+  "dwell_seconds_median_engaged": 23.0,
+  "relevance_labels_assigned": false
+}

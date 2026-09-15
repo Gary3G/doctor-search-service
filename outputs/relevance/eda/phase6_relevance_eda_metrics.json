@@ -1,0 +1,23 @@
+{
+  "analytical_rows": 7190,
+  "engaged_rows": 1500,
+  "event_types_mutually_exclusive": true,
+  "rows_with_multiple_event_types": 0,
+  "click_zero_dwell_rows": 66,
+  "click_dwell_median": 10.5,
+  "click_dwell_p75": 20.0,
+  "scroll_dwell_min": 61,
+  "scroll_dwell_median": 152.0,
+  "rank1_engagement_rate": 0.24108241082410825,
+  "later_rank_engagement_rate": 0.20448486749255135,
+  "rank1_absolute_lift": 0.0365975433315569,
+  "sessions": 813,
+  "sessions_without_engagement": 150,
+  "queries": 500,
+  "queries_without_engagement": 150,
+  "unique_query_content_pairs": 7037,
+  "repeated_query_content_pairs": 150,
+  "mixed_repeat_pairs": 49,
+  "candidate_grades_written_to_behavioral_table": false,
+  "eda_is_descriptive_not_causal": true
+}

@@ -1,0 +1,501 @@
+query_id,query_intent,query_language,sessions,impression_rows,observed_content,engaged_rows,judgment_coverage,has_observed_positive
+Q017,Mechanism / Background Knowledge,MIXED,1,5,5,0,0.014492753623188406,False
+Q036,Dosing / Administration,EN,1,5,5,0,0.014492753623188406,False
+Q072,Prophylaxis / Maintenance,MIXED,1,5,5,0,0.014492753623188406,False
+Q082,Treatment Change / Escalation,EN,1,5,5,0,0.014492753623188406,False
+Q113,Guideline / Evidence Lookup,EN,1,5,5,0,0.014492753623188406,False
+Q120,Guideline / Evidence Lookup,EN,1,5,5,0,0.014492753623188406,False
+Q126,Treatment Change / Escalation,EN,1,5,5,0,0.014492753623188406,False
+Q135,Dosing / Administration,EN,1,5,5,0,0.014492753623188406,False
+Q173,Guideline / Evidence Lookup,MIXED,1,5,5,0,0.014492753623188406,False
+Q186,Dosing / Administration,MIXED,1,5,5,0,0.014492753623188406,False
+Q215,Interaction / Combination,EN,1,5,5,0,0.014492753623188406,False
+Q274,Treatment Change / Escalation,ID,1,5,5,0,0.014492753623188406,False
+Q326,Dosing / Administration,EN,1,5,5,0,0.014492753623188406,False
+Q351,Safety / Contraindication,MIXED,1,5,5,0,0.014492753623188406,False
+Q368,Management / Treatment Selection,MIXED,1,5,5,0,0.014492753623188406,False
+Q381,Dosing / Administration,EN,1,5,5,0,0.014492753623188406,False
+Q410,Management / Treatment Selection,ID,1,5,5,0,0.014492753623188406,False
+Q434,Safety / Contraindication,EN,1,5,5,0,0.014492753623188406,False
+Q445,Guideline / Evidence Lookup,MIXED,1,5,5,0,0.014492753623188406,False
+Q484,Dosing / Administration,EN,1,5,5,0,0.014492753623188406,False
+Q495,Safety / Contraindication,EN,1,5,5,0,0.014492753623188406,False
+Q023,Guideline / Evidence Lookup,MIXED,1,6,6,0,0.017391304347826087,False
+Q034,Management / Treatment Selection,EN,1,6,6,0,0.017391304347826087,False
+Q041,Mechanism / Background Knowledge,EN,1,6,6,0,0.017391304347826087,False
+Q048,Efficacy / Outcomes,EN,1,6,6,0,0.017391304347826087,False
+Q050,Dosing / Administration,EN,1,6,6,0,0.017391304347826087,False
+Q074,Mechanism / Background Knowledge,EN,1,6,6,0,0.017391304347826087,False
+Q102,Safety / Contraindication,ID,1,6,6,0,0.017391304347826087,False
+Q117,Treatment Change / Escalation,MIXED,1,6,6,0,0.017391304347826087,False
+Q149,Mechanism / Background Knowledge,EN,1,6,6,0,0.017391304347826087,False
+Q167,Treatment Change / Escalation,ID,1,6,6,0,0.017391304347826087,False
+Q233,Safety / Contraindication,MIXED,1,6,6,0,0.017391304347826087,False
+Q235,Comparative Treatment Choice,ID,1,6,6,0,0.017391304347826087,False
+Q237,Monitoring / Response / Risk Assessment,MIXED,1,6,6,0,0.017391304347826087,False
+Q275,Management / Treatment Selection,ID,1,6,6,0,0.017391304347826087,False
+Q280,Management / Treatment Selection,ID,1,6,6,0,0.017391304347826087,False
+Q288,Safety / Contraindication,ID,1,6,6,0,0.017391304347826087,False
+Q328,Interaction / Combination,MIXED,1,6,6,0,0.017391304347826087,False
+Q333,Safety / Contraindication,MIXED,1,6,6,0,0.017391304347826087,False
+Q347,Dosing / Administration,EN,1,6,6,0,0.017391304347826087,False
+Q353,Efficacy / Outcomes,MIXED,1,6,6,0,0.017391304347826087,False
+Q360,Safety / Contraindication,EN,1,6,6,0,0.017391304347826087,False
+Q377,Guideline / Evidence Lookup,EN,1,6,6,0,0.017391304347826087,False
+Q465,Prophylaxis / Maintenance,EN,1,6,6,0,0.017391304347826087,False
+Q479,Safety / Contraindication,EN,1,6,6,0,0.017391304347826087,False
+Q013,Safety / Contraindication,MIXED,1,7,7,0,0.020289855072463767,False
+Q016,Safety / Contraindication,EN,1,7,7,0,0.020289855072463767,False
+Q029,Efficacy / Outcomes,MIXED,1,7,7,0,0.020289855072463767,False
+Q045,Treatment Change / Escalation,EN,1,7,7,0,0.020289855072463767,False
+Q047,Efficacy / Outcomes,EN,1,7,7,0,0.020289855072463767,False
+Q052,Guideline / Evidence Lookup,MIXED,1,7,7,0,0.020289855072463767,False
+Q084,Management / Treatment Selection,ID,1,7,7,0,0.020289855072463767,False
+Q127,Management / Treatment Selection,EN,1,7,7,0,0.020289855072463767,False
+Q162,Safety / Contraindication,EN,1,7,7,0,0.020289855072463767,False
+Q177,Efficacy / Outcomes,EN,1,7,7,0,0.020289855072463767,False
+Q182,Safety / Contraindication,ID,1,7,7,0,0.020289855072463767,False
+Q206,Dosing / Administration,ID,1,7,7,0,0.020289855072463767,False
+Q217,Management / Treatment Selection,ID,1,7,7,0,0.020289855072463767,False
+Q230,Safety / Contraindication,EN,1,7,7,0,0.020289855072463767,False
+Q236,Monitoring / Response / Risk Assessment,EN,1,7,7,0,0.020289855072463767,False
+Q296,Treatment Change / Escalation,ID,1,7,7,0,0.020289855072463767,False
+Q299,Dosing / Administration,EN,1,7,7,0,0.020289855072463767,False
+Q350,Treatment Change / Escalation,EN,1,7,7,0,0.020289855072463767,False
+Q387,Monitoring / Response / Risk Assessment,EN,1,7,7,0,0.020289855072463767,False
+Q389,Management / Treatment Selection,ID,1,7,7,0,0.020289855072463767,False
+Q415,Guideline / Evidence Lookup,EN,1,7,7,0,0.020289855072463767,False
+Q442,Treatment Change / Escalation,MIXED,1,7,7,0,0.020289855072463767,False
+Q483,Management / Treatment Selection,MIXED,1,7,7,0,0.020289855072463767,False
+Q500,Guideline / Evidence Lookup,MIXED,1,7,7,0,0.020289855072463767,False
+Q037,Safety / Contraindication,EN,1,8,8,0,0.02318840579710145,False
+Q053,Mechanism / Background Knowledge,EN,1,8,8,0,0.02318840579710145,False
+Q099,Dosing / Administration,MIXED,1,8,8,0,0.02318840579710145,False
+Q118,Dosing / Administration,MIXED,1,8,8,0,0.02318840579710145,False
+Q137,Mechanism / Background Knowledge,MIXED,1,8,8,0,0.02318840579710145,False
+Q138,Safety / Contraindication,ID,1,8,8,0,0.02318840579710145,False
+Q139,Dosing / Administration,MIXED,1,8,8,0,0.02318840579710145,False
+Q184,Mechanism / Background Knowledge,EN,1,8,8,0,0.02318840579710145,False
+Q194,Prophylaxis / Maintenance,EN,1,8,8,0,0.02318840579710145,False
+Q256,Mechanism / Background Knowledge,EN,1,8,8,0,0.02318840579710145,False
+Q283,Monitoring / Response / Risk Assessment,MIXED,1,8,8,0,0.02318840579710145,False
+Q302,Dosing / Administration,MIXED,1,8,8,0,0.02318840579710145,False
+Q303,Management / Treatment Selection,EN,1,8,8,0,0.02318840579710145,False
+Q339,Comparative Treatment Choice,EN,1,8,8,0,0.02318840579710145,False
+Q380,Dosing / Administration,MIXED,1,8,8,0,0.02318840579710145,False
+Q391,Management / Treatment Selection,EN,1,8,8,0,0.02318840579710145,False
+Q396,Dosing / Administration,EN,1,8,8,0,0.02318840579710145,False
+Q413,Guideline / Evidence Lookup,MIXED,1,8,8,0,0.02318840579710145,False
+Q425,Prophylaxis / Maintenance,MIXED,1,8,8,0,0.02318840579710145,False
+Q455,Management / Treatment Selection,ID,1,8,8,0,0.02318840579710145,False
+Q487,Guideline / Evidence Lookup,MIXED,1,8,8,0,0.02318840579710145,False
+Q491,Efficacy / Outcomes,EN,1,8,8,0,0.02318840579710145,False
+Q497,Safety / Contraindication,EN,1,8,8,0,0.02318840579710145,False
+Q014,Dosing / Administration,EN,1,9,9,0,0.02608695652173913,False
+Q024,Dosing / Administration,MIXED,1,9,9,0,0.02608695652173913,False
+Q071,Comparative Treatment Choice,EN,1,9,9,0,0.02608695652173913,False
+Q080,Management / Treatment Selection,MIXED,1,9,9,0,0.02608695652173913,False
+Q108,Safety / Contraindication,EN,1,9,9,0,0.02608695652173913,False
+Q111,Safety / Contraindication,EN,1,9,9,0,0.02608695652173913,False
+Q112,Comparative Treatment Choice,EN,1,9,9,0,0.02608695652173913,False
+Q115,Dosing / Administration,ID,1,9,9,0,0.02608695652173913,False
+Q136,Treatment Change / Escalation,EN,1,9,9,0,0.02608695652173913,False
+Q141,Prophylaxis / Maintenance,MIXED,1,9,9,0,0.02608695652173913,False
+Q151,Guideline / Evidence Lookup,MIXED,1,9,9,0,0.02608695652173913,False
+Q175,Dosing / Administration,EN,1,9,9,0,0.02608695652173913,False
+Q190,Mechanism / Background Knowledge,EN,1,9,9,0,0.02608695652173913,False
+Q195,Treatment Change / Escalation,EN,1,9,9,0,0.02608695652173913,False
+Q220,Dosing / Administration,MIXED,1,9,9,0,0.02608695652173913,False
+Q253,Safety / Contraindication,MIXED,1,9,9,0,0.02608695652173913,False
+Q259,Monitoring / Response / Risk Assessment,MIXED,1,9,9,0,0.02608695652173913,False
+Q261,Mechanism / Background Knowledge,EN,1,9,9,0,0.02608695652173913,False
+Q276,Monitoring / Response / Risk Assessment,EN,1,9,9,0,0.02608695652173913,False
+Q309,Efficacy / Outcomes,EN,1,9,9,0,0.02608695652173913,False
+Q312,Prophylaxis / Maintenance,EN,1,9,9,0,0.02608695652173913,False
+Q322,Dosing / Administration,EN,1,9,9,0,0.02608695652173913,False
+Q332,Management / Treatment Selection,ID,1,9,9,0,0.02608695652173913,False
+Q336,Safety / Contraindication,EN,1,9,9,0,0.02608695652173913,False
+Q344,Guideline / Evidence Lookup,ID,1,9,9,0,0.02608695652173913,False
+Q367,Safety / Contraindication,EN,1,9,9,0,0.02608695652173913,False
+Q374,Safety / Contraindication,MIXED,1,9,9,0,0.02608695652173913,False
+Q378,Treatment Change / Escalation,EN,1,9,9,0,0.02608695652173913,False
+Q414,Dosing / Administration,MIXED,1,9,9,0,0.02608695652173913,False
+Q446,Management / Treatment Selection,ID,1,9,9,0,0.02608695652173913,False
+Q448,Comparative Treatment Choice,MIXED,1,9,9,0,0.02608695652173913,False
+Q004,Efficacy / Outcomes,MIXED,1,10,10,0,0.028985507246376812,False
+Q058,Mechanism / Background Knowledge,EN,1,10,10,0,0.028985507246376812,False
+Q064,Monitoring / Response / Risk Assessment,EN,1,10,10,0,0.028985507246376812,False
+Q088,Dosing / Administration,EN,1,10,10,0,0.028985507246376812,False
+Q109,Guideline / Evidence Lookup,MIXED,1,10,10,0,0.028985507246376812,False
+Q143,Treatment Change / Escalation,MIXED,1,10,10,0,0.028985507246376812,False
+Q187,Safety / Contraindication,MIXED,1,10,10,0,0.028985507246376812,False
+Q203,Safety / Contraindication,EN,1,10,10,0,0.028985507246376812,False
+Q205,Prophylaxis / Maintenance,ID,1,10,10,0,0.028985507246376812,False
+Q286,Prophylaxis / Maintenance,MIXED,1,10,10,0,0.028985507246376812,False
+Q291,Management / Treatment Selection,ID,1,10,10,0,0.028985507246376812,False
+Q300,Safety / Contraindication,MIXED,1,10,10,0,0.028985507246376812,False
+Q310,Management / Treatment Selection,ID,1,10,10,0,0.028985507246376812,False
+Q317,Efficacy / Outcomes,MIXED,1,10,10,0,0.028985507246376812,False
+Q330,Safety / Contraindication,MIXED,1,10,10,0,0.028985507246376812,False
+Q358,Dosing / Administration,EN,1,10,10,0,0.028985507246376812,False
+Q361,Guideline / Evidence Lookup,ID,1,10,10,0,0.028985507246376812,False
+Q412,Efficacy / Outcomes,EN,1,10,10,0,0.028985507246376812,False
+Q428,Treatment Change / Escalation,ID,1,10,10,0,0.028985507246376812,False
+Q439,Dosing / Administration,EN,1,10,10,0,0.028985507246376812,False
+Q457,Safety / Contraindication,EN,1,10,10,0,0.028985507246376812,False
+Q464,Safety / Contraindication,MIXED,1,10,10,0,0.028985507246376812,False
+Q468,Prophylaxis / Maintenance,EN,1,10,10,0,0.028985507246376812,False
+Q471,Monitoring / Response / Risk Assessment,ID,1,10,10,0,0.028985507246376812,False
+Q475,Safety / Contraindication,ID,1,10,10,0,0.028985507246376812,False
+Q481,Efficacy / Outcomes,EN,1,10,10,0,0.028985507246376812,False
+Q493,Monitoring / Response / Risk Assessment,EN,1,10,10,0,0.028985507246376812,False
+Q028,Safety / Contraindication,EN,1,6,6,1,0.017391304347826087,True
+Q062,Guideline / Evidence Lookup,EN,1,6,6,1,0.017391304347826087,True
+Q066,Monitoring / Response / Risk Assessment,EN,1,6,6,1,0.017391304347826087,True
+Q092,Treatment Change / Escalation,MIXED,1,6,6,2,0.017391304347826087,True
+Q098,Guideline / Evidence Lookup,MIXED,1,6,6,3,0.017391304347826087,True
+Q160,Dosing / Administration,ID,1,6,6,1,0.017391304347826087,True
+Q164,Guideline / Evidence Lookup,MIXED,1,6,6,6,0.017391304347826087,True
+Q176,Guideline / Evidence Lookup,MIXED,1,6,6,6,0.017391304347826087,True
+Q201,Interaction / Combination,ID,1,6,6,2,0.017391304347826087,True
+Q222,Management / Treatment Selection,EN,1,6,6,2,0.017391304347826087,True
+Q240,Guideline / Evidence Lookup,MIXED,1,6,6,1,0.017391304347826087,True
+Q248,Guideline / Evidence Lookup,MIXED,1,6,6,1,0.017391304347826087,True
+Q255,Safety / Contraindication,MIXED,1,6,6,2,0.017391304347826087,True
+Q295,Treatment Change / Escalation,EN,1,6,6,2,0.017391304347826087,True
+Q305,Management / Treatment Selection,EN,1,6,6,4,0.017391304347826087,True
+Q308,Management / Treatment Selection,MIXED,1,6,6,2,0.017391304347826087,True
+Q321,Interaction / Combination,EN,1,6,6,6,0.017391304347826087,True
+Q343,Management / Treatment Selection,ID,1,6,6,1,0.017391304347826087,True
+Q357,Efficacy / Outcomes,EN,1,6,6,2,0.017391304347826087,True
+Q422,Guideline / Evidence Lookup,MIXED,1,6,6,1,0.017391304347826087,True
+Q452,Interaction / Combination,EN,1,6,6,1,0.017391304347826087,True
+Q460,Guideline / Evidence Lookup,EN,1,6,6,1,0.017391304347826087,True
+Q496,Safety / Contraindication,MIXED,1,6,6,2,0.017391304347826087,True
+Q010,Dosing / Administration,EN,1,7,7,2,0.020289855072463767,True
+Q035,Management / Treatment Selection,ID,1,7,7,1,0.020289855072463767,True
+Q081,Management / Treatment Selection,MIXED,1,7,7,2,0.020289855072463767,True
+Q085,Comparative Treatment Choice,EN,1,7,7,1,0.020289855072463767,True
+Q087,Management / Treatment Selection,MIXED,1,7,7,1,0.020289855072463767,True
+Q114,Comparative Treatment Choice,EN,1,7,7,1,0.020289855072463767,True
+Q123,Management / Treatment Selection,ID,1,7,7,1,0.020289855072463767,True
+Q148,Dosing / Administration,MIXED,1,7,7,2,0.020289855072463767,True
+Q163,Safety / Contraindication,EN,1,7,7,6,0.020289855072463767,True
+Q171,Prophylaxis / Maintenance,EN,1,7,7,7,0.020289855072463767,True
+Q226,Prophylaxis / Maintenance,MIXED,1,7,7,2,0.020289855072463767,True
+Q249,Dosing / Administration,MIXED,1,7,7,1,0.020289855072463767,True
+Q311,Treatment Change / Escalation,EN,1,7,7,2,0.020289855072463767,True
+Q318,Comparative Treatment Choice,EN,1,7,7,4,0.020289855072463767,True
+Q334,Prophylaxis / Maintenance,EN,1,7,7,7,0.020289855072463767,True
+Q338,Comparative Treatment Choice,EN,1,7,7,1,0.020289855072463767,True
+Q346,Dosing / Administration,MIXED,1,7,7,5,0.020289855072463767,True
+Q348,Safety / Contraindication,MIXED,1,7,7,1,0.020289855072463767,True
+Q386,Safety / Contraindication,MIXED,1,7,7,2,0.020289855072463767,True
+Q403,Interaction / Combination,ID,1,7,7,2,0.020289855072463767,True
+Q435,Dosing / Administration,EN,1,7,7,7,0.020289855072463767,True
+Q438,Dosing / Administration,MIXED,1,7,7,2,0.020289855072463767,True
+Q444,Dosing / Administration,EN,1,7,7,7,0.020289855072463767,True
+Q449,Mechanism / Background Knowledge,EN,1,7,7,4,0.020289855072463767,True
+Q476,Comparative Treatment Choice,ID,1,7,7,1,0.020289855072463767,True
+Q478,Safety / Contraindication,MIXED,1,7,7,1,0.020289855072463767,True
+Q488,Safety / Contraindication,ID,1,7,7,1,0.020289855072463767,True
+Q494,Guideline / Evidence Lookup,MIXED,1,7,7,1,0.020289855072463767,True
+Q002,Safety / Contraindication,EN,1,8,8,1,0.02318840579710145,True
+Q011,Dosing / Administration,MIXED,1,8,8,2,0.02318840579710145,True
+Q031,Safety / Contraindication,MIXED,1,8,8,2,0.02318840579710145,True
+Q033,Safety / Contraindication,MIXED,1,8,8,2,0.02318840579710145,True
+Q061,Guideline / Evidence Lookup,MIXED,1,8,8,5,0.02318840579710145,True
+Q083,Guideline / Evidence Lookup,EN,1,8,8,1,0.02318840579710145,True
+Q091,Dosing / Administration,MIXED,1,8,8,2,0.02318840579710145,True
+Q103,Monitoring / Response / Risk Assessment,EN,1,8,8,1,0.02318840579710145,True
+Q110,Dosing / Administration,MIXED,1,8,8,2,0.02318840579710145,True
+Q147,Guideline / Evidence Lookup,MIXED,1,8,8,1,0.02318840579710145,True
+Q165,Dosing / Administration,ID,1,8,8,8,0.02318840579710145,True
+Q166,Mechanism / Background Knowledge,EN,1,8,8,2,0.02318840579710145,True
+Q168,Guideline / Evidence Lookup,MIXED,1,8,8,1,0.02318840579710145,True
+Q174,Monitoring / Response / Risk Assessment,MIXED,1,8,8,1,0.02318840579710145,True
+Q207,Interaction / Combination,EN,1,8,8,1,0.02318840579710145,True
+Q212,Safety / Contraindication,EN,1,8,8,8,0.02318840579710145,True
+Q223,Efficacy / Outcomes,MIXED,1,8,8,1,0.02318840579710145,True
+Q229,Management / Treatment Selection,EN,1,8,8,7,0.02318840579710145,True
+Q257,Treatment Change / Escalation,EN,1,8,8,1,0.02318840579710145,True
+Q269,Efficacy / Outcomes,MIXED,1,8,8,2,0.02318840579710145,True
+Q315,Guideline / Evidence Lookup,MIXED,1,8,8,3,0.02318840579710145,True
+Q320,Safety / Contraindication,EN,1,8,8,1,0.02318840579710145,True
+Q329,Management / Treatment Selection,ID,1,8,8,1,0.02318840579710145,True
+Q331,Dosing / Administration,MIXED,1,8,8,2,0.02318840579710145,True
+Q356,Safety / Contraindication,ID,1,8,8,1,0.02318840579710145,True
+Q370,Management / Treatment Selection,ID,1,8,8,8,0.02318840579710145,True
+Q372,Guideline / Evidence Lookup,MIXED,1,8,8,2,0.02318840579710145,True
+Q373,Treatment Change / Escalation,EN,1,8,8,1,0.02318840579710145,True
+Q400,Dosing / Administration,ID,1,8,8,1,0.02318840579710145,True
+Q459,Prophylaxis / Maintenance,MIXED,1,8,8,2,0.02318840579710145,True
+Q462,Interaction / Combination,EN,1,8,8,2,0.02318840579710145,True
+Q463,Management / Treatment Selection,EN,1,8,8,8,0.02318840579710145,True
+Q030,Safety / Contraindication,EN,1,9,9,2,0.02608695652173913,True
+Q042,Treatment Change / Escalation,EN,1,9,9,9,0.02608695652173913,True
+Q054,Safety / Contraindication,EN,1,9,9,9,0.02608695652173913,True
+Q057,Comparative Treatment Choice,MIXED,1,9,9,2,0.02608695652173913,True
+Q059,Treatment Change / Escalation,MIXED,1,9,9,1,0.02608695652173913,True
+Q060,Management / Treatment Selection,EN,1,9,9,7,0.02608695652173913,True
+Q065,Efficacy / Outcomes,MIXED,1,9,9,2,0.02608695652173913,True
+Q093,Treatment Change / Escalation,ID,1,9,9,8,0.02608695652173913,True
+Q116,Management / Treatment Selection,MIXED,1,9,9,2,0.02608695652173913,True
+Q119,Guideline / Evidence Lookup,MIXED,1,9,9,1,0.02608695652173913,True
+Q122,Dosing / Administration,MIXED,1,9,9,2,0.02608695652173913,True
+Q142,Safety / Contraindication,ID,1,9,9,6,0.02608695652173913,True
+Q144,Dosing / Administration,EN,1,9,9,4,0.02608695652173913,True
+Q155,Interaction / Combination,MIXED,1,9,9,8,0.02608695652173913,True
+Q188,Interaction / Combination,ID,1,9,9,3,0.02608695652173913,True
+Q192,Dosing / Administration,MIXED,1,9,9,2,0.02608695652173913,True
+Q196,Monitoring / Response / Risk Assessment,EN,1,9,9,1,0.02608695652173913,True
+Q198,Guideline / Evidence Lookup,EN,1,9,9,1,0.02608695652173913,True
+Q211,Management / Treatment Selection,ID,1,9,9,9,0.02608695652173913,True
+Q224,Dosing / Administration,EN,1,9,9,9,0.02608695652173913,True
+Q227,Safety / Contraindication,EN,1,9,9,1,0.02608695652173913,True
+Q242,Guideline / Evidence Lookup,ID,1,9,9,2,0.02608695652173913,True
+Q250,Safety / Contraindication,ID,1,9,9,6,0.02608695652173913,True
+Q252,Guideline / Evidence Lookup,MIXED,1,9,9,9,0.02608695652173913,True
+Q267,Safety / Contraindication,MIXED,1,9,9,2,0.02608695652173913,True
+Q284,Safety / Contraindication,EN,1,9,9,1,0.02608695652173913,True
+Q290,Monitoring / Response / Risk Assessment,MIXED,1,9,9,9,0.02608695652173913,True
+Q313,Guideline / Evidence Lookup,MIXED,1,9,9,1,0.02608695652173913,True
+Q345,Monitoring / Response / Risk Assessment,EN,1,9,9,2,0.02608695652173913,True
+Q359,Dosing / Administration,ID,1,9,9,4,0.02608695652173913,True
+Q362,Guideline / Evidence Lookup,ID,1,9,9,1,0.02608695652173913,True
+Q376,Mechanism / Background Knowledge,EN,1,9,9,1,0.02608695652173913,True
+Q383,Guideline / Evidence Lookup,MIXED,1,9,9,1,0.02608695652173913,True
+Q384,Safety / Contraindication,EN,1,9,9,8,0.02608695652173913,True
+Q390,Guideline / Evidence Lookup,ID,1,9,9,9,0.02608695652173913,True
+Q398,Guideline / Evidence Lookup,MIXED,1,9,9,8,0.02608695652173913,True
+Q402,Prophylaxis / Maintenance,MIXED,1,9,9,3,0.02608695652173913,True
+Q432,Interaction / Combination,EN,1,9,9,2,0.02608695652173913,True
+Q447,Comparative Treatment Choice,ID,1,9,9,1,0.02608695652173913,True
+Q474,Mechanism / Background Knowledge,MIXED,1,9,9,2,0.02608695652173913,True
+Q485,Treatment Change / Escalation,EN,1,9,9,1,0.02608695652173913,True
+Q022,Treatment Change / Escalation,ID,1,10,10,6,0.028985507246376812,True
+Q025,Guideline / Evidence Lookup,EN,1,10,10,1,0.028985507246376812,True
+Q026,Safety / Contraindication,MIXED,1,10,10,2,0.028985507246376812,True
+Q044,Management / Treatment Selection,EN,1,10,10,2,0.028985507246376812,True
+Q049,Mechanism / Background Knowledge,MIXED,1,10,10,1,0.028985507246376812,True
+Q055,Safety / Contraindication,MIXED,1,10,10,1,0.028985507246376812,True
+Q069,Dosing / Administration,MIXED,1,10,10,8,0.028985507246376812,True
+Q075,Guideline / Evidence Lookup,EN,1,10,10,8,0.028985507246376812,True
+Q105,Guideline / Evidence Lookup,ID,1,10,10,2,0.028985507246376812,True
+Q124,Treatment Change / Escalation,MIXED,1,10,10,1,0.028985507246376812,True
+Q153,Guideline / Evidence Lookup,EN,1,10,10,1,0.028985507246376812,True
+Q218,Management / Treatment Selection,ID,1,10,10,7,0.028985507246376812,True
+Q219,Management / Treatment Selection,MIXED,1,10,10,1,0.028985507246376812,True
+Q221,Monitoring / Response / Risk Assessment,EN,1,10,10,2,0.028985507246376812,True
+Q225,Management / Treatment Selection,MIXED,1,10,10,1,0.028985507246376812,True
+Q228,Safety / Contraindication,EN,1,10,10,8,0.028985507246376812,True
+Q232,Safety / Contraindication,MIXED,1,10,10,2,0.028985507246376812,True
+Q265,Dosing / Administration,EN,1,10,10,1,0.028985507246376812,True
+Q277,Dosing / Administration,EN,1,10,10,2,0.028985507246376812,True
+Q306,Interaction / Combination,EN,1,10,10,2,0.028985507246376812,True
+Q327,Interaction / Combination,MIXED,1,10,10,9,0.028985507246376812,True
+Q355,Prophylaxis / Maintenance,ID,1,10,10,2,0.028985507246376812,True
+Q364,Treatment Change / Escalation,EN,1,10,10,1,0.028985507246376812,True
+Q365,Safety / Contraindication,EN,1,10,10,1,0.028985507246376812,True
+Q369,Comparative Treatment Choice,ID,1,10,10,9,0.028985507246376812,True
+Q405,Management / Treatment Selection,ID,1,10,10,1,0.028985507246376812,True
+Q424,Monitoring / Response / Risk Assessment,EN,1,10,10,1,0.028985507246376812,True
+Q436,Comparative Treatment Choice,MIXED,1,10,10,2,0.028985507246376812,True
+Q437,Management / Treatment Selection,EN,1,10,10,1,0.028985507246376812,True
+Q453,Dosing / Administration,MIXED,1,10,10,2,0.028985507246376812,True
+Q456,Guideline / Evidence Lookup,MIXED,1,10,10,2,0.028985507246376812,True
+Q480,Dosing / Administration,EN,1,10,10,8,0.028985507246376812,True
+Q498,Monitoring / Response / Risk Assessment,MIXED,1,10,10,2,0.028985507246376812,True
+Q008,Safety / Contraindication,EN,1,11,11,8,0.03188405797101449,True
+Q046,Management / Treatment Selection,ID,1,11,11,7,0.03188405797101449,True
+Q073,Safety / Contraindication,EN,1,11,11,6,0.03188405797101449,True
+Q106,Dosing / Administration,EN,1,11,11,1,0.03188405797101449,True
+Q129,Safety / Contraindication,ID,1,11,11,1,0.03188405797101449,True
+Q158,Management / Treatment Selection,EN,1,11,11,1,0.03188405797101449,True
+Q169,Mechanism / Background Knowledge,EN,1,11,11,2,0.03188405797101449,True
+Q170,Comparative Treatment Choice,EN,1,11,11,2,0.03188405797101449,True
+Q178,Treatment Change / Escalation,MIXED,1,11,11,8,0.03188405797101449,True
+Q216,Guideline / Evidence Lookup,EN,1,11,11,7,0.03188405797101449,True
+Q241,Dosing / Administration,ID,1,11,11,1,0.03188405797101449,True
+Q251,Monitoring / Response / Risk Assessment,EN,1,11,11,1,0.03188405797101449,True
+Q266,Monitoring / Response / Risk Assessment,ID,1,11,11,2,0.03188405797101449,True
+Q271,Treatment Change / Escalation,MIXED,1,11,11,2,0.03188405797101449,True
+Q272,Mechanism / Background Knowledge,EN,1,11,11,2,0.03188405797101449,True
+Q273,Guideline / Evidence Lookup,MIXED,1,11,11,1,0.03188405797101449,True
+Q279,Prophylaxis / Maintenance,MIXED,1,11,11,6,0.03188405797101449,True
+Q282,Safety / Contraindication,ID,1,11,11,1,0.03188405797101449,True
+Q307,Safety / Contraindication,EN,1,11,11,2,0.03188405797101449,True
+Q385,Prophylaxis / Maintenance,ID,1,11,11,1,0.03188405797101449,True
+Q388,Mechanism / Background Knowledge,EN,1,11,11,4,0.03188405797101449,True
+Q411,Dosing / Administration,MIXED,1,11,11,2,0.03188405797101449,True
+Q430,Dosing / Administration,MIXED,1,11,11,1,0.03188405797101449,True
+Q431,Safety / Contraindication,ID,1,11,11,1,0.03188405797101449,True
+Q441,Dosing / Administration,EN,1,11,11,1,0.03188405797101449,True
+Q451,Prophylaxis / Maintenance,EN,1,11,11,2,0.03188405797101449,True
+Q461,Safety / Contraindication,EN,1,11,11,4,0.03188405797101449,True
+Q492,Dosing / Administration,EN,1,11,11,1,0.03188405797101449,True
+Q499,Safety / Contraindication,ID,1,11,11,1,0.03188405797101449,True
+Q001,Safety / Contraindication,EN,1,12,12,2,0.034782608695652174,True
+Q006,Interaction / Combination,MIXED,1,12,12,2,0.034782608695652174,True
+Q020,Guideline / Evidence Lookup,EN,1,12,12,1,0.034782608695652174,True
+Q063,Dosing / Administration,ID,1,12,12,1,0.034782608695652174,True
+Q079,Mechanism / Background Knowledge,EN,1,12,12,2,0.034782608695652174,True
+Q104,Dosing / Administration,EN,1,12,12,1,0.034782608695652174,True
+Q130,Dosing / Administration,EN,1,12,12,7,0.034782608695652174,True
+Q140,Mechanism / Background Knowledge,EN,1,12,12,9,0.034782608695652174,True
+Q152,Safety / Contraindication,ID,1,12,12,7,0.034782608695652174,True
+Q157,Safety / Contraindication,EN,1,12,12,9,0.034782608695652174,True
+Q210,Treatment Change / Escalation,MIXED,1,12,12,6,0.034782608695652174,True
+Q244,Comparative Treatment Choice,ID,1,12,12,2,0.034782608695652174,True
+Q246,Treatment Change / Escalation,EN,1,12,12,6,0.034782608695652174,True
+Q254,Mechanism / Background Knowledge,EN,1,12,12,3,0.034782608695652174,True
+Q260,Prophylaxis / Maintenance,ID,1,12,12,2,0.034782608695652174,True
+Q294,Dosing / Administration,MIXED,1,12,12,1,0.034782608695652174,True
+Q316,Comparative Treatment Choice,MIXED,1,12,12,8,0.034782608695652174,True
+Q366,Efficacy / Outcomes,EN,1,12,12,1,0.034782608695652174,True
+Q379,Safety / Contraindication,MIXED,1,12,12,1,0.034782608695652174,True
+Q382,Management / Treatment Selection,EN,1,12,12,2,0.034782608695652174,True
+Q399,Mechanism / Background Knowledge,MIXED,1,12,12,4,0.034782608695652174,True
+Q401,Management / Treatment Selection,EN,1,12,12,2,0.034782608695652174,True
+Q404,Dosing / Administration,EN,1,12,12,7,0.034782608695652174,True
+Q406,Management / Treatment Selection,EN,1,12,12,2,0.034782608695652174,True
+Q416,Monitoring / Response / Risk Assessment,EN,1,12,12,9,0.034782608695652174,True
+Q417,Comparative Treatment Choice,ID,1,12,12,1,0.034782608695652174,True
+Q418,Monitoring / Response / Risk Assessment,MIXED,1,12,12,1,0.034782608695652174,True
+Q470,Dosing / Administration,ID,1,12,12,2,0.034782608695652174,True
+Q482,Efficacy / Outcomes,EN,1,12,12,1,0.034782608695652174,True
+Q278,Treatment Change / Escalation,MIXED,2,14,14,6,0.04057971014492753,True
+Q324,Monitoring / Response / Risk Assessment,EN,2,15,14,4,0.04057971014492753,True
+Q352,Guideline / Evidence Lookup,ID,2,14,14,4,0.04057971014492753,True
+Q125,Safety / Contraindication,MIXED,2,15,15,6,0.043478260869565216,True
+Q189,Dosing / Administration,EN,2,16,15,5,0.043478260869565216,True
+Q285,Comparative Treatment Choice,EN,2,16,15,4,0.043478260869565216,True
+Q214,Dosing / Administration,EN,2,16,16,5,0.0463768115942029,True
+Q466,Guideline / Evidence Lookup,ID,2,16,16,6,0.0463768115942029,True
+Q019,Dosing / Administration,MIXED,2,17,17,6,0.04927536231884058,True
+Q039,Management / Treatment Selection,ID,2,17,17,5,0.04927536231884058,True
+Q070,Efficacy / Outcomes,EN,2,18,17,5,0.04927536231884058,True
+Q185,Dosing / Administration,EN,2,17,17,5,0.04927536231884058,True
+Q243,Dosing / Administration,EN,2,17,17,4,0.04927536231884058,True
+Q394,Safety / Contraindication,EN,2,17,17,5,0.04927536231884058,True
+Q003,Interaction / Combination,ID,3,19,18,7,0.05217391304347826,True
+Q007,Dosing / Administration,EN,2,19,18,5,0.05217391304347826,True
+Q172,Management / Treatment Selection,ID,2,19,18,6,0.05217391304347826,True
+Q209,Treatment Change / Escalation,EN,2,18,18,4,0.05217391304347826,True
+Q263,Dosing / Administration,EN,2,18,18,4,0.05217391304347826,True
+Q458,Mechanism / Background Knowledge,EN,2,18,18,5,0.05217391304347826,True
+Q038,Guideline / Evidence Lookup,MIXED,2,19,19,6,0.05507246376811594,True
+Q086,Treatment Change / Escalation,MIXED,2,19,19,5,0.05507246376811594,True
+Q156,Guideline / Evidence Lookup,MIXED,3,20,19,7,0.05507246376811594,True
+Q191,Dosing / Administration,MIXED,2,20,19,5,0.05507246376811594,True
+Q199,Dosing / Administration,EN,2,19,19,5,0.05507246376811594,True
+Q407,Dosing / Administration,ID,2,20,19,4,0.05507246376811594,True
+Q489,Treatment Change / Escalation,EN,2,19,19,6,0.05507246376811594,True
+Q159,Dosing / Administration,EN,2,21,20,6,0.057971014492753624,True
+Q179,Management / Treatment Selection,EN,2,20,20,6,0.057971014492753624,True
+Q197,Monitoring / Response / Risk Assessment,ID,3,21,20,5,0.057971014492753624,True
+Q443,Prophylaxis / Maintenance,MIXED,2,20,20,4,0.057971014492753624,True
+Q107,Management / Treatment Selection,ID,3,21,21,7,0.06086956521739131,True
+Q200,Monitoring / Response / Risk Assessment,EN,2,21,21,6,0.06086956521739131,True
+Q204,Mechanism / Background Knowledge,MIXED,2,24,21,4,0.06086956521739131,True
+Q247,Treatment Change / Escalation,ID,2,22,21,4,0.06086956521739131,True
+Q270,Dosing / Administration,MIXED,2,21,21,6,0.06086956521739131,True
+Q297,Management / Treatment Selection,EN,2,21,21,5,0.06086956521739131,True
+Q423,Prophylaxis / Maintenance,MIXED,2,21,21,4,0.06086956521739131,True
+Q183,Dosing / Administration,EN,2,22,22,6,0.06376811594202898,True
+Q325,Prophylaxis / Maintenance,MIXED,3,23,22,6,0.06376811594202898,True
+Q342,Dosing / Administration,MIXED,3,23,22,5,0.06376811594202898,True
+Q467,Safety / Contraindication,MIXED,3,24,22,6,0.06376811594202898,True
+Q095,Monitoring / Response / Risk Assessment,EN,3,23,23,7,0.06666666666666667,True
+Q181,Dosing / Administration,ID,2,23,23,6,0.06666666666666667,True
+Q213,Prophylaxis / Maintenance,MIXED,3,25,23,5,0.06666666666666667,True
+Q408,Prophylaxis / Maintenance,MIXED,3,23,23,5,0.06666666666666667,True
+Q426,Prophylaxis / Maintenance,MIXED,3,24,23,6,0.06666666666666667,True
+Q068,Treatment Change / Escalation,EN,3,24,24,7,0.06956521739130435,True
+Q161,Dosing / Administration,MIXED,3,24,24,6,0.06956521739130435,True
+Q349,Dosing / Administration,ID,3,24,24,5,0.06956521739130435,True
+Q427,Safety / Contraindication,MIXED,3,24,24,5,0.06956521739130435,True
+Q094,Guideline / Evidence Lookup,MIXED,3,27,25,5,0.07246376811594203,True
+Q134,Prophylaxis / Maintenance,EN,3,25,25,5,0.07246376811594203,True
+Q150,Comparative Treatment Choice,ID,3,25,25,7,0.07246376811594203,True
+Q238,Safety / Contraindication,EN,3,25,25,6,0.07246376811594203,True
+Q262,Interaction / Combination,MIXED,3,26,25,5,0.07246376811594203,True
+Q268,Mechanism / Background Knowledge,EN,3,25,25,5,0.07246376811594203,True
+Q015,Prophylaxis / Maintenance,EN,3,29,26,5,0.07536231884057971,True
+Q018,Interaction / Combination,ID,3,26,26,5,0.07536231884057971,True
+Q090,Management / Treatment Selection,ID,3,26,26,5,0.07536231884057971,True
+Q101,Interaction / Combination,EN,3,26,26,6,0.07536231884057971,True
+Q335,Comparative Treatment Choice,MIXED,3,26,26,6,0.07536231884057971,True
+Q395,Dosing / Administration,EN,3,26,26,5,0.07536231884057971,True
+Q420,Dosing / Administration,ID,3,27,26,7,0.07536231884057971,True
+Q472,Mechanism / Background Knowledge,MIXED,3,26,26,7,0.07536231884057971,True
+Q043,Safety / Contraindication,ID,4,29,27,8,0.0782608695652174,True
+Q078,Safety / Contraindication,ID,3,28,27,6,0.0782608695652174,True
+Q121,Management / Treatment Selection,EN,3,27,27,6,0.0782608695652174,True
+Q133,Safety / Contraindication,EN,3,27,27,5,0.0782608695652174,True
+Q371,Guideline / Evidence Lookup,MIXED,3,28,27,6,0.0782608695652174,True
+Q375,Dosing / Administration,ID,3,28,27,5,0.0782608695652174,True
+Q450,Safety / Contraindication,MIXED,3,29,27,6,0.0782608695652174,True
+Q009,Interaction / Combination,EN,3,28,28,6,0.08115942028985507,True
+Q128,Guideline / Evidence Lookup,MIXED,3,28,28,6,0.08115942028985507,True
+Q193,Management / Treatment Selection,ID,3,28,28,7,0.08115942028985507,True
+Q012,Dosing / Administration,MIXED,3,29,29,7,0.08405797101449275,True
+Q393,Monitoring / Response / Risk Assessment,MIXED,3,29,29,5,0.08405797101449275,True
+Q477,Efficacy / Outcomes,EN,3,29,29,6,0.08405797101449275,True
+Q032,Interaction / Combination,ID,3,30,30,7,0.08695652173913043,True
+Q089,Monitoring / Response / Risk Assessment,EN,3,32,30,6,0.08695652173913043,True
+Q146,Comparative Treatment Choice,MIXED,3,30,30,6,0.08695652173913043,True
+Q208,Prophylaxis / Maintenance,ID,3,31,30,7,0.08695652173913043,True
+Q258,Management / Treatment Selection,EN,3,30,30,7,0.08695652173913043,True
+Q421,Dosing / Administration,EN,4,31,30,6,0.08695652173913043,True
+Q429,Dosing / Administration,ID,3,30,30,5,0.08695652173913043,True
+Q486,Treatment Change / Escalation,EN,3,32,30,6,0.08695652173913043,True
+Q131,Safety / Contraindication,MIXED,3,32,31,7,0.08985507246376812,True
+Q132,Dosing / Administration,EN,4,34,31,7,0.08985507246376812,True
+Q097,Dosing / Administration,ID,4,32,32,7,0.0927536231884058,True
+Q027,Safety / Contraindication,EN,4,36,33,7,0.09565217391304348,True
+Q239,Dosing / Administration,MIXED,4,34,33,8,0.09565217391304348,True
+Q289,Safety / Contraindication,ID,4,36,33,8,0.09565217391304348,True
+Q490,Management / Treatment Selection,ID,3,35,33,7,0.09565217391304348,True
+Q077,Management / Treatment Selection,ID,4,35,34,8,0.09855072463768116,True
+Q180,Guideline / Evidence Lookup,ID,4,37,34,6,0.09855072463768116,True
+Q202,Management / Treatment Selection,EN,3,34,34,6,0.09855072463768116,True
+Q264,Dosing / Administration,ID,4,35,34,6,0.09855072463768116,True
+Q292,Comparative Treatment Choice,EN,4,35,34,6,0.09855072463768116,True
+Q354,Safety / Contraindication,ID,4,36,34,7,0.09855072463768116,True
+Q154,Dosing / Administration,EN,4,40,35,7,0.10144927536231885,True
+Q319,Dosing / Administration,MIXED,4,35,35,7,0.10144927536231885,True
+Q433,Monitoring / Response / Risk Assessment,EN,4,38,35,6,0.10144927536231885,True
+Q021,Dosing / Administration,MIXED,4,37,36,6,0.10434782608695652,True
+Q301,Monitoring / Response / Risk Assessment,EN,4,37,36,8,0.10434782608695652,True
+Q337,Management / Treatment Selection,EN,4,37,36,7,0.10434782608695652,True
+Q392,Treatment Change / Escalation,EN,4,36,36,7,0.10434782608695652,True
+Q469,Guideline / Evidence Lookup,MIXED,4,37,36,6,0.10434782608695652,True
+Q245,Management / Treatment Selection,ID,4,37,37,6,0.1072463768115942,True
+Q005,Safety / Contraindication,EN,5,41,38,8,0.11014492753623188,True
+Q287,Guideline / Evidence Lookup,ID,4,42,38,6,0.11014492753623188,True
+Q298,Treatment Change / Escalation,ID,4,38,38,6,0.11014492753623188,True
+Q363,Prophylaxis / Maintenance,MIXED,4,38,38,6,0.11014492753623188,True
+Q231,Interaction / Combination,MIXED,4,41,39,7,0.11304347826086956,True
+Q096,Monitoring / Response / Risk Assessment,EN,5,41,40,9,0.11594202898550725,True
+Q304,Prophylaxis / Maintenance,MIXED,4,43,40,7,0.11594202898550725,True
+Q409,Dosing / Administration,EN,5,43,40,7,0.11594202898550725,True
+Q100,Prophylaxis / Maintenance,MIXED,6,45,41,9,0.11884057971014493,True
+Q341,Treatment Change / Escalation,EN,4,45,41,8,0.11884057971014493,True
+Q419,Treatment Change / Escalation,EN,4,43,42,6,0.12173913043478261,True
+Q454,Treatment Change / Escalation,MIXED,4,42,42,7,0.12173913043478261,True
+Q051,Treatment Change / Escalation,EN,4,46,43,8,0.1246376811594203,True
+Q314,Treatment Change / Escalation,MIXED,5,47,44,9,0.12753623188405797,True
+Q145,Dosing / Administration,EN,5,46,45,9,0.13043478260869565,True
+Q340,Guideline / Evidence Lookup,MIXED,6,50,45,10,0.13043478260869565,True
+Q440,Monitoring / Response / Risk Assessment,EN,5,47,45,7,0.13043478260869565,True
+Q076,Dosing / Administration,MIXED,5,49,46,7,0.13333333333333333,True
+Q281,Mechanism / Background Knowledge,EN,6,49,46,8,0.13333333333333333,True
+Q056,Dosing / Administration,MIXED,5,52,49,8,0.14202898550724638,True
+Q067,Guideline / Evidence Lookup,MIXED,6,52,49,8,0.14202898550724638,True
+Q040,Treatment Change / Escalation,ID,6,54,50,8,0.14492753623188406,True
+Q323,Safety / Contraindication,ID,7,57,52,11,0.15072463768115943,True
+Q397,Monitoring / Response / Risk Assessment,EN,6,57,53,9,0.1536231884057971,True
+Q234,Mechanism / Background Knowledge,MIXED,6,60,56,10,0.16231884057971013,True
+Q293,Treatment Change / Escalation,ID,6,61,56,9,0.16231884057971013,True
+Q473,Efficacy / Outcomes,MIXED,8,81,77,12,0.22318840579710145,True

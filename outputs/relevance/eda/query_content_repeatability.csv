@@ -1,0 +1,5 @@
+repeatability,query_content_pairs,total_exposures,total_engaged_exposures,share_of_pairs,engagement_rate
+repeated_always_engaged,10,20,20,0.0014210601108426886,1.0
+repeated_mixed_engagement,49,100,49,0.006963194543129174,0.49
+repeated_never_engaged,91,183,0,0.012931647008668466,0.0
+single_exposure,6887,6887,1431,0.9786840983373597,0.20778277914912152

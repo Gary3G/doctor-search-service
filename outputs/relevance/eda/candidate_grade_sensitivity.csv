@@ -1,0 +1,13 @@
+scheme,definition,grade,rows,share_all_rows,share_engaged_rows
+event_hierarchy,3=bookmark/return; 2=deep scroll; 1=click; 0=no observed engagement,0,5690,0.7913769123783032,0.0
+event_hierarchy,3=bookmark/return; 2=deep scroll; 1=click; 0=no observed engagement,1,944,0.13129346314325452,0.6293333333333333
+event_hierarchy,3=bookmark/return; 2=deep scroll; 1=click; 0=no observed engagement,2,436,0.06063977746870654,0.2906666666666667
+event_hierarchy,3=bookmark/return; 2=deep scroll; 1=click; 0=no observed engagement,3,120,0.016689847009735744,0.08
+median_dwell_split,3=bookmark/return or deep scroll >=150s; 2=other deep scroll or click >=10s; 1=other click; 0=no engagement,0,5690,0.7913769123783032,0.0
+median_dwell_split,3=bookmark/return or deep scroll >=150s; 2=other deep scroll or click >=10s; 1=other click; 0=no engagement,1,444,0.061752433936022255,0.296
+median_dwell_split,3=bookmark/return or deep scroll >=150s; 2=other deep scroll or click >=10s; 1=other click; 0=no engagement,2,710,0.09874826147426982,0.47333333333333333
+median_dwell_split,3=bookmark/return or deep scroll >=150s; 2=other deep scroll or click >=10s; 1=other click; 0=no engagement,3,346,0.04812239221140473,0.23066666666666666
+conservative_dwell,3=bookmark/return or deep scroll >=180s; 2=other deep scroll or click >=30s; 1=other click; 0=no engagement,0,5690,0.7913769123783032,0.0
+conservative_dwell,3=bookmark/return or deep scroll >=180s; 2=other deep scroll or click >=30s; 1=other click; 0=no engagement,1,811,0.11279554937413074,0.5406666666666666
+conservative_dwell,3=bookmark/return or deep scroll >=180s; 2=other deep scroll or click >=30s; 1=other click; 0=no engagement,2,418,0.05813630041724618,0.2786666666666667
+conservative_dwell,3=bookmark/return or deep scroll >=180s; 2=other deep scroll or click >=30s; 1=other click; 0=no engagement,3,271,0.03769123783031989,0.18066666666666667

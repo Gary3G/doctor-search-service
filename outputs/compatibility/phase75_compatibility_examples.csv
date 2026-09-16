@@ -1,0 +1,31 @@
+example_group,query_id,content_id,query_text,content_title,entity_coverage,entity_augmented_coverage,entity_conflict_count,context_constraint_count,context_match_count,context_conflict_count,structured_score,structured_conflict_rate
+highest_structured_score,Q001,C277,is Diazepam safe in Febrile Seizure with immunocompromised,"Diazepam: Pharmacology, Dosing, and Clinical Use in Febrile Seizure",1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C278,is Diazepam safe in Febrile Seizure with immunocompromised,Diazepam Drug Profile: Efficacy in Febrile Seizure,1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C282,is Diazepam safe in Febrile Seizure with immunocompromised,New Insights into Febrile Seizure Pathophysiology and Treatment,1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C284,is Diazepam safe in Febrile Seizure with immunocompromised,Diazepam: Farmakologi dan Penggunaan Klinis pada Febrile Seizure,1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C285,is Diazepam safe in Febrile Seizure with immunocompromised,Perbandingan Diazepam dan Diazepam pada Febrile Seizure,1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C286,is Diazepam safe in Febrile Seizure with immunocompromised,Systematic Review: Benzodiazepines in Febrile Seizure,1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C290,is Diazepam safe in Febrile Seizure with immunocompromised,Diazepam Real-World Evidence in Febrile Seizure: A Retrospective Study,1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C291,is Diazepam safe in Febrile Seizure with immunocompromised,Perbandingan Diazepam dan Diazepam pada Febrile Seizure,1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C292,is Diazepam safe in Febrile Seizure with immunocompromised,"Benzodiazepines: Mechanism, Indications, and Safety",1.0,1.0,0,0,0,0,1.0,0.0
+highest_structured_score,Q001,C299,is Diazepam safe in Febrile Seizure with immunocompromised,Diazepam in Febrile Seizure: Real-World Outcomes,1.0,1.0,0,0,0,0,1.0,0.0
+entity_conflict,Q001,C001,is Diazepam safe in Febrile Seizure with immunocompromised,Panduan Praktis: Memulai Levothyroxine pada Hypothyroidism,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C002,is Diazepam safe in Febrile Seizure with immunocompromised,Clinical Practice Guideline: Type 1 Diabetes Mellitus Management 2023,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C003,is Diazepam safe in Febrile Seizure with immunocompromised,A Case of Type 1 Diabetes Mellitus Resistant to Insulin degludec,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C004,is Diazepam safe in Febrile Seizure with immunocompromised,Successful Management of Severe Hypothyroidism with Levothyroxine,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C005,is Diazepam safe in Febrile Seizure with immunocompromised,Liraglutide in Type 2 Diabetes Mellitus: Real-World Outcomes,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C006,is Diazepam safe in Febrile Seizure with immunocompromised,"Methimazole: Pharmacology, Dosing, and Clinical Use in Hyperthyroidism",0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C007,is Diazepam safe in Febrile Seizure with immunocompromised,Efficacy of Vasopressin analogues in Diabetes Insipidus: A Cohort Study,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C008,is Diazepam safe in Febrile Seizure with immunocompromised,Treatment Intensification in Type 2 Diabetes Mellitus: When and How,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C009,is Diazepam safe in Febrile Seizure with immunocompromised,Case Report: Atypical Presentation of Obesity,0.0,0.0,4,0,0,0,0.0,1.0
+entity_conflict,Q001,C010,is Diazepam safe in Febrile Seizure with immunocompromised,Dosis DPP-4 inhibitors pada Type 2 Diabetes Mellitus: Referensi Cepat,0.0,0.0,4,0,0,0,0.0,1.0
+context_match,Q020,C110,latest Malaria management guidelines 2025,WHO Guideline Update: Malaria 2025,1.0,1.0,0,2,2,0,1.0,0.0
+context_match,Q021,C104,dosis titrasi Tenofovir disoproxil Malaria toleransi pasien,"NRTIs: Mechanism, Indications, and Safety",1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q023,C008,indikasi Sitagliptin pada Type 2 Diabetes Mellitus guideline terbaru,Treatment Intensification in Type 2 Diabetes Mellitus: When and How,1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q023,C010,indikasi Sitagliptin pada Type 2 Diabetes Mellitus guideline terbaru,Dosis DPP-4 inhibitors pada Type 2 Diabetes Mellitus: Referensi Cepat,1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q026,C255,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,Practical Guide: Initiating Labetalol in Hypertension in Pregnancy,1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q026,C257,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,Switching Therapy in Hypertension in Pregnancy: A Step-by-Step Guide,1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q026,C263,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,Tinjauan Sistematis: Beta blockers non-selective pada Hypertension in Pregnancy,1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q026,C270,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,Long-term Outcomes of Beta blockers non-selective Therapy in Hypertension in Pregnancy,1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q026,C272,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,National Guideline: Hypertension in Pregnancy Diagnosis and Treatment,1.0,1.0,0,1,1,0,1.0,0.0
+context_match,Q026,C275,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,Treatment Intensification in Hypertension in Pregnancy: When and How,1.0,1.0,0,1,1,0,1.0,0.0

@@ -1,0 +1,7 @@
+clear_stage,project_adaptation,why_used,boundary
+Clinical entity extraction,Use supplied disease/molecule/class/area labels plus Phase 1.6 contextual slots.,Preserves clinically meaningful query structure instead of treating the query as undifferentiated text.,No new neural NER is trained.
+Entity relevance selection,"Separate exact entities, hierarchy, context, intent prior, and conflicts.",Not every extracted field should have equal semantic meaning or become a hard filter.,Selection is transparent and rule-based.
+Entity augmentation,Normalize names; use ICD parent and ATC molecule-to-class relations.,Recovers clinically related content when exact surface forms or molecule identity differ.,No external synonym ontology; hierarchy is limited to supplied codes.
+Target matching,"Compute exact overlap, coverage, hierarchy, context match, and conflict features for every pair.",Makes NER operational as ranking evidence rather than descriptive metadata.,"Missing title evidence is unknown, not a negative."
+Relevant context retrieval,Expose an equal-weight structured score for later BM25/hybrid reranking.,Provides a CPU-friendly signal that can be ablated in later retrieval experiments.,Phase 7.5 does not tune weights or evaluate a ranker.
+Component evaluation,Audit extraction separately and retain feature groups for later ablation.,Distinguishes extraction quality from downstream retrieval contribution.,Existing slot QA is limited without independent clinician gold labels.

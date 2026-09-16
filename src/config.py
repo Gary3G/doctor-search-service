@@ -45,7 +45,10 @@ class ProjectConfig:
     semantic_model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     positive_relevance_threshold: float = 1.0
     negative_relevance_threshold: float = 0.0
-    min_dwell_seconds_for_positive: int = 30
+    min_dwell_seconds_for_positive: int = 10
+    min_scroll_seconds_for_strong_positive: int = 150
+    conservative_min_dwell_seconds_for_positive: int = 30
+    conservative_min_scroll_seconds_for_strong_positive: int = 180
 
 
 CONFIG = ProjectConfig()

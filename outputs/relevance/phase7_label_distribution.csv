@@ -1,0 +1,25 @@
+grain,scheme,grade,grade_description,rows,share
+session_exposure,primary_median_dwell,0,exposed without observed engagement,5690,0.7913769123783032
+session_exposure,primary_median_dwell,1,weak engagement,444,0.061752433936022255
+session_exposure,primary_median_dwell,2,meaningful engagement,710,0.09874826147426982
+session_exposure,primary_median_dwell,3,strong positive engagement,346,0.04812239221140473
+session_exposure,conservative_dwell,0,exposed without observed engagement,5690,0.7913769123783032
+session_exposure,conservative_dwell,1,weak engagement,811,0.11279554937413074
+session_exposure,conservative_dwell,2,meaningful engagement,418,0.05813630041724618
+session_exposure,conservative_dwell,3,strong positive engagement,271,0.03769123783031989
+session_exposure,event_hierarchy,0,exposed without observed engagement,5690,0.7913769123783032
+session_exposure,event_hierarchy,1,weak engagement,944,0.13129346314325452
+session_exposure,event_hierarchy,2,meaningful engagement,436,0.06063977746870654
+session_exposure,event_hierarchy,3,strong positive engagement,120,0.016689847009735744
+query_content,primary_median_dwell,0,exposed without observed engagement,5547,0.7882620434844394
+query_content,primary_median_dwell,1,weak engagement,438,0.06224243285490976
+query_content,primary_median_dwell,2,meaningful engagement,707,0.10046894983657809
+query_content,primary_median_dwell,3,strong positive engagement,345,0.04902657382407276
+query_content,conservative_dwell,0,exposed without observed engagement,5547,0.7882620434844394
+query_content,conservative_dwell,1,weak engagement,804,0.11425323291175217
+query_content,conservative_dwell,2,meaningful engagement,416,0.05911610061105585
+query_content,conservative_dwell,3,strong positive engagement,270,0.038368622992752593
+query_content,event_hierarchy,0,exposed without observed engagement,5547,0.7882620434844394
+query_content,event_hierarchy,1,weak engagement,936,0.13301122637487567
+query_content,event_hierarchy,2,meaningful engagement,434,0.06167400881057269
+query_content,event_hierarchy,3,strong positive engagement,120,0.017052721330112264

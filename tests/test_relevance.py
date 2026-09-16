@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
 import unittest
 
 import pandas as pd
@@ -37,6 +39,20 @@ from src.relevance_bias_eda import (
     SESSION_LENGTH_PATH,
     TEMPORAL_PATH,
     TIMESTAMP_TIES_PATH,
+)
+from src.relevance_labels import (
+    CONSERVATIVE_SCHEME,
+    FIGURE_PATH as PHASE7_FIGURE_PATH,
+    JUDGMENTS_PATH,
+    LABELED_EXPOSURES_PATH,
+    LABEL_DISTRIBUTION_PATH,
+    METRICS_PATH as PHASE7_METRICS_PATH,
+    PRIMARY_SCHEME,
+    QUERY_COVERAGE_PATH,
+    REPORT_PATH as PHASE7_REPORT_PATH,
+    SCHEME_TRANSITIONS_PATH,
+    aggregate_query_content_judgments,
+    assign_relevance_labels,
 )
 
 
@@ -231,6 +247,153 @@ class RelevanceBiasEdaArtifactTests(unittest.TestCase):
             self.assertGreater(len(pd.read_csv(path)), 0)
         self.assertTrue(BIAS_REPORT_PATH.exists())
         self.assertTrue(BIAS_FIGURE_PATH.exists())
+
+
+class BehavioralRelevanceRuleTests(unittest.TestCase):
+    def test_import_tolerates_pre_phase7_config_in_notebook_kernel(self) -> None:
+        script = """
+import src.config
+from types import SimpleNamespace
+values = {
+    key: value for key, value in vars(src.config.CONFIG).items()
+    if key not in {
+        'min_scroll_seconds_for_strong_positive',
+        'conservative_min_dwell_seconds_for_positive',
+        'conservative_min_scroll_seconds_for_strong_positive',
+    }
+}
+values['min_dwell_seconds_for_positive'] = 30
+src.config.CONFIG = SimpleNamespace(**values)
+import src.relevance_labels as labels
+assert labels.PRIMARY_SCHEME.click_meaningful_seconds == 10
+assert labels.PRIMARY_SCHEME.scroll_strong_seconds == 150
+assert labels.CONSERVATIVE_SCHEME.click_meaningful_seconds == 30
+assert labels.CONSERVATIVE_SCHEME.scroll_strong_seconds == 180
+"""
+        completed = subprocess.run(
+            [sys.executable, "-c", script],
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(completed.returncode, 0, completed.stderr)
+
+    def test_primary_grade_boundaries_and_terminal_events(self) -> None:
+        rows = []
+        cases = [
+            ("none", 0, 0),
+            ("click", PRIMARY_SCHEME.click_meaningful_seconds - 1, 1),
+            ("click", PRIMARY_SCHEME.click_meaningful_seconds, 2),
+            ("scroll_deep", PRIMARY_SCHEME.scroll_strong_seconds - 1, 2),
+            ("scroll_deep", PRIMARY_SCHEME.scroll_strong_seconds, 3),
+            ("save_bookmark", 0, 3),
+            ("return_visit", 0, 3),
+        ]
+        for index, (event, dwell, _) in enumerate(cases):
+            rows.append({
+                "query_id": f"Q{index}", "content_id": f"C{index}",
+                "session_id": f"S{index}", "timestamp": "2025-01-01",
+                "inferred_rank": 1, "clicked": event == "click",
+                "scroll_deep": event == "scroll_deep",
+                "return_visit": event == "return_visit",
+                "save_bookmark": event == "save_bookmark", "dwell_time": dwell,
+                "has_engagement": event != "none", "query_text": "query",
+                "query_language": "en", "query_intent": "intent",
+                "content_title": "content", "content_type": "article",
+                "content_language": "en",
+            })
+        labeled = assign_relevance_labels(pd.DataFrame(rows))
+        self.assertEqual(labeled["relevance_grade"].tolist(), [case[2] for case in cases])
+
+    def test_repeated_pairs_use_max_and_retain_conflict(self) -> None:
+        base = {
+            "query_id": "Q1", "content_id": "C1", "inferred_rank": 1,
+            "scroll_deep": False, "return_visit": False, "save_bookmark": False,
+            "query_text": "query", "query_language": "en", "query_intent": "intent",
+            "content_title": "content", "content_type": "article", "content_language": "en",
+        }
+        rows = [
+            {**base, "session_id": "S1", "timestamp": "2025-01-01", "clicked": False,
+             "dwell_time": 0, "has_engagement": False},
+            {**base, "session_id": "S2", "timestamp": "2025-01-02", "clicked": True,
+             "dwell_time": PRIMARY_SCHEME.click_meaningful_seconds, "has_engagement": True},
+        ]
+        judgments = aggregate_query_content_judgments(
+            assign_relevance_labels(pd.DataFrame(rows))
+        )
+        self.assertEqual(len(judgments), 1)
+        self.assertEqual(int(judgments.loc[0, "relevance_grade"]), 2)
+        self.assertEqual(int(judgments.loc[0, "exposure_count"]), 2)
+        self.assertTrue(bool(judgments.loc[0, "conflicting_observations"]))
+
+    def test_invalid_multiple_terminal_events_are_rejected(self) -> None:
+        row = {
+            "query_id": "Q1", "content_id": "C1", "session_id": "S1",
+            "timestamp": "2025-01-01", "inferred_rank": 1, "clicked": True,
+            "scroll_deep": True, "return_visit": False, "save_bookmark": False,
+            "dwell_time": 30, "has_engagement": True, "query_text": "query",
+            "query_language": "en", "query_intent": "intent",
+            "content_title": "content", "content_type": "article",
+            "content_language": "en",
+        }
+        with self.assertRaises(ValueError):
+            assign_relevance_labels(pd.DataFrame([row]))
+
+
+class BehavioralRelevanceArtifactTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.labeled = pd.read_csv(LABELED_EXPOSURES_PATH)
+        cls.judgments = pd.read_csv(JUDGMENTS_PATH)
+        cls.coverage = pd.read_csv(QUERY_COVERAGE_PATH)
+        cls.metrics = json.loads(PHASE7_METRICS_PATH.read_text(encoding="utf-8"))
+
+    def test_primary_session_labels_are_complete_and_monotonic(self) -> None:
+        self.assertEqual(len(self.labeled), 7_190)
+        self.assertFalse(self.labeled.duplicated(UNIT_KEYS).any())
+        self.assertEqual(set(self.labeled["relevance_grade"]), {0, 1, 2, 3})
+        self.assertTrue(
+            self.labeled["relevance_grade"].gt(0).eq(self.labeled["has_engagement"]).all()
+        )
+        self.assertTrue(self.labeled.loc[~self.labeled["has_engagement"], "relevance_grade"].eq(0).all())
+
+    def test_exposed_only_pair_judgments_preserve_uncertainty(self) -> None:
+        self.assertEqual(len(self.judgments), 7_037)
+        self.assertFalse(self.judgments.duplicated(["query_id", "content_id"]).any())
+        self.assertTrue(self.judgments["observed_judgment"].all())
+        self.assertTrue(self.metrics["unexposed_pairs_are_unjudged"])
+        self.assertEqual(self.metrics["query_content_aggregation_rule"], "maximum_observed_grade")
+        self.assertGreater(int(self.judgments["conflicting_observations"].sum()), 0)
+
+    def test_query_coverage_is_explicit(self) -> None:
+        self.assertEqual(len(self.coverage), 500)
+        self.assertEqual(int((~self.coverage["has_observed_positive"]).sum()), 150)
+        self.assertEqual(
+            self.coverage["eligible_for_positive_dependent_metrics"].tolist(),
+            self.coverage["has_observed_positive"].tolist(),
+        )
+
+    def test_sensitivity_scheme_only_changes_strength(self) -> None:
+        primary_positive = self.labeled["relevance_grade"].gt(0)
+        conservative_positive = self.labeled["conservative_relevance_grade"].gt(0)
+        self.assertTrue(primary_positive.eq(conservative_positive).all())
+        self.assertTrue(
+            self.labeled["conservative_relevance_grade"].le(
+                self.labeled["relevance_grade"]
+            ).all()
+        )
+        self.assertEqual(CONSERVATIVE_SCHEME.click_meaningful_seconds, 30)
+
+    def test_all_phase7_artifacts_exist(self) -> None:
+        for path in (
+            LABEL_DISTRIBUTION_PATH,
+            QUERY_COVERAGE_PATH,
+            SCHEME_TRANSITIONS_PATH,
+        ):
+            self.assertTrue(path.exists())
+            self.assertGreater(len(pd.read_csv(path)), 0)
+        self.assertTrue(PHASE7_REPORT_PATH.exists())
+        self.assertTrue(PHASE7_FIGURE_PATH.exists())
 
 
 if __name__ == "__main__":

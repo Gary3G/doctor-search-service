@@ -1,0 +1,40 @@
+{
+  "primary_scheme": {
+    "name": "primary_median_dwell",
+    "click_meaningful_seconds": 10,
+    "scroll_strong_seconds": 150,
+    "grade_zero_semantics": "exposed_without_observed_engagement"
+  },
+  "conservative_scheme": {
+    "name": "conservative_dwell",
+    "click_meaningful_seconds": 30,
+    "scroll_strong_seconds": 180
+  },
+  "session_exposure_rows": 7190,
+  "observed_query_content_pairs": 7037,
+  "unexposed_pairs_are_unjudged": true,
+  "query_content_aggregation_rule": "maximum_observed_grade",
+  "queries": 500,
+  "queries_with_positive": 350,
+  "queries_without_positive": 150,
+  "queries_with_meaningful_positive": 307,
+  "queries_with_strong_positive": 188,
+  "conflicting_query_content_pairs": 55,
+  "primary_session_grade_counts": {
+    "0": 5690,
+    "1": 444,
+    "2": 710,
+    "3": 346
+  },
+  "primary_pair_grade_counts": {
+    "0": 5547,
+    "1": 438,
+    "2": 707,
+    "3": 345
+  },
+  "session_rows_changed_under_conservative_scheme": 442,
+  "session_rows_changed_share": 0.06147426981919332,
+  "all_engaged_rows_positive": true,
+  "label_rule_uses_propensity_or_exposure_features": false,
+  "labels_are_clinical_ground_truth": false
+}

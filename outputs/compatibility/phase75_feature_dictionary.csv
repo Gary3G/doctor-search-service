@@ -1,0 +1,23 @@
+feature,group,definition,behavior_used,initial_weighting
+disease_match,entity_exact,Exact normalized disease name or ICD-10 code overlap.,False,equal_component_average
+molecule_match,entity_exact,Exact normalized molecule name or ATC code overlap.,False,equal_component_average
+drug_class_match,entity_hierarchy,"Drug-class name or ATC-class overlap, including class derived from ATC code.",False,equal_component_average
+therapeutic_area_match,entity_broad,Exact normalized therapeutic-area overlap.,False,equal_component_average
+entity_coverage,entity_aggregate,Exact matched query entity dimensions divided by populated query dimensions.,False,equal_component_average
+entity_augmented_coverage,entity_aggregate,Exact or hierarchy-related entity dimensions divided by populated query dimensions.,False,equal_component_average
+entity_conflict_rate,entity_conflict,Populated but nonmatching content dimensions divided by populated query dimensions.,False,equal_component_average
+age_group_match,context,Query and title-derived content age groups match.,False,equal_component_average
+pregnancy_match,context,Query and content title both contain normalized pregnancy context.,False,equal_component_average
+year_match,context,Requested year equals content publication year.,False,equal_component_average
+recency_match,context,Recency query matched content published within one year of corpus maximum.,False,equal_component_average
+dose_context_match,context,Dose query matched title dosing cue or drug-profile content.,False,equal_component_average
+route_match,context,Normalized query and title-derived administration routes match.,False,equal_component_average
+renal_context_match,context,Query and title both express renal-function context.,False,equal_component_average
+hepatic_context_match,context,Hepatic query matched title-derived hepatic context.,False,equal_component_average
+comparison_context_match,context,Comparison query matched title cue or review content type.,False,equal_component_average
+prior_failure_context_match,context,Prior-failure query matched refractory/failure title evidence.,False,equal_component_average
+context_coverage,context_aggregate,Matched active query constraints divided by active contextual constraints.,False,equal_component_average
+context_conflict_rate,context_conflict,Explicit contextual conflicts divided by active contextual constraints.,False,equal_component_average
+intent_content_type_match,intent_prior,Rule-defined compatibility between query intent and content type; not included in structured score.,False,equal_component_average
+structured_score,aggregate,Equal mean of entity and context coverage when context exists; otherwise entity coverage.,False,equal_component_average
+structured_conflict_rate,aggregate,Equal mean of entity and context conflict rates when context exists.,False,equal_component_average

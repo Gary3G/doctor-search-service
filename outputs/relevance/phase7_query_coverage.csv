@@ -1,0 +1,501 @@
+query_id,query_text,query_language,query_intent,observed_content,positive_content,meaningful_content,strong_content,has_observed_positive,has_meaningful_positive,has_strong_positive,eligible_for_positive_dependent_metrics
+Q004,Apixaban efficacy pada Deep Vein Thrombosis clinical outcome data,MIXED,Efficacy / Outcomes,10,0,0,0,False,False,False,False
+Q013,kontraindikasi Bedaquiline pada Tuberculosis dengan anaemia,MIXED,Safety / Contraindication,7,0,0,0,False,False,False,False
+Q014,Malaria pediatric dosing Tenofovir disoproxil,EN,Dosing / Administration,9,0,0,0,False,False,False,False
+Q016,is Bortezomib safe in Rheumatoid Arthritis with renal impairment,EN,Safety / Contraindication,7,0,0,0,False,False,False,False
+Q017,PD-1 inhibitors mechanism untuk Colorectal Cancer bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,5,0,0,0,False,False,False,False
+Q023,indikasi Sitagliptin pada Type 2 Diabetes Mellitus guideline terbaru,MIXED,Guideline / Evidence Lookup,6,0,0,0,False,False,False,False
+Q024,Gout dengan renal impairment penyesuaian dosis Adalimumab,MIXED,Dosing / Administration,9,0,0,0,False,False,False,False
+Q029,Empagliflozin efficacy pada Type 2 Diabetes Mellitus clinical outcome data,MIXED,Efficacy / Outcomes,7,0,0,0,False,False,False,False
+Q034,Typhoid Fever treatment algorithm Antimalarials first line,EN,Management / Treatment Selection,6,0,0,0,False,False,False,False
+Q036,Atrial Fibrillation pediatric dosing Empagliflozin,EN,Dosing / Administration,5,0,0,0,False,False,False,False
+Q037,SSRIs in pregnancy and ADHD,EN,Safety / Contraindication,8,0,0,0,False,False,False,False
+Q041,SGLT2 inhibitors mechanism of action in Chronic Kidney Disease,EN,Mechanism / Background Knowledge,6,0,0,0,False,False,False,False
+Q045,switch from Diazepam to Diazepam in Febrile Seizure,EN,Treatment Change / Escalation,7,0,0,0,False,False,False,False
+Q047,Tiotropium long term outcomes COPD,EN,Efficacy / Outcomes,7,0,0,0,False,False,False,False
+Q048,Ibuprofen long term outcomes Systemic Lupus Erythematosus,EN,Efficacy / Outcomes,6,0,0,0,False,False,False,False
+Q050,Levofloxacin hepatic impairment dose in HIV/AIDS,EN,Dosing / Administration,6,0,0,0,False,False,False,False
+Q052,HIV/AIDS first line Penicillins evidence based,MIXED,Guideline / Evidence Lookup,7,0,0,0,False,False,False,False
+Q053,Atypical antipsychotics mechanism of action in Schizophrenia,EN,Mechanism / Background Knowledge,8,0,0,0,False,False,False,False
+Q058,Thrombolytics role in Ischaemic Stroke pathophysiology,EN,Mechanism / Background Knowledge,10,0,0,0,False,False,False,False
+Q064,monitoring parameters Methyldopa in Hypertension in Pregnancy,EN,Monitoring / Response / Risk Assessment,10,0,0,0,False,False,False,False
+Q071,Vancomycin vs Piperacillin-tazobactam in Sepsis patients,EN,Comparative Treatment Choice,9,0,0,0,False,False,False,False
+Q072,prophylaxis Typhoid Fever Artemether-lumefantrine kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,5,0,0,0,False,False,False,False
+Q074,Zinc supplements role in Stunting / Malnutrition pathophysiology,EN,Mechanism / Background Knowledge,6,0,0,0,False,False,False,False
+Q080,Urinary Tract Infection dengan obesity pilihan drug terbaik,MIXED,Management / Treatment Selection,9,0,0,0,False,False,False,False
+Q082,add on therapy Tuberculosis after Isoniazid failure,EN,Treatment Change / Escalation,5,0,0,0,False,False,False,False
+Q084,algoritma terapi COPD step up,ID,Management / Treatment Selection,7,0,0,0,False,False,False,False
+Q088,renal dose adjustment Diazepam in Febrile Seizure,EN,Dosing / Administration,10,0,0,0,False,False,False,False
+Q099,Atrial Fibrillation emergency Apixaban loading dose berapa,MIXED,Dosing / Administration,8,0,0,0,False,False,False,False
+Q102,Antimalarials kontraindikasi pada Typhoid Fever dengan obesity,ID,Safety / Contraindication,6,0,0,0,False,False,False,False
+Q108,Antituberculotics adverse effects monitoring in Tuberculosis,EN,Safety / Contraindication,9,0,0,0,False,False,False,False
+Q109,kapan start Levetiracetam di Epilepsy evidence terbaru terbaru,MIXED,Guideline / Evidence Lookup,10,0,0,0,False,False,False,False
+Q111,Erythropoietin contraindication in Iron Deficiency Anaemia with anaemia,EN,Safety / Contraindication,9,0,0,0,False,False,False,False
+Q112,Alteplase vs Aspirin in Ischaemic Stroke patients,EN,Comparative Treatment Choice,9,0,0,0,False,False,False,False
+Q113,latest Obesity management guidelines 2025,EN,Guideline / Evidence Lookup,5,0,0,0,False,False,False,False
+Q115,dosis Artemether-lumefantrine untuk pasien Typhoid Fever,ID,Dosing / Administration,9,0,0,0,False,False,False,False
+Q117,switch dari Artemether-lumefantrine ke Artemether-lumefantrine Typhoid Fever progresif,MIXED,Treatment Change / Escalation,6,0,0,0,False,False,False,False
+Q118,Chronic Lymphocytic Leukaemia emergency Ibrutinib loading dose berapa,MIXED,Dosing / Administration,8,0,0,0,False,False,False,False
+Q120,latest Hypertension management guidelines terbaru,EN,Guideline / Evidence Lookup,5,0,0,0,False,False,False,False
+Q126,add on therapy HIV/AIDS after Levofloxacin failure,EN,Treatment Change / Escalation,5,0,0,0,False,False,False,False
+Q127,Tuberculosis with CKD first line drug,EN,Management / Treatment Selection,7,0,0,0,False,False,False,False
+Q135,Rosuvastatin hepatic impairment dose in Acute Coronary Syndrome,EN,Dosing / Administration,5,0,0,0,False,False,False,False
+Q136,add on therapy Hypertension in Pregnancy after Methyldopa failure,EN,Treatment Change / Escalation,9,0,0,0,False,False,False,False
+Q137,ARBs mechanism untuk Heart Failure bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,8,0,0,0,False,False,False,False
+Q138,Pembrolizumab pada ibu hamil dengan Non-Small Cell Lung Cancer,ID,Safety / Contraindication,8,0,0,0,False,False,False,False
+Q139,dosis titrasi Artemether-lumefantrine Typhoid Fever toleransi pasien,MIXED,Dosing / Administration,8,0,0,0,False,False,False,False
+Q141,prophylaxis Colorectal Cancer Pembrolizumab kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,9,0,0,0,False,False,False,False
+Q143,switch dari Adalimumab ke Adalimumab Systemic Lupus Erythematosus progresif,MIXED,Treatment Change / Escalation,10,0,0,0,False,False,False,False
+Q149,Factor Xa inhibitors mechanism of action in Community-acquired Pneumonia,EN,Mechanism / Background Knowledge,6,0,0,0,False,False,False,False
+Q151,latest guideline Preeclampsia management 2024,MIXED,Guideline / Evidence Lookup,9,0,0,0,False,False,False,False
+Q162,Diazepam contraindication in Febrile Seizure with diabetes,EN,Safety / Contraindication,7,0,0,0,False,False,False,False
+Q167,penggantian Omeprazole ke Lansoprazole pada Peptic Ulcer Disease,ID,Treatment Change / Escalation,6,0,0,0,False,False,False,False
+Q173,Stunting / Malnutrition first line Zinc supplements evidence based,MIXED,Guideline / Evidence Lookup,5,0,0,0,False,False,False,False
+Q175,Warfarin dosing in Atrial Fibrillation with CKD,EN,Dosing / Administration,9,0,0,0,False,False,False,False
+Q177,Bedaquiline long term outcomes Tuberculosis,EN,Efficacy / Outcomes,7,0,0,0,False,False,False,False
+Q182,apakah Olanzapine aman untuk Schizophrenia dengan renal impairment,ID,Safety / Contraindication,7,0,0,0,False,False,False,False
+Q184,Proton pump inhibitors mechanism of action in Peptic Ulcer Disease,EN,Mechanism / Background Knowledge,8,0,0,0,False,False,False,False
+Q186,dosis titrasi Rivaroxaban Deep Vein Thrombosis toleransi pasien,MIXED,Dosing / Administration,5,0,0,0,False,False,False,False
+Q187,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak,MIXED,Safety / Contraindication,10,0,0,0,False,False,False,False
+Q190,Macrolides mechanism of action in Asthma,EN,Mechanism / Background Knowledge,9,0,0,0,False,False,False,False
+Q194,Chronic Kidney Disease prophylaxis Losartan indication,EN,Prophylaxis / Maintenance,8,0,0,0,False,False,False,False
+Q195,add on therapy Asthma after Amoxicillin failure,EN,Treatment Change / Escalation,9,0,0,0,False,False,False,False
+Q203,Corticosteroids in pregnancy and Sepsis,EN,Safety / Contraindication,10,0,0,0,False,False,False,False
+Q205,terapi profilaksis Typhoid Fever dengan Artemether-lumefantrine,ID,Prophylaxis / Maintenance,10,0,0,0,False,False,False,False
+Q206,Ischaemic Stroke pada anak dosis Aspirin,ID,Dosing / Administration,7,0,0,0,False,False,False,False
+Q215,Ferrous sulphate drug interaction with Erythropoietin in Iron Deficiency Anaemia,EN,Interaction / Combination,5,0,0,0,False,False,False,False
+Q217,algoritma terapi Heart Failure step up,ID,Management / Treatment Selection,7,0,0,0,False,False,False,False
+Q220,dosis titrasi Nivolumab Colorectal Cancer toleransi pasien,MIXED,Dosing / Administration,9,0,0,0,False,False,False,False
+Q230,Cyclosporine contraindication in Disseminated Intravascular Coagulation with immunocompromised,EN,Safety / Contraindication,7,0,0,0,False,False,False,False
+Q233,kontraindikasi Budesonide pada Asthma dengan COPD,MIXED,Safety / Contraindication,6,0,0,0,False,False,False,False
+Q235,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever,ID,Comparative Treatment Choice,6,0,0,0,False,False,False,False
+Q236,biomarkers Chronic Myeloid Leukaemia treatment response Imatinib,EN,Monitoring / Response / Risk Assessment,7,0,0,0,False,False,False,False
+Q237,monitoring BCR-ABL inhibitors pada Chronic Myeloid Leukaemia parameter apa,MIXED,Monitoring / Response / Risk Assessment,6,0,0,0,False,False,False,False
+Q253,Imatinib side effect pada pasien Chronic Myeloid Leukaemia apa saja,MIXED,Safety / Contraindication,9,0,0,0,False,False,False,False
+Q256,Antituberculotics role in MDR Tuberculosis pathophysiology,EN,Mechanism / Background Knowledge,8,0,0,0,False,False,False,False
+Q259,monitoring Atypical antipsychotics pada Schizophrenia parameter apa,MIXED,Monitoring / Response / Risk Assessment,9,0,0,0,False,False,False,False
+Q261,Penicillins role in HIV/AIDS pathophysiology,EN,Mechanism / Background Knowledge,9,0,0,0,False,False,False,False
+Q274,resistensi Alendronate pada Osteoporosis alternatif Alendronate,ID,Treatment Change / Escalation,5,0,0,0,False,False,False,False
+Q275,obat MDR Tuberculosis lini pertama Antituberculotics,ID,Management / Treatment Selection,6,0,0,0,False,False,False,False
+Q276,monitoring parameters Atorvastatin in Acute Coronary Syndrome,EN,Monitoring / Response / Risk Assessment,9,0,0,0,False,False,False,False
+Q280,algoritma terapi Malaria step up,ID,Management / Treatment Selection,6,0,0,0,False,False,False,False
+Q283,monitoring Centrally acting antihypertensives pada Hypertension in Pregnancy parameter apa,MIXED,Monitoring / Response / Risk Assessment,8,0,0,0,False,False,False,False
+Q286,prophylaxis Urinary Tract Infection Tenofovir+Lamivudine kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,10,0,0,0,False,False,False,False
+Q288,apakah Trastuzumab aman untuk Non-Small Cell Lung Cancer dengan hypertension,ID,Safety / Contraindication,6,0,0,0,False,False,False,False
+Q291,Peptic Ulcer Disease dengan hypertension pilihan terapi,ID,Management / Treatment Selection,10,0,0,0,False,False,False,False
+Q296,resistensi Bedaquiline pada Tuberculosis alternatif Rifampicin,ID,Treatment Change / Escalation,7,0,0,0,False,False,False,False
+Q299,Zinc hepatic impairment dose in Stunting / Malnutrition,EN,Dosing / Administration,7,0,0,0,False,False,False,False
+Q300,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak,MIXED,Safety / Contraindication,10,0,0,0,False,False,False,False
+Q302,dosis titrasi Topiramate Migraine toleransi pasien,MIXED,Dosing / Administration,8,0,0,0,False,False,False,False
+Q303,Parkinson Disease treatment algorithm Dopaminergic agents first line,EN,Management / Treatment Selection,8,0,0,0,False,False,False,False
+Q309,Bedaquiline long term outcomes MDR Tuberculosis,EN,Efficacy / Outcomes,9,0,0,0,False,False,False,False
+Q310,target terapi Rheumatoid Arthritis dengan Proteasome inhibitors,ID,Management / Treatment Selection,10,0,0,0,False,False,False,False
+Q312,Tuberculosis prophylaxis Isoniazid indication,EN,Prophylaxis / Maintenance,9,0,0,0,False,False,False,False
+Q317,Methylphenidate efficacy pada Breast Cancer HER2-positive clinical outcome data,MIXED,Efficacy / Outcomes,10,0,0,0,False,False,False,False
+Q322,Dolutegravir hepatic impairment dose in Malaria,EN,Dosing / Administration,9,0,0,0,False,False,False,False
+Q326,titration protocol Ferrous sulphate in Iron Deficiency Anaemia,EN,Dosing / Administration,5,0,0,0,False,False,False,False
+Q328,kombinasi Piperacillin-tazobactam dan Hydrocortisone pada Sepsis aman atau tidak,MIXED,Interaction / Combination,6,0,0,0,False,False,False,False
+Q330,Lithium side effect pada pasien Bipolar Disorder apa saja,MIXED,Safety / Contraindication,10,0,0,0,False,False,False,False
+Q332,kapan mulai terapi Desmopressin pada Diabetes Insipidus,ID,Management / Treatment Selection,9,0,0,0,False,False,False,False
+Q333,kontraindikasi Diazepam pada Febrile Seizure dengan hypertension,MIXED,Safety / Contraindication,6,0,0,0,False,False,False,False
+Q336,Lithium contraindication in Bipolar Disorder with anaemia,EN,Safety / Contraindication,9,0,0,0,False,False,False,False
+Q339,Clozapine vs Clozapine in Schizophrenia patients,EN,Comparative Treatment Choice,8,0,0,0,False,False,False,False
+Q344,panduan klinis MDR Tuberculosis terbaru,ID,Guideline / Evidence Lookup,9,0,0,0,False,False,False,False
+Q347,Prednisolone hepatic impairment dose in Rheumatoid Arthritis,EN,Dosing / Administration,6,0,0,0,False,False,False,False
+Q350,Valproate resistance in Epilepsy alternative therapy,EN,Treatment Change / Escalation,7,0,0,0,False,False,False,False
+Q351,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak,MIXED,Safety / Contraindication,5,0,0,0,False,False,False,False
+Q353,Nivolumab efficacy pada Non-Small Cell Lung Cancer clinical outcome data,MIXED,Efficacy / Outcomes,6,0,0,0,False,False,False,False
+Q358,Methylphenidate loading dose Breast Cancer HER2-positive emergency,EN,Dosing / Administration,10,0,0,0,False,False,False,False
+Q360,is Semaglutide safe in Obesity with elderly patients,EN,Safety / Contraindication,6,0,0,0,False,False,False,False
+Q361,penanganan Type 2 Diabetes Mellitus di ICU panduan 2022,ID,Guideline / Evidence Lookup,10,0,0,0,False,False,False,False
+Q367,ARBs in pregnancy and Hypertension,EN,Safety / Contraindication,9,0,0,0,False,False,False,False
+Q368,Community-acquired Pneumonia dengan hepatic impairment pilihan drug terbaik,MIXED,Management / Treatment Selection,5,0,0,0,False,False,False,False
+Q374,kontraindikasi Ramipril pada Hypertension dengan diabetes,MIXED,Safety / Contraindication,9,0,0,0,False,False,False,False
+Q377,latest Preeclampsia management guidelines 2024,EN,Guideline / Evidence Lookup,6,0,0,0,False,False,False,False
+Q378,add on therapy Schizophrenia after Olanzapine failure,EN,Treatment Change / Escalation,9,0,0,0,False,False,False,False
+Q380,Type 2 Diabetes Mellitus dengan renal impairment penyesuaian dosis Liraglutide,MIXED,Dosing / Administration,8,0,0,0,False,False,False,False
+Q381,renal dose adjustment Artemether-lumefantrine in Typhoid Fever,EN,Dosing / Administration,5,0,0,0,False,False,False,False
+Q387,monitoring parameters Escitalopram in ADHD,EN,Monitoring / Response / Risk Assessment,7,0,0,0,False,False,False,False
+Q389,algoritma terapi Pulmonary Embolism step up,ID,Management / Treatment Selection,7,0,0,0,False,False,False,False
+Q391,when to start Secukinumab in Disseminated Intravascular Coagulation,EN,Management / Treatment Selection,8,0,0,0,False,False,False,False
+Q396,Norepinephrine dosing in Sepsis with diabetes,EN,Dosing / Administration,8,0,0,0,False,False,False,False
+Q410,kapan mulai terapi Alteplase pada Ischaemic Stroke,ID,Management / Treatment Selection,5,0,0,0,False,False,False,False
+Q412,Aspirin long term outcomes Ischaemic Stroke,EN,Efficacy / Outcomes,10,0,0,0,False,False,False,False
+Q413,SNRIs terbaru untuk Major Depressive Disorder 2024,MIXED,Guideline / Evidence Lookup,8,0,0,0,False,False,False,False
+Q414,Stable Angina emergency Atorvastatin loading dose berapa,MIXED,Dosing / Administration,9,0,0,0,False,False,False,False
+Q415,latest Breast Cancer HER2-positive management guidelines 2023,EN,Guideline / Evidence Lookup,7,0,0,0,False,False,False,False
+Q425,target Urinary Tract Infection sudah tercapai kapan maintenance Tenofovir+Lamivudine,MIXED,Prophylaxis / Maintenance,8,0,0,0,False,False,False,False
+Q428,penggantian Sertraline ke Venlafaxine pada Major Depressive Disorder,ID,Treatment Change / Escalation,10,0,0,0,False,False,False,False
+Q434,Rosuvastatin contraindication in Acute Coronary Syndrome with anaemia,EN,Safety / Contraindication,5,0,0,0,False,False,False,False
+Q439,Secukinumab loading dose Disseminated Intravascular Coagulation emergency,EN,Dosing / Administration,10,0,0,0,False,False,False,False
+Q442,add on Prednisolone setelah Tiotropium gagal COPD,MIXED,Treatment Change / Escalation,7,0,0,0,False,False,False,False
+Q445,indikasi Losartan pada Heart Failure guideline terbaru,MIXED,Guideline / Evidence Lookup,5,0,0,0,False,False,False,False
+Q446,Type 1 Diabetes Mellitus dengan pregnancy pilihan terapi,ID,Management / Treatment Selection,9,0,0,0,False,False,False,False
+Q448,Pembrolizumab vs Pembrolizumab untuk pasien Non-Small Cell Lung Cancer mana lebih efektif,MIXED,Comparative Treatment Choice,9,0,0,0,False,False,False,False
+Q455,obat Typhoid Fever lini pertama Antimalarials,ID,Management / Treatment Selection,8,0,0,0,False,False,False,False
+Q457,is Nivolumab safe in Non-Small Cell Lung Cancer with atrial fibrillation,EN,Safety / Contraindication,10,0,0,0,False,False,False,False
+Q464,kontraindikasi Semaglutide pada Obesity dengan diabetes,MIXED,Safety / Contraindication,10,0,0,0,False,False,False,False
+Q465,Hypertension prophylaxis Ramipril indication,EN,Prophylaxis / Maintenance,6,0,0,0,False,False,False,False
+Q468,Systemic Lupus Erythematosus prophylaxis Methotrexate indication,EN,Prophylaxis / Maintenance,10,0,0,0,False,False,False,False
+Q471,monitoring terapi Venlafaxine pada Major Depressive Disorder,ID,Monitoring / Response / Risk Assessment,10,0,0,0,False,False,False,False
+Q475,Vitamin K antagonists kontraindikasi pada Deep Vein Thrombosis dengan heart failure,ID,Safety / Contraindication,10,0,0,0,False,False,False,False
+Q479,BCR-ABL inhibitors in pregnancy and Chronic Myeloid Leukaemia,EN,Safety / Contraindication,6,0,0,0,False,False,False,False
+Q481,Metoprolol long term outcomes Stable Angina,EN,Efficacy / Outcomes,10,0,0,0,False,False,False,False
+Q483,Hypertension dengan pregnancy pilihan drug terbaik,MIXED,Management / Treatment Selection,7,0,0,0,False,False,False,False
+Q484,titration protocol Bedaquiline in Tuberculosis,EN,Dosing / Administration,5,0,0,0,False,False,False,False
+Q487,Centrally acting antihypertensives terbaru untuk Hypertension in Pregnancy 2025,MIXED,Guideline / Evidence Lookup,8,0,0,0,False,False,False,False
+Q491,Empagliflozin long term outcomes Chronic Kidney Disease,EN,Efficacy / Outcomes,8,0,0,0,False,False,False,False
+Q493,monitoring parameters Isoniazid in Tuberculosis,EN,Monitoring / Response / Risk Assessment,10,0,0,0,False,False,False,False
+Q495,TNF inhibitors adverse effects monitoring in Systemic Lupus Erythematosus,EN,Safety / Contraindication,5,0,0,0,False,False,False,False
+Q497,is Rosuvastatin safe in Acute Coronary Syndrome with diabetes,EN,Safety / Contraindication,8,0,0,0,False,False,False,False
+Q500,Antituberculotics terbaru untuk Tuberculosis 2025,MIXED,Guideline / Evidence Lookup,7,0,0,0,False,False,False,False
+Q002,SGLT2 inhibitors adverse effects monitoring in Atrial Fibrillation,EN,Safety / Contraindication,8,1,0,0,True,False,False,True
+Q020,latest Malaria management guidelines 2025,EN,Guideline / Evidence Lookup,12,1,1,0,True,True,False,True
+Q025,Acute Coronary Syndrome guideline update 2023 summary,EN,Guideline / Evidence Lookup,10,1,0,0,True,False,False,True
+Q028,ACE inhibitors adverse effects monitoring in Hypertension,EN,Safety / Contraindication,6,1,1,0,True,True,False,True
+Q035,algoritma terapi HIV/AIDS step up,ID,Management / Treatment Selection,7,1,0,0,True,False,False,True
+Q049,Calcium channel blockers mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,10,1,0,0,True,False,False,True
+Q055,Methimazole side effect pada pasien Hyperthyroidism apa saja,MIXED,Safety / Contraindication,10,1,1,0,True,True,False,True
+Q059,switch dari Dupilumab ke Cyclosporine Psoriasis progresif,MIXED,Treatment Change / Escalation,9,1,1,0,True,True,False,True
+Q062,latest COPD management guidelines terbaru,EN,Guideline / Evidence Lookup,6,1,1,0,True,True,False,True
+Q063,Malaria pada anak dosis Tenofovir disoproxil,ID,Dosing / Administration,12,1,1,0,True,True,False,True
+Q066,monitoring parameters Rosuvastatin in Acute Coronary Syndrome,EN,Monitoring / Response / Risk Assessment,6,1,1,0,True,True,False,True
+Q083,latest Pulmonary Embolism management guidelines terbaru,EN,Guideline / Evidence Lookup,8,1,0,0,True,False,False,True
+Q085,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive,EN,Comparative Treatment Choice,7,1,1,0,True,True,False,True
+Q087,Rheumatoid Arthritis dengan renal impairment pilihan drug terbaik,MIXED,Management / Treatment Selection,7,1,1,0,True,True,False,True
+Q103,biomarkers Ischaemic Stroke treatment response Alteplase,EN,Monitoring / Response / Risk Assessment,8,1,1,0,True,True,False,True
+Q104,Erythropoietin loading dose Iron Deficiency Anaemia emergency,EN,Dosing / Administration,12,1,0,0,True,False,False,True
+Q106,titration protocol Metoprolol in Heart Failure,EN,Dosing / Administration,11,1,1,0,True,True,False,True
+Q114,Colchicine vs Colchicine in Psoriatic Arthritis patients,EN,Comparative Treatment Choice,7,1,0,0,True,False,False,True
+Q119,Gout first line TNF inhibitors evidence based,MIXED,Guideline / Evidence Lookup,9,1,1,0,True,True,False,True
+Q123,kapan mulai terapi Rivaroxaban pada Deep Vein Thrombosis,ID,Management / Treatment Selection,7,1,0,0,True,False,False,True
+Q124,add on Tenofovir disoproxil setelah Tenofovir disoproxil gagal Malaria,MIXED,Treatment Change / Escalation,10,1,0,0,True,False,False,True
+Q129,Imatinib pada ibu hamil dengan Chronic Myeloid Leukaemia,ID,Safety / Contraindication,11,1,0,0,True,False,False,True
+Q147,Chronic Kidney Disease first line ARBs evidence based,MIXED,Guideline / Evidence Lookup,8,1,1,0,True,True,False,True
+Q153,Rheumatoid Arthritis guideline update 2023 summary,EN,Guideline / Evidence Lookup,10,1,1,0,True,True,False,True
+Q158,when to start Sertraline in ADHD,EN,Management / Treatment Selection,11,1,0,0,True,False,False,True
+Q160,Obesity pada anak dosis Liraglutide,ID,Dosing / Administration,6,1,1,0,True,True,False,True
+Q168,Factor Xa inhibitors terbaru untuk Deep Vein Thrombosis 2022,MIXED,Guideline / Evidence Lookup,8,1,0,0,True,False,False,True
+Q174,monitoring Thyroid hormones pada Hypothyroidism parameter apa,MIXED,Monitoring / Response / Risk Assessment,8,1,0,0,True,False,False,True
+Q196,Gout risk stratification approach,EN,Monitoring / Response / Risk Assessment,9,1,0,0,True,False,False,True
+Q198,Calcium channel blockers new evidence Hypertension 2022,EN,Guideline / Evidence Lookup,9,1,0,0,True,False,False,True
+Q207,Ramipril combination therapy Hypertension,EN,Interaction / Combination,8,1,0,0,True,False,False,True
+Q219,Diabetes Insipidus dengan diabetes pilihan drug terbaik,MIXED,Management / Treatment Selection,10,1,1,0,True,True,False,True
+Q223,Rivaroxaban efficacy pada Community-acquired Pneumonia clinical outcome data,MIXED,Efficacy / Outcomes,8,1,1,0,True,True,False,True
+Q225,Psoriasis dengan elderly patients pilihan drug terbaik,MIXED,Management / Treatment Selection,10,1,1,0,True,True,False,True
+Q227,Spironolactone contraindication in Heart Failure with hypertension,EN,Safety / Contraindication,9,1,1,0,True,True,False,True
+Q240,Antituberculotics terbaru untuk Tuberculosis 2024,MIXED,Guideline / Evidence Lookup,6,1,1,0,True,True,False,True
+Q241,dosis Dupilumab untuk pasien Psoriasis,ID,Dosing / Administration,11,1,1,0,True,True,False,True
+Q248,Type 1 Diabetes Mellitus first line Basal insulins evidence based,MIXED,Guideline / Evidence Lookup,6,1,1,0,True,True,False,True
+Q249,Sitagliptin pada pasien elderly Type 2 Diabetes Mellitus apa perlu adjustment,MIXED,Dosing / Administration,7,1,0,0,True,False,False,True
+Q251,Bipolar Disorder risk stratification approach,EN,Monitoring / Response / Risk Assessment,11,1,1,0,True,True,False,True
+Q257,switch from Imatinib to Imatinib in Chronic Myeloid Leukaemia,EN,Treatment Change / Escalation,8,1,1,0,True,True,False,True
+Q265,renal dose adjustment Allopurinol in Psoriatic Arthritis,EN,Dosing / Administration,10,1,0,0,True,False,False,True
+Q273,Calcium channel blockers terbaru untuk Acute Coronary Syndrome 2025,MIXED,Guideline / Evidence Lookup,11,1,1,0,True,True,False,True
+Q282,Vasopressin analogues kontraindikasi pada Diabetes Insipidus dengan hypertension,ID,Safety / Contraindication,11,1,1,0,True,True,False,True
+Q284,Proton pump inhibitors adverse effects monitoring in Peptic Ulcer Disease,EN,Safety / Contraindication,9,1,0,0,True,False,False,True
+Q294,dosis titrasi Levothyroxine Hyperthyroidism toleransi pasien,MIXED,Dosing / Administration,12,1,0,0,True,False,False,True
+Q313,indikasi Losartan pada Chronic Kidney Disease guideline terbaru,MIXED,Guideline / Evidence Lookup,9,1,0,0,True,False,False,True
+Q320,is Bedaquiline safe in Tuberculosis with hepatic impairment,EN,Safety / Contraindication,8,1,1,0,True,True,False,True
+Q329,algoritma terapi Major Depressive Disorder step up,ID,Management / Treatment Selection,8,1,0,0,True,False,False,True
+Q338,Metronidazole vs Metronidazole in Inflammatory Bowel Disease patients,EN,Comparative Treatment Choice,7,1,1,0,True,True,False,True
+Q343,obat HIV/AIDS lini pertama Penicillins,ID,Management / Treatment Selection,6,1,0,0,True,False,False,True
+Q348,Ramipril side effect pada pasien Hypertension apa saja,MIXED,Safety / Contraindication,7,1,1,0,True,True,False,True
+Q356,apakah Dapagliflozin aman untuk Chronic Kidney Disease dengan pregnancy,ID,Safety / Contraindication,8,1,0,0,True,False,False,True
+Q362,tatalaksana ADHD panduan terbaru terbaru,ID,Guideline / Evidence Lookup,9,1,0,0,True,False,False,True
+Q364,switch from Aspirin to Aspirin in Ischaemic Stroke,EN,Treatment Change / Escalation,10,1,1,0,True,True,False,True
+Q365,Antimalarials in pregnancy and Typhoid Fever,EN,Safety / Contraindication,10,1,1,0,True,True,False,True
+Q366,Venlafaxine long term outcomes Major Depressive Disorder,EN,Efficacy / Outcomes,12,1,1,0,True,True,False,True
+Q373,add on therapy Stable Angina after Metoprolol failure,EN,Treatment Change / Escalation,8,1,1,0,True,True,False,True
+Q376,Antimalarials role in Typhoid Fever pathophysiology,EN,Mechanism / Background Knowledge,9,1,1,0,True,True,False,True
+Q379,kontraindikasi Prednisolone pada COPD dengan renal impairment,MIXED,Safety / Contraindication,12,1,0,0,True,False,False,True
+Q383,SSRIs terbaru untuk ADHD 2023,MIXED,Guideline / Evidence Lookup,9,1,1,0,True,True,False,True
+Q385,terapi profilaksis Tuberculosis dengan Isoniazid,ID,Prophylaxis / Maintenance,11,1,0,0,True,False,False,True
+Q400,COPD pada anak dosis Salmeterol,ID,Dosing / Administration,8,1,1,0,True,True,False,True
+Q405,algoritma terapi Parkinson Disease step up,ID,Management / Treatment Selection,10,1,0,0,True,False,False,True
+Q417,Venlafaxine vs Venlafaxine untuk Major Depressive Disorder,ID,Comparative Treatment Choice,12,1,0,0,True,False,False,True
+Q418,monitoring Xanthine oxidase inhibitors pada Psoriatic Arthritis parameter apa,MIXED,Monitoring / Response / Risk Assessment,12,1,1,0,True,True,False,True
+Q422,kapan start Rivaroxaban di Deep Vein Thrombosis evidence terbaru terbaru,MIXED,Guideline / Evidence Lookup,6,1,0,0,True,False,False,True
+Q424,monitoring parameters Prednisolone in COPD,EN,Monitoring / Response / Risk Assessment,10,1,0,0,True,False,False,True
+Q430,Major Depressive Disorder dengan renal impairment penyesuaian dosis Venlafaxine,MIXED,Dosing / Administration,11,1,1,0,True,True,False,True
+Q431,Proton pump inhibitors kontraindikasi pada Peptic Ulcer Disease dengan anaemia,ID,Safety / Contraindication,11,1,1,0,True,True,False,True
+Q437,Parkinson Disease with elderly patients first line drug,EN,Management / Treatment Selection,10,1,1,0,True,True,False,True
+Q441,Atorvastatin hepatic impairment dose in Stable Angina,EN,Dosing / Administration,11,1,1,0,True,True,False,True
+Q447,Lansoprazole vs Metronidazole untuk Pulmonary Embolism,ID,Comparative Treatment Choice,9,1,0,0,True,False,False,True
+Q452,Prednisolone combination therapy Rheumatoid Arthritis,EN,Interaction / Combination,6,1,1,0,True,True,False,True
+Q460,Sepsis guideline update terbaru summary,EN,Guideline / Evidence Lookup,6,1,1,0,True,True,False,True
+Q476,Bortezomib vs Prednisolone untuk Rheumatoid Arthritis,ID,Comparative Treatment Choice,7,1,1,0,True,True,False,True
+Q478,kontraindikasi Bedaquiline pada Tuberculosis dengan immunocompromised,MIXED,Safety / Contraindication,7,1,0,0,True,False,False,True
+Q482,Lansoprazole long term outcomes Peptic Ulcer Disease,EN,Efficacy / Outcomes,12,1,0,0,True,False,False,True
+Q485,Lansoprazole resistance in Peptic Ulcer Disease alternative therapy,EN,Treatment Change / Escalation,9,1,1,0,True,True,False,True
+Q488,Artemether-lumefantrine pada ibu hamil dengan Typhoid Fever,ID,Safety / Contraindication,7,1,0,0,True,False,False,True
+Q492,titration protocol Alendronate in Osteoporosis,EN,Dosing / Administration,11,1,1,0,True,True,False,True
+Q494,Corticosteroids terbaru untuk COPD terbaru,MIXED,Guideline / Evidence Lookup,7,1,1,0,True,True,False,True
+Q499,ACE inhibitors kontraindikasi pada Hypertension dengan hepatic impairment,ID,Safety / Contraindication,11,1,0,0,True,False,False,True
+Q001,is Diazepam safe in Febrile Seizure with immunocompromised,EN,Safety / Contraindication,12,2,1,0,True,True,False,True
+Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak,MIXED,Interaction / Combination,12,2,1,1,True,True,True,True
+Q010,renal dose adjustment Magnesium sulphate in Preeclampsia,EN,Dosing / Administration,7,2,1,0,True,True,False,True
+Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical,MIXED,Dosing / Administration,8,2,1,0,True,True,False,True
+Q026,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,MIXED,Safety / Contraindication,10,2,1,1,True,True,True,True
+Q030,is Losartan safe in Hypertension with liver disease,EN,Safety / Contraindication,9,2,1,0,True,True,False,True
+Q031,Ibuprofen side effect pada pasien Psoriatic Arthritis apa saja,MIXED,Safety / Contraindication,8,2,2,0,True,True,False,True
+Q033,dosis Semaglutide pada Obesity pasien hypertension aman tidak,MIXED,Safety / Contraindication,8,2,2,1,True,True,True,True
+Q044,Malaria with pregnancy first line drug,EN,Management / Treatment Selection,10,2,1,0,True,True,False,True
+Q057,Dapagliflozin vs Dapagliflozin untuk pasien Chronic Kidney Disease mana lebih efektif,MIXED,Comparative Treatment Choice,9,2,1,1,True,True,True,True
+Q065,Semaglutide efficacy pada Type 2 Diabetes Mellitus clinical outcome data,MIXED,Efficacy / Outcomes,9,2,1,0,True,True,False,True
+Q079,Benzodiazepines mechanism of action in Febrile Seizure,EN,Mechanism / Background Knowledge,12,2,1,1,True,True,True,True
+Q081,Stable Angina dengan hypertension pilihan drug terbaik,MIXED,Management / Treatment Selection,7,2,2,1,True,True,True,True
+Q091,Liraglutide pada pasien elderly Obesity apa perlu adjustment,MIXED,Dosing / Administration,8,2,1,0,True,True,False,True
+Q092,switch dari Levothyroxine ke Levothyroxine Hyperthyroidism progresif,MIXED,Treatment Change / Escalation,6,2,2,1,True,True,True,True
+Q105,tatalaksana Breast Cancer HER2-positive panduan terbaru 2025,ID,Guideline / Evidence Lookup,10,2,1,0,True,True,False,True
+Q110,dosis titrasi Topiramate Epilepsy toleransi pasien,MIXED,Dosing / Administration,8,2,2,0,True,True,False,True
+Q116,Osteoporosis dengan elderly patients pilihan drug terbaik,MIXED,Management / Treatment Selection,9,2,2,0,True,True,False,True
+Q122,Tenofovir+Lamivudine pada pasien elderly Urinary Tract Infection apa perlu adjustment,MIXED,Dosing / Administration,9,2,2,1,True,True,True,True
+Q148,MDR Tuberculosis dengan renal impairment penyesuaian dosis Bedaquiline,MIXED,Dosing / Administration,7,2,1,0,True,True,False,True
+Q166,SGLT2 inhibitors role in Chronic Kidney Disease pathophysiology,EN,Mechanism / Background Knowledge,8,2,1,1,True,True,True,True
+Q169,Basal insulins mechanism of action in Type 1 Diabetes Mellitus,EN,Mechanism / Background Knowledge,11,2,0,0,True,False,False,True
+Q170,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients,EN,Comparative Treatment Choice,11,2,0,0,True,False,False,True
+Q192,Diabetes Insipidus emergency Desmopressin loading dose berapa,MIXED,Dosing / Administration,9,2,2,0,True,True,False,True
+Q201,interaksi obat Semaglutide dan Liraglutide pada Obesity,ID,Interaction / Combination,6,2,2,0,True,True,False,True
+Q221,Chronic Lymphocytic Leukaemia risk stratification approach,EN,Monitoring / Response / Risk Assessment,10,2,1,0,True,True,False,True
+Q222,MDR Tuberculosis with heart failure first line drug,EN,Management / Treatment Selection,6,2,2,1,True,True,True,True
+Q226,target Gout sudah tercapai kapan maintenance Secukinumab,MIXED,Prophylaxis / Maintenance,7,2,1,0,True,True,False,True
+Q232,Prednisolone side effect pada pasien Rheumatoid Arthritis apa saja,MIXED,Safety / Contraindication,10,2,1,1,True,True,True,True
+Q242,penanganan Type 2 Diabetes Mellitus di ICU panduan 2023,ID,Guideline / Evidence Lookup,9,2,2,1,True,True,True,True
+Q244,Semaglutide vs Liraglutide untuk Obesity,ID,Comparative Treatment Choice,12,2,0,0,True,False,False,True
+Q255,kontraindikasi Salmeterol pada Asthma dengan immunocompromised,MIXED,Safety / Contraindication,6,2,2,1,True,True,True,True
+Q260,terapi profilaksis Schizophrenia dengan Risperidone,ID,Prophylaxis / Maintenance,12,2,2,0,True,True,False,True
+Q266,monitoring terapi Artemether-lumefantrine pada Typhoid Fever,ID,Monitoring / Response / Risk Assessment,11,2,2,1,True,True,True,True
+Q267,Adalimumab side effect pada pasien Gout apa saja,MIXED,Safety / Contraindication,9,2,2,1,True,True,True,True
+Q269,Sertraline efficacy pada Major Depressive Disorder clinical outcome data,MIXED,Efficacy / Outcomes,8,2,2,1,True,True,True,True
+Q271,switch dari Alteplase ke Aspirin Ischaemic Stroke progresif,MIXED,Treatment Change / Escalation,11,2,1,0,True,True,False,True
+Q272,CNS stimulants role in Breast Cancer HER2-positive pathophysiology,EN,Mechanism / Background Knowledge,11,2,2,1,True,True,True,True
+Q277,Amoxicillin hepatic impairment dose in HIV/AIDS,EN,Dosing / Administration,10,2,2,0,True,True,False,True
+Q295,switch from Sertraline to Venlafaxine in Major Depressive Disorder,EN,Treatment Change / Escalation,6,2,1,1,True,True,True,True
+Q306,Tenofovir+Lamivudine combination therapy Urinary Tract Infection,EN,Interaction / Combination,10,2,1,0,True,True,False,True
+Q307,Fluoroquinolones in pregnancy and HIV/AIDS,EN,Safety / Contraindication,11,2,2,0,True,True,False,True
+Q308,MDR Tuberculosis dengan CKD pilihan drug terbaik,MIXED,Management / Treatment Selection,6,2,1,0,True,True,False,True
+Q311,add on therapy Typhoid Fever after Artemether-lumefantrine failure,EN,Treatment Change / Escalation,7,2,1,1,True,True,True,True
+Q331,Osteoporosis dengan renal impairment penyesuaian dosis Alendronate,MIXED,Dosing / Administration,8,2,0,0,True,False,False,True
+Q345,monitoring parameters Apixaban in Community-acquired Pneumonia,EN,Monitoring / Response / Risk Assessment,9,2,1,0,True,True,False,True
+Q355,terapi profilaksis Chronic Kidney Disease dengan Empagliflozin,ID,Prophylaxis / Maintenance,10,2,1,1,True,True,True,True
+Q357,Pembrolizumab long term outcomes Non-Small Cell Lung Cancer,EN,Efficacy / Outcomes,6,2,2,1,True,True,True,True
+Q372,indikasi Semaglutide pada Type 2 Diabetes Mellitus guideline terbaru,MIXED,Guideline / Evidence Lookup,8,2,1,0,True,True,False,True
+Q382,when to start Methylphenidate in Breast Cancer HER2-positive,EN,Management / Treatment Selection,12,2,2,0,True,True,False,True
+Q386,Zinc side effect pada pasien Stunting / Malnutrition apa saja,MIXED,Safety / Contraindication,7,2,2,0,True,True,False,True
+Q401,when to start Bisoprolol in Heart Failure,EN,Management / Treatment Selection,12,2,2,0,True,True,False,True
+Q403,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever,ID,Interaction / Combination,7,2,2,0,True,True,False,True
+Q406,Ischaemic Stroke with pregnancy first line drug,EN,Management / Treatment Selection,12,2,2,1,True,True,True,True
+Q411,Alendronate pada pasien elderly Osteoporosis apa perlu adjustment,MIXED,Dosing / Administration,11,2,0,0,True,False,False,True
+Q432,Semaglutide combination therapy Obesity,EN,Interaction / Combination,9,2,1,0,True,True,False,True
+Q436,Dupilumab vs Cyclosporine untuk pasien Psoriasis mana lebih efektif,MIXED,Comparative Treatment Choice,10,2,2,0,True,True,False,True
+Q438,Schizophrenia emergency Risperidone loading dose berapa,MIXED,Dosing / Administration,7,2,2,1,True,True,True,True
+Q451,Colorectal Cancer prophylaxis Pembrolizumab indication,EN,Prophylaxis / Maintenance,11,2,2,0,True,True,False,True
+Q453,Topiramate pada pasien elderly Migraine apa perlu adjustment,MIXED,Dosing / Administration,10,2,0,0,True,False,False,True
+Q456,kapan start Zinc di Stunting / Malnutrition evidence terbaru 2023,MIXED,Guideline / Evidence Lookup,10,2,1,0,True,True,False,True
+Q459,prophylaxis Gout Adalimumab kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,8,2,1,0,True,True,False,True
+Q462,Aspirin combination therapy Ischaemic Stroke,EN,Interaction / Combination,8,2,1,0,True,True,False,True
+Q470,HIV/AIDS pada anak dosis Amoxicillin,ID,Dosing / Administration,12,2,1,1,True,True,True,True
+Q474,Antituberculotics mechanism untuk Tuberculosis bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,9,2,2,0,True,True,False,True
+Q496,Insulin degludec side effect pada pasien Type 1 Diabetes Mellitus apa saja,MIXED,Safety / Contraindication,6,2,1,0,True,True,False,True
+Q498,monitoring Factor Xa inhibitors pada Deep Vein Thrombosis parameter apa,MIXED,Monitoring / Response / Risk Assessment,10,2,2,0,True,True,False,True
+Q098,ARBs terbaru untuk Hypertension 2022,MIXED,Guideline / Evidence Lookup,6,3,1,1,True,True,True,True
+Q188,interaksi obat Zinc dan Vitamin A pada Stunting / Malnutrition,ID,Interaction / Combination,9,3,3,1,True,True,True,True
+Q204,Iron preparations mechanism untuk Iron Deficiency Anaemia bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,21,3,2,1,True,True,True,True
+Q254,NRTIs combination role in Urinary Tract Infection pathophysiology,EN,Mechanism / Background Knowledge,12,3,3,1,True,True,True,True
+Q315,latest guideline Rheumatoid Arthritis management 2023,MIXED,Guideline / Evidence Lookup,8,3,2,0,True,True,False,True
+Q402,target Obesity sudah tercapai kapan maintenance Semaglutide,MIXED,Prophylaxis / Maintenance,9,3,2,1,True,True,True,True
+Q070,Furosemide long term outcomes Nephrotic Syndrome,EN,Efficacy / Outcomes,17,4,2,1,True,True,True,True
+Q144,Colchicine loading dose Psoriatic Arthritis emergency,EN,Dosing / Administration,9,4,3,0,True,True,False,True
+Q209,switch from Tenofovir+Lamivudine to Tenofovir+Lamivudine in Urinary Tract Infection,EN,Treatment Change / Escalation,18,4,3,1,True,True,True,True
+Q243,Mycophenolate mofetil dosing in Rheumatoid Arthritis with diabetes,EN,Dosing / Administration,17,4,4,1,True,True,True,True
+Q247,resistensi Aspirin pada Ischaemic Stroke alternatif Alteplase,ID,Treatment Change / Escalation,21,4,2,1,True,True,True,True
+Q263,titration protocol Levothyroxine in Hypothyroidism,EN,Dosing / Administration,18,4,2,2,True,True,True,True
+Q285,Olanzapine vs Lithium in Bipolar Disorder patients,EN,Comparative Treatment Choice,15,4,3,0,True,True,False,True
+Q305,when to start Diazepam in Febrile Seizure,EN,Management / Treatment Selection,6,4,4,2,True,True,True,True
+Q318,Venlafaxine vs Escitalopram efficacy in Major Depressive Disorder,EN,Comparative Treatment Choice,7,4,3,1,True,True,True,True
+Q324,monitoring parameters Aspirin in Stable Angina,EN,Monitoring / Response / Risk Assessment,14,4,0,0,True,False,False,True
+Q352,panduan klinis ADHD terbaru,ID,Guideline / Evidence Lookup,14,4,2,1,True,True,True,True
+Q359,dosis Adalimumab untuk pasien Systemic Lupus Erythematosus,ID,Dosing / Administration,9,4,3,0,True,True,False,True
+Q388,Magnesium role in Preeclampsia pathophysiology,EN,Mechanism / Background Knowledge,11,4,4,3,True,True,True,True
+Q399,Beta blockers selective mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,12,4,3,1,True,True,True,True
+Q407,Breast Cancer HER2-positive pada anak dosis Methylphenidate,ID,Dosing / Administration,19,4,2,0,True,True,False,True
+Q423,prophylaxis Hypertension in Pregnancy Methyldopa kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,21,4,3,0,True,True,False,True
+Q443,prophylaxis Schizophrenia Risperidone kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,20,4,2,0,True,True,False,True
+Q449,Beta-lactam combinations mechanism of action in Sepsis,EN,Mechanism / Background Knowledge,7,4,2,0,True,True,False,True
+Q461,is Semaglutide safe in Type 2 Diabetes Mellitus with COPD,EN,Safety / Contraindication,11,4,4,1,True,True,True,True
+Q007,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis,EN,Dosing / Administration,18,5,2,0,True,True,False,True
+Q015,Peptic Ulcer Disease prophylaxis Lansoprazole indication,EN,Prophylaxis / Maintenance,26,5,3,2,True,True,True,True
+Q018,interaksi obat Losartan dan Empagliflozin pada Chronic Kidney Disease,ID,Interaction / Combination,26,5,3,0,True,True,False,True
+Q039,algoritma terapi Chronic Kidney Disease step up,ID,Management / Treatment Selection,17,5,3,1,True,True,True,True
+Q061,Epilepsy first line Antiepileptics other evidence based,MIXED,Guideline / Evidence Lookup,8,5,4,1,True,True,True,True
+Q086,add on Norepinephrine setelah Piperacillin-tazobactam gagal Sepsis,MIXED,Treatment Change / Escalation,19,5,4,0,True,True,False,True
+Q089,biomarkers Community-acquired Pneumonia treatment response Rivaroxaban,EN,Monitoring / Response / Risk Assessment,30,5,3,1,True,True,True,True
+Q090,algoritma terapi Community-acquired Pneumonia step up,ID,Management / Treatment Selection,26,5,4,1,True,True,True,True
+Q094,kapan start Azithromycin di Asthma evidence terbaru 2022,MIXED,Guideline / Evidence Lookup,25,5,4,1,True,True,True,True
+Q133,Omeprazole contraindication in Peptic Ulcer Disease with hypertension,EN,Safety / Contraindication,27,5,5,0,True,True,False,True
+Q134,Non-Small Cell Lung Cancer prophylaxis Pembrolizumab indication,EN,Prophylaxis / Maintenance,25,5,5,1,True,True,True,True
+Q159,titration protocol Cyclosporine in Psoriasis,EN,Dosing / Administration,20,5,4,2,True,True,True,True
+Q185,Isoniazid hepatic impairment dose in Tuberculosis,EN,Dosing / Administration,17,5,4,3,True,True,True,True
+Q189,renal dose adjustment Lansoprazole in Peptic Ulcer Disease,EN,Dosing / Administration,15,5,3,2,True,True,True,True
+Q191,Heart Failure dengan renal impairment penyesuaian dosis Bisoprolol,MIXED,Dosing / Administration,19,5,5,1,True,True,True,True
+Q197,monitoring terapi Bedaquiline pada MDR Tuberculosis,ID,Monitoring / Response / Risk Assessment,20,5,4,1,True,True,True,True
+Q199,Rivaroxaban loading dose Community-acquired Pneumonia emergency,EN,Dosing / Administration,19,5,5,2,True,True,True,True
+Q213,prophylaxis Hypertension Amlodipine kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,23,5,3,1,True,True,True,True
+Q214,Clozapine hepatic impairment dose in Schizophrenia,EN,Dosing / Administration,16,5,3,3,True,True,True,True
+Q262,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak,MIXED,Interaction / Combination,25,5,5,1,True,True,True,True
+Q268,Beta blockers non-selective mechanism of action in Hypertension in Pregnancy,EN,Mechanism / Background Knowledge,25,5,3,1,True,True,True,True
+Q292,Amoxicillin vs Amoxicillin efficacy in HIV/AIDS,EN,Comparative Treatment Choice,34,5,5,3,True,True,True,True
+Q297,Colorectal Cancer with COPD first line drug,EN,Management / Treatment Selection,21,5,2,0,True,True,False,True
+Q342,dosis titrasi Vancomycin Sepsis toleransi pasien,MIXED,Dosing / Administration,22,5,4,0,True,True,False,True
+Q346,Chronic Kidney Disease dengan renal impairment penyesuaian dosis Losartan,MIXED,Dosing / Administration,7,5,2,1,True,True,True,True
+Q349,dosis Liraglutide untuk pasien Obesity,ID,Dosing / Administration,24,5,4,2,True,True,True,True
+Q375,Tuberculosis pada anak dosis Bedaquiline,ID,Dosing / Administration,27,5,4,2,True,True,True,True
+Q393,monitoring SSRIs pada ADHD parameter apa,MIXED,Monitoring / Response / Risk Assessment,29,5,5,2,True,True,True,True
+Q394,Topical calcineurin inhibitors adverse effects monitoring in Psoriasis,EN,Safety / Contraindication,17,5,2,2,True,True,True,True
+Q395,Vitamin A hepatic impairment dose in Stunting / Malnutrition,EN,Dosing / Administration,26,5,2,0,True,True,False,True
+Q408,prophylaxis COPD Salmeterol kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,23,5,5,4,True,True,True,True
+Q427,kontraindikasi Lansoprazole pada Pulmonary Embolism dengan renal impairment,MIXED,Safety / Contraindication,24,5,4,2,True,True,True,True
+Q429,dosis Dupilumab untuk pasien Disseminated Intravascular Coagulation,ID,Dosing / Administration,30,5,3,2,True,True,True,True
+Q458,NRTIs mechanism of action in Malaria,EN,Mechanism / Background Knowledge,18,5,4,0,True,True,False,True
+Q009,Tenofovir+Lamivudine drug interaction with Tenofovir+Lamivudine in Urinary Tract Infection,EN,Interaction / Combination,28,6,5,1,True,True,True,True
+Q019,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib,MIXED,Dosing / Administration,17,6,5,0,True,True,False,True
+Q021,dosis titrasi Tenofovir disoproxil Malaria toleransi pasien,MIXED,Dosing / Administration,36,6,5,2,True,True,True,True
+Q022,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa,ID,Treatment Change / Escalation,10,6,6,2,True,True,True,True
+Q038,Integrase inhibitors terbaru untuk Malaria terbaru,MIXED,Guideline / Evidence Lookup,19,6,3,1,True,True,True,True
+Q073,is Valproate safe in Epilepsy with hypertension,EN,Safety / Contraindication,11,6,5,1,True,True,True,True
+Q076,Acute Coronary Syndrome dengan renal impairment penyesuaian dosis Ezetimibe,MIXED,Dosing / Administration,46,6,5,2,True,True,True,True
+Q078,apakah Risperidone aman untuk Schizophrenia dengan anaemia,ID,Safety / Contraindication,27,6,3,0,True,True,False,True
+Q101,Dolutegravir drug interaction with Tenofovir disoproxil in Malaria,EN,Interaction / Combination,26,6,3,1,True,True,True,True
+Q121,when to start Venlafaxine in Major Depressive Disorder,EN,Management / Treatment Selection,27,6,5,2,True,True,True,True
+Q125,kontraindikasi Secukinumab pada Gout dengan heart failure,MIXED,Safety / Contraindication,15,6,4,2,True,True,True,True
+Q128,kapan start Alendronate di Osteoporosis evidence terbaru 2022,MIXED,Guideline / Evidence Lookup,28,6,5,2,True,True,True,True
+Q142,Vitamin A kontraindikasi pada Stunting / Malnutrition dengan COPD,ID,Safety / Contraindication,9,6,4,2,True,True,True,True
+Q146,Bedaquiline vs Rifampicin untuk pasien Tuberculosis mana lebih efektif,MIXED,Comparative Treatment Choice,30,6,5,1,True,True,True,True
+Q161,Magnesium sulphate pada pasien elderly Preeclampsia apa perlu adjustment,MIXED,Dosing / Administration,24,6,4,2,True,True,True,True
+Q163,is Amlodipine safe in Acute Coronary Syndrome with obesity,EN,Safety / Contraindication,7,6,5,1,True,True,True,True
+Q164,Systemic Lupus Erythematosus first line TNF inhibitors evidence based,MIXED,Guideline / Evidence Lookup,6,6,4,0,True,True,False,True
+Q172,kapan mulai terapi Aspirin pada Stable Angina,ID,Management / Treatment Selection,18,6,5,1,True,True,True,True
+Q176,latest guideline Major Depressive Disorder management terbaru,MIXED,Guideline / Evidence Lookup,6,6,5,3,True,True,True,True
+Q179,Type 2 Diabetes Mellitus treatment algorithm GLP-1 receptor agonists first line,EN,Management / Treatment Selection,20,6,5,3,True,True,True,True
+Q180,tatalaksana Type 1 Diabetes Mellitus panduan terbaru 2023,ID,Guideline / Evidence Lookup,34,6,5,0,True,True,False,True
+Q181,dosis Alteplase untuk pasien Ischaemic Stroke,ID,Dosing / Administration,23,6,6,2,True,True,True,True
+Q183,Hypertension in Pregnancy pediatric dosing Methyldopa,EN,Dosing / Administration,22,6,5,3,True,True,True,True
+Q200,Tuberculosis risk stratification approach,EN,Monitoring / Response / Risk Assessment,21,6,4,1,True,True,True,True
+Q202,HIV/AIDS with obesity first line drug,EN,Management / Treatment Selection,34,6,3,1,True,True,True,True
+Q210,switch dari Venlafaxine ke Escitalopram Major Depressive Disorder progresif,MIXED,Treatment Change / Escalation,12,6,4,0,True,True,False,True
+Q238,Basal insulins in pregnancy and Type 1 Diabetes Mellitus,EN,Safety / Contraindication,25,6,2,1,True,True,True,True
+Q245,kapan mulai terapi Pembrolizumab pada Non-Small Cell Lung Cancer,ID,Management / Treatment Selection,37,6,3,0,True,True,False,True
+Q246,add on therapy Urinary Tract Infection after Tenofovir+Lamivudine failure,EN,Treatment Change / Escalation,12,6,5,2,True,True,True,True
+Q250,efek samping Vitamin K antagonists pada Atrial Fibrillation,ID,Safety / Contraindication,9,6,6,1,True,True,True,True
+Q264,dosis Levothyroxine untuk pasien Hypothyroidism,ID,Dosing / Administration,34,6,4,1,True,True,True,True
+Q270,Bedaquiline pada pasien elderly MDR Tuberculosis apa perlu adjustment,MIXED,Dosing / Administration,21,6,4,1,True,True,True,True
+Q278,add on Furosemide setelah Furosemide gagal Nephrotic Syndrome,MIXED,Treatment Change / Escalation,14,6,2,2,True,True,True,True
+Q279,prophylaxis MDR Tuberculosis Bedaquiline kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,11,6,4,0,True,True,False,True
+Q287,panduan klinis Epilepsy terbaru,ID,Guideline / Evidence Lookup,38,6,4,1,True,True,True,True
+Q298,penggantian Apixaban ke Rivaroxaban pada Deep Vein Thrombosis,ID,Treatment Change / Escalation,38,6,4,2,True,True,True,True
+Q321,Escitalopram drug interaction with Sertraline in ADHD,EN,Interaction / Combination,6,6,5,2,True,True,True,True
+Q325,target Systemic Lupus Erythematosus sudah tercapai kapan maintenance Adalimumab,MIXED,Prophylaxis / Maintenance,22,6,4,0,True,True,False,True
+Q335,Metronidazole vs Omeprazole untuk pasien Pulmonary Embolism mana lebih efektif,MIXED,Comparative Treatment Choice,26,6,3,3,True,True,True,True
+Q363,target Type 2 Diabetes Mellitus sudah tercapai kapan maintenance Liraglutide,MIXED,Prophylaxis / Maintenance,38,6,6,1,True,True,True,True
+Q371,kapan start Losartan di Hypertension evidence terbaru terbaru,MIXED,Guideline / Evidence Lookup,27,6,5,1,True,True,True,True
+Q409,Spironolactone dosing in Heart Failure with obesity,EN,Dosing / Administration,40,6,6,1,True,True,True,True
+Q419,add on therapy Systemic Lupus Erythematosus after Methotrexate failure,EN,Treatment Change / Escalation,42,6,3,1,True,True,True,True
+Q421,Bisoprolol loading dose Heart Failure emergency,EN,Dosing / Administration,30,6,4,1,True,True,True,True
+Q426,target Psoriasis sudah tercapai kapan maintenance Dupilumab,MIXED,Prophylaxis / Maintenance,23,6,5,0,True,True,False,True
+Q433,monitoring parameters Losartan in Chronic Kidney Disease,EN,Monitoring / Response / Risk Assessment,35,6,5,3,True,True,True,True
+Q450,kontraindikasi Liraglutide pada Type 2 Diabetes Mellitus dengan CKD,MIXED,Safety / Contraindication,27,6,5,2,True,True,True,True
+Q466,panduan klinis Major Depressive Disorder terbaru,ID,Guideline / Evidence Lookup,16,6,5,0,True,True,False,True
+Q467,Artemether-lumefantrine side effect pada pasien Typhoid Fever apa saja,MIXED,Safety / Contraindication,22,6,5,2,True,True,True,True
+Q469,indikasi Bedaquiline pada MDR Tuberculosis guideline terbaru,MIXED,Guideline / Evidence Lookup,36,6,5,2,True,True,True,True
+Q477,Losartan long term outcomes Heart Failure,EN,Efficacy / Outcomes,29,6,4,0,True,True,False,True
+Q486,switch from Alteplase to Alteplase in Ischaemic Stroke,EN,Treatment Change / Escalation,30,6,3,0,True,True,False,True
+Q489,switch from Bedaquiline to Bedaquiline in MDR Tuberculosis,EN,Treatment Change / Escalation,19,6,4,0,True,True,False,True
+Q003,interaksi obat Nivolumab dan Nivolumab pada Colorectal Cancer,ID,Interaction / Combination,18,7,3,2,True,True,True,True
+Q012,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment,MIXED,Dosing / Administration,29,7,5,1,True,True,True,True
+Q027,Vitamin A adverse effects monitoring in Stunting / Malnutrition,EN,Safety / Contraindication,33,7,3,1,True,True,True,True
+Q032,interaksi obat Ramipril dan Spironolactone pada Heart Failure,ID,Interaction / Combination,30,7,4,2,True,True,True,True
+Q046,kapan mulai terapi Adalimumab pada Gout,ID,Management / Treatment Selection,11,7,4,3,True,True,True,True
+Q060,Migraine with liver disease first line drug,EN,Management / Treatment Selection,9,7,5,1,True,True,True,True
+Q068,Labetalol resistance in Hypertension in Pregnancy alternative therapy,EN,Treatment Change / Escalation,24,7,4,1,True,True,True,True
+Q095,monitoring parameters Empagliflozin in Atrial Fibrillation,EN,Monitoring / Response / Risk Assessment,23,7,7,4,True,True,True,True
+Q097,Iron Deficiency Anaemia pada anak dosis Ferrous sulphate,ID,Dosing / Administration,32,7,5,4,True,True,True,True
+Q107,algoritma terapi Asthma step up,ID,Management / Treatment Selection,21,7,4,2,True,True,True,True
+Q130,Bisoprolol dosing in Heart Failure with hypertension,EN,Dosing / Administration,12,7,7,3,True,True,True,True
+Q131,kontraindikasi Rifampicin pada Tuberculosis dengan COPD,MIXED,Safety / Contraindication,31,7,6,1,True,True,True,True
+Q132,Methotrexate dosing in Systemic Lupus Erythematosus with heart failure,EN,Dosing / Administration,31,7,5,3,True,True,True,True
+Q150,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia,ID,Comparative Treatment Choice,25,7,6,1,True,True,True,True
+Q152,apakah Bedaquiline aman untuk Tuberculosis dengan obesity,ID,Safety / Contraindication,12,7,4,0,True,True,False,True
+Q154,Apixaban hepatic impairment dose in Community-acquired Pneumonia,EN,Dosing / Administration,35,7,5,4,True,True,True,True
+Q156,indikasi Tenofovir+Lamivudine pada Urinary Tract Infection guideline terbaru,MIXED,Guideline / Evidence Lookup,19,7,4,2,True,True,True,True
+Q171,Hyperthyroidism prophylaxis Methimazole indication,EN,Prophylaxis / Maintenance,7,7,6,1,True,True,True,True
+Q193,Obesity dengan obesity pilihan terapi,ID,Management / Treatment Selection,28,7,4,4,True,True,True,True
+Q208,terapi profilaksis Hypertension dengan Ramipril,ID,Prophylaxis / Maintenance,30,7,4,0,True,True,False,True
+Q216,Hyperthyroidism guideline update 2024 summary,EN,Guideline / Evidence Lookup,11,7,6,3,True,True,True,True
+Q218,kapan mulai terapi Methimazole pada Hyperthyroidism,ID,Management / Treatment Selection,10,7,6,0,True,True,False,True
+Q229,Hyperthyroidism treatment algorithm Antithyroid agents first line,EN,Management / Treatment Selection,8,7,4,2,True,True,True,True
+Q231,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak,MIXED,Interaction / Combination,39,7,7,2,True,True,True,True
+Q258,when to start Alteplase in Ischaemic Stroke,EN,Management / Treatment Selection,30,7,5,2,True,True,True,True
+Q304,target Major Depressive Disorder sudah tercapai kapan maintenance Venlafaxine,MIXED,Prophylaxis / Maintenance,40,7,5,0,True,True,False,True
+Q319,dosis titrasi Adalimumab Gout toleransi pasien,MIXED,Dosing / Administration,35,7,4,1,True,True,True,True
+Q334,Community-acquired Pneumonia prophylaxis Apixaban indication,EN,Prophylaxis / Maintenance,7,7,5,2,True,True,True,True
+Q337,Chronic Kidney Disease with immunocompromised first line drug,EN,Management / Treatment Selection,36,7,5,2,True,True,True,True
+Q354,apakah Topiramate aman untuk Migraine dengan hypertension,ID,Safety / Contraindication,34,7,4,1,True,True,True,True
+Q392,switch from Artemether-lumefantrine to Artemether-lumefantrine in Typhoid Fever,EN,Treatment Change / Escalation,36,7,6,0,True,True,False,True
+Q404,Omeprazole loading dose Peptic Ulcer Disease emergency,EN,Dosing / Administration,12,7,6,3,True,True,True,True
+Q420,Atrial Fibrillation pada anak dosis Metoprolol,ID,Dosing / Administration,26,7,5,0,True,True,False,True
+Q435,Artemether-lumefantrine hepatic impairment dose in Typhoid Fever,EN,Dosing / Administration,7,7,6,2,True,True,True,True
+Q440,Atrial Fibrillation risk stratification approach,EN,Monitoring / Response / Risk Assessment,45,7,5,3,True,True,True,True
+Q444,Rivaroxaban hepatic impairment dose in Community-acquired Pneumonia,EN,Dosing / Administration,7,7,4,1,True,True,True,True
+Q454,switch dari Meropenem ke Vancomycin Sepsis progresif,MIXED,Treatment Change / Escalation,42,7,5,2,True,True,True,True
+Q472,ARBs mechanism untuk Hypertension bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,26,7,5,2,True,True,True,True
+Q490,target terapi Hypothyroidism dengan Thyroid hormones,ID,Management / Treatment Selection,33,7,4,2,True,True,True,True
+Q005,Penicillins in pregnancy and HIV/AIDS,EN,Safety / Contraindication,38,8,6,3,True,True,True,True
+Q008,Short-acting beta2-agonists adverse effects monitoring in Asthma,EN,Safety / Contraindication,11,8,8,3,True,True,True,True
+Q040,resistensi Desmopressin pada Diabetes Insipidus alternatif Desmopressin,ID,Treatment Change / Escalation,50,8,5,2,True,True,True,True
+Q043,Thyroid hormones kontraindikasi pada Hyperthyroidism dengan hepatic impairment,ID,Safety / Contraindication,27,8,7,3,True,True,True,True
+Q051,add on therapy Malaria after Dolutegravir failure,EN,Treatment Change / Escalation,43,8,4,1,True,True,True,True
+Q056,Sepsis emergency Piperacillin-tazobactam loading dose berapa,MIXED,Dosing / Administration,49,8,6,4,True,True,True,True
+Q067,kapan start Atorvastatin di Acute Coronary Syndrome evidence terbaru 2025,MIXED,Guideline / Evidence Lookup,49,8,6,3,True,True,True,True
+Q069,dosis titrasi Alendronate Osteoporosis toleransi pasien,MIXED,Dosing / Administration,10,8,4,2,True,True,True,True
+Q075,Psoriasis guideline update terbaru summary,EN,Guideline / Evidence Lookup,10,8,6,1,True,True,True,True
+Q077,algoritma terapi Iron Deficiency Anaemia step up,ID,Management / Treatment Selection,34,8,6,3,True,True,True,True
+Q093,penggantian Ezetimibe ke Amlodipine pada Acute Coronary Syndrome,ID,Treatment Change / Escalation,9,8,3,1,True,True,True,True
+Q100,prophylaxis Ischaemic Stroke Alteplase kapan bisa dihentikan,MIXED,Prophylaxis / Maintenance,41,8,6,1,True,True,True,True
+Q155,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,MIXED,Interaction / Combination,9,8,5,2,True,True,True,True
+Q165,dosis Escitalopram untuk pasien ADHD,ID,Dosing / Administration,8,8,5,3,True,True,True,True
+Q178,add on Valproate setelah Valproate gagal Parkinson Disease,MIXED,Treatment Change / Escalation,11,8,7,4,True,True,True,True
+Q212,is Salmeterol safe in COPD with anaemia,EN,Safety / Contraindication,8,8,5,2,True,True,True,True
+Q228,is Aspirin safe in Ischaemic Stroke with diabetes,EN,Safety / Contraindication,10,8,6,1,True,True,True,True
+Q239,Ramipril pada pasien elderly Hypertension apa perlu adjustment,MIXED,Dosing / Administration,33,8,7,1,True,True,True,True
+Q281,NRTIs combination mechanism of action in Urinary Tract Infection,EN,Mechanism / Background Knowledge,46,8,4,1,True,True,True,True
+Q289,Apixaban pada ibu hamil dengan Deep Vein Thrombosis,ID,Safety / Contraindication,33,8,7,2,True,True,True,True
+Q301,monitoring parameters Topiramate in Epilepsy,EN,Monitoring / Response / Risk Assessment,36,8,6,4,True,True,True,True
+Q314,switch dari Rifampicin ke Isoniazid Tuberculosis progresif,MIXED,Treatment Change / Escalation,44,8,4,3,True,True,True,True
+Q316,Lansoprazole vs Omeprazole untuk pasien Peptic Ulcer Disease mana lebih efektif,MIXED,Comparative Treatment Choice,12,8,5,1,True,True,True,True
+Q341,switch from Clopidogrel to Rosuvastatin in Stable Angina,EN,Treatment Change / Escalation,41,8,6,1,True,True,True,True
+Q370,obat Rheumatoid Arthritis lini pertama Antimalarials,ID,Management / Treatment Selection,8,8,7,1,True,True,True,True
+Q384,Iron preparations in pregnancy and Iron Deficiency Anaemia,EN,Safety / Contraindication,9,8,5,1,True,True,True,True
+Q398,Corticosteroids terbaru untuk Sepsis 2024,MIXED,Guideline / Evidence Lookup,9,8,6,2,True,True,True,True
+Q463,Tuberculosis with renal impairment first line drug,EN,Management / Treatment Selection,8,8,4,2,True,True,True,True
+Q480,Venlafaxine dosing in Major Depressive Disorder with atrial fibrillation,EN,Dosing / Administration,10,8,5,2,True,True,True,True
+Q042,switch from Piperacillin-tazobactam to Norepinephrine in Sepsis,EN,Treatment Change / Escalation,9,9,6,1,True,True,True,True
+Q054,is Empagliflozin safe in Chronic Kidney Disease with renal impairment,EN,Safety / Contraindication,9,9,5,2,True,True,True,True
+Q096,Epilepsy risk stratification approach,EN,Monitoring / Response / Risk Assessment,40,9,8,4,True,True,True,True
+Q140,Beta blockers selective role in Stable Angina pathophysiology,EN,Mechanism / Background Knowledge,12,9,7,4,True,True,True,True
+Q145,titration protocol Rivaroxaban in Community-acquired Pneumonia,EN,Dosing / Administration,45,9,5,2,True,True,True,True
+Q157,Benzodiazepines in pregnancy and Febrile Seizure,EN,Safety / Contraindication,12,9,8,3,True,True,True,True
+Q211,Tuberculosis dengan atrial fibrillation pilihan terapi,ID,Management / Treatment Selection,9,9,8,3,True,True,True,True
+Q224,Losartan hepatic impairment dose in Hypertension,EN,Dosing / Administration,9,9,7,4,True,True,True,True
+Q234,PD-1 inhibitors mechanism untuk Non-Small Cell Lung Cancer bagaimana cara kerjanya,MIXED,Mechanism / Background Knowledge,56,9,8,5,True,True,True,True
+Q252,latest guideline Major Depressive Disorder management 2022,MIXED,Guideline / Evidence Lookup,9,9,8,4,True,True,True,True
+Q290,monitoring NRTIs combination pada Urinary Tract Infection parameter apa,MIXED,Monitoring / Response / Risk Assessment,9,9,9,4,True,True,True,True
+Q293,resistensi Prednisolone pada Asthma alternatif Azithromycin,ID,Treatment Change / Escalation,56,9,5,3,True,True,True,True
+Q327,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak,MIXED,Interaction / Combination,10,9,5,2,True,True,True,True
+Q369,Nivolumab vs Pembrolizumab untuk Non-Small Cell Lung Cancer,ID,Comparative Treatment Choice,10,9,7,2,True,True,True,True
+Q390,panduan klinis Ischaemic Stroke terbaru,ID,Guideline / Evidence Lookup,9,9,4,2,True,True,True,True
+Q397,Malaria risk stratification approach,EN,Monitoring / Response / Risk Assessment,53,9,6,4,True,True,True,True
+Q416,Urinary Tract Infection risk stratification approach,EN,Monitoring / Response / Risk Assessment,12,9,6,2,True,True,True,True
+Q340,latest guideline Peptic Ulcer Disease management 2023,MIXED,Guideline / Evidence Lookup,45,10,8,1,True,True,True,True
+Q323,efek samping Inhaled corticosteroids pada Asthma,ID,Safety / Contraindication,52,11,9,6,True,True,True,True
+Q473,Tenofovir+Lamivudine efficacy pada Urinary Tract Infection clinical outcome data,MIXED,Efficacy / Outcomes,77,12,10,2,True,True,True,True

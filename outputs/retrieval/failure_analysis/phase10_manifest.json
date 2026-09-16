@@ -1,0 +1,33 @@
+{
+  "phase": 10,
+  "protocol": "temporal",
+  "split": "validation",
+  "seed": 42,
+  "quotas": {
+    "miss": 26,
+    "hit": 8,
+    "no_positive": 6
+  },
+  "query_count": 40,
+  "selection": "fixed quotas; sample sorted query IDs with pandas random_state=42",
+  "reviewer": "Codex title/metadata review; not clinician gold",
+  "limitations": [
+    "purposive sample",
+    "title-only content",
+    "weak behavioral evidence",
+    "intent and slots are earlier pipeline outputs, not independent gold"
+  ],
+  "versions": {
+    "pandas": "2.3.3"
+  },
+  "sha256": {
+    "outputs/retrieval/bm25_per_query_metrics.csv": "d21dedba79590c68f2669d8beaa34cc2dbd049cec22c84f0643fc8462747a67a",
+    "outputs/retrieval/bm25_rankings.csv": "17005c230db196573b432a0eb8e63bb5ad0837346445665b7a037d53475d009e",
+    "outputs/evaluation/temporal_validation_judgments.csv": "2af8c2e5b9cf378be3abe74802e22d73a7eb1ecfcc1475b240ab01d35c1f9854",
+    "queries_labeled.csv": "c47c84a5741d4420e5aa35545f0c8458434a4cedd552b49c2108b6d16ca0ebd9",
+    "data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "data/processed/phase10_review_notes.csv": "d0ea46f7b88723a7955a5bd2a686dfdc8e4b817f68c81c1dcd9758b2a7959cc5",
+    "src/bm25_failure_analysis.py": "70ae38b55f2e60e589246bd61333f4f3656880d8d9042b73a0731a8913448328",
+    "src/retrieval.py": "ba46d1c73985f01b6d3415c0bab18a90d794db6d1e1467aaa37cf74a8c5495b8"
+  }
+}

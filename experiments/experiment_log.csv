@@ -1,6 +1,6 @@
 experiment,hypothesis,method,primary_metric,result,decision
 T1-B0,lexical features can identify intent,TF-IDF + Logistic Regression,Macro F1,5-fold weak-label Macro F1=0.981,retain; audit template-transfer sensitivity
-R-B0,lexical retrieval provides reasonable baseline,BM25,NDCG@10,TBD,baseline
+R-B0,lexical retrieval provides reasonable baseline,BM25,NDCG@10,Temporal test NDCG@10=0.0102; Recall@10=0.0161; 110/139 positive queries,retain fixed title-only baseline; incomplete behavioral proxy
 R-E1,supplied entities improve ranking,BM25 + entity features,NDCG@10,TBD,TBD
 R-E2,contextual slots improve constrained queries,structured contextual matching,NDCG@10,TBD,TBD
 R-E3,semantic retrieval improves lexical mismatch,dense sentence embeddings,Recall@10,TBD,TBD
@@ -15,3 +15,4 @@ R-L0,terminal behavior and dwell can define transparent graded weak relevance,10
 R-LS1,relevance strength should be checked against stricter dwell cutoffs,30s meaningful-click + 180s strong-scroll thresholds,Label transition rate,442/7190 rows change strength (6.1%); positive coverage unchanged,retain for retrieval sensitivity analysis
 R-S0,explicit clinical structure can produce behavior-independent ranking evidence,CLEAR-inspired exact + ICD/ATC hierarchy + contextual matching; equal entity/context average,Pairwise feature coverage,172500/172500 corpus pairs featurized; 12354 entity-compatible and 14278 context-compatible pairs,retain for later retrieval ablation; no ranking claim yet
 R-SPLIT,partition evidence before aggregation prevents event reuse,chronological sessions plus query-held-out and duplicate-grouped sensitivity,leakage audit,7190 exposures and 1500 events uniquely assigned per protocol; 3 near-duplicate pairs; zero detected pair overlap in query_dedup,freeze protocol before retrieval tuning
+R-B0-FA,separate visible ranking failures from weak behavioral evidence before added complexity,40-query stratified temporal-validation title/metadata review,qualitative category coverage,29 intent mismatches; 21 partial entity matches; 32 off-topic strongest positives; 6 without positives,test entity and intent ablations; obtain independent judgments; baseline unchanged

@@ -1,0 +1,44 @@
+{
+  "method": "BM25Okapi",
+  "representation": "title only; body/summary absent",
+  "k1": 1.5,
+  "b": 0.75,
+  "epsilon": 0.25,
+  "tokenizer": "NFKC + casefold + Unicode word tokens; no stopwords/stemming/translation",
+  "tie_break": "ascending content_id",
+  "corpus_size": 345,
+  "query_count": 500,
+  "tuning": "none; existing project defaults frozen before evaluation",
+  "top_k": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "unjudged": "zero gain for proxy computation only",
+  "eligibility": "positive queries per scheme and binary threshold; graded gains unchanged",
+  "bootstrap": "2000 query resamples; seed 42; descriptive, not cluster robust",
+  "versions": {
+    "rank-bm25": "0.2.2",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3"
+  },
+  "sha256": {
+    "data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "data/raw/queries.csv": "cef5e977d27830bc8808c817bae1b8cd6c93023e9d514084fc1b64fab558bc4b",
+    "outputs/evaluation/phase8_split_manifest.json": "af6cd55e55ca9b826009b7e01fa4b62c18130bbe4103e6de63e4d1d128da2a25",
+    "outputs/evaluation/temporal_train_judgments.csv": "dedd0e13c05d175ae28fe7791991968f5b37c69e2940d5c64990fc153dc9b393",
+    "outputs/evaluation/temporal_validation_judgments.csv": "2af8c2e5b9cf378be3abe74802e22d73a7eb1ecfcc1475b240ab01d35c1f9854",
+    "outputs/evaluation/temporal_test_judgments.csv": "0fe2f638b1e761e4b13875f7cf5bb8b4ac2c3fecd38630c61b6cedd2df2b1aa0",
+    "outputs/evaluation/query_train_judgments.csv": "42f0abf178ca57581bb5f6dea2237af5c1337a603e15b31786d61ef21e3f5444",
+    "outputs/evaluation/query_validation_judgments.csv": "10138398b649871cc8d2cfd3be774ac74766e38ced9c25027b9e01cb3f7e9eeb",
+    "outputs/evaluation/query_test_judgments.csv": "b49b8d15cbfe083e243c20c5e74c27c3f53c899d6a74e04a30d83981609a4fb9",
+    "outputs/evaluation/query_dedup_train_judgments.csv": "c0aefc3978fdc7ce6d1b5b2225a8d44df93f4da9ebe75200185bcd2f3b451627",
+    "outputs/evaluation/query_dedup_validation_judgments.csv": "5fb1a5ca6f503afbd867fd522a68317e58177c5aa555656391fefedd6076b7ba",
+    "outputs/evaluation/query_dedup_test_judgments.csv": "b84a67c16bcf785b42baa9a69e6b5b4ff45c362c548b0d259768816783e0d2bc",
+    "src/bm25_baseline.py": "fdec03699ddfcd06b5f6ca20ffac47a3354085e072a73c89ec6e1a26f1db0ab3",
+    "src/retrieval.py": "ba46d1c73985f01b6d3415c0bab18a90d794db6d1e1467aaa37cf74a8c5495b8",
+    "src/evaluation.py": "6dd6a2b1150056527cb9a4b0aa9a602f4b26e2a39f9df8cc9ef15d340aff3e6e"
+  }
+}

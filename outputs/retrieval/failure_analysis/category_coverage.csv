@@ -1,0 +1,15 @@
+category,reviewed_query_count,status
+lexical mismatch,2,observed in this review
+synonym mismatch,1,observed in this review
+abbreviation mismatch,0,not established in this sample
+English-Indonesian mismatch,4,observed in this review
+partial entity match,21,observed in this review
+wrong molecule within correct drug class,0,not established in this sample
+intent mismatch,29,observed in this review
+missing contextual constraint,9,observed in this review
+age mismatch,2,observed in this review
+temporal mismatch,3,observed in this review
+pregnancy mismatch,1,observed in this review
+renal-function mismatch,1,observed in this review
+severity mismatch,5,observed in this review
+weak behavioral ground truth,38,observed in this review

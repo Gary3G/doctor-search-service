@@ -1,0 +1,10 @@
+strategy,left,right,impression_id,session_id,query_id,doctor_id,content_id
+temporal,train,validation,0,0,51,85,339
+temporal,train,test,0,0,56,86,337
+temporal,validation,test,0,0,30,70,332
+query,train,validation,0,0,0,81,338
+query,train,test,0,0,0,77,340
+query,validation,test,0,0,0,62,333
+query_dedup,train,validation,0,0,0,75,337
+query_dedup,train,test,0,0,0,77,337
+query_dedup,validation,test,0,0,0,51,329

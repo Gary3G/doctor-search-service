@@ -1,0 +1,31 @@
+{
+  "temporal": {
+    "strategy": "temporal",
+    "seed": 42,
+    "validation_start": "2025-01-19T19:04:41+00:00",
+    "test_start": "2025-01-25T01:04:06+00:00",
+    "assigned_behavioral_events": 1500
+  },
+  "query": {
+    "strategy": "query",
+    "seed": 42,
+    "query_session_components": 500,
+    "assigned_behavioral_events": 1500
+  },
+  "query_dedup": {
+    "strategy": "query_dedup",
+    "seed": 42,
+    "near_duplicate_threshold": 0.95,
+    "duplicate_pairs": 3,
+    "method": "char_wb TF-IDF 3-5 grams; identical numeric tokens",
+    "query_session_components": 497,
+    "assigned_behavioral_events": 1500
+  },
+  "source_sha256": "f37bbabc3051a92b72623cb92569528ebe53c689bcd67ed4a491de5f1c638a49",
+  "config": {
+    "validation_size": 0.2,
+    "test_size": 0.2
+  },
+  "primary_protocol": "temporal",
+  "preferred_query_generalization_protocol": "query_dedup"
+}

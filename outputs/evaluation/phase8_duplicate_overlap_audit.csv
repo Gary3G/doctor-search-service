@@ -1,0 +1,10 @@
+strategy,query_id_left,query_id_right,crosses_partitions
+temporal,Q150,Q170,True
+temporal,Q151,Q377,True
+temporal,Q177,Q309,False
+query,Q150,Q170,False
+query,Q151,Q377,False
+query,Q177,Q309,True
+query_dedup,Q150,Q170,False
+query_dedup,Q151,Q377,False
+query_dedup,Q177,Q309,False

@@ -1,0 +1,4 @@
+query_id_left,query_id_right,text_left,text_right,similarity,match_type
+Q150,Q170,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients,0.9541227181122588,near_lexical
+Q151,Q377,latest guideline Preeclampsia management 2024,latest Preeclampsia management guidelines 2024,0.9657443788964318,near_lexical
+Q177,Q309,Bedaquiline long term outcomes Tuberculosis,Bedaquiline long term outcomes MDR Tuberculosis,0.9605624310057914,near_lexical

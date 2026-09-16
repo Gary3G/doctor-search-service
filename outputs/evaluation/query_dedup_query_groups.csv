@@ -1,0 +1,501 @@
+query_id,query_text,query_group,split
+Q001,is Diazepam safe in Febrile Seizure with immunocompromised,Q001,train
+Q002,SGLT2 inhibitors adverse effects monitoring in Atrial Fibrillation,Q002,test
+Q003,interaksi obat Nivolumab dan Nivolumab pada Colorectal Cancer,Q003,train
+Q004,Apixaban efficacy pada Deep Vein Thrombosis clinical outcome data,Q004,train
+Q005,Penicillins in pregnancy and HIV/AIDS,Q005,validation
+Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak,Q006,validation
+Q007,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis,Q007,test
+Q008,Short-acting beta2-agonists adverse effects monitoring in Asthma,Q008,train
+Q009,Tenofovir+Lamivudine drug interaction with Tenofovir+Lamivudine in Urinary Tract Infection,Q009,train
+Q010,renal dose adjustment Magnesium sulphate in Preeclampsia,Q010,validation
+Q011,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical,Q011,test
+Q012,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment,Q012,validation
+Q013,kontraindikasi Bedaquiline pada Tuberculosis dengan anaemia,Q013,train
+Q014,Malaria pediatric dosing Tenofovir disoproxil,Q014,validation
+Q015,Peptic Ulcer Disease prophylaxis Lansoprazole indication,Q015,test
+Q016,is Bortezomib safe in Rheumatoid Arthritis with renal impairment,Q016,test
+Q017,PD-1 inhibitors mechanism untuk Colorectal Cancer bagaimana cara kerjanya,Q017,test
+Q018,interaksi obat Losartan dan Empagliflozin pada Chronic Kidney Disease,Q018,test
+Q019,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib,Q019,validation
+Q020,latest Malaria management guidelines 2025,Q020,train
+Q021,dosis titrasi Tenofovir disoproxil Malaria toleransi pasien,Q021,train
+Q022,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa,Q022,validation
+Q023,indikasi Sitagliptin pada Type 2 Diabetes Mellitus guideline terbaru,Q023,test
+Q024,Gout dengan renal impairment penyesuaian dosis Adalimumab,Q024,test
+Q025,Acute Coronary Syndrome guideline update 2023 summary,Q025,train
+Q026,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation,Q026,train
+Q027,Vitamin A adverse effects monitoring in Stunting / Malnutrition,Q027,train
+Q028,ACE inhibitors adverse effects monitoring in Hypertension,Q028,train
+Q029,Empagliflozin efficacy pada Type 2 Diabetes Mellitus clinical outcome data,Q029,validation
+Q030,is Losartan safe in Hypertension with liver disease,Q030,train
+Q031,Ibuprofen side effect pada pasien Psoriatic Arthritis apa saja,Q031,train
+Q032,interaksi obat Ramipril dan Spironolactone pada Heart Failure,Q032,test
+Q033,dosis Semaglutide pada Obesity pasien hypertension aman tidak,Q033,validation
+Q034,Typhoid Fever treatment algorithm Antimalarials first line,Q034,train
+Q035,algoritma terapi HIV/AIDS step up,Q035,test
+Q036,Atrial Fibrillation pediatric dosing Empagliflozin,Q036,test
+Q037,SSRIs in pregnancy and ADHD,Q037,test
+Q038,Integrase inhibitors terbaru untuk Malaria terbaru,Q038,validation
+Q039,algoritma terapi Chronic Kidney Disease step up,Q039,train
+Q040,resistensi Desmopressin pada Diabetes Insipidus alternatif Desmopressin,Q040,validation
+Q041,SGLT2 inhibitors mechanism of action in Chronic Kidney Disease,Q041,train
+Q042,switch from Piperacillin-tazobactam to Norepinephrine in Sepsis,Q042,test
+Q043,Thyroid hormones kontraindikasi pada Hyperthyroidism dengan hepatic impairment,Q043,test
+Q044,Malaria with pregnancy first line drug,Q044,test
+Q045,switch from Diazepam to Diazepam in Febrile Seizure,Q045,train
+Q046,kapan mulai terapi Adalimumab pada Gout,Q046,train
+Q047,Tiotropium long term outcomes COPD,Q047,train
+Q048,Ibuprofen long term outcomes Systemic Lupus Erythematosus,Q048,train
+Q049,Calcium channel blockers mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,Q049,validation
+Q050,Levofloxacin hepatic impairment dose in HIV/AIDS,Q050,test
+Q051,add on therapy Malaria after Dolutegravir failure,Q051,train
+Q052,HIV/AIDS first line Penicillins evidence based,Q052,train
+Q053,Atypical antipsychotics mechanism of action in Schizophrenia,Q053,validation
+Q054,is Empagliflozin safe in Chronic Kidney Disease with renal impairment,Q054,train
+Q055,Methimazole side effect pada pasien Hyperthyroidism apa saja,Q055,train
+Q056,Sepsis emergency Piperacillin-tazobactam loading dose berapa,Q056,train
+Q057,Dapagliflozin vs Dapagliflozin untuk pasien Chronic Kidney Disease mana lebih efektif,Q057,train
+Q058,Thrombolytics role in Ischaemic Stroke pathophysiology,Q058,test
+Q059,switch dari Dupilumab ke Cyclosporine Psoriasis progresif,Q059,train
+Q060,Migraine with liver disease first line drug,Q060,validation
+Q061,Epilepsy first line Antiepileptics other evidence based,Q061,train
+Q062,latest COPD management guidelines terbaru,Q062,train
+Q063,Malaria pada anak dosis Tenofovir disoproxil,Q063,train
+Q064,monitoring parameters Methyldopa in Hypertension in Pregnancy,Q064,test
+Q065,Semaglutide efficacy pada Type 2 Diabetes Mellitus clinical outcome data,Q065,train
+Q066,monitoring parameters Rosuvastatin in Acute Coronary Syndrome,Q066,test
+Q067,kapan start Atorvastatin di Acute Coronary Syndrome evidence terbaru 2025,Q067,validation
+Q068,Labetalol resistance in Hypertension in Pregnancy alternative therapy,Q068,train
+Q069,dosis titrasi Alendronate Osteoporosis toleransi pasien,Q069,train
+Q070,Furosemide long term outcomes Nephrotic Syndrome,Q070,test
+Q071,Vancomycin vs Piperacillin-tazobactam in Sepsis patients,Q071,train
+Q072,prophylaxis Typhoid Fever Artemether-lumefantrine kapan bisa dihentikan,Q072,test
+Q073,is Valproate safe in Epilepsy with hypertension,Q073,train
+Q074,Zinc supplements role in Stunting / Malnutrition pathophysiology,Q074,train
+Q075,Psoriasis guideline update terbaru summary,Q075,test
+Q076,Acute Coronary Syndrome dengan renal impairment penyesuaian dosis Ezetimibe,Q076,train
+Q077,algoritma terapi Iron Deficiency Anaemia step up,Q077,test
+Q078,apakah Risperidone aman untuk Schizophrenia dengan anaemia,Q078,train
+Q079,Benzodiazepines mechanism of action in Febrile Seizure,Q079,validation
+Q080,Urinary Tract Infection dengan obesity pilihan drug terbaik,Q080,train
+Q081,Stable Angina dengan hypertension pilihan drug terbaik,Q081,train
+Q082,add on therapy Tuberculosis after Isoniazid failure,Q082,validation
+Q083,latest Pulmonary Embolism management guidelines terbaru,Q083,train
+Q084,algoritma terapi COPD step up,Q084,train
+Q085,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive,Q085,train
+Q086,add on Norepinephrine setelah Piperacillin-tazobactam gagal Sepsis,Q086,validation
+Q087,Rheumatoid Arthritis dengan renal impairment pilihan drug terbaik,Q087,train
+Q088,renal dose adjustment Diazepam in Febrile Seizure,Q088,validation
+Q089,biomarkers Community-acquired Pneumonia treatment response Rivaroxaban,Q089,validation
+Q090,algoritma terapi Community-acquired Pneumonia step up,Q090,train
+Q091,Liraglutide pada pasien elderly Obesity apa perlu adjustment,Q091,validation
+Q092,switch dari Levothyroxine ke Levothyroxine Hyperthyroidism progresif,Q092,train
+Q093,penggantian Ezetimibe ke Amlodipine pada Acute Coronary Syndrome,Q093,train
+Q094,kapan start Azithromycin di Asthma evidence terbaru 2022,Q094,validation
+Q095,monitoring parameters Empagliflozin in Atrial Fibrillation,Q095,validation
+Q096,Epilepsy risk stratification approach,Q096,train
+Q097,Iron Deficiency Anaemia pada anak dosis Ferrous sulphate,Q097,train
+Q098,ARBs terbaru untuk Hypertension 2022,Q098,test
+Q099,Atrial Fibrillation emergency Apixaban loading dose berapa,Q099,train
+Q100,prophylaxis Ischaemic Stroke Alteplase kapan bisa dihentikan,Q100,test
+Q101,Dolutegravir drug interaction with Tenofovir disoproxil in Malaria,Q101,train
+Q102,Antimalarials kontraindikasi pada Typhoid Fever dengan obesity,Q102,train
+Q103,biomarkers Ischaemic Stroke treatment response Alteplase,Q103,test
+Q104,Erythropoietin loading dose Iron Deficiency Anaemia emergency,Q104,validation
+Q105,tatalaksana Breast Cancer HER2-positive panduan terbaru 2025,Q105,train
+Q106,titration protocol Metoprolol in Heart Failure,Q106,test
+Q107,algoritma terapi Asthma step up,Q107,validation
+Q108,Antituberculotics adverse effects monitoring in Tuberculosis,Q108,train
+Q109,kapan start Levetiracetam di Epilepsy evidence terbaru terbaru,Q109,train
+Q110,dosis titrasi Topiramate Epilepsy toleransi pasien,Q110,test
+Q111,Erythropoietin contraindication in Iron Deficiency Anaemia with anaemia,Q111,test
+Q112,Alteplase vs Aspirin in Ischaemic Stroke patients,Q112,validation
+Q113,latest Obesity management guidelines 2025,Q113,validation
+Q114,Colchicine vs Colchicine in Psoriatic Arthritis patients,Q114,test
+Q115,dosis Artemether-lumefantrine untuk pasien Typhoid Fever,Q115,validation
+Q116,Osteoporosis dengan elderly patients pilihan drug terbaik,Q116,train
+Q117,switch dari Artemether-lumefantrine ke Artemether-lumefantrine Typhoid Fever progresif,Q117,test
+Q118,Chronic Lymphocytic Leukaemia emergency Ibrutinib loading dose berapa,Q118,test
+Q119,Gout first line TNF inhibitors evidence based,Q119,train
+Q120,latest Hypertension management guidelines terbaru,Q120,train
+Q121,when to start Venlafaxine in Major Depressive Disorder,Q121,train
+Q122,Tenofovir+Lamivudine pada pasien elderly Urinary Tract Infection apa perlu adjustment,Q122,validation
+Q123,kapan mulai terapi Rivaroxaban pada Deep Vein Thrombosis,Q123,test
+Q124,add on Tenofovir disoproxil setelah Tenofovir disoproxil gagal Malaria,Q124,validation
+Q125,kontraindikasi Secukinumab pada Gout dengan heart failure,Q125,train
+Q126,add on therapy HIV/AIDS after Levofloxacin failure,Q126,test
+Q127,Tuberculosis with CKD first line drug,Q127,train
+Q128,kapan start Alendronate di Osteoporosis evidence terbaru 2022,Q128,train
+Q129,Imatinib pada ibu hamil dengan Chronic Myeloid Leukaemia,Q129,validation
+Q130,Bisoprolol dosing in Heart Failure with hypertension,Q130,test
+Q131,kontraindikasi Rifampicin pada Tuberculosis dengan COPD,Q131,validation
+Q132,Methotrexate dosing in Systemic Lupus Erythematosus with heart failure,Q132,train
+Q133,Omeprazole contraindication in Peptic Ulcer Disease with hypertension,Q133,train
+Q134,Non-Small Cell Lung Cancer prophylaxis Pembrolizumab indication,Q134,train
+Q135,Rosuvastatin hepatic impairment dose in Acute Coronary Syndrome,Q135,train
+Q136,add on therapy Hypertension in Pregnancy after Methyldopa failure,Q136,train
+Q137,ARBs mechanism untuk Heart Failure bagaimana cara kerjanya,Q137,test
+Q138,Pembrolizumab pada ibu hamil dengan Non-Small Cell Lung Cancer,Q138,test
+Q139,dosis titrasi Artemether-lumefantrine Typhoid Fever toleransi pasien,Q139,train
+Q140,Beta blockers selective role in Stable Angina pathophysiology,Q140,test
+Q141,prophylaxis Colorectal Cancer Pembrolizumab kapan bisa dihentikan,Q141,train
+Q142,Vitamin A kontraindikasi pada Stunting / Malnutrition dengan COPD,Q142,test
+Q143,switch dari Adalimumab ke Adalimumab Systemic Lupus Erythematosus progresif,Q143,validation
+Q144,Colchicine loading dose Psoriatic Arthritis emergency,Q144,train
+Q145,titration protocol Rivaroxaban in Community-acquired Pneumonia,Q145,train
+Q146,Bedaquiline vs Rifampicin untuk pasien Tuberculosis mana lebih efektif,Q146,train
+Q147,Chronic Kidney Disease first line ARBs evidence based,Q147,train
+Q148,MDR Tuberculosis dengan renal impairment penyesuaian dosis Bedaquiline,Q148,train
+Q149,Factor Xa inhibitors mechanism of action in Community-acquired Pneumonia,Q149,train
+Q150,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia,Q150,train
+Q151,latest guideline Preeclampsia management 2024,Q151,train
+Q152,apakah Bedaquiline aman untuk Tuberculosis dengan obesity,Q152,train
+Q153,Rheumatoid Arthritis guideline update 2023 summary,Q153,train
+Q154,Apixaban hepatic impairment dose in Community-acquired Pneumonia,Q154,validation
+Q155,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,Q155,train
+Q156,indikasi Tenofovir+Lamivudine pada Urinary Tract Infection guideline terbaru,Q156,validation
+Q157,Benzodiazepines in pregnancy and Febrile Seizure,Q157,train
+Q158,when to start Sertraline in ADHD,Q158,test
+Q159,titration protocol Cyclosporine in Psoriasis,Q159,train
+Q160,Obesity pada anak dosis Liraglutide,Q160,train
+Q161,Magnesium sulphate pada pasien elderly Preeclampsia apa perlu adjustment,Q161,test
+Q162,Diazepam contraindication in Febrile Seizure with diabetes,Q162,validation
+Q163,is Amlodipine safe in Acute Coronary Syndrome with obesity,Q163,train
+Q164,Systemic Lupus Erythematosus first line TNF inhibitors evidence based,Q164,test
+Q165,dosis Escitalopram untuk pasien ADHD,Q165,train
+Q166,SGLT2 inhibitors role in Chronic Kidney Disease pathophysiology,Q166,train
+Q167,penggantian Omeprazole ke Lansoprazole pada Peptic Ulcer Disease,Q167,train
+Q168,Factor Xa inhibitors terbaru untuk Deep Vein Thrombosis 2022,Q168,test
+Q169,Basal insulins mechanism of action in Type 1 Diabetes Mellitus,Q169,train
+Q170,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients,Q150,train
+Q171,Hyperthyroidism prophylaxis Methimazole indication,Q171,train
+Q172,kapan mulai terapi Aspirin pada Stable Angina,Q172,validation
+Q173,Stunting / Malnutrition first line Zinc supplements evidence based,Q173,train
+Q174,monitoring Thyroid hormones pada Hypothyroidism parameter apa,Q174,train
+Q175,Warfarin dosing in Atrial Fibrillation with CKD,Q175,validation
+Q176,latest guideline Major Depressive Disorder management terbaru,Q176,train
+Q177,Bedaquiline long term outcomes Tuberculosis,Q177,test
+Q178,add on Valproate setelah Valproate gagal Parkinson Disease,Q178,train
+Q179,Type 2 Diabetes Mellitus treatment algorithm GLP-1 receptor agonists first line,Q179,test
+Q180,tatalaksana Type 1 Diabetes Mellitus panduan terbaru 2023,Q180,train
+Q181,dosis Alteplase untuk pasien Ischaemic Stroke,Q181,train
+Q182,apakah Olanzapine aman untuk Schizophrenia dengan renal impairment,Q182,train
+Q183,Hypertension in Pregnancy pediatric dosing Methyldopa,Q183,train
+Q184,Proton pump inhibitors mechanism of action in Peptic Ulcer Disease,Q184,test
+Q185,Isoniazid hepatic impairment dose in Tuberculosis,Q185,train
+Q186,dosis titrasi Rivaroxaban Deep Vein Thrombosis toleransi pasien,Q186,train
+Q187,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak,Q187,train
+Q188,interaksi obat Zinc dan Vitamin A pada Stunting / Malnutrition,Q188,train
+Q189,renal dose adjustment Lansoprazole in Peptic Ulcer Disease,Q189,test
+Q190,Macrolides mechanism of action in Asthma,Q190,validation
+Q191,Heart Failure dengan renal impairment penyesuaian dosis Bisoprolol,Q191,validation
+Q192,Diabetes Insipidus emergency Desmopressin loading dose berapa,Q192,test
+Q193,Obesity dengan obesity pilihan terapi,Q193,train
+Q194,Chronic Kidney Disease prophylaxis Losartan indication,Q194,train
+Q195,add on therapy Asthma after Amoxicillin failure,Q195,train
+Q196,Gout risk stratification approach,Q196,test
+Q197,monitoring terapi Bedaquiline pada MDR Tuberculosis,Q197,test
+Q198,Calcium channel blockers new evidence Hypertension 2022,Q198,train
+Q199,Rivaroxaban loading dose Community-acquired Pneumonia emergency,Q199,train
+Q200,Tuberculosis risk stratification approach,Q200,train
+Q201,interaksi obat Semaglutide dan Liraglutide pada Obesity,Q201,validation
+Q202,HIV/AIDS with obesity first line drug,Q202,train
+Q203,Corticosteroids in pregnancy and Sepsis,Q203,train
+Q204,Iron preparations mechanism untuk Iron Deficiency Anaemia bagaimana cara kerjanya,Q204,train
+Q205,terapi profilaksis Typhoid Fever dengan Artemether-lumefantrine,Q205,train
+Q206,Ischaemic Stroke pada anak dosis Aspirin,Q206,train
+Q207,Ramipril combination therapy Hypertension,Q207,validation
+Q208,terapi profilaksis Hypertension dengan Ramipril,Q208,validation
+Q209,switch from Tenofovir+Lamivudine to Tenofovir+Lamivudine in Urinary Tract Infection,Q209,validation
+Q210,switch dari Venlafaxine ke Escitalopram Major Depressive Disorder progresif,Q210,test
+Q211,Tuberculosis dengan atrial fibrillation pilihan terapi,Q211,validation
+Q212,is Salmeterol safe in COPD with anaemia,Q212,train
+Q213,prophylaxis Hypertension Amlodipine kapan bisa dihentikan,Q213,train
+Q214,Clozapine hepatic impairment dose in Schizophrenia,Q214,test
+Q215,Ferrous sulphate drug interaction with Erythropoietin in Iron Deficiency Anaemia,Q215,train
+Q216,Hyperthyroidism guideline update 2024 summary,Q216,validation
+Q217,algoritma terapi Heart Failure step up,Q217,train
+Q218,kapan mulai terapi Methimazole pada Hyperthyroidism,Q218,validation
+Q219,Diabetes Insipidus dengan diabetes pilihan drug terbaik,Q219,train
+Q220,dosis titrasi Nivolumab Colorectal Cancer toleransi pasien,Q220,validation
+Q221,Chronic Lymphocytic Leukaemia risk stratification approach,Q221,train
+Q222,MDR Tuberculosis with heart failure first line drug,Q222,validation
+Q223,Rivaroxaban efficacy pada Community-acquired Pneumonia clinical outcome data,Q223,validation
+Q224,Losartan hepatic impairment dose in Hypertension,Q224,train
+Q225,Psoriasis dengan elderly patients pilihan drug terbaik,Q225,test
+Q226,target Gout sudah tercapai kapan maintenance Secukinumab,Q226,test
+Q227,Spironolactone contraindication in Heart Failure with hypertension,Q227,train
+Q228,is Aspirin safe in Ischaemic Stroke with diabetes,Q228,train
+Q229,Hyperthyroidism treatment algorithm Antithyroid agents first line,Q229,validation
+Q230,Cyclosporine contraindication in Disseminated Intravascular Coagulation with immunocompromised,Q230,train
+Q231,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak,Q231,train
+Q232,Prednisolone side effect pada pasien Rheumatoid Arthritis apa saja,Q232,train
+Q233,kontraindikasi Budesonide pada Asthma dengan COPD,Q233,train
+Q234,PD-1 inhibitors mechanism untuk Non-Small Cell Lung Cancer bagaimana cara kerjanya,Q234,train
+Q235,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever,Q235,train
+Q236,biomarkers Chronic Myeloid Leukaemia treatment response Imatinib,Q236,train
+Q237,monitoring BCR-ABL inhibitors pada Chronic Myeloid Leukaemia parameter apa,Q237,train
+Q238,Basal insulins in pregnancy and Type 1 Diabetes Mellitus,Q238,train
+Q239,Ramipril pada pasien elderly Hypertension apa perlu adjustment,Q239,test
+Q240,Antituberculotics terbaru untuk Tuberculosis 2024,Q240,train
+Q241,dosis Dupilumab untuk pasien Psoriasis,Q241,train
+Q242,penanganan Type 2 Diabetes Mellitus di ICU panduan 2023,Q242,test
+Q243,Mycophenolate mofetil dosing in Rheumatoid Arthritis with diabetes,Q243,train
+Q244,Semaglutide vs Liraglutide untuk Obesity,Q244,train
+Q245,kapan mulai terapi Pembrolizumab pada Non-Small Cell Lung Cancer,Q245,train
+Q246,add on therapy Urinary Tract Infection after Tenofovir+Lamivudine failure,Q246,train
+Q247,resistensi Aspirin pada Ischaemic Stroke alternatif Alteplase,Q247,train
+Q248,Type 1 Diabetes Mellitus first line Basal insulins evidence based,Q248,train
+Q249,Sitagliptin pada pasien elderly Type 2 Diabetes Mellitus apa perlu adjustment,Q249,train
+Q250,efek samping Vitamin K antagonists pada Atrial Fibrillation,Q250,validation
+Q251,Bipolar Disorder risk stratification approach,Q251,train
+Q252,latest guideline Major Depressive Disorder management 2022,Q252,train
+Q253,Imatinib side effect pada pasien Chronic Myeloid Leukaemia apa saja,Q253,validation
+Q254,NRTIs combination role in Urinary Tract Infection pathophysiology,Q254,train
+Q255,kontraindikasi Salmeterol pada Asthma dengan immunocompromised,Q255,train
+Q256,Antituberculotics role in MDR Tuberculosis pathophysiology,Q256,train
+Q257,switch from Imatinib to Imatinib in Chronic Myeloid Leukaemia,Q257,train
+Q258,when to start Alteplase in Ischaemic Stroke,Q258,train
+Q259,monitoring Atypical antipsychotics pada Schizophrenia parameter apa,Q259,train
+Q260,terapi profilaksis Schizophrenia dengan Risperidone,Q260,train
+Q261,Penicillins role in HIV/AIDS pathophysiology,Q261,train
+Q262,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak,Q262,train
+Q263,titration protocol Levothyroxine in Hypothyroidism,Q263,train
+Q264,dosis Levothyroxine untuk pasien Hypothyroidism,Q264,train
+Q265,renal dose adjustment Allopurinol in Psoriatic Arthritis,Q265,train
+Q266,monitoring terapi Artemether-lumefantrine pada Typhoid Fever,Q266,train
+Q267,Adalimumab side effect pada pasien Gout apa saja,Q267,train
+Q268,Beta blockers non-selective mechanism of action in Hypertension in Pregnancy,Q268,validation
+Q269,Sertraline efficacy pada Major Depressive Disorder clinical outcome data,Q269,test
+Q270,Bedaquiline pada pasien elderly MDR Tuberculosis apa perlu adjustment,Q270,train
+Q271,switch dari Alteplase ke Aspirin Ischaemic Stroke progresif,Q271,train
+Q272,CNS stimulants role in Breast Cancer HER2-positive pathophysiology,Q272,validation
+Q273,Calcium channel blockers terbaru untuk Acute Coronary Syndrome 2025,Q273,train
+Q274,resistensi Alendronate pada Osteoporosis alternatif Alendronate,Q274,test
+Q275,obat MDR Tuberculosis lini pertama Antituberculotics,Q275,train
+Q276,monitoring parameters Atorvastatin in Acute Coronary Syndrome,Q276,validation
+Q277,Amoxicillin hepatic impairment dose in HIV/AIDS,Q277,test
+Q278,add on Furosemide setelah Furosemide gagal Nephrotic Syndrome,Q278,validation
+Q279,prophylaxis MDR Tuberculosis Bedaquiline kapan bisa dihentikan,Q279,test
+Q280,algoritma terapi Malaria step up,Q280,validation
+Q281,NRTIs combination mechanism of action in Urinary Tract Infection,Q281,test
+Q282,Vasopressin analogues kontraindikasi pada Diabetes Insipidus dengan hypertension,Q282,train
+Q283,monitoring Centrally acting antihypertensives pada Hypertension in Pregnancy parameter apa,Q283,train
+Q284,Proton pump inhibitors adverse effects monitoring in Peptic Ulcer Disease,Q284,train
+Q285,Olanzapine vs Lithium in Bipolar Disorder patients,Q285,train
+Q286,prophylaxis Urinary Tract Infection Tenofovir+Lamivudine kapan bisa dihentikan,Q286,train
+Q287,panduan klinis Epilepsy terbaru,Q287,train
+Q288,apakah Trastuzumab aman untuk Non-Small Cell Lung Cancer dengan hypertension,Q288,test
+Q289,Apixaban pada ibu hamil dengan Deep Vein Thrombosis,Q289,test
+Q290,monitoring NRTIs combination pada Urinary Tract Infection parameter apa,Q290,train
+Q291,Peptic Ulcer Disease dengan hypertension pilihan terapi,Q291,train
+Q292,Amoxicillin vs Amoxicillin efficacy in HIV/AIDS,Q292,test
+Q293,resistensi Prednisolone pada Asthma alternatif Azithromycin,Q293,train
+Q294,dosis titrasi Levothyroxine Hyperthyroidism toleransi pasien,Q294,train
+Q295,switch from Sertraline to Venlafaxine in Major Depressive Disorder,Q295,train
+Q296,resistensi Bedaquiline pada Tuberculosis alternatif Rifampicin,Q296,train
+Q297,Colorectal Cancer with COPD first line drug,Q297,train
+Q298,penggantian Apixaban ke Rivaroxaban pada Deep Vein Thrombosis,Q298,test
+Q299,Zinc hepatic impairment dose in Stunting / Malnutrition,Q299,test
+Q300,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak,Q300,train
+Q301,monitoring parameters Topiramate in Epilepsy,Q301,train
+Q302,dosis titrasi Topiramate Migraine toleransi pasien,Q302,test
+Q303,Parkinson Disease treatment algorithm Dopaminergic agents first line,Q303,validation
+Q304,target Major Depressive Disorder sudah tercapai kapan maintenance Venlafaxine,Q304,train
+Q305,when to start Diazepam in Febrile Seizure,Q305,test
+Q306,Tenofovir+Lamivudine combination therapy Urinary Tract Infection,Q306,train
+Q307,Fluoroquinolones in pregnancy and HIV/AIDS,Q307,train
+Q308,MDR Tuberculosis dengan CKD pilihan drug terbaik,Q308,train
+Q309,Bedaquiline long term outcomes MDR Tuberculosis,Q177,test
+Q310,target terapi Rheumatoid Arthritis dengan Proteasome inhibitors,Q310,train
+Q311,add on therapy Typhoid Fever after Artemether-lumefantrine failure,Q311,validation
+Q312,Tuberculosis prophylaxis Isoniazid indication,Q312,test
+Q313,indikasi Losartan pada Chronic Kidney Disease guideline terbaru,Q313,train
+Q314,switch dari Rifampicin ke Isoniazid Tuberculosis progresif,Q314,validation
+Q315,latest guideline Rheumatoid Arthritis management 2023,Q315,train
+Q316,Lansoprazole vs Omeprazole untuk pasien Peptic Ulcer Disease mana lebih efektif,Q316,test
+Q317,Methylphenidate efficacy pada Breast Cancer HER2-positive clinical outcome data,Q317,test
+Q318,Venlafaxine vs Escitalopram efficacy in Major Depressive Disorder,Q318,train
+Q319,dosis titrasi Adalimumab Gout toleransi pasien,Q319,test
+Q320,is Bedaquiline safe in Tuberculosis with hepatic impairment,Q320,test
+Q321,Escitalopram drug interaction with Sertraline in ADHD,Q321,train
+Q322,Dolutegravir hepatic impairment dose in Malaria,Q322,train
+Q323,efek samping Inhaled corticosteroids pada Asthma,Q323,test
+Q324,monitoring parameters Aspirin in Stable Angina,Q324,train
+Q325,target Systemic Lupus Erythematosus sudah tercapai kapan maintenance Adalimumab,Q325,train
+Q326,titration protocol Ferrous sulphate in Iron Deficiency Anaemia,Q326,validation
+Q327,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak,Q327,train
+Q328,kombinasi Piperacillin-tazobactam dan Hydrocortisone pada Sepsis aman atau tidak,Q328,test
+Q329,algoritma terapi Major Depressive Disorder step up,Q329,validation
+Q330,Lithium side effect pada pasien Bipolar Disorder apa saja,Q330,train
+Q331,Osteoporosis dengan renal impairment penyesuaian dosis Alendronate,Q331,validation
+Q332,kapan mulai terapi Desmopressin pada Diabetes Insipidus,Q332,validation
+Q333,kontraindikasi Diazepam pada Febrile Seizure dengan hypertension,Q333,train
+Q334,Community-acquired Pneumonia prophylaxis Apixaban indication,Q334,train
+Q335,Metronidazole vs Omeprazole untuk pasien Pulmonary Embolism mana lebih efektif,Q335,validation
+Q336,Lithium contraindication in Bipolar Disorder with anaemia,Q336,test
+Q337,Chronic Kidney Disease with immunocompromised first line drug,Q337,train
+Q338,Metronidazole vs Metronidazole in Inflammatory Bowel Disease patients,Q338,train
+Q339,Clozapine vs Clozapine in Schizophrenia patients,Q339,train
+Q340,latest guideline Peptic Ulcer Disease management 2023,Q340,train
+Q341,switch from Clopidogrel to Rosuvastatin in Stable Angina,Q341,train
+Q342,dosis titrasi Vancomycin Sepsis toleransi pasien,Q342,validation
+Q343,obat HIV/AIDS lini pertama Penicillins,Q343,train
+Q344,panduan klinis MDR Tuberculosis terbaru,Q344,train
+Q345,monitoring parameters Apixaban in Community-acquired Pneumonia,Q345,validation
+Q346,Chronic Kidney Disease dengan renal impairment penyesuaian dosis Losartan,Q346,validation
+Q347,Prednisolone hepatic impairment dose in Rheumatoid Arthritis,Q347,train
+Q348,Ramipril side effect pada pasien Hypertension apa saja,Q348,validation
+Q349,dosis Liraglutide untuk pasien Obesity,Q349,train
+Q350,Valproate resistance in Epilepsy alternative therapy,Q350,validation
+Q351,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak,Q351,train
+Q352,panduan klinis ADHD terbaru,Q352,test
+Q353,Nivolumab efficacy pada Non-Small Cell Lung Cancer clinical outcome data,Q353,train
+Q354,apakah Topiramate aman untuk Migraine dengan hypertension,Q354,train
+Q355,terapi profilaksis Chronic Kidney Disease dengan Empagliflozin,Q355,train
+Q356,apakah Dapagliflozin aman untuk Chronic Kidney Disease dengan pregnancy,Q356,train
+Q357,Pembrolizumab long term outcomes Non-Small Cell Lung Cancer,Q357,train
+Q358,Methylphenidate loading dose Breast Cancer HER2-positive emergency,Q358,train
+Q359,dosis Adalimumab untuk pasien Systemic Lupus Erythematosus,Q359,train
+Q360,is Semaglutide safe in Obesity with elderly patients,Q360,train
+Q361,penanganan Type 2 Diabetes Mellitus di ICU panduan 2022,Q361,train
+Q362,tatalaksana ADHD panduan terbaru terbaru,Q362,validation
+Q363,target Type 2 Diabetes Mellitus sudah tercapai kapan maintenance Liraglutide,Q363,train
+Q364,switch from Aspirin to Aspirin in Ischaemic Stroke,Q364,validation
+Q365,Antimalarials in pregnancy and Typhoid Fever,Q365,train
+Q366,Venlafaxine long term outcomes Major Depressive Disorder,Q366,train
+Q367,ARBs in pregnancy and Hypertension,Q367,validation
+Q368,Community-acquired Pneumonia dengan hepatic impairment pilihan drug terbaik,Q368,train
+Q369,Nivolumab vs Pembrolizumab untuk Non-Small Cell Lung Cancer,Q369,test
+Q370,obat Rheumatoid Arthritis lini pertama Antimalarials,Q370,train
+Q371,kapan start Losartan di Hypertension evidence terbaru terbaru,Q371,train
+Q372,indikasi Semaglutide pada Type 2 Diabetes Mellitus guideline terbaru,Q372,train
+Q373,add on therapy Stable Angina after Metoprolol failure,Q373,train
+Q374,kontraindikasi Ramipril pada Hypertension dengan diabetes,Q374,train
+Q375,Tuberculosis pada anak dosis Bedaquiline,Q375,test
+Q376,Antimalarials role in Typhoid Fever pathophysiology,Q376,train
+Q377,latest Preeclampsia management guidelines 2024,Q151,train
+Q378,add on therapy Schizophrenia after Olanzapine failure,Q378,train
+Q379,kontraindikasi Prednisolone pada COPD dengan renal impairment,Q379,validation
+Q380,Type 2 Diabetes Mellitus dengan renal impairment penyesuaian dosis Liraglutide,Q380,train
+Q381,renal dose adjustment Artemether-lumefantrine in Typhoid Fever,Q381,validation
+Q382,when to start Methylphenidate in Breast Cancer HER2-positive,Q382,validation
+Q383,SSRIs terbaru untuk ADHD 2023,Q383,train
+Q384,Iron preparations in pregnancy and Iron Deficiency Anaemia,Q384,train
+Q385,terapi profilaksis Tuberculosis dengan Isoniazid,Q385,train
+Q386,Zinc side effect pada pasien Stunting / Malnutrition apa saja,Q386,train
+Q387,monitoring parameters Escitalopram in ADHD,Q387,validation
+Q388,Magnesium role in Preeclampsia pathophysiology,Q388,train
+Q389,algoritma terapi Pulmonary Embolism step up,Q389,train
+Q390,panduan klinis Ischaemic Stroke terbaru,Q390,train
+Q391,when to start Secukinumab in Disseminated Intravascular Coagulation,Q391,train
+Q392,switch from Artemether-lumefantrine to Artemether-lumefantrine in Typhoid Fever,Q392,train
+Q393,monitoring SSRIs pada ADHD parameter apa,Q393,train
+Q394,Topical calcineurin inhibitors adverse effects monitoring in Psoriasis,Q394,validation
+Q395,Vitamin A hepatic impairment dose in Stunting / Malnutrition,Q395,train
+Q396,Norepinephrine dosing in Sepsis with diabetes,Q396,validation
+Q397,Malaria risk stratification approach,Q397,train
+Q398,Corticosteroids terbaru untuk Sepsis 2024,Q398,train
+Q399,Beta blockers selective mechanism untuk Atrial Fibrillation bagaimana cara kerjanya,Q399,train
+Q400,COPD pada anak dosis Salmeterol,Q400,test
+Q401,when to start Bisoprolol in Heart Failure,Q401,train
+Q402,target Obesity sudah tercapai kapan maintenance Semaglutide,Q402,test
+Q403,interaksi obat Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever,Q403,validation
+Q404,Omeprazole loading dose Peptic Ulcer Disease emergency,Q404,train
+Q405,algoritma terapi Parkinson Disease step up,Q405,validation
+Q406,Ischaemic Stroke with pregnancy first line drug,Q406,train
+Q407,Breast Cancer HER2-positive pada anak dosis Methylphenidate,Q407,train
+Q408,prophylaxis COPD Salmeterol kapan bisa dihentikan,Q408,train
+Q409,Spironolactone dosing in Heart Failure with obesity,Q409,train
+Q410,kapan mulai terapi Alteplase pada Ischaemic Stroke,Q410,test
+Q411,Alendronate pada pasien elderly Osteoporosis apa perlu adjustment,Q411,train
+Q412,Aspirin long term outcomes Ischaemic Stroke,Q412,train
+Q413,SNRIs terbaru untuk Major Depressive Disorder 2024,Q413,train
+Q414,Stable Angina emergency Atorvastatin loading dose berapa,Q414,test
+Q415,latest Breast Cancer HER2-positive management guidelines 2023,Q415,train
+Q416,Urinary Tract Infection risk stratification approach,Q416,train
+Q417,Venlafaxine vs Venlafaxine untuk Major Depressive Disorder,Q417,train
+Q418,monitoring Xanthine oxidase inhibitors pada Psoriatic Arthritis parameter apa,Q418,validation
+Q419,add on therapy Systemic Lupus Erythematosus after Methotrexate failure,Q419,validation
+Q420,Atrial Fibrillation pada anak dosis Metoprolol,Q420,train
+Q421,Bisoprolol loading dose Heart Failure emergency,Q421,train
+Q422,kapan start Rivaroxaban di Deep Vein Thrombosis evidence terbaru terbaru,Q422,train
+Q423,prophylaxis Hypertension in Pregnancy Methyldopa kapan bisa dihentikan,Q423,validation
+Q424,monitoring parameters Prednisolone in COPD,Q424,test
+Q425,target Urinary Tract Infection sudah tercapai kapan maintenance Tenofovir+Lamivudine,Q425,validation
+Q426,target Psoriasis sudah tercapai kapan maintenance Dupilumab,Q426,train
+Q427,kontraindikasi Lansoprazole pada Pulmonary Embolism dengan renal impairment,Q427,train
+Q428,penggantian Sertraline ke Venlafaxine pada Major Depressive Disorder,Q428,validation
+Q429,dosis Dupilumab untuk pasien Disseminated Intravascular Coagulation,Q429,train
+Q430,Major Depressive Disorder dengan renal impairment penyesuaian dosis Venlafaxine,Q430,train
+Q431,Proton pump inhibitors kontraindikasi pada Peptic Ulcer Disease dengan anaemia,Q431,validation
+Q432,Semaglutide combination therapy Obesity,Q432,test
+Q433,monitoring parameters Losartan in Chronic Kidney Disease,Q433,validation
+Q434,Rosuvastatin contraindication in Acute Coronary Syndrome with anaemia,Q434,train
+Q435,Artemether-lumefantrine hepatic impairment dose in Typhoid Fever,Q435,test
+Q436,Dupilumab vs Cyclosporine untuk pasien Psoriasis mana lebih efektif,Q436,test
+Q437,Parkinson Disease with elderly patients first line drug,Q437,train
+Q438,Schizophrenia emergency Risperidone loading dose berapa,Q438,train
+Q439,Secukinumab loading dose Disseminated Intravascular Coagulation emergency,Q439,train
+Q440,Atrial Fibrillation risk stratification approach,Q440,train
+Q441,Atorvastatin hepatic impairment dose in Stable Angina,Q441,test
+Q442,add on Prednisolone setelah Tiotropium gagal COPD,Q442,test
+Q443,prophylaxis Schizophrenia Risperidone kapan bisa dihentikan,Q443,validation
+Q444,Rivaroxaban hepatic impairment dose in Community-acquired Pneumonia,Q444,validation
+Q445,indikasi Losartan pada Heart Failure guideline terbaru,Q445,train
+Q446,Type 1 Diabetes Mellitus dengan pregnancy pilihan terapi,Q446,train
+Q447,Lansoprazole vs Metronidazole untuk Pulmonary Embolism,Q447,train
+Q448,Pembrolizumab vs Pembrolizumab untuk pasien Non-Small Cell Lung Cancer mana lebih efektif,Q448,train
+Q449,Beta-lactam combinations mechanism of action in Sepsis,Q449,train
+Q450,kontraindikasi Liraglutide pada Type 2 Diabetes Mellitus dengan CKD,Q450,train
+Q451,Colorectal Cancer prophylaxis Pembrolizumab indication,Q451,test
+Q452,Prednisolone combination therapy Rheumatoid Arthritis,Q452,train
+Q453,Topiramate pada pasien elderly Migraine apa perlu adjustment,Q453,test
+Q454,switch dari Meropenem ke Vancomycin Sepsis progresif,Q454,train
+Q455,obat Typhoid Fever lini pertama Antimalarials,Q455,test
+Q456,kapan start Zinc di Stunting / Malnutrition evidence terbaru 2023,Q456,train
+Q457,is Nivolumab safe in Non-Small Cell Lung Cancer with atrial fibrillation,Q457,train
+Q458,NRTIs mechanism of action in Malaria,Q458,test
+Q459,prophylaxis Gout Adalimumab kapan bisa dihentikan,Q459,train
+Q460,Sepsis guideline update terbaru summary,Q460,validation
+Q461,is Semaglutide safe in Type 2 Diabetes Mellitus with COPD,Q461,train
+Q462,Aspirin combination therapy Ischaemic Stroke,Q462,test
+Q463,Tuberculosis with renal impairment first line drug,Q463,train
+Q464,kontraindikasi Semaglutide pada Obesity dengan diabetes,Q464,validation
+Q465,Hypertension prophylaxis Ramipril indication,Q465,test
+Q466,panduan klinis Major Depressive Disorder terbaru,Q466,train
+Q467,Artemether-lumefantrine side effect pada pasien Typhoid Fever apa saja,Q467,train
+Q468,Systemic Lupus Erythematosus prophylaxis Methotrexate indication,Q468,train
+Q469,indikasi Bedaquiline pada MDR Tuberculosis guideline terbaru,Q469,test
+Q470,HIV/AIDS pada anak dosis Amoxicillin,Q470,train
+Q471,monitoring terapi Venlafaxine pada Major Depressive Disorder,Q471,train
+Q472,ARBs mechanism untuk Hypertension bagaimana cara kerjanya,Q472,train
+Q473,Tenofovir+Lamivudine efficacy pada Urinary Tract Infection clinical outcome data,Q473,train
+Q474,Antituberculotics mechanism untuk Tuberculosis bagaimana cara kerjanya,Q474,train
+Q475,Vitamin K antagonists kontraindikasi pada Deep Vein Thrombosis dengan heart failure,Q475,train
+Q476,Bortezomib vs Prednisolone untuk Rheumatoid Arthritis,Q476,test
+Q477,Losartan long term outcomes Heart Failure,Q477,train
+Q478,kontraindikasi Bedaquiline pada Tuberculosis dengan immunocompromised,Q478,train
+Q479,BCR-ABL inhibitors in pregnancy and Chronic Myeloid Leukaemia,Q479,train
+Q480,Venlafaxine dosing in Major Depressive Disorder with atrial fibrillation,Q480,train
+Q481,Metoprolol long term outcomes Stable Angina,Q481,train
+Q482,Lansoprazole long term outcomes Peptic Ulcer Disease,Q482,test
+Q483,Hypertension dengan pregnancy pilihan drug terbaik,Q483,validation
+Q484,titration protocol Bedaquiline in Tuberculosis,Q484,test
+Q485,Lansoprazole resistance in Peptic Ulcer Disease alternative therapy,Q485,train
+Q486,switch from Alteplase to Alteplase in Ischaemic Stroke,Q486,train
+Q487,Centrally acting antihypertensives terbaru untuk Hypertension in Pregnancy 2025,Q487,train
+Q488,Artemether-lumefantrine pada ibu hamil dengan Typhoid Fever,Q488,train
+Q489,switch from Bedaquiline to Bedaquiline in MDR Tuberculosis,Q489,train
+Q490,target terapi Hypothyroidism dengan Thyroid hormones,Q490,train
+Q491,Empagliflozin long term outcomes Chronic Kidney Disease,Q491,validation
+Q492,titration protocol Alendronate in Osteoporosis,Q492,validation
+Q493,monitoring parameters Isoniazid in Tuberculosis,Q493,validation
+Q494,Corticosteroids terbaru untuk COPD terbaru,Q494,train
+Q495,TNF inhibitors adverse effects monitoring in Systemic Lupus Erythematosus,Q495,train
+Q496,Insulin degludec side effect pada pasien Type 1 Diabetes Mellitus apa saja,Q496,train
+Q497,is Rosuvastatin safe in Acute Coronary Syndrome with diabetes,Q497,train
+Q498,monitoring Factor Xa inhibitors pada Deep Vein Thrombosis parameter apa,Q498,validation
+Q499,ACE inhibitors kontraindikasi pada Hypertension dengan hepatic impairment,Q499,validation
+Q500,Antituberculotics terbaru untuk Tuberculosis 2025,Q500,train

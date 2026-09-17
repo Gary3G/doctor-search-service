@@ -1,0 +1,34 @@
+slice_family,slice_name,definition,overlapping_within_family,global_queries
+overall,All queries,All supplied queries.,False,500
+language,English,language == EN,False,222
+language,Bahasa Indonesia,language == ID,False,105
+language,Mixed language,language == MIXED,False,173
+entity_count,Zero recognized entities,"No distinct supplied disease, molecule, or drug-class value.",False,0
+entity_count,One recognized entity,"One distinct supplied disease, molecule, or drug-class value.",False,0
+entity_count,Two or more recognized entities,"At least two distinct supplied disease, molecule, or drug-class values.",False,500
+entity_composition,Disease only,Disease metadata present and molecule/drug-class metadata absent.,True,0
+entity_composition,Drug only,Molecule or drug-class metadata present and disease metadata absent.,True,0
+entity_composition,Disease + drug,Both disease and molecule/drug-class metadata present.,True,500
+entity_composition,Multiple molecules,At least two distinct semicolon-delimited molecule values; duplicates collapse.,True,39
+entity_composition,Single molecule,Exactly one distinct molecule value (diagnostic complement).,True,461
+contextual_complexity,No extra contextual slot,"No selected demographic, temporal, renal/lab, dose, route, hepatic, comparison, negation, or prior-failure constraint.",True,258
+contextual_complexity,Demographic constraint,Age-group or pregnancy constraint.,True,60
+contextual_complexity,Year constraint,Explicit year or recency flag.,True,52
+contextual_complexity,Renal/lab constraint,Extracted renal-function constraint; lab-value extraction was deferred because no supported numeric lab constraints were found.,True,22
+contextual_complexity,Multiple constraints,At least two selected contextual constraint groups.,True,63
+context_constraint_count,No constraints,Exactly zero selected contextual constraint groups.,False,258
+context_constraint_count,One constraint,Exactly one selected contextual constraint group.,False,179
+context_constraint_count,Multiple constraints,At least two selected contextual constraint groups.,False,63
+intent_top_level,Evidence / Guideline Lookup,Final Phase 3 top-level intent == Evidence / Guideline Lookup,False,59
+intent_top_level,Management / Treatment,Final Phase 3 top-level intent == Management / Treatment,False,135
+intent_top_level,Management / Treatment; Epidemiology / Prognosis,Final Phase 3 top-level intent == Management / Treatment; Epidemiology / Prognosis,False,33
+intent_top_level,New dataset-specific class,Final Phase 3 top-level intent == New dataset-specific class,False,29
+intent_top_level,Pharmacotherapy,Final Phase 3 top-level intent == Pharmacotherapy,False,224
+intent_top_level,Pharmacotherapy; Epidemiology / Prognosis,Final Phase 3 top-level intent == Pharmacotherapy; Epidemiology / Prognosis,False,20
+pharmacotherapy_sub_intent,Comparative Treatment Choice,Pharmacotherapy top-level intent with subtype == Comparative Treatment Choice,False,23
+pharmacotherapy_sub_intent,Dosing / Administration,Pharmacotherapy top-level intent with subtype == Dosing / Administration,False,96
+pharmacotherapy_sub_intent,Efficacy / Outcomes,Pharmacotherapy top-level intent with subtype == Efficacy / Outcomes,False,20
+pharmacotherapy_sub_intent,Interaction / Combination,Pharmacotherapy top-level intent with subtype == Interaction / Combination,False,21
+pharmacotherapy_sub_intent,Safety / Contraindication,Pharmacotherapy top-level intent with subtype == Safety / Contraindication,False,84
+intent_hypothesis_group,Available preferred-content-type intents,Available prespecified targets: Pharmacotherapy and Evidence / Guideline; Work-up and Test Interpretation are absent from the final taxonomy.,False,303
+intent_hypothesis_group,Other observed intents,Observed intents outside the available prespecified target group.,False,197

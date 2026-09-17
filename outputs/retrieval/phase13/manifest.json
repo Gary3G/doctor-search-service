@@ -1,0 +1,36 @@
+{
+  "phase": 13,
+  "analysis_type": "diagnostic slice evaluation; no model tuning or selection",
+  "primary_protocol": "temporal test; relevance_grade >= 1",
+  "systems": {
+    "bm25": "BM25",
+    "bm25_structured": "BM25 + structure",
+    "hybrid": "Hybrid without intent",
+    "hybrid_intent": "Hybrid + predicted intent"
+  },
+  "hypotheses": {
+    "complexity_benefit_supported": false,
+    "intent_effect_interpretation": "intent-specific, not global"
+  },
+  "entity_slice_warning": "All supplied queries contain disease and drug metadata; zero/one and disease-only/drug-only slices have zero support.",
+  "context_definition": "Counts nine selected conceptual groups; year and recency share one temporal group, and age/pregnancy share one demographic group.",
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": 42,
+    "unit": "query"
+  },
+  "test_status": "descriptive; test data were inspected in earlier phases",
+  "limitations": [
+    "Behavior-derived relevance is exposure- and position-biased and is not clinician adjudication.",
+    "Unjudged documents receive zero computational gain but are not clinical negatives.",
+    "Slice labels inherit supplied metadata and deterministic extraction errors.",
+    "Intervals are uncorrected for multiple comparisons and are not cluster-robust.",
+    "Sparse and overlapping slices limit between-slice inference."
+  ],
+  "sha256": {
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/queries_labeled.csv": "c47c84a5741d4420e5aa35545f0c8458434a4cedd552b49c2108b6d16ca0ebd9",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase11/per_query_metrics.csv.gz": "fd8d5226c19fcefcc0f861b408df7dcf82396badfc0c0d4df3872bdcb65a1376",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase12/per_query_metrics.csv.gz": "05fbfc5fc77970bd82a0f3bb95c4ad4b09c8cd01e83cd68b9c42cf73012200e4",
+    "/Users/hol/Documents/Task/doctor-search-service/src/slice_evaluation.py": "976b061f76470613c9c0167b903480c49a2c897df92982e93da29709c32d1df4"
+  }
+}

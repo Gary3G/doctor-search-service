@@ -1,0 +1,199 @@
+slice_family,slice_name,split,comparison,baseline,candidate,global_queries,eligible_queries,baseline_ndcg@10,candidate_ndcg@10,mean_delta_ndcg@10,lower_95,upper_95,improved_queries,worsened_queries,unchanged_queries
+overall,All queries,validation,structured_vs_bm25,bm25,bm25_structured,500,113,0.02399589634478664,0.02966193128906403,0.005666034944277393,-0.00044831999020260646,0.014410021586410929,7,3,103
+overall,All queries,validation,hybrid_vs_bm25,bm25,hybrid,500,113,0.02399589634478664,0.027269732282327003,0.0032738359375403627,-0.0048605361957707515,0.012811003514832232,8,5,100
+overall,All queries,validation,intent_vs_hybrid,hybrid,hybrid_intent,500,113,0.027269732282327003,0.03146380400033533,0.004194071718008326,-0.007280567263743646,0.01767938625687457,6,4,103
+overall,All queries,test,structured_vs_bm25,bm25,bm25_structured,500,110,0.010211669509839694,0.014768628571674223,0.004556959061834526,-0.0034299426668772262,0.015545714962452665,6,3,101
+overall,All queries,test,hybrid_vs_bm25,bm25,hybrid,500,110,0.010211669509839694,0.011048473301497105,0.0008368037916574112,-0.005275250070014665,0.009540414109443219,3,3,104
+overall,All queries,test,intent_vs_hybrid,hybrid,hybrid_intent,500,110,0.011048473301497105,0.018512959544995218,0.007464486243498108,-0.0003366823610431,0.017633116042270924,8,2,100
+language,English,validation,structured_vs_bm25,bm25,bm25_structured,222,47,0.021942479808017445,0.02945536495736945,0.007512885149351999,-0.0005596234317207872,0.022352685281990636,3,1,43
+language,English,validation,hybrid_vs_bm25,bm25,hybrid,222,47,0.021942479808017445,0.03138911171972128,0.009446631911703833,0.0,0.024632841664966026,4,1,42
+language,English,validation,intent_vs_hybrid,hybrid,hybrid_intent,222,47,0.03138911171972128,0.03601447646008172,0.004625364740360437,-0.01845787827885304,0.031201535632978238,3,2,42
+language,English,test,structured_vs_bm25,bm25,bm25_structured,222,52,0.014066782389999479,0.018604277199716756,0.004537494809717276,-0.00756175458246593,0.02116809250986179,2,1,49
+language,English,test,hybrid_vs_bm25,bm25,hybrid,222,52,0.014066782389999479,0.018604277199716756,0.004537494809717276,-0.00756175458246593,0.02116809250986179,2,1,49
+language,English,test,intent_vs_hybrid,hybrid,hybrid_intent,222,52,0.018604277199716756,0.02278953016334867,0.004185252963631914,-0.006857034124170205,0.020312540196125932,3,2,47
+language,Bahasa Indonesia,validation,structured_vs_bm25,bm25,bm25_structured,105,28,0.055889628055804344,0.06370674087413443,0.007817112818330075,-0.007427511634993607,0.03218891966280165,2,2,24
+language,Bahasa Indonesia,validation,hybrid_vs_bm25,bm25,hybrid,105,28,0.055889628055804344,0.05080657710299797,-0.005083050952806373,-0.03177885110691768,0.025450379948042442,2,4,22
+language,Bahasa Indonesia,validation,intent_vs_hybrid,hybrid,hybrid_intent,105,28,0.05080657710299797,0.06136225975736487,0.010555682654366893,-0.006371680753369986,0.04066412629169458,2,1,25
+language,Bahasa Indonesia,test,structured_vs_bm25,bm25,bm25_structured,105,20,0.002084608475387055,0.0069824976609407,0.004897889185553644,0.0,0.013750197168640423,2,0,18
+language,Bahasa Indonesia,test,hybrid_vs_bm25,bm25,hybrid,105,20,0.002084608475387055,0.00255634366939731,0.00047173519401025495,0.0,0.0014152055820307648,1,0,19
+language,Bahasa Indonesia,test,intent_vs_hybrid,hybrid,hybrid_intent,105,20,0.00255634366939731,0.01019990996329885,0.007643566293901541,0.0,0.018878990026753955,2,0,18
+language,Mixed language,validation,structured_vs_bm25,bm25,bm25_structured,173,38,0.0030350039584618026,0.004831772057687047,0.0017967680992252448,0.0,0.005122325241464466,2,0,36
+language,Mixed language,validation,hybrid_vs_bm25,bm25,hybrid,173,38,0.0030350039584618026,0.004831772057687047,0.0017967680992252448,0.0,0.005122325241464466,2,0,36
+language,Mixed language,validation,intent_vs_hybrid,hybrid,hybrid_intent,173,38,0.004831772057687047,0.0038048996107325024,-0.0010268724469545446,-0.010871508646428418,0.007790891305564784,1,1,36
+language,Mixed language,test,structured_vs_bm25,bm25,bm25_structured,173,38,0.00921365242880664,0.013617809875791552,0.00440415744698491,-0.009146247187879626,0.023765525973472198,2,2,34
+language,Mixed language,test,hybrid_vs_bm25,bm25,hybrid,173,38,0.00921365242880664,0.005178494089249057,-0.004035158339557585,-0.011029544509908297,0.0,0,2,36
+language,Mixed language,test,intent_vs_hybrid,hybrid,hybrid_intent,173,38,0.005178494089249057,0.017036099531299097,0.011857605442050041,0.0,0.031322179997728704,3,0,35
+entity_count,Zero recognized entities,validation,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_count,Zero recognized entities,validation,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_count,Zero recognized entities,validation,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_count,Zero recognized entities,test,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_count,Zero recognized entities,test,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_count,Zero recognized entities,test,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_count,One recognized entity,validation,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_count,One recognized entity,validation,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_count,One recognized entity,validation,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_count,One recognized entity,test,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_count,One recognized entity,test,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_count,One recognized entity,test,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_count,Two or more recognized entities,validation,structured_vs_bm25,bm25,bm25_structured,500,113,0.02399589634478664,0.02966193128906403,0.005666034944277393,-0.00044831999020260646,0.014410021586410929,7,3,103
+entity_count,Two or more recognized entities,validation,hybrid_vs_bm25,bm25,hybrid,500,113,0.02399589634478664,0.027269732282327003,0.0032738359375403627,-0.0048605361957707515,0.012811003514832232,8,5,100
+entity_count,Two or more recognized entities,validation,intent_vs_hybrid,hybrid,hybrid_intent,500,113,0.027269732282327003,0.03146380400033533,0.004194071718008326,-0.007280567263743646,0.01767938625687457,6,4,103
+entity_count,Two or more recognized entities,test,structured_vs_bm25,bm25,bm25_structured,500,110,0.010211669509839694,0.014768628571674223,0.004556959061834526,-0.0034299426668772262,0.015545714962452665,6,3,101
+entity_count,Two or more recognized entities,test,hybrid_vs_bm25,bm25,hybrid,500,110,0.010211669509839694,0.011048473301497105,0.0008368037916574112,-0.005275250070014665,0.009540414109443219,3,3,104
+entity_count,Two or more recognized entities,test,intent_vs_hybrid,hybrid,hybrid_intent,500,110,0.011048473301497105,0.018512959544995218,0.007464486243498108,-0.0003366823610431,0.017633116042270924,8,2,100
+entity_composition,Disease only,validation,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_composition,Disease only,validation,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_composition,Disease only,validation,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_composition,Disease only,test,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_composition,Disease only,test,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_composition,Disease only,test,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_composition,Drug only,validation,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_composition,Drug only,validation,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_composition,Drug only,validation,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_composition,Drug only,test,structured_vs_bm25,bm25,bm25_structured,0,0,,,,,,0,0,0
+entity_composition,Drug only,test,hybrid_vs_bm25,bm25,hybrid,0,0,,,,,,0,0,0
+entity_composition,Drug only,test,intent_vs_hybrid,hybrid,hybrid_intent,0,0,,,,,,0,0,0
+entity_composition,Disease + drug,validation,structured_vs_bm25,bm25,bm25_structured,500,113,0.02399589634478664,0.02966193128906403,0.005666034944277393,-0.00044831999020260646,0.014410021586410929,7,3,103
+entity_composition,Disease + drug,validation,hybrid_vs_bm25,bm25,hybrid,500,113,0.02399589634478664,0.027269732282327003,0.0032738359375403627,-0.0048605361957707515,0.012811003514832232,8,5,100
+entity_composition,Disease + drug,validation,intent_vs_hybrid,hybrid,hybrid_intent,500,113,0.027269732282327003,0.03146380400033533,0.004194071718008326,-0.007280567263743646,0.01767938625687457,6,4,103
+entity_composition,Disease + drug,test,structured_vs_bm25,bm25,bm25_structured,500,110,0.010211669509839694,0.014768628571674223,0.004556959061834526,-0.0034299426668772262,0.015545714962452665,6,3,101
+entity_composition,Disease + drug,test,hybrid_vs_bm25,bm25,hybrid,500,110,0.010211669509839694,0.011048473301497105,0.0008368037916574112,-0.005275250070014665,0.009540414109443219,3,3,104
+entity_composition,Disease + drug,test,intent_vs_hybrid,hybrid,hybrid_intent,500,110,0.011048473301497105,0.018512959544995218,0.007464486243498108,-0.0003366823610431,0.017633116042270924,8,2,100
+entity_composition,Multiple molecules,validation,structured_vs_bm25,bm25,bm25_structured,39,13,0.033381636674141645,0.033442358577045736,6.072190290409173e-05,-0.003087908324860216,0.002676912102317045,2,1,10
+entity_composition,Multiple molecules,validation,hybrid_vs_bm25,bm25,hybrid,39,13,0.033381636674141645,0.014519827476726022,-0.018861809197415622,-0.05629229098840614,0.0011188092339295451,2,3,8
+entity_composition,Multiple molecules,validation,intent_vs_hybrid,hybrid,hybrid_intent,39,13,0.014519827476726022,0.016456249868845328,0.0019364223921193068,-0.01937832255389456,0.02398048215787477,2,1,10
+entity_composition,Multiple molecules,test,structured_vs_bm25,bm25,bm25_structured,39,9,0.05096218959516428,0.05096218959516428,0.0,0.0,0.0,0,0,9
+entity_composition,Multiple molecules,test,hybrid_vs_bm25,bm25,hybrid,39,9,0.05096218959516428,0.05096218959516428,0.0,0.0,0.0,0,0,9
+entity_composition,Multiple molecules,test,intent_vs_hybrid,hybrid,hybrid_intent,39,9,0.05096218959516428,0.03630619640911837,-0.01465599318604591,-0.04396797955813773,0.0,0,1,8
+entity_composition,Single molecule,validation,structured_vs_bm25,bm25,bm25_structured,461,100,0.022775750101970485,0.02917047574162641,0.006394725639655921,-0.0005180199237863247,0.01585360882601159,5,2,93
+entity_composition,Single molecule,validation,hybrid_vs_bm25,bm25,hybrid,461,100,0.022775750101970485,0.02892721990705513,0.006151469805084642,-0.002101359835885355,0.015908614328259577,6,2,92
+entity_composition,Single molecule,validation,intent_vs_hybrid,hybrid,hybrid_intent,461,100,0.02892721990705513,0.033414786037429034,0.004487566130373898,-0.007701789130473336,0.01939141010447051,4,3,93
+entity_composition,Single molecule,test,structured_vs_bm25,bm25,bm25_structured,461,101,0.0065804350467909695,0.011543459767600848,0.0049630247208098804,-0.0036688336437413925,0.015843553663396105,6,3,92
+entity_composition,Single molecule,test,hybrid_vs_bm25,bm25,hybrid,461,101,0.0065804350467909695,0.007491805512952506,0.000911370466161537,-0.005765205922295926,0.0102690188700121,3,3,95
+entity_composition,Single molecule,test,intent_vs_hybrid,hybrid,hybrid_intent,461,101,0.007491805512952506,0.01692742358680602,0.009435618073853515,0.0018784908077166568,0.019537108182357085,8,1,92
+contextual_complexity,No extra contextual slot,validation,structured_vs_bm25,bm25,bm25_structured,258,63,0.027282053744157295,0.032566815042307545,0.005284761298150246,-0.00027150673816818735,0.01542985362643773,4,1,58
+contextual_complexity,No extra contextual slot,validation,hybrid_vs_bm25,bm25,hybrid,258,63,0.027282053744157295,0.030294725564092833,0.0030126718199355355,-0.008596495314122536,0.015765534098611554,5,3,55
+contextual_complexity,No extra contextual slot,validation,intent_vs_hybrid,hybrid,hybrid_intent,258,63,0.030294725564092833,0.04349119008336767,0.013196464519274842,-0.0032296510637920828,0.03541241476700808,5,2,56
+contextual_complexity,No extra contextual slot,test,structured_vs_bm25,bm25,bm25_structured,258,57,0.015537114234348294,0.01942232223866816,0.003885208004319867,-0.008105786191254542,0.020683234648872756,4,2,51
+contextual_complexity,No extra contextual slot,test,hybrid_vs_bm25,bm25,hybrid,258,57,0.015537114234348294,0.01786928575040732,0.0023321715160590285,-0.009263628475010497,0.019311242289698476,3,2,52
+contextual_complexity,No extra contextual slot,test,intent_vs_hybrid,hybrid,hybrid_intent,258,57,0.01786928575040732,0.02436936434666856,0.006500078596261234,-0.004041519439565964,0.020951620571725272,5,2,50
+contextual_complexity,Demographic constraint,validation,structured_vs_bm25,bm25,bm25_structured,60,14,0.0056865566109687285,0.009836126870578093,0.004149570259609364,0.0,0.01244871077882809,1,0,13
+contextual_complexity,Demographic constraint,validation,hybrid_vs_bm25,bm25,hybrid,60,14,0.0056865566109687285,0.009836126870578093,0.004149570259609364,0.0,0.01244871077882809,1,0,13
+contextual_complexity,Demographic constraint,validation,intent_vs_hybrid,hybrid,hybrid_intent,60,14,0.009836126870578093,0.0,-0.009836126870578093,-0.029508380611734275,0.0,0,1,13
+contextual_complexity,Demographic constraint,test,structured_vs_bm25,bm25,bm25_structured,60,12,0.0,0.025085832971998432,0.025085832971998432,0.0,0.0752574989159953,1,0,11
+contextual_complexity,Demographic constraint,test,hybrid_vs_bm25,bm25,hybrid,60,12,0.0,0.0,0.0,0.0,0.0,0,0,12
+contextual_complexity,Demographic constraint,test,intent_vs_hybrid,hybrid,hybrid_intent,60,12,0.0,0.024088735526490653,0.024088735526490653,0.0,0.07226620657947196,1,0,11
+contextual_complexity,Year constraint,validation,structured_vs_bm25,bm25,bm25_structured,52,13,0.0,0.0,0.0,0.0,0.0,0,0,13
+contextual_complexity,Year constraint,validation,hybrid_vs_bm25,bm25,hybrid,52,13,0.0,0.0,0.0,0.0,0.0,0,0,13
+contextual_complexity,Year constraint,validation,intent_vs_hybrid,hybrid,hybrid_intent,52,13,0.0,0.0,0.0,0.0,0.0,0,0,13
+contextual_complexity,Year constraint,test,structured_vs_bm25,bm25,bm25_structured,52,10,0.0,0.0,0.0,0.0,0.0,0,0,10
+contextual_complexity,Year constraint,test,hybrid_vs_bm25,bm25,hybrid,52,10,0.0,0.0,0.0,0.0,0.0,0,0,10
+contextual_complexity,Year constraint,test,intent_vs_hybrid,hybrid,hybrid_intent,52,10,0.0,0.0,0.0,0.0,0.0,0,0,10
+contextual_complexity,Renal/lab constraint,validation,structured_vs_bm25,bm25,bm25_structured,22,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+contextual_complexity,Renal/lab constraint,validation,hybrid_vs_bm25,bm25,hybrid,22,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+contextual_complexity,Renal/lab constraint,validation,intent_vs_hybrid,hybrid,hybrid_intent,22,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+contextual_complexity,Renal/lab constraint,test,structured_vs_bm25,bm25,bm25_structured,22,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+contextual_complexity,Renal/lab constraint,test,hybrid_vs_bm25,bm25,hybrid,22,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+contextual_complexity,Renal/lab constraint,test,intent_vs_hybrid,hybrid,hybrid_intent,22,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+contextual_complexity,Multiple constraints,validation,structured_vs_bm25,bm25,bm25_structured,63,11,0.007237435686687472,0.012518706926190299,0.005281271239502827,0.0,0.01584381371850848,1,0,10
+contextual_complexity,Multiple constraints,validation,hybrid_vs_bm25,bm25,hybrid,63,11,0.007237435686687472,0.012518706926190299,0.005281271239502827,0.0,0.01584381371850848,1,0,10
+contextual_complexity,Multiple constraints,validation,intent_vs_hybrid,hybrid,hybrid_intent,63,11,0.012518706926190299,0.0,-0.012518706926190299,-0.037556120778570894,0.0,0,1,10
+contextual_complexity,Multiple constraints,test,structured_vs_bm25,bm25,bm25_structured,63,12,0.0,0.025085832971998432,0.025085832971998432,0.0,0.0752574989159953,1,0,11
+contextual_complexity,Multiple constraints,test,hybrid_vs_bm25,bm25,hybrid,63,12,0.0,0.0,0.0,0.0,0.0,0,0,12
+contextual_complexity,Multiple constraints,test,intent_vs_hybrid,hybrid,hybrid_intent,63,12,0.0,0.024088735526490653,0.024088735526490653,0.0,0.07226620657947196,1,0,11
+context_constraint_count,No constraints,validation,structured_vs_bm25,bm25,bm25_structured,258,63,0.027282053744157295,0.032566815042307545,0.005284761298150246,-0.00027150673816818735,0.01542985362643773,4,1,58
+context_constraint_count,No constraints,validation,hybrid_vs_bm25,bm25,hybrid,258,63,0.027282053744157295,0.030294725564092833,0.0030126718199355355,-0.008596495314122536,0.015765534098611554,5,3,55
+context_constraint_count,No constraints,validation,intent_vs_hybrid,hybrid,hybrid_intent,258,63,0.030294725564092833,0.04349119008336767,0.013196464519274842,-0.0032296510637920828,0.03541241476700808,5,2,56
+context_constraint_count,No constraints,test,structured_vs_bm25,bm25,bm25_structured,258,57,0.015537114234348294,0.01942232223866816,0.003885208004319867,-0.008105786191254542,0.020683234648872756,4,2,51
+context_constraint_count,No constraints,test,hybrid_vs_bm25,bm25,hybrid,258,57,0.015537114234348294,0.01786928575040732,0.0023321715160590285,-0.009263628475010497,0.019311242289698476,3,2,52
+context_constraint_count,No constraints,test,intent_vs_hybrid,hybrid,hybrid_intent,258,57,0.01786928575040732,0.02436936434666856,0.006500078596261234,-0.004041519439565964,0.020951620571725272,5,2,50
+context_constraint_count,One constraint,validation,structured_vs_bm25,bm25,bm25_structured,179,39,0.02341423355193381,0.02980469517463506,0.00639046162270125,-0.004903884267563282,0.024279839431558852,2,2,35
+context_constraint_count,One constraint,validation,hybrid_vs_bm25,bm25,hybrid,179,39,0.02341423355193381,0.02654375028658999,0.003129516734656181,-0.013745741540893315,0.022685023807734305,2,2,35
+context_constraint_count,One constraint,validation,intent_vs_hybrid,hybrid,hybrid_intent,179,39,0.02654375028658999,0.020909355815018682,-0.005634394471571306,-0.022235755870606753,0.005332572455892837,1,1,37
+context_constraint_count,One constraint,test,structured_vs_bm25,bm25,bm25_structured,179,41,0.0057967837737686245,0.005279189746734092,-0.0005175940270345317,-0.00299161165851581,0.0014388295774122148,1,1,39
+context_constraint_count,One constraint,test,hybrid_vs_bm25,bm25,hybrid,179,41,0.0057967837737686245,0.004799579887596687,-0.0009972038861719367,-0.00299161165851581,0.0,0,1,40
+context_constraint_count,One constraint,test,intent_vs_hybrid,hybrid,hybrid_intent,179,41,0.004799579887596687,0.008739194045645802,0.003939614158049115,0.0,0.010550421621340286,2,0,39
+context_constraint_count,Multiple constraints,validation,structured_vs_bm25,bm25,bm25_structured,63,11,0.007237435686687472,0.012518706926190299,0.005281271239502827,0.0,0.01584381371850848,1,0,10
+context_constraint_count,Multiple constraints,validation,hybrid_vs_bm25,bm25,hybrid,63,11,0.007237435686687472,0.012518706926190299,0.005281271239502827,0.0,0.01584381371850848,1,0,10
+context_constraint_count,Multiple constraints,validation,intent_vs_hybrid,hybrid,hybrid_intent,63,11,0.012518706926190299,0.0,-0.012518706926190299,-0.037556120778570894,0.0,0,1,10
+context_constraint_count,Multiple constraints,test,structured_vs_bm25,bm25,bm25_structured,63,12,0.0,0.025085832971998432,0.025085832971998432,0.0,0.0752574989159953,1,0,11
+context_constraint_count,Multiple constraints,test,hybrid_vs_bm25,bm25,hybrid,63,12,0.0,0.0,0.0,0.0,0.0,0,0,12
+context_constraint_count,Multiple constraints,test,intent_vs_hybrid,hybrid,hybrid_intent,63,12,0.0,0.024088735526490653,0.024088735526490653,0.0,0.07226620657947196,1,0,11
+intent_top_level,Evidence / Guideline Lookup,validation,structured_vs_bm25,bm25,bm25_structured,59,13,0.0,0.0,0.0,0.0,0.0,0,0,13
+intent_top_level,Evidence / Guideline Lookup,validation,hybrid_vs_bm25,bm25,hybrid,59,13,0.0,0.0,0.0,0.0,0.0,0,0,13
+intent_top_level,Evidence / Guideline Lookup,validation,intent_vs_hybrid,hybrid,hybrid_intent,59,13,0.0,0.0,0.0,0.0,0.0,0,0,13
+intent_top_level,Evidence / Guideline Lookup,test,structured_vs_bm25,bm25,bm25_structured,59,12,0.0,0.0,0.0,0.0,0.0,0,0,12
+intent_top_level,Evidence / Guideline Lookup,test,hybrid_vs_bm25,bm25,hybrid,59,12,0.0,0.0,0.0,0.0,0.0,0,0,12
+intent_top_level,Evidence / Guideline Lookup,test,intent_vs_hybrid,hybrid,hybrid_intent,59,12,0.0,0.0,0.0,0.0,0.0,0,0,12
+intent_top_level,Management / Treatment,validation,structured_vs_bm25,bm25,bm25_structured,135,35,0.03566604191947235,0.04630928385376606,0.010643241934293715,0.0,0.02986514192786939,4,1,30
+intent_top_level,Management / Treatment,validation,hybrid_vs_bm25,bm25,hybrid,135,35,0.03566604191947235,0.0484682306690805,0.012802188749608165,-0.00010167906349656972,0.033830312459937235,5,1,29
+intent_top_level,Management / Treatment,validation,intent_vs_hybrid,hybrid,hybrid_intent,135,35,0.0484682306690805,0.0620171403475717,0.013548909678491188,-0.0038965454979043514,0.04009509934378585,4,1,30
+intent_top_level,Management / Treatment,test,structured_vs_bm25,bm25,bm25_structured,135,33,0.022165838917574936,0.021204191124488393,-0.0009616477930865461,-0.01287911725411105,0.009020863293374242,2,1,30
+intent_top_level,Management / Treatment,test,hybrid_vs_bm25,bm25,hybrid,135,33,0.022165838917574936,0.018521673553856036,-0.0036441653637189035,-0.01385242783558822,0.001970953927491136,1,1,31
+intent_top_level,Management / Treatment,test,intent_vs_hybrid,hybrid,hybrid_intent,135,33,0.018521673553856036,0.017192490813084632,-0.0013291827407714025,-0.012220326508320311,0.007382736381487282,3,2,28
+intent_top_level,Management / Treatment; Epidemiology / Prognosis,validation,structured_vs_bm25,bm25,bm25_structured,33,9,0.0,0.0,0.0,0.0,0.0,0,0,9
+intent_top_level,Management / Treatment; Epidemiology / Prognosis,validation,hybrid_vs_bm25,bm25,hybrid,33,9,0.0,0.0,0.0,0.0,0.0,0,0,9
+intent_top_level,Management / Treatment; Epidemiology / Prognosis,validation,intent_vs_hybrid,hybrid,hybrid_intent,33,9,0.0,0.0,0.0,0.0,0.0,0,0,9
+intent_top_level,Management / Treatment; Epidemiology / Prognosis,test,structured_vs_bm25,bm25,bm25_structured,33,9,0.0124945175077932,0.0395785763453358,0.0270840588375426,-0.0374835525233796,0.1187357290360074,1,1,7
+intent_top_level,Management / Treatment; Epidemiology / Prognosis,test,hybrid_vs_bm25,bm25,hybrid,33,9,0.0124945175077932,0.0395785763453358,0.0270840588375426,-0.0374835525233796,0.1187357290360074,1,1,7
+intent_top_level,Management / Treatment; Epidemiology / Prognosis,test,intent_vs_hybrid,hybrid,hybrid_intent,33,9,0.0395785763453358,0.0395785763453358,0.0,0.0,0.0,0,0,9
+intent_top_level,New dataset-specific class,validation,structured_vs_bm25,bm25,bm25_structured,29,4,0.0,0.0,0.0,0.0,0.0,0,0,4
+intent_top_level,New dataset-specific class,validation,hybrid_vs_bm25,bm25,hybrid,29,4,0.0,0.0,0.0,0.0,0.0,0,0,4
+intent_top_level,New dataset-specific class,validation,intent_vs_hybrid,hybrid,hybrid_intent,29,4,0.0,0.0,0.0,0.0,0.0,0,0,4
+intent_top_level,New dataset-specific class,test,structured_vs_bm25,bm25,bm25_structured,29,7,0.0,0.0,0.0,0.0,0.0,0,0,7
+intent_top_level,New dataset-specific class,test,hybrid_vs_bm25,bm25,hybrid,29,7,0.0,0.0,0.0,0.0,0.0,0,0,7
+intent_top_level,New dataset-specific class,test,intent_vs_hybrid,hybrid,hybrid_intent,29,7,0.0,0.0,0.0,0.0,0.0,0,0,7
+intent_top_level,Pharmacotherapy,validation,structured_vs_bm25,bm25,bm25_structured,224,49,0.029861731015905276,0.03532598573025354,0.005464254714348271,-0.003510071525072032,0.019615999400540297,3,2,44
+intent_top_level,Pharmacotherapy,validation,hybrid_vs_bm25,bm25,hybrid,224,49,0.029861731015905276,0.02826717703030885,-0.0015945539855964236,-0.01775777105120542,0.014836897130587536,3,4,42
+intent_top_level,Pharmacotherapy,validation,intent_vs_hybrid,hybrid,hybrid_intent,224,49,0.02826717703030885,0.028261427344344548,-5.749685964301705e-06,-0.020740956036283505,0.026630682170724944,2,3,44
+intent_top_level,Pharmacotherapy,test,structured_vs_bm25,bm25,bm25_structured,224,48,0.005820006338171972,0.011845909347250523,0.006025903009078552,-0.0017360014489558543,0.01963370823835856,3,1,44
+intent_top_level,Pharmacotherapy,test,hybrid_vs_bm25,bm25,hybrid,224,48,0.005820006338171972,0.00516478434957105,-0.000655221988600923,-0.0025553349583155877,0.0005896689925128187,1,1,46
+intent_top_level,Pharmacotherapy,test,intent_vs_hybrid,hybrid,hybrid_intent,224,48,0.00516478434957105,0.023184711791867887,0.018019927442296836,0.0027716548346688064,0.03761350886111002,5,0,43
+intent_top_level,Pharmacotherapy; Epidemiology / Prognosis,validation,structured_vs_bm25,bm25,bm25_structured,20,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+intent_top_level,Pharmacotherapy; Epidemiology / Prognosis,validation,hybrid_vs_bm25,bm25,hybrid,20,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+intent_top_level,Pharmacotherapy; Epidemiology / Prognosis,validation,intent_vs_hybrid,hybrid,hybrid_intent,20,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+intent_top_level,Pharmacotherapy; Epidemiology / Prognosis,test,structured_vs_bm25,bm25,bm25_structured,20,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+intent_top_level,Pharmacotherapy; Epidemiology / Prognosis,test,hybrid_vs_bm25,bm25,hybrid,20,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+intent_top_level,Pharmacotherapy; Epidemiology / Prognosis,test,intent_vs_hybrid,hybrid,hybrid_intent,20,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+pharmacotherapy_sub_intent,Comparative Treatment Choice,validation,structured_vs_bm25,bm25,bm25_structured,23,2,0.0,0.0,0.0,0.0,0.0,0,0,2
+pharmacotherapy_sub_intent,Comparative Treatment Choice,validation,hybrid_vs_bm25,bm25,hybrid,23,2,0.0,0.0,0.0,0.0,0.0,0,0,2
+pharmacotherapy_sub_intent,Comparative Treatment Choice,validation,intent_vs_hybrid,hybrid,hybrid_intent,23,2,0.0,0.0,0.0,0.0,0.0,0,0,2
+pharmacotherapy_sub_intent,Comparative Treatment Choice,test,structured_vs_bm25,bm25,bm25_structured,23,5,0.0,0.0,0.0,0.0,0.0,0,0,5
+pharmacotherapy_sub_intent,Comparative Treatment Choice,test,hybrid_vs_bm25,bm25,hybrid,23,5,0.0,0.0,0.0,0.0,0.0,0,0,5
+pharmacotherapy_sub_intent,Comparative Treatment Choice,test,intent_vs_hybrid,hybrid,hybrid_intent,23,5,0.0,0.0,0.0,0.0,0.0,0,0,5
+pharmacotherapy_sub_intent,Dosing / Administration,validation,structured_vs_bm25,bm25,bm25_structured,96,21,0.005043528278306629,0.0065574179137187286,0.0015138896354120997,-0.0037574716129824283,0.008299140519218727,1,1,19
+pharmacotherapy_sub_intent,Dosing / Administration,validation,hybrid_vs_bm25,bm25,hybrid,96,21,0.005043528278306629,0.0065574179137187286,0.0015138896354120997,-0.0037574716129824283,0.008299140519218727,1,1,19
+pharmacotherapy_sub_intent,Dosing / Administration,validation,intent_vs_hybrid,hybrid,hybrid_intent,96,21,0.0065574179137187286,0.0,-0.0065574179137187286,-0.019672253741156182,0.0,0,1,20
+pharmacotherapy_sub_intent,Dosing / Administration,test,structured_vs_bm25,bm25,bm25_structured,96,22,0.007890154093655836,0.022467154088592872,0.014576999994937036,0.0,0.04283718161096413,2,0,20
+pharmacotherapy_sub_intent,Dosing / Administration,test,hybrid_vs_bm25,bm25,hybrid,96,22,0.007890154093655836,0.007890154093655836,0.0,0.0,0.0,0,0,22
+pharmacotherapy_sub_intent,Dosing / Administration,test,intent_vs_hybrid,hybrid,hybrid_intent,96,22,0.007890154093655836,0.026007597358783663,0.018117443265127823,0.0,0.049374196817432374,2,0,20
+pharmacotherapy_sub_intent,Efficacy / Outcomes,validation,structured_vs_bm25,bm25,bm25_structured,20,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+pharmacotherapy_sub_intent,Efficacy / Outcomes,validation,hybrid_vs_bm25,bm25,hybrid,20,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+pharmacotherapy_sub_intent,Efficacy / Outcomes,validation,intent_vs_hybrid,hybrid,hybrid_intent,20,3,0.0,0.0,0.0,0.0,0.0,0,0,3
+pharmacotherapy_sub_intent,Efficacy / Outcomes,test,structured_vs_bm25,bm25,bm25_structured,20,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+pharmacotherapy_sub_intent,Efficacy / Outcomes,test,hybrid_vs_bm25,bm25,hybrid,20,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+pharmacotherapy_sub_intent,Efficacy / Outcomes,test,intent_vs_hybrid,hybrid,hybrid_intent,20,1,0.0,0.0,0.0,0.0,0.0,0,0,1
+pharmacotherapy_sub_intent,Interaction / Combination,validation,structured_vs_bm25,bm25,bm25_structured,21,7,0.05104438941927417,0.051651567265279454,0.0006071778460052851,0.0,0.0018215335380158554,1,0,6
+pharmacotherapy_sub_intent,Interaction / Combination,validation,hybrid_vs_bm25,bm25,hybrid,21,7,0.05104438941927417,0.02040802788477483,-0.03063636153449934,-0.08963851012007208,0.0012143556920105702,1,2,4
+pharmacotherapy_sub_intent,Interaction / Combination,validation,intent_vs_hybrid,hybrid,hybrid_intent,21,7,0.02040802788477483,0.009906437583879171,-0.010501590300895659,-0.03823008452021992,0.006725313617532943,1,1,5
+pharmacotherapy_sub_intent,Interaction / Combination,test,structured_vs_bm25,bm25,bm25_structured,21,6,0.010680790777347534,0.0038665642218393,-0.006814226555508234,-0.020442679666524702,0.0,0,1,5
+pharmacotherapy_sub_intent,Interaction / Combination,test,hybrid_vs_bm25,bm25,hybrid,21,6,0.010680790777347534,0.0038665642218393,-0.006814226555508234,-0.020442679666524702,0.0,0,1,5
+pharmacotherapy_sub_intent,Interaction / Combination,test,intent_vs_hybrid,hybrid,hybrid_intent,21,6,0.0038665642218393,0.06808966227157642,0.06422309804973712,0.0,0.17533420916084821,2,0,4
+pharmacotherapy_sub_intent,Safety / Contraindication,validation,structured_vs_bm25,bm25,bm25_structured,84,19,0.05263157894736842,0.0648266607230197,0.012195081775651274,-0.010945806619990579,0.047531051946944396,1,1,17
+pharmacotherapy_sub_intent,Safety / Contraindication,validation,hybrid_vs_bm25,bm25,hybrid,84,19,0.05263157894736842,0.058133142268611396,0.005501563321242975,-0.029137124718042834,0.04564181468177176,1,1,17
+pharmacotherapy_sub_intent,Safety / Contraindication,validation,intent_vs_hybrid,hybrid,hybrid_intent,84,19,0.058133142268611396,0.06923499351503835,0.011101851246426956,-0.04564181468177176,0.07894736842105263,1,1,17
+pharmacotherapy_sub_intent,Safety / Contraindication,test,structured_vs_bm25,bm25,bm25_structured,84,15,0.00277947796718274,0.00340845822586308,0.00062898025868034,0.0,0.0018869407760410198,1,0,14
+pharmacotherapy_sub_intent,Safety / Contraindication,test,hybrid_vs_bm25,bm25,hybrid,84,15,0.00277947796718274,0.00340845822586308,0.00062898025868034,0.0,0.0018869407760410198,1,0,14
+pharmacotherapy_sub_intent,Safety / Contraindication,test,intent_vs_hybrid,hybrid,hybrid_intent,84,15,0.00340845822586308,0.008810736699130633,0.005402278473267554,0.0,0.01620683541980266,1,0,14
+intent_hypothesis_group,Available preferred-content-type intents,validation,structured_vs_bm25,bm25,bm25_structured,303,65,0.022511151073528593,0.026630358473575748,0.004119207400047158,-0.002876942177122016,0.015398832752381696,3,2,60
+intent_hypothesis_group,Available preferred-content-type intents,validation,hybrid_vs_bm25,bm25,hybrid,303,65,0.022511151073528593,0.021309102684386672,-0.0012020483891419186,-0.012932585130205062,0.012478503267017878,3,4,58
+intent_hypothesis_group,Available preferred-content-type intents,validation,intent_vs_hybrid,hybrid,hybrid_intent,303,65,0.021309102684386672,0.02130476830573666,-4.334378650012055e-06,-0.015845304121001037,0.020818516994196377,2,3,60
+intent_hypothesis_group,Available preferred-content-type intents,test,structured_vs_bm25,bm25,bm25_structured,303,61,0.004579677118561552,0.009321371289639757,0.004741694171078205,-0.0015337273753165495,0.015578103318755504,3,1,57
+intent_hypothesis_group,Available preferred-content-type intents,test,hybrid_vs_bm25,bm25,hybrid,303,61,0.004579677118561552,0.004064092602941154,-0.0005155845156203984,-0.0020107553770352168,0.00046400183017402123,1,1,59
+intent_hypothesis_group,Available preferred-content-type intents,test,intent_vs_hybrid,hybrid,hybrid_intent,303,61,0.004064092602941154,0.0182437076395026,0.014179615036561446,0.0017953922215561363,0.0302173283842958,5,0,56
+intent_hypothesis_group,Other observed intents,validation,structured_vs_bm25,bm25,bm25_structured,197,48,0.026006488899615248,0.03376718614337108,0.0077606972437558345,-1.336648444408644e-05,0.022304174725847954,4,1,43
+intent_hypothesis_group,Other observed intents,validation,hybrid_vs_bm25,bm25,hybrid,197,48,0.026006488899615248,0.03534141819620453,0.009334929296589287,0.0,0.025450266883093448,5,1,42
+intent_hypothesis_group,Other observed intents,validation,intent_vs_hybrid,hybrid,hybrid_intent,197,48,0.03534141819620453,0.0452208315034377,0.009879413307233157,-0.002928036174988777,0.029972722553972046,4,1,43
+intent_hypothesis_group,Other observed intents,test,structured_vs_bm25,bm25,bm25_structured,197,49,0.01722292534387983,0.02154990804522733,0.004326982701347497,-0.009998445895667377,0.02311959305513387,3,2,44
+intent_hypothesis_group,Other observed intents,test,hybrid_vs_bm25,bm25,hybrid,197,49,0.01722292534387983,0.019743314579291252,0.0025203892354114196,-0.011141689949243513,0.02017905134859347,2,2,45
+intent_hypothesis_group,Other observed intents,test,intent_vs_hybrid,hybrid,hybrid_intent,197,49,0.019743314579291252,0.018848150692649286,-0.0008951638866419649,-0.008092158604412201,0.004896263341243918,3,2,44

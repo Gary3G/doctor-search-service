@@ -269,6 +269,30 @@ The item ranked **1st** under hybrid + entities + context, then fell to **12th**
 
 There is also a limitation in the query extraction: `kapan start` was not activated as a dosing signal. The assisted label resolved the query to evidence lookup because of the explicit evidence/year cues, but that classification had low confidence. Intent helped this observed case, while its mapping still needs independent validation.
 
+### Intent promotes a strong behavior-positive document: Q069–C219
+
+| Field | Value |
+| --- | --- |
+| Query | `dosis titrasi Alendronate Osteoporosis toleransi pasien` |
+| Content | `Konsensus Nasional: Osteoporosis di Indonesia 2022` |
+| Query intent | Dosing / Administration |
+| Content type | guideline |
+| Content intent compatibility | **1** |
+| Entity match | exact matches for Osteoporosis/M81, Alendronate/M05BA04, Bisphosphonates/M05BA, and Rheumatology |
+| Entity coverage / conflict | 1.00 / 0.00 |
+| Context coverage | 0.00; the title does not state titration or tolerance |
+| Behavioral label | grade 3 from one 158-second deep-scroll exposure |
+
+Adding intent moved C219 from rank **5** under R-E6 to rank **2** under R-E7. Its score changed from **0.55660** to **0.64528**. Three documents with the same full entity coverage but incompatible content types were demoted: the Alendronate safety article C212 moved from rank 1 to 11, the Alendronate meta-analysis C221 from 2 to 13, and the refractory-osteoporosis case report C223 from 3 to 15.
+
+| Query metric | R-E6: without intent | R-E7: with intent |
+| --- | ---: | ---: |
+| NDCG@10 | 0.17358 | **0.28310** |
+| MRR@10 | 0.20000 | **0.50000** |
+| Recall@10 | 0.12500 | 0.12500 |
+
+This example shows intent improving ordering quality: the same positive remained in the top 10, so recall was unchanged, while placing the grade-3 item earlier increased NDCG and MRR. The evidence is still limited. The title supports a general osteoporosis consensus rather than explicit titration guidance, and the grade came from a single exposure. The case supports the ranking mechanism against the behavioral target, not confirmed clinical relevance.
+
 ### Intent can demote a behavior-positive but weakly matched item: Q183–C256
 
 The query asked about pediatric Methyldopa dosing in hypertension in pregnancy. The content was an article on preeclampsia pathophysiology and treatment. It had entity coverage **0.25**, context coverage **0.33**, intent compatibility **0**, and behavior grade **2** from one meaningful exposure. Adding intent moved it from rank 31 to rank 179. It was already outside the top 10, so it did not explain the main metric gain, but it shows that binary content-type compatibility can suppress partial or exploratory relevance.

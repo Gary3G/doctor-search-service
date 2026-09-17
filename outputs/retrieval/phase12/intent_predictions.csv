@@ -1,0 +1,501 @@
+query_id,assisted_intent,predicted_intent,predicted_probability,second_intent,probability_margin,agrees_with_assisted
+Q001,Safety / Contraindication,Safety / Contraindication,0.2849150569906839,Prophylaxis / Maintenance,0.07839435579569282,True
+Q002,Safety / Contraindication,Safety / Contraindication,0.3200202193793543,Mechanism / Background Knowledge,0.10769551196241164,True
+Q003,Interaction / Combination,Interaction / Combination,0.5270946527839219,Comparative Treatment Choice,0.4024512741224796,True
+Q004,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q005,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q006,Interaction / Combination,Interaction / Combination,0.43665890267735863,Comparative Treatment Choice,0.2938908735130782,True
+Q007,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q008,Safety / Contraindication,Safety / Contraindication,0.3200202193793543,Mechanism / Background Knowledge,0.10769551196241164,True
+Q009,Interaction / Combination,Interaction / Combination,0.5374586065956627,Mechanism / Background Knowledge,0.43033549301643403,True
+Q010,Dosing / Administration,Dosing / Administration,0.8919478026051062,Safety / Contraindication,0.869149393111909,True
+Q011,Dosing / Administration,Dosing / Administration,0.7994863806322192,Safety / Contraindication,0.7570233759315528,True
+Q012,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q013,Safety / Contraindication,Safety / Contraindication,0.6028087242821027,Dosing / Administration,0.515786282224354,True
+Q014,Dosing / Administration,Dosing / Administration,0.8394664423776871,Safety / Contraindication,0.7932856057147698,True
+Q015,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q016,Safety / Contraindication,Dosing / Administration,0.3226852294747949,Safety / Contraindication,0.0793555928765318,False
+Q017,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q018,Interaction / Combination,Interaction / Combination,0.5270946527839219,Comparative Treatment Choice,0.4024512741224796,True
+Q019,Dosing / Administration,Dosing / Administration,0.8059857352884262,Safety / Contraindication,0.7648363865613907,True
+Q020,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5243625360292632,Prophylaxis / Maintenance,0.424017817430157,True
+Q021,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q022,Treatment Change / Escalation,Treatment Change / Escalation,0.6888459845666283,Interaction / Combination,0.5934259098082973,True
+Q023,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2802513352898093,Prophylaxis / Maintenance,0.15769215055086822,True
+Q024,Dosing / Administration,Dosing / Administration,0.8059857352884262,Safety / Contraindication,0.7648363865613907,True
+Q025,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.86230402624039,Management / Treatment Selection,0.8350018626039565,True
+Q026,Safety / Contraindication,Safety / Contraindication,0.4603637958648602,Dosing / Administration,0.3468721779914272,True
+Q027,Safety / Contraindication,Safety / Contraindication,0.30184591509776637,Dosing / Administration,0.16406806052518672,True
+Q028,Safety / Contraindication,Safety / Contraindication,0.3200202193793543,Mechanism / Background Knowledge,0.10769551196241164,True
+Q029,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q030,Safety / Contraindication,Safety / Contraindication,0.3314250596479598,Dosing / Administration,0.20496682087874635,True
+Q031,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q032,Interaction / Combination,Interaction / Combination,0.5270946527839219,Comparative Treatment Choice,0.4024512741224796,True
+Q033,Safety / Contraindication,Dosing / Administration,0.653845077454474,Safety / Contraindication,0.49978099810860865,False
+Q034,Management / Treatment Selection,Management / Treatment Selection,0.6273657536148769,Mechanism / Background Knowledge,0.5287609028491314,True
+Q035,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q036,Dosing / Administration,Dosing / Administration,0.8394664423776871,Safety / Contraindication,0.7932856057147698,True
+Q037,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q038,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2864156279742997,Management / Treatment Selection,0.13145751314184062,False
+Q039,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q040,Treatment Change / Escalation,Treatment Change / Escalation,0.6811604799965364,Interaction / Combination,0.5748749255130539,True
+Q041,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q042,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q043,Safety / Contraindication,Safety / Contraindication,0.316138255171636,Dosing / Administration,0.1499444266763738,True
+Q044,Management / Treatment Selection,Safety / Contraindication,0.4238093722170587,Management / Treatment Selection,0.039736953284280285,False
+Q045,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q046,Management / Treatment Selection,Management / Treatment Selection,0.5272661602265168,Prophylaxis / Maintenance,0.43469072689963895,True
+Q047,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q048,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q049,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q050,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q051,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q052,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2847547565109793,Management / Treatment Selection,0.011550848621214582,False
+Q053,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q054,Safety / Contraindication,Dosing / Administration,0.3226852294747949,Safety / Contraindication,0.0793555928765318,False
+Q055,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q056,Dosing / Administration,Dosing / Administration,0.8681933890339619,Management / Treatment Selection,0.8439086628035033,True
+Q057,Comparative Treatment Choice,Comparative Treatment Choice,0.6922800019874297,Interaction / Combination,0.5970878616470535,True
+Q058,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q059,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q060,Management / Treatment Selection,Management / Treatment Selection,0.4922997164881745,Dosing / Administration,0.40317999277733363,True
+Q061,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2847547565109793,Management / Treatment Selection,0.011550848621214582,False
+Q062,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2919804999281543,Prophylaxis / Maintenance,0.10305628519435159,True
+Q063,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q064,Monitoring / Response / Risk Assessment,Safety / Contraindication,0.16759638130489526,Prophylaxis / Maintenance,0.021658782944846605,False
+Q065,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q066,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q067,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.3346559161426282,Management / Treatment Selection,0.07875857485948612,True
+Q068,Treatment Change / Escalation,Treatment Change / Escalation,0.5987838303729094,Safety / Contraindication,0.49894056611765814,True
+Q069,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q070,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q071,Comparative Treatment Choice,Comparative Treatment Choice,0.7110430753631911,Interaction / Combination,0.6146331029396278,True
+Q072,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q073,Safety / Contraindication,Safety / Contraindication,0.3787733209916219,Prophylaxis / Maintenance,0.23595567227328387,True
+Q074,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q075,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.7502372483802294,Management / Treatment Selection,0.700448617770583,True
+Q076,Dosing / Administration,Dosing / Administration,0.8059857352884262,Safety / Contraindication,0.7648363865613907,True
+Q077,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q078,Safety / Contraindication,Safety / Contraindication,0.6560094875104062,Dosing / Administration,0.5805809453764961,True
+Q079,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q080,Management / Treatment Selection,Safety / Contraindication,0.2860258542004636,Management / Treatment Selection,0.09399848648624343,False
+Q081,Management / Treatment Selection,Management / Treatment Selection,0.28382121230527213,Safety / Contraindication,0.11499450180320145,True
+Q082,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q083,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2919804999281543,Prophylaxis / Maintenance,0.10305628519435159,True
+Q084,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q085,Comparative Treatment Choice,Comparative Treatment Choice,0.61986439657593,Interaction / Combination,0.5056510469490747,True
+Q086,Treatment Change / Escalation,Interaction / Combination,0.22043303204770784,Treatment Change / Escalation,0.00392237861805525,False
+Q087,Management / Treatment Selection,Dosing / Administration,0.2900793121907068,Management / Treatment Selection,0.13639374223951825,False
+Q088,Dosing / Administration,Dosing / Administration,0.899559738525967,Safety / Contraindication,0.8803802525606267,True
+Q089,Monitoring / Response / Risk Assessment,Prophylaxis / Maintenance,0.18943136194693466,Safety / Contraindication,0.0404209636625073,False
+Q090,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q091,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q092,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q093,Treatment Change / Escalation,Treatment Change / Escalation,0.48448716513662193,Interaction / Combination,0.3139269905013634,True
+Q094,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.3612579102042545,Management / Treatment Selection,0.12971783758626168,True
+Q095,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q096,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q097,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q098,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.38039941091111434,Management / Treatment Selection,0.2388676998069708,True
+Q099,Dosing / Administration,Dosing / Administration,0.8681933890339619,Management / Treatment Selection,0.8439086628035033,True
+Q100,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q101,Interaction / Combination,Interaction / Combination,0.5374586065956627,Mechanism / Background Knowledge,0.43033549301643403,True
+Q102,Safety / Contraindication,Safety / Contraindication,0.4393748578947868,Mechanism / Background Knowledge,0.2705055946110556,True
+Q103,Monitoring / Response / Risk Assessment,Prophylaxis / Maintenance,0.18943136194693466,Safety / Contraindication,0.0404209636625073,False
+Q104,Dosing / Administration,Dosing / Administration,0.8002746483592923,Management / Treatment Selection,0.7605211284676253,True
+Q105,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5638001712963284,Efficacy / Outcomes,0.46335218210814244,True
+Q106,Dosing / Administration,Dosing / Administration,0.4392828025336168,Prophylaxis / Maintenance,0.3092674665271171,True
+Q107,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q108,Safety / Contraindication,Safety / Contraindication,0.3200202193793543,Mechanism / Background Knowledge,0.10769551196241164,True
+Q109,Guideline / Evidence Lookup,Management / Treatment Selection,0.39677625491386304,Guideline / Evidence Lookup,0.2708976335504362,False
+Q110,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q111,Safety / Contraindication,Safety / Contraindication,0.49148970411305093,Dosing / Administration,0.3698907766726343,True
+Q112,Comparative Treatment Choice,Comparative Treatment Choice,0.7110430146097724,Interaction / Combination,0.6146330142150005,True
+Q113,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5243625360292632,Prophylaxis / Maintenance,0.424017817430157,True
+Q114,Comparative Treatment Choice,Comparative Treatment Choice,0.7110430146097724,Interaction / Combination,0.6146330142150005,True
+Q115,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q116,Management / Treatment Selection,Dosing / Administration,0.20190951636137047,Management / Treatment Selection,0.07026105467068938,False
+Q117,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q118,Dosing / Administration,Dosing / Administration,0.8681933890339619,Management / Treatment Selection,0.8439086628035033,True
+Q119,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2847547565109793,Management / Treatment Selection,0.011550848621214582,False
+Q120,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2919804999281543,Prophylaxis / Maintenance,0.10305628519435159,True
+Q121,Management / Treatment Selection,Management / Treatment Selection,0.6554202200613534,Prophylaxis / Maintenance,0.5948217731241117,True
+Q122,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q123,Management / Treatment Selection,Management / Treatment Selection,0.5272661602265168,Prophylaxis / Maintenance,0.43469072689963895,True
+Q124,Treatment Change / Escalation,Interaction / Combination,0.22043303204770784,Treatment Change / Escalation,0.00392237861805525,False
+Q125,Safety / Contraindication,Safety / Contraindication,0.3693390344589865,Efficacy / Outcomes,0.26360833046409093,True
+Q126,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q127,Management / Treatment Selection,Management / Treatment Selection,0.5557715590971442,Safety / Contraindication,0.46785546686732293,True
+Q128,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.3612579102042545,Management / Treatment Selection,0.12971783758626168,True
+Q129,Safety / Contraindication,Safety / Contraindication,0.6866919809625484,Management / Treatment Selection,0.5902386691471084,True
+Q130,Dosing / Administration,Dosing / Administration,0.7162067699959587,Safety / Contraindication,0.6236404703041519,True
+Q131,Safety / Contraindication,Safety / Contraindication,0.39067197532084547,Prophylaxis / Maintenance,0.30360347415057426,True
+Q132,Dosing / Administration,Dosing / Administration,0.5559928212684127,Safety / Contraindication,0.3883405631979236,True
+Q133,Safety / Contraindication,Safety / Contraindication,0.21962666670429074,Dosing / Administration,0.053010888126460154,True
+Q134,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q135,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q136,Treatment Change / Escalation,Efficacy / Outcomes,0.15451580561308617,Management / Treatment Selection,0.011294772170439615,False
+Q137,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q138,Safety / Contraindication,Safety / Contraindication,0.6866919809625484,Management / Treatment Selection,0.5902386691471084,True
+Q139,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q140,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q141,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q142,Safety / Contraindication,Safety / Contraindication,0.39962785006559404,Prophylaxis / Maintenance,0.30119831292736343,True
+Q143,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q144,Dosing / Administration,Dosing / Administration,0.8002746483592923,Management / Treatment Selection,0.7605211284676253,True
+Q145,Dosing / Administration,Dosing / Administration,0.4392828025336168,Prophylaxis / Maintenance,0.3092674665271171,True
+Q146,Comparative Treatment Choice,Comparative Treatment Choice,0.6922800019874297,Interaction / Combination,0.5970878616470535,True
+Q147,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2847547565109793,Management / Treatment Selection,0.011550848621214582,False
+Q148,Dosing / Administration,Dosing / Administration,0.8059857083458729,Safety / Contraindication,0.7648363525449945,True
+Q149,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q150,Comparative Treatment Choice,Comparative Treatment Choice,0.7599251595626938,Interaction / Combination,0.6881295344109175,True
+Q151,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5360295308313627,Management / Treatment Selection,0.4019545235517129,True
+Q152,Safety / Contraindication,Safety / Contraindication,0.5071370613674352,Prophylaxis / Maintenance,0.4250393385354366,True
+Q153,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.86230402624039,Management / Treatment Selection,0.8350018626039565,True
+Q154,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q155,Interaction / Combination,Interaction / Combination,0.43665890267735863,Comparative Treatment Choice,0.2938908735130782,True
+Q156,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2802513352898093,Prophylaxis / Maintenance,0.15769215055086822,True
+Q157,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q158,Management / Treatment Selection,Management / Treatment Selection,0.6554202200613534,Prophylaxis / Maintenance,0.5948217731241117,True
+Q159,Dosing / Administration,Dosing / Administration,0.4392828025336168,Prophylaxis / Maintenance,0.3092674665271171,True
+Q160,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q161,Dosing / Administration,Dosing / Administration,0.5390809936075119,Efficacy / Outcomes,0.46078030212323606,True
+Q162,Safety / Contraindication,Safety / Contraindication,0.3949927314996957,Treatment Change / Escalation,0.2768796448770054,True
+Q163,Safety / Contraindication,Safety / Contraindication,0.48773106009391604,Prophylaxis / Maintenance,0.40597986574151923,True
+Q164,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2847547565109793,Management / Treatment Selection,0.011550848621214582,False
+Q165,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q166,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q167,Treatment Change / Escalation,Treatment Change / Escalation,0.48448716513662193,Interaction / Combination,0.3139269905013634,True
+Q168,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.38039941091111434,Management / Treatment Selection,0.2388676998069708,True
+Q169,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q170,Comparative Treatment Choice,Comparative Treatment Choice,0.7190068327529499,Interaction / Combination,0.6293048250916004,True
+Q171,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q172,Management / Treatment Selection,Management / Treatment Selection,0.5272661602265168,Prophylaxis / Maintenance,0.43469072689963895,True
+Q173,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2847547565109793,Management / Treatment Selection,0.011550848621214582,False
+Q174,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.38476349172841423,Safety / Contraindication,0.2563968462113141,False
+Q175,Dosing / Administration,Dosing / Administration,0.5902623601777258,Safety / Contraindication,0.47253326485584646,True
+Q176,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.33102864686066225,Management / Treatment Selection,0.11008316478196897,True
+Q177,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q178,Treatment Change / Escalation,Interaction / Combination,0.22043303204770784,Treatment Change / Escalation,0.00392237861805525,False
+Q179,Management / Treatment Selection,Management / Treatment Selection,0.6273657536148769,Mechanism / Background Knowledge,0.5287609028491314,True
+Q180,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5343507858492472,Efficacy / Outcomes,0.41890793358572903,True
+Q181,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q182,Safety / Contraindication,Dosing / Administration,0.3400781528506351,Safety / Contraindication,0.10189230683852021,False
+Q183,Dosing / Administration,Dosing / Administration,0.8099549886670107,Safety / Contraindication,0.7425829443572618,True
+Q184,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069558487400247,Interaction / Combination,0.7579236946749132,True
+Q185,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q186,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q187,Safety / Contraindication,Dosing / Administration,0.653845077454474,Safety / Contraindication,0.49978099810860865,False
+Q188,Interaction / Combination,Interaction / Combination,0.5270946527839219,Comparative Treatment Choice,0.4024512741224796,True
+Q189,Dosing / Administration,Dosing / Administration,0.899559738525967,Safety / Contraindication,0.8803802525606267,True
+Q190,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q191,Dosing / Administration,Dosing / Administration,0.8059857083458729,Safety / Contraindication,0.7648363525449945,True
+Q192,Dosing / Administration,Dosing / Administration,0.8681933890339619,Management / Treatment Selection,0.8439086628035033,True
+Q193,Management / Treatment Selection,Management / Treatment Selection,0.27400244391200645,Prophylaxis / Maintenance,0.14301394947670837,True
+Q194,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q195,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q196,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q197,Monitoring / Response / Risk Assessment,Management / Treatment Selection,0.1528210092185068,Interaction / Combination,0.0016877154007720052,False
+Q198,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.4116876502066303,Mechanism / Background Knowledge,0.2748984071369175,True
+Q199,Dosing / Administration,Dosing / Administration,0.8002746483592923,Management / Treatment Selection,0.7605211284676253,True
+Q200,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q201,Interaction / Combination,Interaction / Combination,0.5270946527839219,Comparative Treatment Choice,0.4024512741224796,True
+Q202,Management / Treatment Selection,Management / Treatment Selection,0.3953088550305751,Safety / Contraindication,0.19838953961218575,True
+Q203,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q204,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q205,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.34760500548848,Treatment Change / Escalation,0.22778894287596693,True
+Q206,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q207,Interaction / Combination,Interaction / Combination,0.45417964675067296,Management / Treatment Selection,0.3217834587522385,True
+Q208,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.34760500548848,Treatment Change / Escalation,0.22778894287596693,True
+Q209,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q210,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q211,Management / Treatment Selection,Safety / Contraindication,0.25372825885442096,Management / Treatment Selection,0.07265933017823362,False
+Q212,Safety / Contraindication,Safety / Contraindication,0.6310927108008544,Dosing / Administration,0.557141522627316,True
+Q213,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q214,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q215,Interaction / Combination,Interaction / Combination,0.5374586065956627,Mechanism / Background Knowledge,0.43033549301643403,True
+Q216,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.87880240867247,Efficacy / Outcomes,0.8563355806026365,True
+Q217,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q218,Management / Treatment Selection,Management / Treatment Selection,0.5272661602265168,Prophylaxis / Maintenance,0.43469072689963895,True
+Q219,Management / Treatment Selection,Safety / Contraindication,0.290868234249829,Management / Treatment Selection,0.017605365815414387,False
+Q220,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q221,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q222,Management / Treatment Selection,Management / Treatment Selection,0.4027480481648183,Safety / Contraindication,0.22108935715836675,True
+Q223,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q224,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q225,Management / Treatment Selection,Dosing / Administration,0.20190951636137047,Management / Treatment Selection,0.07026105467068938,False
+Q226,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.5100606309048549,Management / Treatment Selection,0.4233897248437817,True
+Q227,Safety / Contraindication,Safety / Contraindication,0.21962666670429074,Dosing / Administration,0.053010888126460154,True
+Q228,Safety / Contraindication,Safety / Contraindication,0.5729192133895108,Prophylaxis / Maintenance,0.49025367495338684,True
+Q229,Management / Treatment Selection,Management / Treatment Selection,0.6273657536148769,Mechanism / Background Knowledge,0.5287609028491314,True
+Q230,Safety / Contraindication,Prophylaxis / Maintenance,0.20771073489136646,Interaction / Combination,0.0477388189040526,False
+Q231,Interaction / Combination,Interaction / Combination,0.43665890267735863,Comparative Treatment Choice,0.2938908735130782,True
+Q232,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q233,Safety / Contraindication,Safety / Contraindication,0.39067197532084547,Prophylaxis / Maintenance,0.30360347415057426,True
+Q234,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q235,Comparative Treatment Choice,Comparative Treatment Choice,0.7528115410031242,Interaction / Combination,0.6755131433836831,True
+Q236,Monitoring / Response / Risk Assessment,Prophylaxis / Maintenance,0.18943136194693466,Safety / Contraindication,0.0404209636625073,False
+Q237,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.38476349172841423,Safety / Contraindication,0.2563968462113141,False
+Q238,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q239,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q240,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.38027387490910686,Mechanism / Background Knowledge,0.2148923194970994,True
+Q241,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q242,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.33620430778608673,Prophylaxis / Maintenance,0.1861459062755861,True
+Q243,Dosing / Administration,Dosing / Administration,0.4669588521190532,Safety / Contraindication,0.22087518220903032,True
+Q244,Comparative Treatment Choice,Comparative Treatment Choice,0.7528115410031242,Interaction / Combination,0.6755131433836831,True
+Q245,Management / Treatment Selection,Management / Treatment Selection,0.5272662515676318,Prophylaxis / Maintenance,0.4346908469287614,True
+Q246,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q247,Treatment Change / Escalation,Treatment Change / Escalation,0.6811604799965364,Interaction / Combination,0.5748749255130539,True
+Q248,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2847547565109793,Management / Treatment Selection,0.011550848621214582,False
+Q249,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q250,Safety / Contraindication,Safety / Contraindication,0.32884582843141014,Mechanism / Background Knowledge,0.042134460894565906,True
+Q251,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q252,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5655750451149727,Management / Treatment Selection,0.42056973932357744,True
+Q253,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q254,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q255,Safety / Contraindication,Safety / Contraindication,0.2316479499715665,Prophylaxis / Maintenance,0.025224987009777877,True
+Q256,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q257,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q258,Management / Treatment Selection,Management / Treatment Selection,0.6554202200613534,Prophylaxis / Maintenance,0.5948217731241117,True
+Q259,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.38476349172841423,Safety / Contraindication,0.2563968462113141,False
+Q260,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.34760500548848,Treatment Change / Escalation,0.22778894287596693,True
+Q261,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q262,Interaction / Combination,Interaction / Combination,0.43665890267735863,Comparative Treatment Choice,0.2938908735130782,True
+Q263,Dosing / Administration,Dosing / Administration,0.4392828025336168,Prophylaxis / Maintenance,0.3092674665271171,True
+Q264,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q265,Dosing / Administration,Dosing / Administration,0.899559738525967,Safety / Contraindication,0.8803802525606267,True
+Q266,Monitoring / Response / Risk Assessment,Management / Treatment Selection,0.1528210092185068,Interaction / Combination,0.0016877154007720052,False
+Q267,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q268,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8013012654153927,Interaction / Combination,0.7555375495082622,True
+Q269,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q270,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q271,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q272,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q273,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.3856278731128433,Mechanism / Background Knowledge,0.23201772397968068,True
+Q274,Treatment Change / Escalation,Treatment Change / Escalation,0.6811604799965364,Interaction / Combination,0.5748749255130539,True
+Q275,Management / Treatment Selection,Management / Treatment Selection,0.49812183440149266,Mechanism / Background Knowledge,0.27530179040110053,True
+Q276,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q277,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q278,Treatment Change / Escalation,Interaction / Combination,0.22043303204770784,Treatment Change / Escalation,0.00392237861805525,False
+Q279,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q280,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q281,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q282,Safety / Contraindication,Safety / Contraindication,0.3372863210472908,Mechanism / Background Knowledge,0.17953300384610774,True
+Q283,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.3687562341109567,Safety / Contraindication,0.19875066710556832,False
+Q284,Safety / Contraindication,Safety / Contraindication,0.3200202193793543,Mechanism / Background Knowledge,0.10769551196241164,True
+Q285,Comparative Treatment Choice,Comparative Treatment Choice,0.7110430146097724,Interaction / Combination,0.6146330142150005,True
+Q286,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q287,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2276908494422094,Management / Treatment Selection,0.027618428291751734,True
+Q288,Safety / Contraindication,Safety / Contraindication,0.38132154295715015,Prophylaxis / Maintenance,0.2293677633731488,True
+Q289,Safety / Contraindication,Safety / Contraindication,0.6866919809625484,Management / Treatment Selection,0.5902386691471084,True
+Q290,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.38476349172841423,Safety / Contraindication,0.2563968462113141,False
+Q291,Management / Treatment Selection,Management / Treatment Selection,0.26690290413875767,Safety / Contraindication,0.10683370572620093,True
+Q292,Comparative Treatment Choice,Comparative Treatment Choice,0.61986439657593,Interaction / Combination,0.5056510469490747,True
+Q293,Treatment Change / Escalation,Treatment Change / Escalation,0.6811604799965364,Interaction / Combination,0.5748749255130539,True
+Q294,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q295,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q296,Treatment Change / Escalation,Treatment Change / Escalation,0.6811604799965364,Interaction / Combination,0.5748749255130539,True
+Q297,Management / Treatment Selection,Management / Treatment Selection,0.4788782508154576,Safety / Contraindication,0.3321193384972069,True
+Q298,Treatment Change / Escalation,Treatment Change / Escalation,0.48448716513662193,Interaction / Combination,0.3139269905013634,True
+Q299,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q300,Safety / Contraindication,Dosing / Administration,0.6017172478479125,Safety / Contraindication,0.4589553249965791,False
+Q301,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q302,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q303,Management / Treatment Selection,Management / Treatment Selection,0.6273657536148769,Mechanism / Background Knowledge,0.5287609028491314,True
+Q304,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.5100606309048549,Management / Treatment Selection,0.4233897248437817,True
+Q305,Management / Treatment Selection,Management / Treatment Selection,0.6554202200613534,Prophylaxis / Maintenance,0.5948217731241117,True
+Q306,Interaction / Combination,Interaction / Combination,0.45417964675067296,Management / Treatment Selection,0.3217834587522385,True
+Q307,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q308,Management / Treatment Selection,Management / Treatment Selection,0.25232462114307314,Safety / Contraindication,0.11023163248178461,True
+Q309,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q310,Management / Treatment Selection,Management / Treatment Selection,0.28450987782561743,Mechanism / Background Knowledge,0.06683202226965818,True
+Q311,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q312,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q313,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2802513352898093,Prophylaxis / Maintenance,0.15769215055086822,True
+Q314,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q315,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5317982010464092,Management / Treatment Selection,0.37591133888840317,True
+Q316,Comparative Treatment Choice,Comparative Treatment Choice,0.6922800019874297,Interaction / Combination,0.5970878616470535,True
+Q317,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q318,Comparative Treatment Choice,Comparative Treatment Choice,0.61986439657593,Interaction / Combination,0.5056510469490747,True
+Q319,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q320,Safety / Contraindication,Safety / Contraindication,0.34734785897108006,Dosing / Administration,0.13977084991250432,True
+Q321,Interaction / Combination,Interaction / Combination,0.5374586065956627,Mechanism / Background Knowledge,0.43033549301643403,True
+Q322,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q323,Safety / Contraindication,Safety / Contraindication,0.33302999190015004,Mechanism / Background Knowledge,0.05220679327667249,True
+Q324,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q325,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.5100606309048549,Management / Treatment Selection,0.4233897248437817,True
+Q326,Dosing / Administration,Dosing / Administration,0.4392828025336168,Prophylaxis / Maintenance,0.3092674665271171,True
+Q327,Interaction / Combination,Interaction / Combination,0.43665890267735863,Comparative Treatment Choice,0.2938908735130782,True
+Q328,Interaction / Combination,Interaction / Combination,0.43665890267735863,Comparative Treatment Choice,0.2938908735130782,True
+Q329,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q330,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q331,Dosing / Administration,Dosing / Administration,0.8059857352884262,Safety / Contraindication,0.7648363865613907,True
+Q332,Management / Treatment Selection,Management / Treatment Selection,0.5272662515676318,Prophylaxis / Maintenance,0.4346908469287614,True
+Q333,Safety / Contraindication,Safety / Contraindication,0.3149204383712131,Prophylaxis / Maintenance,0.1848456922539345,True
+Q334,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q335,Comparative Treatment Choice,Comparative Treatment Choice,0.6922800019874297,Interaction / Combination,0.5970878616470535,True
+Q336,Safety / Contraindication,Safety / Contraindication,0.49148970411305093,Dosing / Administration,0.3698907766726343,True
+Q337,Management / Treatment Selection,Management / Treatment Selection,0.5795462586971897,Prophylaxis / Maintenance,0.49381588864509623,True
+Q338,Comparative Treatment Choice,Comparative Treatment Choice,0.7110430146097724,Interaction / Combination,0.6146330142150005,True
+Q339,Comparative Treatment Choice,Comparative Treatment Choice,0.7110430753631911,Interaction / Combination,0.6146331029396278,True
+Q340,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.531798080614106,Management / Treatment Selection,0.3759111187286861,True
+Q341,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q342,Dosing / Administration,Dosing / Administration,0.7731494138138778,Prophylaxis / Maintenance,0.7245176472771574,True
+Q343,Management / Treatment Selection,Management / Treatment Selection,0.49812183440149266,Mechanism / Background Knowledge,0.27530179040110053,True
+Q344,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2276908494422094,Management / Treatment Selection,0.027618428291751734,True
+Q345,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q346,Dosing / Administration,Dosing / Administration,0.8059857352884262,Safety / Contraindication,0.7648363865613907,True
+Q347,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q348,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q349,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q350,Treatment Change / Escalation,Treatment Change / Escalation,0.58717800542982,Interaction / Combination,0.49560133136327805,True
+Q351,Safety / Contraindication,Safety / Contraindication,0.615108306893116,Dosing / Administration,0.3866440176161926,True
+Q352,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2276908494422094,Management / Treatment Selection,0.027618428291751734,True
+Q353,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q354,Safety / Contraindication,Safety / Contraindication,0.38132154295715015,Prophylaxis / Maintenance,0.2293677633731488,True
+Q355,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.34760500548848,Treatment Change / Escalation,0.22778894287596693,True
+Q356,Safety / Contraindication,Safety / Contraindication,0.8073002070613446,Prophylaxis / Maintenance,0.7714496937204356,True
+Q357,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q358,Dosing / Administration,Dosing / Administration,0.8002746483592923,Management / Treatment Selection,0.7605211284676253,True
+Q359,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q360,Safety / Contraindication,Safety / Contraindication,0.21674782947164467,Dosing / Administration,0.007160439295655435,True
+Q361,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.37549284271299793,Prophylaxis / Maintenance,0.22767556258963015,True
+Q362,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2710719074265286,Prophylaxis / Maintenance,0.07014278544955646,True
+Q363,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.5100606309048549,Management / Treatment Selection,0.4233897248437817,True
+Q364,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q365,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q366,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q367,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q368,Management / Treatment Selection,Management / Treatment Selection,0.1899488775485804,Dosing / Administration,0.004464900080214468,True
+Q369,Comparative Treatment Choice,Comparative Treatment Choice,0.7528115410031242,Interaction / Combination,0.6755131433836831,True
+Q370,Management / Treatment Selection,Management / Treatment Selection,0.49812183440149266,Mechanism / Background Knowledge,0.27530179040110053,True
+Q371,Guideline / Evidence Lookup,Management / Treatment Selection,0.39677625491386304,Guideline / Evidence Lookup,0.2708976335504362,False
+Q372,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2802513352898093,Prophylaxis / Maintenance,0.15769215055086822,True
+Q373,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q374,Safety / Contraindication,Safety / Contraindication,0.523858826558989,Management / Treatment Selection,0.43394955459877105,True
+Q375,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q376,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7163562719253275,Management / Treatment Selection,0.6543773209630155,True
+Q377,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.4935396608946461,Prophylaxis / Maintenance,0.3792024883037832,True
+Q378,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q379,Safety / Contraindication,Dosing / Administration,0.36131935514513497,Safety / Contraindication,0.16795431685089712,False
+Q380,Dosing / Administration,Dosing / Administration,0.8059857352884262,Safety / Contraindication,0.7648363865613907,True
+Q381,Dosing / Administration,Dosing / Administration,0.899559738525967,Safety / Contraindication,0.8803802525606267,True
+Q382,Management / Treatment Selection,Management / Treatment Selection,0.6554202200613534,Prophylaxis / Maintenance,0.5948217731241117,True
+Q383,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.34727740332833973,Mechanism / Background Knowledge,0.18034529519856574,True
+Q384,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q385,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.34760500548848,Treatment Change / Escalation,0.22778894287596693,True
+Q386,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q387,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q388,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.7226759632462464,Management / Treatment Selection,0.6661060099364043,True
+Q389,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q390,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2276908494422094,Management / Treatment Selection,0.027618428291751734,True
+Q391,Management / Treatment Selection,Management / Treatment Selection,0.6554202200613534,Prophylaxis / Maintenance,0.5948217731241117,True
+Q392,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q393,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.38476349172841423,Safety / Contraindication,0.2563968462113141,False
+Q394,Safety / Contraindication,Safety / Contraindication,0.31649174699955895,Mechanism / Background Knowledge,0.1051558462715528,True
+Q395,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q396,Dosing / Administration,Dosing / Administration,0.46695868196638773,Safety / Contraindication,0.22087493742581019,True
+Q397,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q398,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.38027387490910686,Mechanism / Background Knowledge,0.2148923194970994,True
+Q399,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q400,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q401,Management / Treatment Selection,Management / Treatment Selection,0.6554202200613534,Prophylaxis / Maintenance,0.5948217731241117,True
+Q402,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.5100606309048549,Management / Treatment Selection,0.4233897248437817,True
+Q403,Interaction / Combination,Interaction / Combination,0.5270946527839219,Comparative Treatment Choice,0.4024512741224796,True
+Q404,Dosing / Administration,Dosing / Administration,0.8002746483592923,Management / Treatment Selection,0.7605211284676253,True
+Q405,Management / Treatment Selection,Management / Treatment Selection,0.7872468438471816,Monitoring / Response / Risk Assessment,0.7530278078353576,True
+Q406,Management / Treatment Selection,Safety / Contraindication,0.4238093722170587,Management / Treatment Selection,0.039736953284280285,False
+Q407,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q408,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q409,Dosing / Administration,Dosing / Administration,0.6039361883908625,Safety / Contraindication,0.44055902355000554,True
+Q410,Management / Treatment Selection,Management / Treatment Selection,0.5272661602265168,Prophylaxis / Maintenance,0.43469072689963895,True
+Q411,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q412,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q413,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.38027387490910686,Mechanism / Background Knowledge,0.2148923194970994,True
+Q414,Dosing / Administration,Dosing / Administration,0.8681933890339619,Management / Treatment Selection,0.8439086628035033,True
+Q415,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.5050343611265683,Prophylaxis / Maintenance,0.39984345182965386,True
+Q416,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q417,Comparative Treatment Choice,Comparative Treatment Choice,0.7528115410031242,Interaction / Combination,0.6755131433836831,True
+Q418,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.38476349172841423,Safety / Contraindication,0.2563968462113141,False
+Q419,Treatment Change / Escalation,Efficacy / Outcomes,0.15835023654844385,Management / Treatment Selection,0.004289526093343737,False
+Q420,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q421,Dosing / Administration,Dosing / Administration,0.8002746483592923,Management / Treatment Selection,0.7605211284676253,True
+Q422,Guideline / Evidence Lookup,Management / Treatment Selection,0.39677625491386304,Guideline / Evidence Lookup,0.2708976335504362,False
+Q423,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7940194996273601,Safety / Contraindication,0.7502375089634155,True
+Q424,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q425,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.5100606309048549,Management / Treatment Selection,0.4233897248437817,True
+Q426,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.5100606309048549,Management / Treatment Selection,0.4233897248437817,True
+Q427,Safety / Contraindication,Dosing / Administration,0.36131935514513497,Safety / Contraindication,0.16795431685089712,False
+Q428,Treatment Change / Escalation,Treatment Change / Escalation,0.48448716513662193,Interaction / Combination,0.3139269905013634,True
+Q429,Dosing / Administration,Dosing / Administration,0.8050472822527968,Safety / Contraindication,0.7635009354743277,True
+Q430,Dosing / Administration,Dosing / Administration,0.8059857352884262,Safety / Contraindication,0.7648363865613907,True
+Q431,Safety / Contraindication,Safety / Contraindication,0.5662527444543063,Mechanism / Background Knowledge,0.44552688116082595,True
+Q432,Interaction / Combination,Interaction / Combination,0.45417964675067296,Management / Treatment Selection,0.3217834587522385,True
+Q433,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q434,Safety / Contraindication,Safety / Contraindication,0.49148970411305093,Dosing / Administration,0.3698907766726343,True
+Q435,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q436,Comparative Treatment Choice,Comparative Treatment Choice,0.6922800019874297,Interaction / Combination,0.5970878616470535,True
+Q437,Management / Treatment Selection,Management / Treatment Selection,0.29802089103554186,Dosing / Administration,0.10464621703679261,True
+Q438,Dosing / Administration,Dosing / Administration,0.8681933890339619,Management / Treatment Selection,0.8439086628035033,True
+Q439,Dosing / Administration,Dosing / Administration,0.8002746483592923,Management / Treatment Selection,0.7605211284676253,True
+Q440,Monitoring / Response / Risk Assessment,Monitoring / Response / Risk Assessment,0.8348242307236297,Prophylaxis / Maintenance,0.8092001125167017,True
+Q441,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q442,Treatment Change / Escalation,Interaction / Combination,0.22043303204770784,Treatment Change / Escalation,0.00392237861805525,False
+Q443,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q444,Dosing / Administration,Dosing / Administration,0.8691132408119935,Safety / Contraindication,0.8239823305235594,True
+Q445,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2802513352898093,Prophylaxis / Maintenance,0.15769215055086822,True
+Q446,Management / Treatment Selection,Safety / Contraindication,0.5240785460237073,Management / Treatment Selection,0.3097596562572071,False
+Q447,Comparative Treatment Choice,Comparative Treatment Choice,0.7528115410031242,Interaction / Combination,0.6755131433836831,True
+Q448,Comparative Treatment Choice,Comparative Treatment Choice,0.6922800019874297,Interaction / Combination,0.5970878616470535,True
+Q449,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069558487400247,Interaction / Combination,0.7579236946749132,True
+Q450,Safety / Contraindication,Safety / Contraindication,0.2427587173442864,Prophylaxis / Maintenance,0.10746856929133922,True
+Q451,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q452,Interaction / Combination,Interaction / Combination,0.45417964675067296,Management / Treatment Selection,0.3217834587522385,True
+Q453,Dosing / Administration,Dosing / Administration,0.5604671501607076,Efficacy / Outcomes,0.48358678763445806,True
+Q454,Treatment Change / Escalation,Treatment Change / Escalation,0.7001735522249927,Comparative Treatment Choice,0.6297496708156972,True
+Q455,Management / Treatment Selection,Management / Treatment Selection,0.49812183440149266,Mechanism / Background Knowledge,0.27530179040110053,True
+Q456,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.32424242885138177,Management / Treatment Selection,0.1009548503872312,True
+Q457,Safety / Contraindication,Safety / Contraindication,0.44530429572080077,Prophylaxis / Maintenance,0.3247786321689701,True
+Q458,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8069559154287478,Interaction / Combination,0.7579237946789382,True
+Q459,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.8048730153422424,Safety / Contraindication,0.7728158197043398,True
+Q460,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.7502371122939177,Management / Treatment Selection,0.7004484671533493,True
+Q461,Safety / Contraindication,Safety / Contraindication,0.4460387672902347,Prophylaxis / Maintenance,0.3477338156197563,True
+Q462,Interaction / Combination,Interaction / Combination,0.45417964675067296,Management / Treatment Selection,0.3217834587522385,True
+Q463,Management / Treatment Selection,Management / Treatment Selection,0.32988465065573935,Dosing / Administration,0.07159517285928424,True
+Q464,Safety / Contraindication,Safety / Contraindication,0.523858826558989,Management / Treatment Selection,0.43394955459877105,True
+Q465,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q466,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2276908494422094,Management / Treatment Selection,0.027618428291751734,True
+Q467,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q468,Prophylaxis / Maintenance,Prophylaxis / Maintenance,0.7399728978361336,Safety / Contraindication,0.6965155973707039,True
+Q469,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.2802513352898093,Prophylaxis / Maintenance,0.15769215055086822,True
+Q470,Dosing / Administration,Dosing / Administration,0.657157287887962,Safety / Contraindication,0.5879242431190981,True
+Q471,Monitoring / Response / Risk Assessment,Management / Treatment Selection,0.1528210092185068,Interaction / Combination,0.0016877154007720052,False
+Q472,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q473,Efficacy / Outcomes,Efficacy / Outcomes,0.6802195973134039,Safety / Contraindication,0.6161283200461869,True
+Q474,Mechanism / Background Knowledge,Mechanism / Background Knowledge,0.8129802463884425,Interaction / Combination,0.7726369886623505,True
+Q475,Safety / Contraindication,Safety / Contraindication,0.43416852607671574,Management / Treatment Selection,0.33777007977382173,True
+Q476,Comparative Treatment Choice,Comparative Treatment Choice,0.7528115410031242,Interaction / Combination,0.6755131433836831,True
+Q477,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q478,Safety / Contraindication,Safety / Contraindication,0.2316479499715665,Prophylaxis / Maintenance,0.025224987009777877,True
+Q479,Safety / Contraindication,Safety / Contraindication,0.670697620142977,Management / Treatment Selection,0.553393394538375,True
+Q480,Dosing / Administration,Dosing / Administration,0.6401779348231572,Safety / Contraindication,0.49986386885050416,True
+Q481,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q482,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q483,Management / Treatment Selection,Safety / Contraindication,0.5690351532663072,Management / Treatment Selection,0.383217770194489,False
+Q484,Dosing / Administration,Dosing / Administration,0.4392828025336168,Prophylaxis / Maintenance,0.3092674665271171,True
+Q485,Treatment Change / Escalation,Treatment Change / Escalation,0.58717800542982,Interaction / Combination,0.49560133136327805,True
+Q486,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q487,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.36959128619668974,Mechanism / Background Knowledge,0.21742458753553146,True
+Q488,Safety / Contraindication,Safety / Contraindication,0.6866919809625484,Management / Treatment Selection,0.5902386691471084,True
+Q489,Treatment Change / Escalation,Treatment Change / Escalation,0.47356673754145173,Comparative Treatment Choice,0.2947517480654653,True
+Q490,Management / Treatment Selection,Management / Treatment Selection,0.28450987782561743,Mechanism / Background Knowledge,0.06683202226965818,True
+Q491,Efficacy / Outcomes,Efficacy / Outcomes,0.7799172507610123,Safety / Contraindication,0.7441080906477757,True
+Q492,Dosing / Administration,Dosing / Administration,0.4392828025336168,Prophylaxis / Maintenance,0.3092674665271171,True
+Q493,Monitoring / Response / Risk Assessment,Dosing / Administration,0.1522396513146365,Prophylaxis / Maintenance,0.00010731881232411977,False
+Q494,Guideline / Evidence Lookup,Mechanism / Background Knowledge,0.2864156279742997,Management / Treatment Selection,0.13145751314184062,False
+Q495,Safety / Contraindication,Safety / Contraindication,0.3200202193793543,Mechanism / Background Knowledge,0.10769551196241164,True
+Q496,Safety / Contraindication,Safety / Contraindication,0.46987061436917793,Efficacy / Outcomes,0.3618664177416405,True
+Q497,Safety / Contraindication,Safety / Contraindication,0.5729192133895108,Prophylaxis / Maintenance,0.49025367495338684,True
+Q498,Monitoring / Response / Risk Assessment,Mechanism / Background Knowledge,0.38476349172841423,Safety / Contraindication,0.2563968462113141,False
+Q499,Safety / Contraindication,Safety / Contraindication,0.316138255171636,Dosing / Administration,0.1499444266763738,True
+Q500,Guideline / Evidence Lookup,Guideline / Evidence Lookup,0.3856278731128433,Mechanism / Background Knowledge,0.23201772397968068,True

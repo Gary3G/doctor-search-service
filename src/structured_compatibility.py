@@ -61,6 +61,23 @@ CONTENT_ENTITY_COLUMNS = {
     "therapeutic_area": ("therapeutic_area",),
 }
 
+# Kept public because later retrieval phases must apply the exact same policy
+# to assisted labels and runtime classifier probabilities.  A single mapping
+# prevents the two paths from silently drifting apart.
+INTENT_CONTENT_TYPES = {
+    "Dosing / Administration": {"drug_profile", "clinical_summary", "guideline"},
+    "Safety / Contraindication": {"drug_profile", "clinical_summary", "guideline"},
+    "Guideline / Evidence Lookup": {"guideline", "review", "article"},
+    "Management / Treatment Selection": {"guideline", "clinical_summary", "review"},
+    "Treatment Change / Escalation": {"guideline", "clinical_summary", "case_report"},
+    "Monitoring / Response / Risk Assessment": {"guideline", "clinical_summary"},
+    "Prophylaxis / Maintenance": {"guideline", "clinical_summary"},
+    "Mechanism / Background Knowledge": {"article", "review", "drug_profile"},
+    "Comparative Treatment Choice": {"review", "article", "guideline"},
+    "Interaction / Combination": {"drug_profile", "clinical_summary", "review"},
+    "Efficacy / Outcomes": {"article", "review", "guideline"},
+}
+
 
 def _normalize_term(value: str) -> str:
     text = unicodedata.normalize("NFKC", value).casefold().strip()
@@ -394,21 +411,8 @@ def build_compatibility_matrix(
         result["context_conflict_count"] / context_denominator
     ).fillna(0.0)
 
-    intent_content_types = {
-        "Dosing / Administration": {"drug_profile", "clinical_summary", "guideline"},
-        "Safety / Contraindication": {"drug_profile", "clinical_summary", "guideline"},
-        "Guideline / Evidence Lookup": {"guideline", "review", "article"},
-        "Management / Treatment Selection": {"guideline", "clinical_summary", "review"},
-        "Treatment Change / Escalation": {"guideline", "clinical_summary", "case_report"},
-        "Monitoring / Response / Risk Assessment": {"guideline", "clinical_summary"},
-        "Prophylaxis / Maintenance": {"guideline", "clinical_summary"},
-        "Mechanism / Background Knowledge": {"article", "review", "drug_profile"},
-        "Comparative Treatment Choice": {"review", "article", "guideline"},
-        "Interaction / Combination": {"drug_profile", "clinical_summary", "review"},
-        "Efficacy / Outcomes": {"article", "review", "guideline"},
-    }
     result["intent_content_type_match"] = pd.Series(
-        [content_type in intent_content_types.get(intent, set()) for intent, content_type in zip(pairs["query_intent"], pairs["content_type"])],
+        [content_type in INTENT_CONTENT_TYPES.get(intent, set()) for intent, content_type in zip(pairs["query_intent"], pairs["content_type"])],
         index=pairs.index,
         dtype=bool,
     )

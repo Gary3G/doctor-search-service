@@ -1,0 +1,118 @@
+{
+  "phase11_starting_point": "R-E6 equal mean of BM25, dense, entity coverage, and context coverage",
+  "primary_runtime_configuration": "with_predicted_hard_intent",
+  "intent_weight_grid": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "selected_weights": {
+    "assisted": 0.25,
+    "predicted_hard": 0.25,
+    "predicted_soft": 0.025
+  },
+  "selection_metric": "temporal validation NDCG@10; ties choose smaller intent weight",
+  "effect_classification": "intent-specific",
+  "intent_classifier": {
+    "artifact": "/Users/hol/Documents/Task/doctor-search-service/outputs/metrics/phase5_intent_improved_selected_model.joblib",
+    "experiment": "T1-E4",
+    "training_labels": "362 retained Phase 3 weak labels; refit model",
+    "hard": "argmax predicted intent mapped through the shared compatibility policy",
+    "soft": "sum of class probability assigned to intents compatible with each content type",
+    "runtime_sklearn_version": "1.9.1",
+    "serialization_warnings": [
+      "Trying to unpickle estimator LogisticRegression from version 1.5.2 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+      "Trying to unpickle estimator DictVectorizer from version 1.5.2 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+    ]
+  },
+  "assisted_intent_role": "reference-label ceiling diagnostic, not an oracle or deployable input",
+  "content_policy": {
+    "Dosing / Administration": [
+      "clinical_summary",
+      "drug_profile",
+      "guideline"
+    ],
+    "Safety / Contraindication": [
+      "clinical_summary",
+      "drug_profile",
+      "guideline"
+    ],
+    "Guideline / Evidence Lookup": [
+      "article",
+      "guideline",
+      "review"
+    ],
+    "Management / Treatment Selection": [
+      "clinical_summary",
+      "guideline",
+      "review"
+    ],
+    "Treatment Change / Escalation": [
+      "case_report",
+      "clinical_summary",
+      "guideline"
+    ],
+    "Monitoring / Response / Risk Assessment": [
+      "clinical_summary",
+      "guideline"
+    ],
+    "Prophylaxis / Maintenance": [
+      "clinical_summary",
+      "guideline"
+    ],
+    "Mechanism / Background Knowledge": [
+      "article",
+      "drug_profile",
+      "review"
+    ],
+    "Comparative Treatment Choice": [
+      "article",
+      "guideline",
+      "review"
+    ],
+    "Interaction / Combination": [
+      "clinical_summary",
+      "drug_profile",
+      "review"
+    ],
+    "Efficacy / Outcomes": [
+      "article",
+      "guideline",
+      "review"
+    ]
+  },
+  "queries": 500,
+  "content_items": 345,
+  "ranking_depth": 20,
+  "tie_break": "ascending content_id",
+  "test_status": "descriptive; already inspected in earlier phases",
+  "limitations": [
+    "Behavior-derived relevance is exposure- and position-biased and is not clinician-adjudicated relevance.",
+    "The refit intent classifier was trained on assisted weak labels for 362 of these queries; this is a runtime simulation, not an independent intent test.",
+    "The saved Phase 5 model was serialized with scikit-learn 1.5.2 and emits a version warning under the current 1.9.1 environment; predictions succeeded, but exact-version regeneration is preferred.",
+    "Content compatibility is a coarse content-type prior and cannot see body sections.",
+    "Bootstrap intervals are paired by query, uncorrected for multiplicity, and not cluster-robust."
+  ],
+  "embedding_seconds_including_cache_load": 0.006301915971562266,
+  "embedding_dimensions": 384,
+  "sha256": {
+    "/Users/hol/Documents/Task/doctor-search-service/data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/queries_labeled.csv": "c47c84a5741d4420e5aa35545f0c8458434a4cedd552b49c2108b6d16ca0ebd9",
+    "/Users/hol/Documents/Task/doctor-search-service/data/processed/queries_with_contextual_slots.csv": "fc9407356a99779bd2a0cf1ce453d7344d650c84a333735adf4d46fe0ceaf0a1",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase2_query_embeddings.npz": "db396e219bbf8d9b595eb99f6da72a6b2d39694f462ef2d0155550a7d3114ff1",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/metrics/phase5_intent_improved_selected_model.joblib": "70129eed87eaaf1bb67ab62c897e89ca5924ba90efaf5dd46d45b9a713c23fd7",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_validation_judgments.csv": "2af8c2e5b9cf378be3abe74802e22d73a7eb1ecfcc1475b240ab01d35c1f9854",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_test_judgments.csv": "0fe2f638b1e761e4b13875f7cf5bb8b4ac2c3fecd38630c61b6cedd2df2b1aa0",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase11/rankings.csv.gz": "9b276c65927d298d1b2d6d08e019c8d03808671ff04ed7b053e3098f9646f199",
+    "/Users/hol/Documents/Task/doctor-search-service/src/intent_retrieval.py": "dc943d726e365821b2f48b6ff4bc076568b5633b52c61274cff74972c79bd2f9",
+    "src/incremental_retrieval.py": "62a86f2542a911c09562c5bb5655245bb7cbf321ba8d1bfb56e39b8388333ac8",
+    "src/structured_compatibility.py": "d6c7ab4019f31f425451e6f5f95500a9b21bcf7b7397b76228c631faca3db9c3",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_query_embeddings.npz": "862dfac2230a8406b8ed28dc5388be30eee3bcc18a4aa54b75112cf6469ab4de",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_content_embeddings.npz": "fa0281ec3de0f7f232aa44a632e9c26b201225648a642e84422b26bfd1a2ce7a"
+  }
+}

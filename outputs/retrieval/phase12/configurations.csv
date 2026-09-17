@@ -1,0 +1,6 @@
+configuration,intent_source,intent_weight
+without_intent,none,0.0
+with_assisted_intent,assisted,0.25
+with_predicted_hard_intent,predicted_hard,0.25
+with_predicted_soft_intent,predicted_soft,0.025
+phase11_R-E7,assisted,0.25

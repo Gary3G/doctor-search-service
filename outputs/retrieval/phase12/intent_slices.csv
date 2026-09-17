@@ -1,0 +1,34 @@
+configuration,assisted_intent,queries,eligible_queries,baseline_ndcg@10,candidate_ndcg@10,delta_ndcg@10,improved_queries,worsened_queries,unchanged_queries,classifier_agreement,mean_predicted_probability
+with_assisted_intent,Comparative Treatment Choice,5,5,0.0,0.0,0.0,0,0,5,1.0,0.6966712785732867
+with_assisted_intent,Dosing / Administration,29,22,0.007890154093655838,0.026007597358783663,0.018117443265127823,2,0,20,1.0,0.755284276314367
+with_assisted_intent,Efficacy / Outcomes,6,1,0.0,0.0,0.0,0,0,1,1.0,0.7466846996118095
+with_assisted_intent,Guideline / Evidence Lookup,17,12,0.0,0.0,0.0,0,0,12,0.8823529411764706,0.3851104596703549
+with_assisted_intent,Interaction / Combination,6,6,0.0038665642218393107,0.06808966227157642,0.06422309804973712,2,0,4,1.0,0.4760990520078981
+with_assisted_intent,Management / Treatment Selection,17,13,0.011735040070828514,0.018507417626902136,0.006772377556073623,3,1,9,0.9411764705882353,0.5892262070616106
+with_assisted_intent,Mechanism / Background Knowledge,7,7,0.0,0.0,0.0,0,0,7,1.0,0.7957871581947921
+with_assisted_intent,Monitoring / Response / Risk Assessment,9,9,0.0395785763453358,0.050413752945283954,0.010835176599948154,1,0,8,0.3333333333333333,0.41386865130412026
+with_assisted_intent,Prophylaxis / Maintenance,8,6,0.0,0.0,0.0,0,0,6,1.0,0.6973631710154808
+with_assisted_intent,Safety / Contraindication,19,15,0.0034084582258630857,0.008810736699130635,0.00540227847326755,1,0,14,0.9473684210526315,0.4373949688701395
+with_assisted_intent,Treatment Change / Escalation,16,14,0.03276140759689133,0.023339697691576095,-0.009421709905315231,0,1,13,0.75,0.46023813466661767
+with_predicted_hard_intent,Comparative Treatment Choice,5,5,0.0,0.0,0.0,0,0,5,1.0,0.6966712785732867
+with_predicted_hard_intent,Dosing / Administration,29,22,0.007890154093655838,0.026007597358783663,0.018117443265127823,2,0,20,1.0,0.755284276314367
+with_predicted_hard_intent,Efficacy / Outcomes,6,1,0.0,0.0,0.0,0,0,1,1.0,0.7466846996118095
+with_predicted_hard_intent,Guideline / Evidence Lookup,17,12,0.0,0.0,0.0,0,0,12,0.8823529411764706,0.3851104596703549
+with_predicted_hard_intent,Interaction / Combination,6,6,0.0038665642218393107,0.06808966227157642,0.06422309804973712,2,0,4,1.0,0.4760990520078981
+with_predicted_hard_intent,Management / Treatment Selection,17,13,0.011735040070828514,0.018507417626902136,0.006772377556073623,3,1,9,0.9411764705882353,0.5892262070616106
+with_predicted_hard_intent,Mechanism / Background Knowledge,7,7,0.0,0.0,0.0,0,0,7,1.0,0.7957871581947921
+with_predicted_hard_intent,Monitoring / Response / Risk Assessment,9,9,0.0395785763453358,0.0395785763453358,0.0,0,0,9,0.3333333333333333,0.41386865130412026
+with_predicted_hard_intent,Prophylaxis / Maintenance,8,6,0.0,0.0,0.0,0,0,6,1.0,0.6973631710154808
+with_predicted_hard_intent,Safety / Contraindication,19,15,0.0034084582258630857,0.008810736699130635,0.00540227847326755,1,0,14,0.9473684210526315,0.4373949688701395
+with_predicted_hard_intent,Treatment Change / Escalation,16,14,0.03276140759689133,0.023339697691576095,-0.009421709905315231,0,1,13,0.75,0.46023813466661767
+with_predicted_soft_intent,Comparative Treatment Choice,5,5,0.0,0.0,0.0,0,0,5,1.0,0.6966712785732867
+with_predicted_soft_intent,Dosing / Administration,29,22,0.007890154093655838,0.007890154093655838,0.0,0,0,22,1.0,0.755284276314367
+with_predicted_soft_intent,Efficacy / Outcomes,6,1,0.0,0.0,0.0,0,0,1,1.0,0.7466846996118095
+with_predicted_soft_intent,Guideline / Evidence Lookup,17,12,0.0,0.0,0.0,0,0,12,0.8823529411764706,0.3851104596703549
+with_predicted_soft_intent,Interaction / Combination,6,6,0.0038665642218393107,0.0038665642218393107,0.0,0,0,6,1.0,0.4760990520078981
+with_predicted_soft_intent,Management / Treatment Selection,17,13,0.011735040070828514,0.012572800862084673,0.0008377607912561583,1,0,12,0.9411764705882353,0.5892262070616106
+with_predicted_soft_intent,Mechanism / Background Knowledge,7,7,0.0,0.0,0.0,0,0,7,1.0,0.7957871581947921
+with_predicted_soft_intent,Monitoring / Response / Risk Assessment,9,9,0.0395785763453358,0.0395785763453358,0.0,0,0,9,0.3333333333333333,0.41386865130412026
+with_predicted_soft_intent,Prophylaxis / Maintenance,8,6,0.0,0.0,0.0,0,0,6,1.0,0.6973631710154808
+with_predicted_soft_intent,Safety / Contraindication,19,15,0.0034084582258630857,0.0034084582258630857,0.0,0,0,15,0.9473684210526315,0.4373949688701395
+with_predicted_soft_intent,Treatment Change / Escalation,16,14,0.03276140759689133,0.03276140759689133,0.0,0,0,14,0.75,0.46023813466661767

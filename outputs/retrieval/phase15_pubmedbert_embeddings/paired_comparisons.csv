@@ -1,0 +1,7 @@
+protocol,split,candidate,reference,eligible_queries,mean_delta,lower_95,upper_95,improved_queries,worsened_queries,unchanged_queries
+temporal,validation,selected_pubmedbert_blend,phase12_baseline,113,0.0,0.0,0.0,0,0,113
+temporal,validation,pubmedbert_full_replacement,phase12_baseline,113,-0.0027729620904540127,-0.008830795039252874,0.00047438380214879334,2,1,110
+temporal,validation,pubmedbert_dense_only,multilingual_dense_only,113,-0.013057518494968884,-0.032020884059047426,0.0026969425064320754,8,12,93
+temporal,test,selected_pubmedbert_blend,phase12_baseline,110,0.0,0.0,0.0,0,0,110
+temporal,test,pubmedbert_full_replacement,phase12_baseline,110,-0.0036317422570350507,-0.010797679636406434,-0.00014287108547510335,1,4,105
+temporal,test,pubmedbert_dense_only,multilingual_dense_only,110,0.0056117599400493726,-0.004008669323950237,0.016530261907906595,6,4,100

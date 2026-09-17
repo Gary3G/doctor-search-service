@@ -1,0 +1,3 @@
+configuration,source,selected_candidate
+phase12_baseline,frozen Phase 12 predicted-hard ranker,False
+selected_learned_reranker,pointwise_balanced_C0.01,True

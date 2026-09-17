@@ -1,0 +1,51 @@
+{
+  "model": "pritamdeka/S-PubMedBert-MS-MARCO",
+  "model_revision": "96786c7024f95c5aac7f2b9a18086c7b97b23036",
+  "model_role": "frozen symmetric biomedical sentence embedding",
+  "license": "cc-by-nc-2.0",
+  "training_on_project_labels": false,
+  "starting_point": "Phase 12 with_predicted_hard_intent",
+  "controlled_change": "replace or blend only the frozen dense similarity signal",
+  "pubmedbert_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selected_pubmedbert_weight": 0.0,
+  "selection": "temporal-validation NDCG@10; ties prefer less PubMedBERT",
+  "pubmedbert_embedding_dimensions": 768,
+  "pubmedbert_embedding_seconds": 1.6693957149982452e-07,
+  "pubmedbert_embedding_cache_hit": true,
+  "baseline_dense_runtime": {
+    "embedding_seconds_including_cache_load": 0.00927645806223154,
+    "embedding_dimensions": 384
+  },
+  "representation": "raw query and raw content title; L2-normalized cosine",
+  "test_delta_ndcg@10": 0.0,
+  "test_status": "descriptive because earlier phases inspected the split",
+  "limitations": [
+    "The model is English-focused while the corpus includes Indonesian and mixed-language text.",
+    "The model was fine-tuned on general MS MARCO retrieval, not clinician-adjudicated relevance.",
+    "Only titles are available; body-section evidence cannot influence embeddings.",
+    "Behavior-derived evaluation grades are sparse engagement proxies.",
+    "The CC BY-NC 2.0 license may preclude commercial deployment."
+  ],
+  "sha256": {
+    "/Users/hol/Documents/Task/doctor-search-service/data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/queries_labeled.csv": "c47c84a5741d4420e5aa35545f0c8458434a4cedd552b49c2108b6d16ca0ebd9",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase12/intent_predictions.csv": "8c82a224b3ea3db99b818b9580b9940c09d771135a7e28efd20906c10b658692",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase12/configurations.csv": "e6a6af63402d3029c84dad78b3918ddb7cfcf48ec8eb7389c564ba29d3d4dcee",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase12/rankings.csv.gz": "2999dcb9efe7c4946ffd28d91f9b932845b5200dbb58ef237637f2d80c8c304c",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_validation_judgments.csv": "2af8c2e5b9cf378be3abe74802e22d73a7eb1ecfcc1475b240ab01d35c1f9854",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_test_judgments.csv": "0fe2f638b1e761e4b13875f7cf5bb8b4ac2c3fecd38630c61b6cedd2df2b1aa0",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase15_pubmedbert_query_embeddings.npz": "2f9b304c2837f14c9368d993064f7735d38271c1e70823a85568546c931a6063",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase15_pubmedbert_content_embeddings.npz": "e6a452866c032aa0a834517c77b09d290d3fea9ad64c50906b87bd1dd77ead34",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_query_embeddings.npz": "862dfac2230a8406b8ed28dc5388be30eee3bcc18a4aa54b75112cf6469ab4de",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_content_embeddings.npz": "fa0281ec3de0f7f232aa44a632e9c26b201225648a642e84422b26bfd1a2ce7a",
+    "/Users/hol/Documents/Task/doctor-search-service/src/pubmedbert_embedding_experiment.py": "44d38323a4ba425a8a089332b926c5b4e74d3048f3c4b34e3412916feaf8457b",
+    "src/incremental_retrieval.py": "62a86f2542a911c09562c5bb5655245bb7cbf321ba8d1bfb56e39b8388333ac8",
+    "src/evaluation.py": "6dd6a2b1150056527cb9a4b0aa9a602f4b26e2a39f9df8cc9ef15d340aff3e6e"
+  }
+}

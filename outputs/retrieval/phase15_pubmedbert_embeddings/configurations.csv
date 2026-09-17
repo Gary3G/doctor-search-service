@@ -1,0 +1,6 @@
+configuration,pubmedbert_weight
+phase12_baseline,0.0
+selected_pubmedbert_blend,0.0
+pubmedbert_full_replacement,1.0
+multilingual_dense_only,0.0
+pubmedbert_dense_only,1.0

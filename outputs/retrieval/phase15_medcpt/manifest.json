@@ -1,0 +1,50 @@
+{
+  "model": "ncbi/MedCPT-Cross-Encoder",
+  "model_revision": "c92e08d007b2625aca1227cd991f28935e55f2fd",
+  "model_role": "frozen PubMed-trained query-title cross-encoder",
+  "training_on_project_labels": false,
+  "starting_point": "Phase 12 with_predicted_hard_intent",
+  "candidate_depths": [
+    20,
+    50,
+    100
+  ],
+  "blend_weights": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection": "temporal-validation NDCG@10; ties prefer shallower pool then lower MedCPT weight",
+  "selected_candidate_depth": 50,
+  "selected_medcpt_weight": 0.25,
+  "inference_seconds": 463.3495333751198,
+  "score_cache_hit": true,
+  "scored_pairs": 50000,
+  "test_delta_ndcg@10": -0.0009672747581456537,
+  "test_status": "descriptive because earlier phases inspected the split",
+  "limitations": [
+    "MedCPT was trained from PubMed search behavior, not clinician-adjudicated bedside relevance.",
+    "The English-focused checkpoint may not transfer reliably to Indonesian and mixed-language queries.",
+    "Only titles are available; body-section evidence cannot influence scores.",
+    "The Phase 12 candidate generator bounds recall.",
+    "Behavior-derived evaluation grades are sparse engagement proxies."
+  ],
+  "embedding_seconds_including_cache_load": 0.008450083900243044,
+  "embedding_dimensions": 384,
+  "sha256": {
+    "/Users/hol/Documents/Task/doctor-search-service/data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/queries_labeled.csv": "c47c84a5741d4420e5aa35545f0c8458434a4cedd552b49c2108b6d16ca0ebd9",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase12/intent_predictions.csv": "8c82a224b3ea3db99b818b9580b9940c09d771135a7e28efd20906c10b658692",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase12/configurations.csv": "e6a6af63402d3029c84dad78b3918ddb7cfcf48ec8eb7389c564ba29d3d4dcee",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/phase12/rankings.csv.gz": "2999dcb9efe7c4946ffd28d91f9b932845b5200dbb58ef237637f2d80c8c304c",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_validation_judgments.csv": "2af8c2e5b9cf378be3abe74802e22d73a7eb1ecfcc1475b240ab01d35c1f9854",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_test_judgments.csv": "0fe2f638b1e761e4b13875f7cf5bb8b4ac2c3fecd38630c61b6cedd2df2b1aa0",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase15_medcpt_cross_encoder_scores.npz": "c84918e3fee198571235b0618a2f5d066340387175bf7c1f022da0ce7623fd83",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_query_embeddings.npz": "862dfac2230a8406b8ed28dc5388be30eee3bcc18a4aa54b75112cf6469ab4de",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_content_embeddings.npz": "fa0281ec3de0f7f232aa44a632e9c26b201225648a642e84422b26bfd1a2ce7a",
+    "/Users/hol/Documents/Task/doctor-search-service/src/medcpt_reranker.py": "38c7a29d01991e6988ef2c4217735f5fa137b3f4188f81f07b9dfc35d472fda7",
+    "src/cross_encoder_reranker.py": "9154da806e1dd7fae5dfada83a89b95b271bad25efd9c41554fa37b989a7e2ac",
+    "src/evaluation.py": "6dd6a2b1150056527cb9a4b0aa9a602f4b26e2a39f9df8cc9ef15d340aff3e6e"
+  }
+}

@@ -1,0 +1,2 @@
+training_judgments,training_queries,positive_judgments,nonpositive_judgments,feature_count,candidate_models,selected_candidate,all_training_pairs_found
+4235,340,866,3369,55,19,pointwise_balanced_C0.01,True

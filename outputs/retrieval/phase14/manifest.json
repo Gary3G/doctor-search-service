@@ -1,0 +1,41 @@
+{
+  "phase": 14,
+  "configuration": "with_predicted_hard_intent",
+  "protocol": "temporal",
+  "split": "test",
+  "target": "relevance_grade >= 1",
+  "case_ids": [
+    "Q019",
+    "Q051",
+    "Q061",
+    "Q066",
+    "Q101",
+    "Q129",
+    "Q146",
+    "Q180",
+    "Q224",
+    "Q393",
+    "Q409",
+    "Q435"
+  ],
+  "selection": "purposive authored sample of frozen final-ranker eligible top-10 proxy misses",
+  "reviewer": "Codex title/metadata review; not clinician adjudication",
+  "mutations": "none to rankings, labels, weights, or test judgments",
+  "limitations": [
+    "purposive examples are not prevalence estimates",
+    "article body text unavailable",
+    "behavior-derived positives are not clinical gold",
+    "test set had been inspected in earlier phases",
+    "single LLM reviewer without clinician agreement measurement"
+  ],
+  "sha256": {
+    "outputs/retrieval/phase12/per_query_metrics.csv.gz": "05fbfc5fc77970bd82a0f3bb95c4ad4b09c8cd01e83cd68b9c42cf73012200e4",
+    "outputs/retrieval/phase12/rankings.csv.gz": "2999dcb9efe7c4946ffd28d91f9b932845b5200dbb58ef237637f2d80c8c304c",
+    "outputs/retrieval/phase12/intent_predictions.csv": "8c82a224b3ea3db99b818b9580b9940c09d771135a7e28efd20906c10b658692",
+    "outputs/evaluation/temporal_test_judgments.csv": "0fe2f638b1e761e4b13875f7cf5bb8b4ac2c3fecd38630c61b6cedd2df2b1aa0",
+    "outputs/queries_labeled.csv": "c47c84a5741d4420e5aa35545f0c8458434a4cedd552b49c2108b6d16ca0ebd9",
+    "data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "data/processed/phase14_failure_reviews.csv": "aaf760c6e16669e435ecd53e5a37470cf61ae2dd27f15f07866718cb938c9b54",
+    "src/final_failure_analysis.py": "0559dcf496da92b7349005b38a5083300db2e4b534b2e645f878e90edcf7e230"
+  }
+}

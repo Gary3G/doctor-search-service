@@ -1,0 +1,16 @@
+category,reviewed_query_count,interpretation
+apparent_metric_false_failure,1,purposive-case count; not prevalence
+comparison_intent_mismatch,1,purposive-case count; not prevalence
+content_type_mismatch,1,purposive-case count; not prevalence
+context_template_over_entity,3,purposive-case count; not prevalence
+corpus_coverage_gap,10,purposive-case count; not prevalence
+demographic_constraint_underrepresented,1,purposive-case count; not prevalence
+entity_underweighted,1,purposive-case count; not prevalence
+intent_template_mismatch,2,purposive-case count; not prevalence
+low_confidence_intent_error,4,purposive-case count; not prevalence
+monitoring_intent_mismatch,1,purposive-case count; not prevalence
+multi_entity_conjunction_failure,2,purposive-case count; not prevalence
+prior_failure_underrepresented,1,purposive-case count; not prevalence
+proxy_sensitive_intent_effect,1,purposive-case count; not prevalence
+weak_behavioral_ground_truth,2,purposive-case count; not prevalence
+wrong_molecule,2,purposive-case count; not prevalence

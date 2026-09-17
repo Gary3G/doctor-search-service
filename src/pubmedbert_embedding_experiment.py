@@ -21,7 +21,7 @@ from src.config import CACHE_DIR, CONTENT_PATH, EXPERIMENT_LOG_PATH, OUTPUT_DIR
 from src.evaluation import evaluate_rankings, summarize_metrics
 from src.evaluation_split import SPLIT_DIR
 from src.incremental_retrieval import build_signals, combine, rank_scores
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 from src.intent_retrieval import PHASE12_DIR, paired_bootstrap
 from src.learned_reranker import predicted_intent_compatibility
 
@@ -229,7 +229,7 @@ def _update_experiment_log(
 
 def build_pubmedbert_embedding_artifacts(output_dir: Path = OUTPUT) -> dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
-    queries = pd.read_csv(LABELED_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
+    queries = pd.read_csv(INTENT_METADATA_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
     content = pd.read_csv(CONTENT_PATH).sort_values("content_id").reset_index(drop=True)
     signals, _, baseline_runtime, baseline_caches = build_signals(queries, content)
     query_vectors, content_vectors, embedding_seconds, cache_hit = load_or_encode(
@@ -386,7 +386,7 @@ def build_pubmedbert_embedding_artifacts(output_dir: Path = OUTPUT) -> dict[str,
 
     input_paths = [
         CONTENT_PATH,
-        LABELED_QUERIES_PATH,
+        INTENT_METADATA_QUERIES_PATH,
         predictions_path,
         configurations_path,
         phase12_rankings_path,

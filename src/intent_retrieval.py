@@ -32,7 +32,7 @@ from src.config import (
 from src.evaluation import evaluate_rankings, summarize_metrics
 from src.evaluation_split import SPLIT_DIR
 from src.incremental_retrieval import build_signals, combine, rank_scores
-from src.intent import ENRICHED_QUERIES_PATH, LABELED_QUERIES_PATH
+from src.intent import ENRICHED_QUERIES_PATH, INTENT_METADATA_QUERIES_PATH
 from src.intent_improved import (
     MODEL_PATH as INTENT_MODEL_PATH,
     QUERY_EMBEDDINGS_PATH,
@@ -288,7 +288,7 @@ def _update_experiment_log(
 
 def build_phase12_artifacts(output_dir: Path = PHASE12_DIR) -> dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
-    queries = pd.read_csv(LABELED_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
+    queries = pd.read_csv(INTENT_METADATA_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
     content = pd.read_csv(CONTENT_PATH).sort_values("content_id").reset_index(drop=True)
     signals, pairs, runtime, caches = build_signals(queries, content)
     base = combine(signals, ("bm25", "dense", "entities", "context"))
@@ -432,7 +432,7 @@ def build_phase12_artifacts(output_dir: Path = PHASE12_DIR) -> dict[str, Any]:
         )
     input_paths = [
         CONTENT_PATH,
-        LABELED_QUERIES_PATH,
+        INTENT_METADATA_QUERIES_PATH,
         ENRICHED_QUERIES_PATH,
         QUERY_EMBEDDINGS_PATH,
         INTENT_MODEL_PATH,

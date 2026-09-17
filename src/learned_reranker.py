@@ -26,7 +26,7 @@ from src.config import CONFIG, CONTENT_PATH, EXPERIMENT_LOG_PATH, OUTPUT_DIR
 from src.evaluation import evaluate_rankings, summarize_metrics
 from src.evaluation_split import SPLIT_DIR
 from src.incremental_retrieval import build_signals, combine, rank_scores
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 from src.intent_retrieval import PHASE12_DIR, paired_bootstrap
 from src.structured_compatibility import INTENT_CONTENT_TYPES
 
@@ -388,7 +388,7 @@ def _update_experiment_log(metrics: pd.DataFrame, selected: str) -> None:
 
 def build_phase15_artifacts(output_dir: Path = PHASE15_DIR) -> dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
-    queries = pd.read_csv(LABELED_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
+    queries = pd.read_csv(INTENT_METADATA_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
     content = pd.read_csv(CONTENT_PATH).sort_values("content_id").reset_index(drop=True)
     predictions_path = PHASE12_DIR / "intent_predictions.csv"
     phase12_config_path = PHASE12_DIR / "configurations.csv"
@@ -548,7 +548,7 @@ def build_phase15_artifacts(output_dir: Path = PHASE15_DIR) -> dict[str, Any]:
     selected_grid = grid[grid["configuration"].eq(selected)].iloc[0]
     input_paths = [
         CONTENT_PATH,
-        LABELED_QUERIES_PATH,
+        INTENT_METADATA_QUERIES_PATH,
         predictions_path,
         phase12_config_path,
         phase12_rankings_path,

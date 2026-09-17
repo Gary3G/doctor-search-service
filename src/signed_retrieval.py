@@ -14,7 +14,7 @@ from src.evaluation import evaluate_rankings, summarize_metrics
 from src.evaluation_split import SPLIT_DIR
 from src.incremental_retrieval import PHASE11_DIR, build_signals, rank_scores, paired_delta
 from src.structured_compatibility import COMPATIBILITY_MATRIX_PATH, CONTENT_CONTEXT_PATH
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 from src.topic_boost_retrieval import table
 
 OUTPUT = PHASE11_DIR.parent / 'signed_boost'
@@ -50,7 +50,7 @@ def select(trials):
 def make_signals(base, pairs, shape):
     # Rebuild restricted conflicts, instead of using old year_conflict which
     # can treat absent publication_year as a conflict. Do not rewrite Phase 11.
-    q = pd.read_csv(LABELED_QUERIES_PATH).set_index('query_id')
+    q = pd.read_csv(INTENT_METADATA_QUERIES_PATH).set_index('query_id')
     c = pd.read_csv(CONTENT_CONTEXT_PATH).set_index('content_id')
     conflicts = {}
     for name, qc, cc in [('age','age_group','content_age_group'),('route','route','content_route'),('year','year','publication_year')]:
@@ -105,7 +105,7 @@ def run(output_dir=OUTPUT):
     cols=['query_id','content_id','rank']
     pd.testing.assert_frame_equal(rankings['hybrid'][cols],prior[prior.experiment.eq('R-E4')][cols].reset_index(drop=True))
     pd.concat([r.assign(experiment=n) for n,r in rankings.items()],ignore_index=True).to_csv(output_dir/'rankings.csv.gz',index=False)
-    inputs=[CONTENT_PATH,QUERIES_PATH,COMPATIBILITY_MATRIX_PATH,CONTENT_CONTEXT_PATH,LABELED_QUERIES_PATH,*caches]
+    inputs=[CONTENT_PATH,QUERIES_PATH,COMPATIBILITY_MATRIX_PATH,CONTENT_CONTEXT_PATH,INTENT_METADATA_QUERIES_PATH,*caches]
     metadata=pairs.groupby('query_id').first()[['query_language','query_intent','context_constraint_count']].reset_index()
     metadata['has_context']=metadata.context_constraint_count.gt(0)
     summaries=[]; details=[]; comparisons=[]; slices=[]

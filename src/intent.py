@@ -17,7 +17,14 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import cohen_kappa_score
 
-from src.config import CACHE_DIR, OUTPUT_DIR, PROCESSED_DATA_DIR, PROJECT_ROOT, TAXONOMY_DIR
+from src.config import (
+    CACHE_DIR,
+    OUTPUT_DIR,
+    PROCESSED_DATA_DIR,
+    PROJECT_ROOT,
+    QUERIES_PATH,
+    TAXONOMY_DIR,
+)
 from src.taxonomy import CANDIDATE_INTENTS, WEAK_ANCHOR_RULES, delexicalize_query
 
 
@@ -26,6 +33,7 @@ ENRICHED_QUERIES_PATH = PROCESSED_DATA_DIR / "queries_with_contextual_slots.csv"
 PROTOTYPE_ASSIGNMENTS_PATH = TAXONOMY_DIR / "phase2_prototype_assignments.csv"
 LABELED_QUERIES_PATH = OUTPUT_DIR / "queries_labeled.csv"
 ROOT_LABELED_QUERIES_PATH = PROJECT_ROOT / "queries_labeled.csv"
+INTENT_METADATA_QUERIES_PATH = OUTPUT_DIR / "queries_with_intent_metadata.csv"
 PILOT_PATH = PHASE3_DIR / "phase3_pilot_annotations.csv"
 GOLD_PATH = PHASE3_DIR / "phase3_gold_annotations.csv"
 QUALITY_AUDIT_PATH = PHASE3_DIR / "phase3_label_quality_audit.csv"
@@ -587,14 +595,15 @@ def build_deliverables(frame: pd.DataFrame) -> dict[str, pd.DataFrame]:
     )
     disagreements = audit[audit["signal_agreement"].ne("unanimous")].copy()
 
-    original_columns = list(pd.read_csv(ENRICHED_QUERIES_PATH, nrows=0).columns)
-    final_columns = original_columns + [
+    original_columns = list(pd.read_csv(QUERIES_PATH, nrows=0).columns)
+    enriched_columns = list(pd.read_csv(ENRICHED_QUERIES_PATH, nrows=0).columns) + [
         "intent", "intent_top_level", "intent_subtype", "rule_intent_signal",
         "prototype_intent_signal", "cluster_intent_signal", "signal_plurality_intent",
         "signal_agreement", "label_confidence",
         "label_source", "review_flag", "gold_set_membership", "annotation_notes",
     ]
-    labeled = frame[final_columns].sort_values("query_id")
+    labeled = frame[original_columns + ["intent"]].sort_values("query_id")
+    intent_metadata = frame[enriched_columns].sort_values("query_id")
     signal_audit = frame[
         [
             "query_id", "query_text", "cluster_id", "rule_intent_signal",
@@ -619,6 +628,7 @@ def build_deliverables(frame: pd.DataFrame) -> dict[str, pd.DataFrame]:
         "audit": audit.sort_values("query_id"),
         "disagreements": disagreements.sort_values("query_id"),
         "labeled": labeled,
+        "intent_metadata": intent_metadata,
         "signal_audit": signal_audit,
         "cluster_mapping": cluster_mapping,
         "kappa_history": signal_metadata["kappa_history"],
@@ -663,6 +673,7 @@ def _counts_dict(series: pd.Series) -> dict[str, int]:
 
 def build_metrics(deliverables: dict[str, pd.DataFrame]) -> dict[str, Any]:
     labeled = deliverables["labeled"]
+    intent_metadata = deliverables["intent_metadata"]
     pilot = deliverables["pilot"]
     gold = deliverables["gold"]
     audit = deliverables["audit"]
@@ -679,10 +690,12 @@ def build_metrics(deliverables: dict[str, pd.DataFrame]) -> dict[str, Any]:
         "n_unique_query_ids": int(labeled["query_id"].nunique()),
         "n_pilot_reviewed": int(len(pilot)),
         "n_gold_reviewed_including_pilot": int(len(gold)),
-        "n_rule_propagated": int(labeled["gold_set_membership"].eq("not_reviewed").sum()),
+        "n_rule_propagated": int(
+            intent_metadata["gold_set_membership"].eq("not_reviewed").sum()
+        ),
         "n_supported_intents_observed": int(labeled["intent"].nunique()),
         "n_other_ambiguous": int(labeled["intent"].eq(OTHER_INTENT).sum()),
-        "n_medium_or_low_confidence": int(labeled["review_flag"].sum()),
+        "n_medium_or_low_confidence": int(intent_metadata["review_flag"].sum()),
         "n_phase2_model_disagreements_in_gold": int((~audit["passes_agree"]).sum()),
         "n_three_signal_disagreements_in_gold": int(
             audit["signal_agreement"].ne("unanimous").sum()
@@ -726,7 +739,7 @@ def build_report(metrics: dict[str, Any]) -> str:
 
 ## Outcome
 
-All {metrics['n_queries']} queries have a final intent label, and every original query column plus the implemented Phase 1.6 contextual fields is preserved in `queries_labeled.csv`. Each query retains three decision signals: ordered bilingual rules, query-to-intent semantic prototype similarity, and an unsupervised semantic-cluster mapping. A {metrics['n_pilot_reviewed']}-query pilot was followed by a {metrics['n_gold_reviewed_including_pilot']}-query reviewed reference subset (the pilot is included in that total). The other {metrics['n_rule_propagated']} labels were propagated with the three-signal policy.
+All {metrics['n_queries']} queries have a final intent label. `queries_labeled.csv` contains only the original query columns plus `intent`. Contextual slots, decision signals, confidence, provenance, and review metadata are kept separately in `queries_with_intent_metadata.csv`. A {metrics['n_pilot_reviewed']}-query pilot was followed by a {metrics['n_gold_reviewed_including_pilot']}-query reviewed reference subset (the pilot is included in that total). The other {metrics['n_rule_propagated']} labels were propagated with the three-signal policy.
 
 The term **reviewed reference subset** is intentional. Annotation was performed by a single model-assisted analyst workflow, not by independent clinicians. It is useful for this assessment but must not be described as clinical ground truth or used to claim inter-annotator reliability.
 
@@ -776,12 +789,16 @@ The second pass deliberately revisited low prototype margins, three-signal disag
 
 def validate_deliverables(deliverables: dict[str, pd.DataFrame]) -> None:
     labeled = deliverables["labeled"]
+    intent_metadata = deliverables["intent_metadata"]
     pilot = deliverables["pilot"]
     gold = deliverables["gold"]
     if len(labeled) != 500 or labeled["query_id"].nunique() != 500:
         raise AssertionError("Every one of the 500 queries must appear exactly once")
     if labeled["intent"].isna().any():
         raise AssertionError("Final intent labels must not be missing")
+    expected_columns = [*pd.read_csv(QUERIES_PATH, nrows=0).columns, "intent"]
+    if list(labeled.columns) != expected_columns:
+        raise AssertionError("queries_labeled.csv must contain only raw query columns plus intent")
     if len(pilot) != PILOT_SIZE or len(gold) != GOLD_SIZE:
         raise AssertionError("Pilot/gold sizes violate the Phase 3 design")
     if not set(pilot["query_id"]).issubset(set(gold["query_id"])):
@@ -791,7 +808,7 @@ def validate_deliverables(deliverables: dict[str, pd.DataFrame]) -> None:
     gold_counts = gold["intent_subtype"].value_counts()
     if any(gold_counts.get(intent, 0) < 12 for intent in INTENT_NAMES):
         raise AssertionError("Each supported intent needs at least 12 reviewed examples")
-    if labeled["gold_set_membership"].eq("not_reviewed").sum() != 320:
+    if intent_metadata["gold_set_membership"].eq("not_reviewed").sum() != 320:
         raise AssertionError("Exactly 320 rows should be propagated outside the reviewed subset")
     required_signals = {
         "rule_intent_signal",
@@ -799,7 +816,7 @@ def validate_deliverables(deliverables: dict[str, pd.DataFrame]) -> None:
         "cluster_intent_signal",
         "signal_agreement",
     }
-    if not required_signals.issubset(labeled.columns):
+    if not required_signals.issubset(intent_metadata.columns):
         raise AssertionError("All three signal outputs must be preserved")
     history = deliverables["kappa_history"]
     if history["fleiss_kappa"].iloc[-1] < history["fleiss_kappa"].iloc[0]:

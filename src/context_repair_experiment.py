@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from src.config import CONTENT_PATH, QUERIES_PATH, EXPERIMENT_LOG_PATH
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 from src.query_extraction import extract_slots as legacy_extractor
 from src.query_extraction_v2 import extract_slots as repaired_extractor
 from src.structured_compatibility import build_compatibility_matrix, prepare_content_context, COMPATIBILITY_MATRIX_PATH
@@ -20,7 +20,7 @@ OUTPUT=PHASE11_DIR.parent/'context_repair'
 
 def run(output_dir=OUTPUT):
     output_dir.mkdir(parents=True,exist_ok=True)
-    queries=pd.read_csv(LABELED_QUERIES_PATH).sort_values('query_id').reset_index(drop=True)
+    queries=pd.read_csv(INTENT_METADATA_QUERIES_PATH).sort_values('query_id').reset_index(drop=True)
     content=pd.read_csv(CONTENT_PATH).sort_values('content_id').reset_index(drop=True)
     base,pairs,runtime,caches=build_signals(queries,content)
     hybrid=(base['bm25']+base['dense'])/2
@@ -72,7 +72,7 @@ def run(output_dir=OUTPUT):
     pd.DataFrame(context_audit).to_csv(output_dir/'context_audit.csv',index=False)
     metadata=pairs.groupby('query_id').first()[['query_language','query_intent','context_constraint_count']].reset_index()
     metadata['has_context']=metadata.context_constraint_count.gt(0)
-    inputs=[CONTENT_PATH,QUERIES_PATH,LABELED_QUERIES_PATH,COMPATIBILITY_MATRIX_PATH,*caches]
+    inputs=[CONTENT_PATH,QUERIES_PATH,INTENT_METADATA_QUERIES_PATH,COMPATIBILITY_MATRIX_PATH,*caches]
     for protocol in ('temporal','query','query_dedup'):
         for split in ('validation','test'):
             path=SPLIT_DIR/f'{protocol}_{split}_judgments.csv';inputs.append(path);judgments=pd.read_csv(path);primary={}

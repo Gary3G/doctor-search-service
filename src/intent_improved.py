@@ -34,7 +34,7 @@ from sklearn.metrics import confusion_matrix, precision_recall_fscore_support
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import normalize
 
-from src.intent import ENRICHED_QUERIES_PATH, INTENT_NAMES, LABELED_QUERIES_PATH
+from src.intent import ENRICHED_QUERIES_PATH, INTENT_METADATA_QUERIES_PATH, INTENT_NAMES
 from src.intent_baseline import (
     CV_PREDICTIONS_PATH as PHASE4_CV_PREDICTIONS_PATH,
     GROUPED_SENSITIVITY_PATH as PHASE4_GROUPED_PREDICTIONS_PATH,
@@ -819,7 +819,7 @@ def build_phase5_artifacts() -> dict[str, Path]:
     """Build and persist Phase 5 artifacts for notebook orchestration."""
     METRICS_DIR.mkdir(parents=True, exist_ok=True)
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
-    labeled = pd.read_csv(LABELED_QUERIES_PATH)
+    labeled = pd.read_csv(INTENT_METADATA_QUERIES_PATH)
     frame = labeled[labeled["signal_agreement"].ne("three_way_disagreement")].copy()
     if len(frame) != 362:
         raise AssertionError("Phase 5 must use the same 362 weak labels as Phase 4")

@@ -16,7 +16,7 @@ import pandas as pd
 
 from src.config import OUTPUT_DIR, PROCESSED_DATA_DIR
 from src.data import load_all_raw
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 
 
 PHASE6_DIR = OUTPUT_DIR / "relevance"
@@ -414,7 +414,7 @@ def build_report(metrics: dict[str, Any], event_summary: pd.DataFrame) -> str:
 def build_phase6_artifacts() -> dict[str, Path]:
     """Load project data, build Phase 6 outputs, and persist diagnostics."""
     raw = load_all_raw()
-    labeled_queries = pd.read_csv(LABELED_QUERIES_PATH)
+    labeled_queries = pd.read_csv(INTENT_METADATA_QUERIES_PATH)
     table, metrics = build_behavioral_table(
         queries=labeled_queries,
         content=raw["content"],

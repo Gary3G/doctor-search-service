@@ -12,7 +12,7 @@ The combined strategy uses three algorithmic signals:
 2. **Prototype signal.** Each delexicalized query is compared by cosine similarity with complete semantic definitions of the 11 final intents using cached frozen multilingual MiniLM embeddings. This supplies a query-level semantic suggestion without fitting a classifier on Phase 3 labels.
 3. **Cluster signal.** Phase 3 reuses the 15 agglomerative query clusters discovered in Phase 2. It does not recluster the data. Each anonymous cluster is initially mapped to the nearest final-intent prototype using its embedding centroid. Coordinate search then adjusts the cluster-to-intent mapping to maximize Fleiss' kappa across the rule, prototype, and cluster signal outputs; semantic centroid similarity breaks exact objective ties.
 
-The final `intent` column is the operational 11-class label and is identical to `intent_subtype`. `intent_top_level` stores the broader literature-derived parent. Unanimous and rule-plus-model agreements provide model assistance. When the prototype and cluster signals conflict with an explicit rule, the rule is retained as the schema adjudication and the row receives lower confidence and a review flag instead of being silently overwritten. If no rule matches, semantic plurality is the fallback. All original query columns and implemented contextual slots are preserved in `queries_labeled.csv`.
+The final `intent` column is the operational 11-class label. `queries_labeled.csv` contains the original query table plus only this label column. The broader parent, contextual slots, decision signals, confidence, provenance, and review fields are kept in `outputs/queries_with_intent_metadata.csv`. Unanimous and rule-plus-model agreements provide model assistance. When the prototype and cluster signals conflict with an explicit rule, the rule is retained as the schema adjudication and the row receives lower confidence and a review flag instead of being silently overwritten. If no rule matches, semantic plurality is the fallback.
 
 This is a single model-assisted analyst workflow, not independent clinician annotation. For that reason, I describe the 180 rows as a **reviewed reference subset**, not clinical gold labels, and I do not claim inter-annotator agreement.
 
@@ -38,7 +38,7 @@ Optimizing the cluster-to-schema mapping increased in-sample Fleiss' kappa from 
 
 The final class counts differ from the provisional Phase 2 model counts because Phase 3 applies the frozen annotation boundaries. Typical adjudications place adverse-effect surveillance under Safety rather than routine Monitoring, response biomarkers under Monitoring rather than Safety, contraindication questions under Safety rather than Dosing, and resistance or failure queries under Treatment Change / Escalation rather than Interaction.
 
-The main outputs are `queries_labeled.csv`, `phase3_gold_annotations.csv`, `phase3_three_signal_assignments.csv`, `phase3_signal_disagreements_adjudicated.csv`, `phase3_annotation_guidelines.csv`, `phase3_cluster_intent_mapping.csv`, and `phase3_kappa_diagnostics.json`.
+The main outputs are `queries_labeled.csv`, `outputs/queries_with_intent_metadata.csv`, `phase3_gold_annotations.csv`, `phase3_three_signal_assignments.csv`, `phase3_signal_disagreements_adjudicated.csv`, `phase3_annotation_guidelines.csv`, `phase3_cluster_intent_mapping.csv`, and `phase3_kappa_diagnostics.json`.
 
 ## Honest Evaluation
 

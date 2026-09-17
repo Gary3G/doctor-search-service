@@ -2,7 +2,7 @@
 
 ## Outcome
 
-All 500 queries have a final intent label, and every original query column plus the implemented Phase 1.6 contextual fields is preserved in `queries_labeled.csv`. Each query retains three decision signals: ordered bilingual rules, query-to-intent semantic prototype similarity, and an unsupervised semantic-cluster mapping. A 60-query pilot was followed by a 180-query reviewed reference subset (the pilot is included in that total). The other 320 labels were propagated with the three-signal policy.
+All 500 queries have a final intent label. `queries_labeled.csv` contains only the original query columns plus `intent`. Contextual slots, decision signals, confidence, provenance, and review metadata are kept separately in `queries_with_intent_metadata.csv`. A 60-query pilot was followed by a 180-query reviewed reference subset (the pilot is included in that total). The other 320 labels were propagated with the three-signal policy.
 
 The term **reviewed reference subset** is intentional. Annotation was performed by a single model-assisted analyst workflow, not by independent clinicians. It is useful for this assessment but must not be described as clinical ground truth or used to claim inter-annotator reliability.
 

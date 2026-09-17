@@ -13,6 +13,7 @@ import pandas as pd
 from src.bm25_baseline import BASELINE_DIR
 from src.config import CONTENT_PATH, PROJECT_ROOT, CONFIG
 from src.evaluation_split import SPLIT_DIR
+from src.intent import INTENT_METADATA_QUERIES_PATH
 from src.retrieval import BM25Retriever
 
 REVIEW_DIR = BASELINE_DIR / 'failure_analysis'
@@ -49,7 +50,7 @@ def select_review_queries(metrics: pd.DataFrame) -> pd.DataFrame:
 
 def build_phase10_artifacts(output_dir: Path = REVIEW_DIR) -> dict:
     paths = [BASELINE_DIR / 'bm25_per_query_metrics.csv', BASELINE_DIR / 'bm25_rankings.csv',
-             SPLIT_DIR / 'temporal_validation_judgments.csv', PROJECT_ROOT / 'queries_labeled.csv',
+             SPLIT_DIR / 'temporal_validation_judgments.csv', INTENT_METADATA_QUERIES_PATH,
              CONTENT_PATH, NOTES_PATH]
     metrics, rankings, judgments, queries, content, notes = [pd.read_csv(p) for p in paths]
     selected = select_review_queries(metrics)

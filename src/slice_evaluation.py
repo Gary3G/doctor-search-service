@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 
 from src.config import CONFIG, EXPERIMENT_LOG_PATH, FIGURES_DIR, OUTPUT_DIR
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 
 
 PHASE11_DIR = OUTPUT_DIR / "retrieval" / "phase11"
@@ -609,7 +609,7 @@ def _update_experiment_log(hypotheses: pd.DataFrame) -> None:
 def build_phase13_artifacts(output_dir: Path = PHASE13_DIR,
                             update_experiment_log: bool = True) -> dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
-    queries = pd.read_csv(LABELED_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
+    queries = pd.read_csv(INTENT_METADATA_QUERIES_PATH).sort_values("query_id").reset_index(drop=True)
     membership, catalog = build_slice_tables(queries)
     per_query = load_primary_per_query()
     metrics = summarize_slices(per_query, membership, catalog)
@@ -650,7 +650,7 @@ def build_phase13_artifacts(output_dir: Path = PHASE13_DIR,
             "Sparse and overlapping slices limit between-slice inference.",
         ],
         "sha256": _sha256([
-            LABELED_QUERIES_PATH,
+            INTENT_METADATA_QUERIES_PATH,
             PHASE11_DIR / "per_query_metrics.csv.gz",
             PHASE12_DIR / "per_query_metrics.csv.gz",
             Path(__file__),

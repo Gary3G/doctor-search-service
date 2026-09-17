@@ -11,6 +11,7 @@ from src.intent import (
     GOLD_PATH,
     GOLD_SIZE,
     GUIDELINES_PATH,
+    INTENT_METADATA_QUERIES_PATH,
     INTENT_NAMES,
     KAPPA_PATH,
     LABELED_QUERIES_PATH,
@@ -22,12 +23,15 @@ from src.intent import (
     ROOT_LABELED_QUERIES_PATH,
     annotate_intent,
 )
+from src.config import QUERIES_PATH
 
 
 class IntentLabelingTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.labeled = pd.read_csv(LABELED_QUERIES_PATH)
+        cls.intent_metadata = pd.read_csv(INTENT_METADATA_QUERIES_PATH)
+        cls.raw_queries = pd.read_csv(QUERIES_PATH)
         cls.pilot = pd.read_csv(PILOT_PATH)
         cls.gold = pd.read_csv(GOLD_PATH)
         cls.audit = pd.read_csv(QUALITY_AUDIT_PATH)
@@ -37,8 +41,15 @@ class IntentLabelingTests(unittest.TestCase):
         self.assertEqual(len(self.labeled), 500)
         self.assertEqual(self.labeled["query_id"].nunique(), 500)
         self.assertFalse(self.labeled["intent"].isna().any())
-        required = {
-            "intent",
+        self.assertEqual(
+            list(self.labeled.columns),
+            [*self.raw_queries.columns, "intent"],
+        )
+        pd.testing.assert_frame_equal(
+            self.labeled[self.raw_queries.columns],
+            self.raw_queries,
+        )
+        metadata_columns = {
             "intent_top_level",
             "intent_subtype",
             "label_confidence",
@@ -50,14 +61,17 @@ class IntentLabelingTests(unittest.TestCase):
             "cluster_intent_signal",
             "signal_agreement",
         }
-        self.assertTrue(required.issubset(self.labeled.columns))
+        self.assertTrue(metadata_columns.issubset(self.intent_metadata.columns))
         self.assertTrue(ROOT_LABELED_QUERIES_PATH.exists())
 
     def test_review_sample_sizes_and_nesting(self) -> None:
         self.assertEqual(len(self.pilot), PILOT_SIZE)
         self.assertEqual(len(self.gold), GOLD_SIZE)
         self.assertTrue(set(self.pilot["query_id"]).issubset(set(self.gold["query_id"])))
-        self.assertEqual(int(self.labeled["gold_set_membership"].eq("not_reviewed").sum()), 320)
+        self.assertEqual(
+            int(self.intent_metadata["gold_set_membership"].eq("not_reviewed").sum()),
+            320,
+        )
 
     def test_reviewed_subset_covers_every_supported_intent(self) -> None:
         counts = self.gold["intent_subtype"].value_counts()

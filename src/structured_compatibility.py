@@ -31,7 +31,7 @@ import numpy as np
 import pandas as pd
 
 from src.data import load_content
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 from src.query_extraction import extract_slots
 from src.relevance_labels import JUDGMENTS_PATH
 
@@ -662,7 +662,7 @@ def build_report(
 
 
 def build_phase75_artifacts() -> dict[str, Path]:
-    queries = pd.read_csv(LABELED_QUERIES_PATH)
+    queries = pd.read_csv(INTENT_METADATA_QUERIES_PATH)
     content = load_content()
     prepared_content = prepare_content_context(content)
     matrix = build_compatibility_matrix(queries, content)

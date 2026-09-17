@@ -18,7 +18,7 @@ import pandas as pd
 
 from src.config import CONTENT_PATH, EXPERIMENT_LOG_PATH, OUTPUT_DIR, PROJECT_ROOT
 from src.evaluation_split import SPLIT_DIR
-from src.intent import LABELED_QUERIES_PATH
+from src.intent import INTENT_METADATA_QUERIES_PATH
 
 
 PHASE12_DIR = OUTPUT_DIR / "retrieval" / "phase12"
@@ -115,7 +115,7 @@ def build_phase14_artifacts(output_dir: Path = PHASE14_DIR) -> dict[str, str]:
         PHASE12_DIR / "rankings.csv.gz",
         PHASE12_DIR / "intent_predictions.csv",
         SPLIT_DIR / "temporal_test_judgments.csv",
-        LABELED_QUERIES_PATH,
+        INTENT_METADATA_QUERIES_PATH,
         CONTENT_PATH,
         REVIEWS_PATH,
     ]

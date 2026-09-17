@@ -1,0 +1,13 @@
+experiment,alpha,beta,gated
+hybrid,0.0,0.0,True
+entity_only,0.2,0.0,True
+gated_context_only,0.0,0.0,True
+ungated_context_only,0.0,0.05,False
+joint_gated,0.2,0.0,True
+joint_ungated,0.2,0.1,False
+joint_minus_entities,0.0,0.0,True
+joint_minus_context,0.2,0.0,True
+joint_remove_gate,0.2,0.0,False
+fixed_entity_010,0.1,0.0,True
+fixed_joint_gated_010,0.1,0.1,True
+fixed_joint_ungated_010,0.1,0.1,False

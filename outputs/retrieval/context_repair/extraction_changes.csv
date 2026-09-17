@@ -1,0 +1,28 @@
+side,record_id,text,field,before,after
+query,Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak,negation_flag,True,False
+query,Q033,dosis Semaglutide pada Obesity pasien hypertension aman tidak,negation_flag,True,False
+query,Q155,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,negation_flag,True,False
+query,Q187,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak,negation_flag,True,False
+query,Q231,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak,negation_flag,True,False
+query,Q262,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak,negation_flag,True,False
+query,Q300,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak,negation_flag,True,False
+query,Q327,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak,negation_flag,True,False
+query,Q328,kombinasi Piperacillin-tazobactam dan Hydrocortisone pada Sepsis aman atau tidak,negation_flag,True,False
+query,Q351,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak,negation_flag,True,False
+content,C016,Dose Adjustment of Desmopressin in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C021,Dose Adjustment of Insulin glargine in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C040,Dose Adjustment of Atorvastatin in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C084,Dose Adjustment of Valproate in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C088,Perbandingan Valproate dan Valproate pada Parkinson Disease,comparison_flag,False,True
+content,C089,Perbandingan Topiramate dan Topiramate pada Migraine,comparison_flag,False,True
+content,C116,Dose Adjustment of Salmeterol in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C169,Dose Adjustment of Olanzapine in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C171,Perbandingan Venlafaxine dan Venlafaxine pada Major Depressive Disorder,comparison_flag,False,True
+content,C231,Dose Adjustment of Apixaban in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C236,Dose Adjustment of Rivaroxaban in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C285,Perbandingan Diazepam dan Diazepam pada Febrile Seizure,comparison_flag,False,True
+content,C291,Perbandingan Diazepam dan Diazepam pada Febrile Seizure,comparison_flag,False,True
+content,C294,Perbandingan Zinc dan Zinc pada Stunting / Malnutrition,comparison_flag,False,True
+content,C314,Dose Adjustment of Vancomycin in Renal and Hepatic Impairment,renal_function_group,,renal_impairment
+content,C315,Perbandingan Hydrocortisone dan Piperacillin-tazobactam pada Sepsis,comparison_flag,False,True
+content,C343,Dose Adjustment of Dupilumab in Renal and Hepatic Impairment,renal_function_group,,renal_impairment

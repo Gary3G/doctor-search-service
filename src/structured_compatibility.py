@@ -105,12 +105,14 @@ def _both_present(left: pd.Series, right: pd.Series) -> pd.Series:
     return left.map(bool) & right.map(bool)
 
 
-def prepare_content_context(content: pd.DataFrame) -> pd.DataFrame:
+def prepare_content_context(content: pd.DataFrame, *, slot_extractor=extract_slots, context_mode: str = "legacy") -> pd.DataFrame:
     """Extract query-compatible contextual evidence from available titles.
 
     The supplied corpus has metadata and titles but no body text. Title-derived
     absence is therefore unknown, never an explicit conflict.
     """
+    if context_mode not in {"legacy", "explicit"}:
+        raise ValueError("context_mode must be legacy or explicit")
     required = {
         "content_id", "title", "content_type", "publication_year", "language",
         "disease_entity", "icd10_code", "molecule_entity", "atc_code",
@@ -123,7 +125,7 @@ def prepare_content_context(content: pd.DataFrame) -> pd.DataFrame:
         raise ValueError("content_id must be unique")
 
     slot_frame = pd.DataFrame(
-        [extract_slots(title).__dict__ for title in content["title"]],
+        [slot_extractor(title).__dict__ for title in content["title"]],
         index=content.index,
     ).add_prefix("title_")
     prepared = pd.concat([content.reset_index(drop=True), slot_frame.reset_index(drop=True)], axis=1)
@@ -132,6 +134,10 @@ def prepare_content_context(content: pd.DataFrame) -> pd.DataFrame:
     prepared["content_route"] = prepared["title_route"]
     prepared["content_renal_function_group"] = prepared["title_renal_function_group"]
     prepared["content_recency_evidence"] = prepared["title_recency_flag"].astype(bool)
+    prepared["dose_title_evidence"] = prepared["title_dose_context_flag"].astype(bool)
+    prepared["dose_type_only_proxy"] = prepared["content_type"].eq("drug_profile") & ~prepared["dose_title_evidence"]
+    prepared["comparison_title_evidence"] = prepared["title_comparison_flag"].astype(bool)
+    prepared["comparison_type_only_proxy"] = prepared["content_type"].eq("review") & ~prepared["comparison_title_evidence"]
     prepared["content_dose_context"] = (
         prepared["title_dose_context_flag"].astype(bool)
         | prepared["content_type"].eq("drug_profile")
@@ -143,6 +149,10 @@ def prepare_content_context(content: pd.DataFrame) -> pd.DataFrame:
         prepared["title_comparison_flag"].astype(bool)
         | prepared["content_type"].eq("review")
     )
+    if context_mode == "explicit":
+        prepared["content_dose_context"] = prepared["dose_title_evidence"]
+        prepared["content_comparison_context"] = prepared["comparison_title_evidence"]
+    prepared["context_evidence_policy"] = context_mode
     prepared["content_prior_failure_context"] = prepared[
         "title_prior_treatment_failure_flag"
     ].astype(bool)
@@ -194,11 +204,12 @@ def _prepare_pair_frame(queries: pd.DataFrame, content: pd.DataFrame) -> pd.Data
 
 
 def build_compatibility_matrix(
-    queries: pd.DataFrame, content: pd.DataFrame
+    queries: pd.DataFrame, content: pd.DataFrame, *,
+    slot_extractor=extract_slots, context_mode: str = "legacy",
 ) -> pd.DataFrame:
     """Compute behavior-independent structured features for every query-content pair."""
     _validate_queries(queries)
-    prepared_content = prepare_content_context(content)
+    prepared_content = prepare_content_context(content, slot_extractor=slot_extractor, context_mode=context_mode)
     pairs = _prepare_pair_frame(queries, prepared_content)
 
     set_columns = {

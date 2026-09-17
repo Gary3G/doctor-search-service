@@ -1,0 +1,13 @@
+experiment,entity_bonus,entity_penalty,context_bonus,context_penalty,intent_bonus
+requested_exact:hybrid,0.0,0.0,0.0,0.0,0.0
+requested_exact:selected_signed_intent,0.2,0.2,0.05,0.0,0.5
+requested_exact:selected_all_terms,0.2,0.2,0.05,0.05,0.5
+requested_exact:frozen_all_terms,0.2,0.2,0.05,0.05,0.5
+requested_exact:r_e7_style,0.5,0.0,0.5,0.0,0.5
+symmetric_exact:hybrid,0.0,0.0,0.0,0.0,0.0
+symmetric_exact:selected_signed_intent,0.2,0.2,0.05,0.0,0.5
+symmetric_exact:selected_all_terms,0.2,0.2,0.05,0.05,0.5
+symmetric_exact:frozen_all_terms,0.2,0.2,0.05,0.05,0.5
+symmetric_exact:r_e7_style,0.5,0.0,0.5,0.0,0.5
+current:frozen_all_terms,0.2,0.2,0.05,0.05,0.5
+current:r_e7_equivalent,0.5,0.0,0.5,0.0,0.5

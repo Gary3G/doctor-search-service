@@ -1,0 +1,116 @@
+{
+  "formula": "hybrid + entity_bonus*entity_coverage - entity_penalty*entity_conflict_rate + context_bonus*repaired_explicit_context_coverage - context_penalty*explicit_context_conflict_rate",
+  "grid": [
+    0.0,
+    0.05,
+    0.2
+  ],
+  "configurations": {
+    "hybrid": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "repaired_bonuses_only": [
+      0.2,
+      0.0,
+      0.2,
+      0.0
+    ],
+    "repaired_penalties_only": [
+      0.0,
+      0.2,
+      0.0,
+      0.0
+    ],
+    "repaired_both": [
+      0.2,
+      0.2,
+      0.2,
+      0.0
+    ],
+    "repaired_both_minus_entity_bonus": [
+      0.0,
+      0.2,
+      0.2,
+      0.0
+    ],
+    "repaired_both_minus_entity_penalty": [
+      0.2,
+      0.0,
+      0.2,
+      0.0
+    ],
+    "repaired_both_minus_context_bonus": [
+      0.2,
+      0.2,
+      0.0,
+      0.0
+    ],
+    "repaired_both_minus_context_penalty": [
+      0.2,
+      0.2,
+      0.2,
+      0.0
+    ],
+    "repaired_fixed_bonuses": [
+      0.05,
+      0.0,
+      0.05,
+      0.0
+    ],
+    "repaired_fixed_penalties": [
+      0.0,
+      0.05,
+      0.0,
+      0.05
+    ],
+    "repaired_fixed_both": [
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ]
+  },
+  "selection": "81 temporal-validation trials; maximize NDCG@10; prefer smaller weights on ties",
+  "repair_data": {
+    "query_extractor": "query_extraction_v2",
+    "context_policy": "explicit",
+    "dosing_comparison_type_proxies": false,
+    "compatibility_path": "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/context_repair/compatibility_repaired.csv.gz"
+  },
+  "missing": "zero bonus and zero penalty when required evidence is absent",
+  "context_penalty": "explicit age, route, or year conflict only; no renal/dosing/pregnancy absence penalty",
+  "entity_complement_max_error": 0.0,
+  "limitations": [
+    "entity conflict remains the complement of entity match in this fully populated metadata",
+    "exploratory after prior test inspection",
+    "behavioral labels are sparse and sometimes off-topic",
+    "bootstrap intervals are not cluster robust or multiplicity adjusted"
+  ],
+  "embedding_seconds_including_cache_load": 0.007881459081545472,
+  "embedding_dimensions": 384,
+  "sha256": {
+    "/Users/hol/Documents/Task/doctor-search-service/data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "/Users/hol/Documents/Task/doctor-search-service/data/raw/queries.csv": "cef5e977d27830bc8808c817bae1b8cd6c93023e9d514084fc1b64fab558bc4b",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/context_repair/queries_repaired.csv": "9bb0ca1ec22a9b8aac8fd5a0898fc69e61a734e047f2c30f12f9200f2f444d7d",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/context_repair/content_repaired.csv": "5a55ee92e3ebcd0b76600a17ffbcaca5fd5fcb4219c88ca61a7ea5594b25aeb9",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/context_repair/compatibility_repaired.csv.gz": "8fa5045f672b7f9d9446efb8666b170f91af68cf856d3339ac7ab577f3a7ab61",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/signed_boost/rankings.csv.gz": "2885c4e114de1f74b9dbe4a182b24325c909ebecad7818becc6253c737bf5312",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/retrieval/signed_boost/metrics.csv": "947e1dc36c70ec3a8d683d7178bcf8f4520fe8f7ba2fa55f429766a0334e1a71",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_validation_judgments.csv": "2af8c2e5b9cf378be3abe74802e22d73a7eb1ecfcc1475b240ab01d35c1f9854",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_query_embeddings.npz": "862dfac2230a8406b8ed28dc5388be30eee3bcc18a4aa54b75112cf6469ab4de",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_content_embeddings.npz": "fa0281ec3de0f7f232aa44a632e9c26b201225648a642e84422b26bfd1a2ce7a",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_test_judgments.csv": "0fe2f638b1e761e4b13875f7cf5bb8b4ac2c3fecd38630c61b6cedd2df2b1aa0",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_validation_judgments.csv": "10138398b649871cc8d2cfd3be774ac74766e38ced9c25027b9e01cb3f7e9eeb",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_test_judgments.csv": "b49b8d15cbfe083e243c20c5e74c27c3f53c899d6a74e04a30d83981609a4fb9",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_dedup_validation_judgments.csv": "5fb1a5ca6f503afbd867fd522a68317e58177c5aa555656391fefedd6076b7ba",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_dedup_test_judgments.csv": "b84a67c16bcf785b42baa9a69e6b5b4ff45c362c548b0d259768816783e0d2bc",
+    "/Users/hol/Documents/Task/doctor-search-service/src/repaired_signed_retrieval.py": "af764016cb81fbdfcc4faffd9bf4bf2cac27fa1cff21f6a22f573f160a21164f",
+    "src/query_extraction_v2.py": "45d4f904c37dca62fb4406112df9412a39cd155e2f0e0ab273e83cae4e9005b0",
+    "src/structured_compatibility.py": "a5f7b4dfeb2631e57d99658eb653255029b76a15c1917cefe4bf77d26d6e2ccc",
+    "src/signed_retrieval.py": "fa111243002c04a3de7c0d299510e5b5cf6221515e39c3c2518ffced59dc80a9",
+    "src/evaluation.py": "6dd6a2b1150056527cb9a4b0aa9a602f4b26e2a39f9df8cc9ef15d340aff3e6e"
+  }
+}

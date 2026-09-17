@@ -1,0 +1,103 @@
+{
+  "formula": "mean(normalized BM25, shifted dense cosine) + alpha*entity_coverage + beta*topic_gate*context_coverage",
+  "grid": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "configs": {
+    "hybrid": [
+      0.0,
+      0.0,
+      true
+    ],
+    "entity_only": [
+      0.2,
+      0.0,
+      true
+    ],
+    "gated_context_only": [
+      0.0,
+      0.0,
+      true
+    ],
+    "ungated_context_only": [
+      0.0,
+      0.05,
+      false
+    ],
+    "joint_gated": [
+      0.2,
+      0.0,
+      true
+    ],
+    "joint_ungated": [
+      0.2,
+      0.1,
+      false
+    ],
+    "joint_minus_entities": [
+      0.0,
+      0.0,
+      true
+    ],
+    "joint_minus_context": [
+      0.2,
+      0.0,
+      true
+    ],
+    "joint_remove_gate": [
+      0.2,
+      0.0,
+      false
+    ],
+    "fixed_entity_010": [
+      0.1,
+      0.0,
+      true
+    ],
+    "fixed_joint_gated_010": [
+      0.1,
+      0.1,
+      true
+    ],
+    "fixed_joint_ungated_010": [
+      0.1,
+      0.1,
+      false
+    ]
+  },
+  "selection": "temporal validation NDCG@10; ties prefer lower total boost, alpha, beta",
+  "topic_gate": "exact disease OR molecule overlap; any one entity suffices; missing evidence=closed; class/area insufficient",
+  "feature_changes": "none; existing context heuristics retained to isolate weighting/gating; no intent boost",
+  "diagnostic": "fixed 0.1 entity and context weights specified before run; not selected on test",
+  "limitations": [
+    "Exploratory follow-up motivated by inspected test results; no pristine holdout",
+    "Weak behavioral labels and coarse metadata; no clinical relevance claim",
+    "Multiple validation trials and post-selection intervals; paired query bootstrap not cluster-robust"
+  ],
+  "gate_pairs": 4064,
+  "context_pairs_before": 14278,
+  "context_pairs_after": 473,
+  "embedding_seconds_including_cache_load": 0.00804175017401576,
+  "embedding_dimensions": 384,
+  "sha256": {
+    "/Users/hol/Documents/Task/doctor-search-service/data/raw/content.csv": "fc3dde8930975b3f1f060ec7cc236c71bd77605bea6bcb06ae998b8c7fcf8ec5",
+    "/Users/hol/Documents/Task/doctor-search-service/data/raw/queries.csv": "cef5e977d27830bc8808c817bae1b8cd6c93023e9d514084fc1b64fab558bc4b",
+    "/Users/hol/Documents/Task/doctor-search-service/data/processed/query_content_compatibility.csv.gz": "89a9562d227fbcc8ce028392aea8eb0db595b3f7bc4f7321fc9a2f96437131b7",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_query_embeddings.npz": "862dfac2230a8406b8ed28dc5388be30eee3bcc18a4aa54b75112cf6469ab4de",
+    "/Users/hol/Documents/Task/doctor-search-service/data/cache/phase11_content_embeddings.npz": "fa0281ec3de0f7f232aa44a632e9c26b201225648a642e84422b26bfd1a2ce7a",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_validation_judgments.csv": "2af8c2e5b9cf378be3abe74802e22d73a7eb1ecfcc1475b240ab01d35c1f9854",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/temporal_test_judgments.csv": "0fe2f638b1e761e4b13875f7cf5bb8b4ac2c3fecd38630c61b6cedd2df2b1aa0",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_validation_judgments.csv": "10138398b649871cc8d2cfd3be774ac74766e38ced9c25027b9e01cb3f7e9eeb",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_test_judgments.csv": "b49b8d15cbfe083e243c20c5e74c27c3f53c899d6a74e04a30d83981609a4fb9",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_dedup_validation_judgments.csv": "5fb1a5ca6f503afbd867fd522a68317e58177c5aa555656391fefedd6076b7ba",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/query_dedup_test_judgments.csv": "b84a67c16bcf785b42baa9a69e6b5b4ff45c362c548b0d259768816783e0d2bc",
+    "/Users/hol/Documents/Task/doctor-search-service/src/topic_boost_retrieval.py": "e5082206ee8d84152c87992a14fd9f19c40ccd712f2bcd0d15284e4b1d2d97d6",
+    "src/incremental_retrieval.py": "399d58e4994097c69b4dfaa4294f86389dcfcdd701ac5d84759ba60b92c39060",
+    "src/evaluation.py": "6dd6a2b1150056527cb9a4b0aa9a602f4b26e2a39f9df8cc9ef15d340aff3e6e",
+    "/Users/hol/Documents/Task/doctor-search-service/outputs/evaluation/phase8_split_manifest.json": "af6cd55e55ca9b826009b7e01fa4b62c18130bbe4103e6de63e4d1d128da2a25"
+  }
+}

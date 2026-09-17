@@ -1,0 +1,8 @@
+feature,nonzero_pairs,mean
+entity_bonus,12354,0.030491304347826088
+context_bonus,14278,0.06327342995169082
+entity_penalty,170709,0.9695086956521739
+context_penalty,8407,0.026092753623188407
+explicit_age_conflict,36,0.00020869565217391305
+explicit_route_conflict,6,3.478260869565217e-05
+explicit_year_conflict,8365,0.0484927536231884

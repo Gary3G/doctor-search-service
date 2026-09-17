@@ -1,0 +1,16 @@
+{
+  "sample": "30 queries and 30 titles: 6 random per language per side plus 12 targeted-risk per side",
+  "seed": 42,
+  "selection_uses_relevance": false,
+  "ranking_modified": false,
+  "literal_support": "surface-form evidence only; unsupported does not mean incorrect; codes and ontology validity not independently verified",
+  "manual_review": "Codex semantic review of sampled text, not independent clinician annotation",
+  "sha256": {
+    "/Users/hol/Documents/Task/doctor-search-service/data/processed/queries_with_contextual_slots.csv": "fc9407356a99779bd2a0cf1ce453d7344d650c84a333735adf4d46fe0ceaf0a1",
+    "/Users/hol/Documents/Task/doctor-search-service/data/processed/content_with_contextual_slots.csv": "fa1d2dd6232aec35bf86061efd01f228a5c7f79f57579357819fa0cfa0161259",
+    "/Users/hol/Documents/Task/doctor-search-service/src/retrieval_evidence_audit.py": "ee6a97ffc21dbdecba3a2acfc0130e3b21359322758cbae1cf6c0332f066e058",
+    "src/query_extraction.py": "0f3029c202b7227275d0c42350a40cb8591d062483f746581a6f4dba0fc0adb9",
+    "src/structured_compatibility.py": "d7efca02d7b721b4befbc2b9f82dbe81d8482d351f229e13ac58506a26aa5fb0",
+    "/Users/hol/Documents/Task/doctor-search-service/data/processed/retrieval_evidence_review.csv": "b2d2dc08732cc6c2505b5782cc4ca37c41b85c0b80d58cd6dea53fe6fc0b0e12"
+  }
+}

@@ -1,0 +1,15 @@
+feature,nonzero_pairs,mean,mode
+entity_bonus,12354,0.030491304347826088,legacy
+context_bonus,14278,0.06327342995169082,legacy
+entity_penalty,170709,0.9695086956521739,legacy
+context_penalty,8407,0.026092753623188407,legacy
+explicit_age_conflict,36,0.00020869565217391305,legacy
+explicit_route_conflict,6,3.478260869565217e-05,legacy
+explicit_year_conflict,8365,0.0484927536231884,legacy
+entity_bonus,12354,0.030491304347826088,repaired
+entity_penalty,170709,0.9695086956521739,repaired
+context_bonus,11737,0.053074396135265704,repaired
+context_penalty,8407,0.026092753623188407,repaired
+explicit_age_conflict,36,0.00020869565217391305,repaired
+explicit_route_conflict,6,3.478260869565217e-05,repaired
+explicit_year_conflict,8365,0.0484927536231884,repaired

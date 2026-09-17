@@ -1,0 +1,869 @@
+side,record_id,field,value,evidence_source,evidence_text
+query,Q005,pregnancy_status,pregnant,text_rule,Penicillins in pregnancy and HIV/AIDS
+query,Q006,negation_flag,True,text_rule,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak
+query,Q007,dose_context_flag,True,text_rule,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis
+query,Q007,hepatic_impairment_flag,True,text_rule,Hydroxychloroquine hepatic impairment dose in Rheumatoid Arthritis
+query,Q010,pregnancy_status,pregnancy_related,text_rule,renal dose adjustment Magnesium sulphate in Preeclampsia
+query,Q010,dose_context_flag,True,text_rule,renal dose adjustment Magnesium sulphate in Preeclampsia
+query,Q010,renal_function_group,renal_impairment,text_rule,renal dose adjustment Magnesium sulphate in Preeclampsia
+query,Q011,dose_context_flag,True,text_rule,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical
+query,Q011,route,topical,text_rule,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical
+query,Q011,renal_function_group,renal_impairment,text_rule,Psoriasis dengan renal impairment penyesuaian dosis Tacrolimus topical
+query,Q012,age_group,elderly,text_rule,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment
+query,Q012,dose_context_flag,True,text_rule,Artemether-lumefantrine pada pasien elderly Typhoid Fever apa perlu adjustment
+query,Q014,age_group,pediatric,text_rule,Malaria pediatric dosing Tenofovir disoproxil
+query,Q014,dose_context_flag,True,text_rule,Malaria pediatric dosing Tenofovir disoproxil
+query,Q016,renal_function_group,renal_impairment,text_rule,is Bortezomib safe in Rheumatoid Arthritis with renal impairment
+query,Q019,dose_context_flag,True,text_rule,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib
+query,Q019,renal_function_group,renal_impairment,text_rule,Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib
+query,Q020,year,2025,text_rule,latest Malaria management guidelines 2025
+query,Q020,recency_flag,True,text_rule,latest Malaria management guidelines 2025
+query,Q021,dose_context_flag,True,text_rule,dosis titrasi Tenofovir disoproxil Malaria toleransi pasien
+query,Q022,pregnancy_status,pregnant,text_rule,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa
+query,Q022,prior_treatment_failure_flag,True,text_rule,resistensi Methyldopa pada Hypertension in Pregnancy alternatif Methyldopa
+query,Q023,recency_flag,True,text_rule,indikasi Sitagliptin pada Type 2 Diabetes Mellitus guideline terbaru
+query,Q024,dose_context_flag,True,text_rule,Gout dengan renal impairment penyesuaian dosis Adalimumab
+query,Q024,renal_function_group,renal_impairment,text_rule,Gout dengan renal impairment penyesuaian dosis Adalimumab
+query,Q025,year,2023,text_rule,Acute Coronary Syndrome guideline update 2023 summary
+query,Q025,recency_flag,True,text_rule,Acute Coronary Syndrome guideline update 2023 summary
+query,Q026,pregnancy_status,pregnant,text_rule,kontraindikasi Labetalol pada Hypertension in Pregnancy dengan atrial fibrillation
+query,Q030,hepatic_impairment_flag,True,text_rule,is Losartan safe in Hypertension with liver disease
+query,Q033,dose_context_flag,True,text_rule,dosis Semaglutide pada Obesity pasien hypertension aman tidak
+query,Q033,negation_flag,True,text_rule,dosis Semaglutide pada Obesity pasien hypertension aman tidak
+query,Q036,age_group,pediatric,text_rule,Atrial Fibrillation pediatric dosing Empagliflozin
+query,Q036,dose_context_flag,True,text_rule,Atrial Fibrillation pediatric dosing Empagliflozin
+query,Q037,pregnancy_status,pregnant,text_rule,SSRIs in pregnancy and ADHD
+query,Q038,recency_flag,True,text_rule,Integrase inhibitors terbaru untuk Malaria terbaru
+query,Q040,prior_treatment_failure_flag,True,text_rule,resistensi Desmopressin pada Diabetes Insipidus alternatif Desmopressin
+query,Q043,hepatic_impairment_flag,True,text_rule,Thyroid hormones kontraindikasi pada Hyperthyroidism dengan hepatic impairment
+query,Q044,pregnancy_status,pregnant,text_rule,Malaria with pregnancy first line drug
+query,Q050,dose_context_flag,True,text_rule,Levofloxacin hepatic impairment dose in HIV/AIDS
+query,Q050,hepatic_impairment_flag,True,text_rule,Levofloxacin hepatic impairment dose in HIV/AIDS
+query,Q051,prior_treatment_failure_flag,True,text_rule,add on therapy Malaria after Dolutegravir failure
+query,Q054,renal_function_group,renal_impairment,text_rule,is Empagliflozin safe in Chronic Kidney Disease with renal impairment
+query,Q056,dose_context_flag,True,text_rule,Sepsis emergency Piperacillin-tazobactam loading dose berapa
+query,Q057,comparison_flag,True,text_rule,Dapagliflozin vs Dapagliflozin untuk pasien Chronic Kidney Disease mana lebih efektif
+query,Q060,hepatic_impairment_flag,True,text_rule,Migraine with liver disease first line drug
+query,Q062,recency_flag,True,text_rule,latest COPD management guidelines terbaru
+query,Q063,age_group,pediatric,text_rule,Malaria pada anak dosis Tenofovir disoproxil
+query,Q063,dose_context_flag,True,text_rule,Malaria pada anak dosis Tenofovir disoproxil
+query,Q064,pregnancy_status,pregnant,text_rule,monitoring parameters Methyldopa in Hypertension in Pregnancy
+query,Q067,year,2025,text_rule,kapan start Atorvastatin di Acute Coronary Syndrome evidence terbaru 2025
+query,Q067,recency_flag,True,text_rule,kapan start Atorvastatin di Acute Coronary Syndrome evidence terbaru 2025
+query,Q068,pregnancy_status,pregnant,text_rule,Labetalol resistance in Hypertension in Pregnancy alternative therapy
+query,Q068,prior_treatment_failure_flag,True,text_rule,Labetalol resistance in Hypertension in Pregnancy alternative therapy
+query,Q069,dose_context_flag,True,text_rule,dosis titrasi Alendronate Osteoporosis toleransi pasien
+query,Q071,comparison_flag,True,text_rule,Vancomycin vs Piperacillin-tazobactam in Sepsis patients
+query,Q075,recency_flag,True,text_rule,Psoriasis guideline update terbaru summary
+query,Q076,dose_context_flag,True,text_rule,Acute Coronary Syndrome dengan renal impairment penyesuaian dosis Ezetimibe
+query,Q076,renal_function_group,renal_impairment,text_rule,Acute Coronary Syndrome dengan renal impairment penyesuaian dosis Ezetimibe
+query,Q082,prior_treatment_failure_flag,True,text_rule,add on therapy Tuberculosis after Isoniazid failure
+query,Q083,recency_flag,True,text_rule,latest Pulmonary Embolism management guidelines terbaru
+query,Q085,comparison_flag,True,text_rule,Methylphenidate vs Methylphenidate efficacy in Breast Cancer HER2-positive
+query,Q086,prior_treatment_failure_flag,True,text_rule,add on Norepinephrine setelah Piperacillin-tazobactam gagal Sepsis
+query,Q087,renal_function_group,renal_impairment,text_rule,Rheumatoid Arthritis dengan renal impairment pilihan drug terbaik
+query,Q088,dose_context_flag,True,text_rule,renal dose adjustment Diazepam in Febrile Seizure
+query,Q088,renal_function_group,renal_impairment,text_rule,renal dose adjustment Diazepam in Febrile Seizure
+query,Q091,age_group,elderly,text_rule,Liraglutide pada pasien elderly Obesity apa perlu adjustment
+query,Q091,dose_context_flag,True,text_rule,Liraglutide pada pasien elderly Obesity apa perlu adjustment
+query,Q094,year,2022,text_rule,kapan start Azithromycin di Asthma evidence terbaru 2022
+query,Q094,recency_flag,True,text_rule,kapan start Azithromycin di Asthma evidence terbaru 2022
+query,Q097,age_group,pediatric,text_rule,Iron Deficiency Anaemia pada anak dosis Ferrous sulphate
+query,Q097,dose_context_flag,True,text_rule,Iron Deficiency Anaemia pada anak dosis Ferrous sulphate
+query,Q098,year,2022,text_rule,ARBs terbaru untuk Hypertension 2022
+query,Q098,recency_flag,True,text_rule,ARBs terbaru untuk Hypertension 2022
+query,Q099,dose_context_flag,True,text_rule,Atrial Fibrillation emergency Apixaban loading dose berapa
+query,Q104,dose_context_flag,True,text_rule,Erythropoietin loading dose Iron Deficiency Anaemia emergency
+query,Q105,year,2025,text_rule,tatalaksana Breast Cancer HER2-positive panduan terbaru 2025
+query,Q105,recency_flag,True,text_rule,tatalaksana Breast Cancer HER2-positive panduan terbaru 2025
+query,Q109,recency_flag,True,text_rule,kapan start Levetiracetam di Epilepsy evidence terbaru terbaru
+query,Q110,dose_context_flag,True,text_rule,dosis titrasi Topiramate Epilepsy toleransi pasien
+query,Q112,comparison_flag,True,text_rule,Alteplase vs Aspirin in Ischaemic Stroke patients
+query,Q113,year,2025,text_rule,latest Obesity management guidelines 2025
+query,Q113,recency_flag,True,text_rule,latest Obesity management guidelines 2025
+query,Q114,comparison_flag,True,text_rule,Colchicine vs Colchicine in Psoriatic Arthritis patients
+query,Q115,dose_context_flag,True,text_rule,dosis Artemether-lumefantrine untuk pasien Typhoid Fever
+query,Q116,age_group,elderly,text_rule,Osteoporosis dengan elderly patients pilihan drug terbaik
+query,Q118,dose_context_flag,True,text_rule,Chronic Lymphocytic Leukaemia emergency Ibrutinib loading dose berapa
+query,Q120,recency_flag,True,text_rule,latest Hypertension management guidelines terbaru
+query,Q122,age_group,elderly,text_rule,Tenofovir+Lamivudine pada pasien elderly Urinary Tract Infection apa perlu adjustment
+query,Q122,dose_context_flag,True,text_rule,Tenofovir+Lamivudine pada pasien elderly Urinary Tract Infection apa perlu adjustment
+query,Q124,prior_treatment_failure_flag,True,text_rule,add on Tenofovir disoproxil setelah Tenofovir disoproxil gagal Malaria
+query,Q126,prior_treatment_failure_flag,True,text_rule,add on therapy HIV/AIDS after Levofloxacin failure
+query,Q128,year,2022,text_rule,kapan start Alendronate di Osteoporosis evidence terbaru 2022
+query,Q128,recency_flag,True,text_rule,kapan start Alendronate di Osteoporosis evidence terbaru 2022
+query,Q129,pregnancy_status,pregnant,text_rule,Imatinib pada ibu hamil dengan Chronic Myeloid Leukaemia
+query,Q130,dose_context_flag,True,text_rule,Bisoprolol dosing in Heart Failure with hypertension
+query,Q132,dose_context_flag,True,text_rule,Methotrexate dosing in Systemic Lupus Erythematosus with heart failure
+query,Q135,dose_context_flag,True,text_rule,Rosuvastatin hepatic impairment dose in Acute Coronary Syndrome
+query,Q135,hepatic_impairment_flag,True,text_rule,Rosuvastatin hepatic impairment dose in Acute Coronary Syndrome
+query,Q136,pregnancy_status,pregnant,text_rule,add on therapy Hypertension in Pregnancy after Methyldopa failure
+query,Q136,prior_treatment_failure_flag,True,text_rule,add on therapy Hypertension in Pregnancy after Methyldopa failure
+query,Q138,pregnancy_status,pregnant,text_rule,Pembrolizumab pada ibu hamil dengan Non-Small Cell Lung Cancer
+query,Q139,dose_context_flag,True,text_rule,dosis titrasi Artemether-lumefantrine Typhoid Fever toleransi pasien
+query,Q144,dose_context_flag,True,text_rule,Colchicine loading dose Psoriatic Arthritis emergency
+query,Q146,comparison_flag,True,text_rule,Bedaquiline vs Rifampicin untuk pasien Tuberculosis mana lebih efektif
+query,Q148,dose_context_flag,True,text_rule,MDR Tuberculosis dengan renal impairment penyesuaian dosis Bedaquiline
+query,Q148,renal_function_group,renal_impairment,text_rule,MDR Tuberculosis dengan renal impairment penyesuaian dosis Bedaquiline
+query,Q150,pregnancy_status,pregnancy_related,text_rule,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia
+query,Q150,comparison_flag,True,text_rule,Magnesium sulphate vs Magnesium sulphate untuk Preeclampsia
+query,Q151,pregnancy_status,pregnancy_related,text_rule,latest guideline Preeclampsia management 2024
+query,Q151,year,2024,text_rule,latest guideline Preeclampsia management 2024
+query,Q151,recency_flag,True,text_rule,latest guideline Preeclampsia management 2024
+query,Q153,year,2023,text_rule,Rheumatoid Arthritis guideline update 2023 summary
+query,Q153,recency_flag,True,text_rule,Rheumatoid Arthritis guideline update 2023 summary
+query,Q154,dose_context_flag,True,text_rule,Apixaban hepatic impairment dose in Community-acquired Pneumonia
+query,Q154,hepatic_impairment_flag,True,text_rule,Apixaban hepatic impairment dose in Community-acquired Pneumonia
+query,Q155,negation_flag,True,text_rule,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak
+query,Q156,recency_flag,True,text_rule,indikasi Tenofovir+Lamivudine pada Urinary Tract Infection guideline terbaru
+query,Q157,pregnancy_status,pregnant,text_rule,Benzodiazepines in pregnancy and Febrile Seizure
+query,Q160,age_group,pediatric,text_rule,Obesity pada anak dosis Liraglutide
+query,Q160,dose_context_flag,True,text_rule,Obesity pada anak dosis Liraglutide
+query,Q161,age_group,elderly,text_rule,Magnesium sulphate pada pasien elderly Preeclampsia apa perlu adjustment
+query,Q161,pregnancy_status,pregnancy_related,text_rule,Magnesium sulphate pada pasien elderly Preeclampsia apa perlu adjustment
+query,Q161,dose_context_flag,True,text_rule,Magnesium sulphate pada pasien elderly Preeclampsia apa perlu adjustment
+query,Q165,dose_context_flag,True,text_rule,dosis Escitalopram untuk pasien ADHD
+query,Q168,year,2022,text_rule,Factor Xa inhibitors terbaru untuk Deep Vein Thrombosis 2022
+query,Q168,recency_flag,True,text_rule,Factor Xa inhibitors terbaru untuk Deep Vein Thrombosis 2022
+query,Q170,pregnancy_status,pregnancy_related,text_rule,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients
+query,Q170,comparison_flag,True,text_rule,Magnesium sulphate vs Magnesium sulphate in Preeclampsia patients
+query,Q175,dose_context_flag,True,text_rule,Warfarin dosing in Atrial Fibrillation with CKD
+query,Q176,recency_flag,True,text_rule,latest guideline Major Depressive Disorder management terbaru
+query,Q178,prior_treatment_failure_flag,True,text_rule,add on Valproate setelah Valproate gagal Parkinson Disease
+query,Q180,year,2023,text_rule,tatalaksana Type 1 Diabetes Mellitus panduan terbaru 2023
+query,Q180,recency_flag,True,text_rule,tatalaksana Type 1 Diabetes Mellitus panduan terbaru 2023
+query,Q181,dose_context_flag,True,text_rule,dosis Alteplase untuk pasien Ischaemic Stroke
+query,Q182,renal_function_group,renal_impairment,text_rule,apakah Olanzapine aman untuk Schizophrenia dengan renal impairment
+query,Q183,age_group,pediatric,text_rule,Hypertension in Pregnancy pediatric dosing Methyldopa
+query,Q183,pregnancy_status,pregnant,text_rule,Hypertension in Pregnancy pediatric dosing Methyldopa
+query,Q183,dose_context_flag,True,text_rule,Hypertension in Pregnancy pediatric dosing Methyldopa
+query,Q185,dose_context_flag,True,text_rule,Isoniazid hepatic impairment dose in Tuberculosis
+query,Q185,hepatic_impairment_flag,True,text_rule,Isoniazid hepatic impairment dose in Tuberculosis
+query,Q186,dose_context_flag,True,text_rule,dosis titrasi Rivaroxaban Deep Vein Thrombosis toleransi pasien
+query,Q187,dose_context_flag,True,text_rule,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak
+query,Q187,negation_flag,True,text_rule,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak
+query,Q189,dose_context_flag,True,text_rule,renal dose adjustment Lansoprazole in Peptic Ulcer Disease
+query,Q189,renal_function_group,renal_impairment,text_rule,renal dose adjustment Lansoprazole in Peptic Ulcer Disease
+query,Q191,dose_context_flag,True,text_rule,Heart Failure dengan renal impairment penyesuaian dosis Bisoprolol
+query,Q191,renal_function_group,renal_impairment,text_rule,Heart Failure dengan renal impairment penyesuaian dosis Bisoprolol
+query,Q192,dose_context_flag,True,text_rule,Diabetes Insipidus emergency Desmopressin loading dose berapa
+query,Q195,prior_treatment_failure_flag,True,text_rule,add on therapy Asthma after Amoxicillin failure
+query,Q198,year,2022,text_rule,Calcium channel blockers new evidence Hypertension 2022
+query,Q199,dose_context_flag,True,text_rule,Rivaroxaban loading dose Community-acquired Pneumonia emergency
+query,Q203,pregnancy_status,pregnant,text_rule,Corticosteroids in pregnancy and Sepsis
+query,Q206,age_group,pediatric,text_rule,Ischaemic Stroke pada anak dosis Aspirin
+query,Q206,dose_context_flag,True,text_rule,Ischaemic Stroke pada anak dosis Aspirin
+query,Q214,dose_context_flag,True,text_rule,Clozapine hepatic impairment dose in Schizophrenia
+query,Q214,hepatic_impairment_flag,True,text_rule,Clozapine hepatic impairment dose in Schizophrenia
+query,Q216,year,2024,text_rule,Hyperthyroidism guideline update 2024 summary
+query,Q216,recency_flag,True,text_rule,Hyperthyroidism guideline update 2024 summary
+query,Q220,dose_context_flag,True,text_rule,dosis titrasi Nivolumab Colorectal Cancer toleransi pasien
+query,Q224,dose_context_flag,True,text_rule,Losartan hepatic impairment dose in Hypertension
+query,Q224,hepatic_impairment_flag,True,text_rule,Losartan hepatic impairment dose in Hypertension
+query,Q225,age_group,elderly,text_rule,Psoriasis dengan elderly patients pilihan drug terbaik
+query,Q231,negation_flag,True,text_rule,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak
+query,Q235,comparison_flag,True,text_rule,Artemether-lumefantrine vs Artemether-lumefantrine untuk Typhoid Fever
+query,Q238,pregnancy_status,pregnant,text_rule,Basal insulins in pregnancy and Type 1 Diabetes Mellitus
+query,Q239,age_group,elderly,text_rule,Ramipril pada pasien elderly Hypertension apa perlu adjustment
+query,Q239,dose_context_flag,True,text_rule,Ramipril pada pasien elderly Hypertension apa perlu adjustment
+query,Q240,year,2024,text_rule,Antituberculotics terbaru untuk Tuberculosis 2024
+query,Q240,recency_flag,True,text_rule,Antituberculotics terbaru untuk Tuberculosis 2024
+query,Q241,dose_context_flag,True,text_rule,dosis Dupilumab untuk pasien Psoriasis
+query,Q242,year,2023,text_rule,penanganan Type 2 Diabetes Mellitus di ICU panduan 2023
+query,Q243,dose_context_flag,True,text_rule,Mycophenolate mofetil dosing in Rheumatoid Arthritis with diabetes
+query,Q244,comparison_flag,True,text_rule,Semaglutide vs Liraglutide untuk Obesity
+query,Q246,prior_treatment_failure_flag,True,text_rule,add on therapy Urinary Tract Infection after Tenofovir+Lamivudine failure
+query,Q247,prior_treatment_failure_flag,True,text_rule,resistensi Aspirin pada Ischaemic Stroke alternatif Alteplase
+query,Q249,age_group,elderly,text_rule,Sitagliptin pada pasien elderly Type 2 Diabetes Mellitus apa perlu adjustment
+query,Q249,dose_context_flag,True,text_rule,Sitagliptin pada pasien elderly Type 2 Diabetes Mellitus apa perlu adjustment
+query,Q252,year,2022,text_rule,latest guideline Major Depressive Disorder management 2022
+query,Q252,recency_flag,True,text_rule,latest guideline Major Depressive Disorder management 2022
+query,Q262,negation_flag,True,text_rule,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak
+query,Q264,dose_context_flag,True,text_rule,dosis Levothyroxine untuk pasien Hypothyroidism
+query,Q265,dose_context_flag,True,text_rule,renal dose adjustment Allopurinol in Psoriatic Arthritis
+query,Q265,renal_function_group,renal_impairment,text_rule,renal dose adjustment Allopurinol in Psoriatic Arthritis
+query,Q268,pregnancy_status,pregnant,text_rule,Beta blockers non-selective mechanism of action in Hypertension in Pregnancy
+query,Q270,age_group,elderly,text_rule,Bedaquiline pada pasien elderly MDR Tuberculosis apa perlu adjustment
+query,Q270,dose_context_flag,True,text_rule,Bedaquiline pada pasien elderly MDR Tuberculosis apa perlu adjustment
+query,Q273,year,2025,text_rule,Calcium channel blockers terbaru untuk Acute Coronary Syndrome 2025
+query,Q273,recency_flag,True,text_rule,Calcium channel blockers terbaru untuk Acute Coronary Syndrome 2025
+query,Q274,prior_treatment_failure_flag,True,text_rule,resistensi Alendronate pada Osteoporosis alternatif Alendronate
+query,Q277,dose_context_flag,True,text_rule,Amoxicillin hepatic impairment dose in HIV/AIDS
+query,Q277,hepatic_impairment_flag,True,text_rule,Amoxicillin hepatic impairment dose in HIV/AIDS
+query,Q278,prior_treatment_failure_flag,True,text_rule,add on Furosemide setelah Furosemide gagal Nephrotic Syndrome
+query,Q283,pregnancy_status,pregnant,text_rule,monitoring Centrally acting antihypertensives pada Hypertension in Pregnancy parameter apa
+query,Q285,comparison_flag,True,text_rule,Olanzapine vs Lithium in Bipolar Disorder patients
+query,Q287,recency_flag,True,text_rule,panduan klinis Epilepsy terbaru
+query,Q289,pregnancy_status,pregnant,text_rule,Apixaban pada ibu hamil dengan Deep Vein Thrombosis
+query,Q292,comparison_flag,True,text_rule,Amoxicillin vs Amoxicillin efficacy in HIV/AIDS
+query,Q293,prior_treatment_failure_flag,True,text_rule,resistensi Prednisolone pada Asthma alternatif Azithromycin
+query,Q294,dose_context_flag,True,text_rule,dosis titrasi Levothyroxine Hyperthyroidism toleransi pasien
+query,Q296,prior_treatment_failure_flag,True,text_rule,resistensi Bedaquiline pada Tuberculosis alternatif Rifampicin
+query,Q299,dose_context_flag,True,text_rule,Zinc hepatic impairment dose in Stunting / Malnutrition
+query,Q299,hepatic_impairment_flag,True,text_rule,Zinc hepatic impairment dose in Stunting / Malnutrition
+query,Q300,dose_context_flag,True,text_rule,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak
+query,Q300,negation_flag,True,text_rule,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak
+query,Q302,dose_context_flag,True,text_rule,dosis titrasi Topiramate Migraine toleransi pasien
+query,Q307,pregnancy_status,pregnant,text_rule,Fluoroquinolones in pregnancy and HIV/AIDS
+query,Q311,prior_treatment_failure_flag,True,text_rule,add on therapy Typhoid Fever after Artemether-lumefantrine failure
+query,Q313,recency_flag,True,text_rule,indikasi Losartan pada Chronic Kidney Disease guideline terbaru
+query,Q315,year,2023,text_rule,latest guideline Rheumatoid Arthritis management 2023
+query,Q315,recency_flag,True,text_rule,latest guideline Rheumatoid Arthritis management 2023
+query,Q316,comparison_flag,True,text_rule,Lansoprazole vs Omeprazole untuk pasien Peptic Ulcer Disease mana lebih efektif
+query,Q318,comparison_flag,True,text_rule,Venlafaxine vs Escitalopram efficacy in Major Depressive Disorder
+query,Q319,dose_context_flag,True,text_rule,dosis titrasi Adalimumab Gout toleransi pasien
+query,Q320,hepatic_impairment_flag,True,text_rule,is Bedaquiline safe in Tuberculosis with hepatic impairment
+query,Q322,dose_context_flag,True,text_rule,Dolutegravir hepatic impairment dose in Malaria
+query,Q322,hepatic_impairment_flag,True,text_rule,Dolutegravir hepatic impairment dose in Malaria
+query,Q323,route,inhaled,text_rule,efek samping Inhaled corticosteroids pada Asthma
+query,Q327,negation_flag,True,text_rule,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak
+query,Q328,negation_flag,True,text_rule,kombinasi Piperacillin-tazobactam dan Hydrocortisone pada Sepsis aman atau tidak
+query,Q331,dose_context_flag,True,text_rule,Osteoporosis dengan renal impairment penyesuaian dosis Alendronate
+query,Q331,renal_function_group,renal_impairment,text_rule,Osteoporosis dengan renal impairment penyesuaian dosis Alendronate
+query,Q335,comparison_flag,True,text_rule,Metronidazole vs Omeprazole untuk pasien Pulmonary Embolism mana lebih efektif
+query,Q338,comparison_flag,True,text_rule,Metronidazole vs Metronidazole in Inflammatory Bowel Disease patients
+query,Q339,comparison_flag,True,text_rule,Clozapine vs Clozapine in Schizophrenia patients
+query,Q340,year,2023,text_rule,latest guideline Peptic Ulcer Disease management 2023
+query,Q340,recency_flag,True,text_rule,latest guideline Peptic Ulcer Disease management 2023
+query,Q342,dose_context_flag,True,text_rule,dosis titrasi Vancomycin Sepsis toleransi pasien
+query,Q344,recency_flag,True,text_rule,panduan klinis MDR Tuberculosis terbaru
+query,Q346,dose_context_flag,True,text_rule,Chronic Kidney Disease dengan renal impairment penyesuaian dosis Losartan
+query,Q346,renal_function_group,renal_impairment,text_rule,Chronic Kidney Disease dengan renal impairment penyesuaian dosis Losartan
+query,Q347,dose_context_flag,True,text_rule,Prednisolone hepatic impairment dose in Rheumatoid Arthritis
+query,Q347,hepatic_impairment_flag,True,text_rule,Prednisolone hepatic impairment dose in Rheumatoid Arthritis
+query,Q349,dose_context_flag,True,text_rule,dosis Liraglutide untuk pasien Obesity
+query,Q350,prior_treatment_failure_flag,True,text_rule,Valproate resistance in Epilepsy alternative therapy
+query,Q351,pregnancy_status,pregnant,text_rule,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak
+query,Q351,dose_context_flag,True,text_rule,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak
+query,Q351,negation_flag,True,text_rule,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak
+query,Q352,recency_flag,True,text_rule,panduan klinis ADHD terbaru
+query,Q356,pregnancy_status,pregnant,text_rule,apakah Dapagliflozin aman untuk Chronic Kidney Disease dengan pregnancy
+query,Q358,dose_context_flag,True,text_rule,Methylphenidate loading dose Breast Cancer HER2-positive emergency
+query,Q359,dose_context_flag,True,text_rule,dosis Adalimumab untuk pasien Systemic Lupus Erythematosus
+query,Q360,age_group,elderly,text_rule,is Semaglutide safe in Obesity with elderly patients
+query,Q361,year,2022,text_rule,penanganan Type 2 Diabetes Mellitus di ICU panduan 2022
+query,Q362,recency_flag,True,text_rule,tatalaksana ADHD panduan terbaru terbaru
+query,Q365,pregnancy_status,pregnant,text_rule,Antimalarials in pregnancy and Typhoid Fever
+query,Q367,pregnancy_status,pregnant,text_rule,ARBs in pregnancy and Hypertension
+query,Q368,hepatic_impairment_flag,True,text_rule,Community-acquired Pneumonia dengan hepatic impairment pilihan drug terbaik
+query,Q369,comparison_flag,True,text_rule,Nivolumab vs Pembrolizumab untuk Non-Small Cell Lung Cancer
+query,Q371,recency_flag,True,text_rule,kapan start Losartan di Hypertension evidence terbaru terbaru
+query,Q372,recency_flag,True,text_rule,indikasi Semaglutide pada Type 2 Diabetes Mellitus guideline terbaru
+query,Q373,prior_treatment_failure_flag,True,text_rule,add on therapy Stable Angina after Metoprolol failure
+query,Q375,age_group,pediatric,text_rule,Tuberculosis pada anak dosis Bedaquiline
+query,Q375,dose_context_flag,True,text_rule,Tuberculosis pada anak dosis Bedaquiline
+query,Q377,pregnancy_status,pregnancy_related,text_rule,latest Preeclampsia management guidelines 2024
+query,Q377,year,2024,text_rule,latest Preeclampsia management guidelines 2024
+query,Q377,recency_flag,True,text_rule,latest Preeclampsia management guidelines 2024
+query,Q378,prior_treatment_failure_flag,True,text_rule,add on therapy Schizophrenia after Olanzapine failure
+query,Q379,renal_function_group,renal_impairment,text_rule,kontraindikasi Prednisolone pada COPD dengan renal impairment
+query,Q380,dose_context_flag,True,text_rule,Type 2 Diabetes Mellitus dengan renal impairment penyesuaian dosis Liraglutide
+query,Q380,renal_function_group,renal_impairment,text_rule,Type 2 Diabetes Mellitus dengan renal impairment penyesuaian dosis Liraglutide
+query,Q381,dose_context_flag,True,text_rule,renal dose adjustment Artemether-lumefantrine in Typhoid Fever
+query,Q381,renal_function_group,renal_impairment,text_rule,renal dose adjustment Artemether-lumefantrine in Typhoid Fever
+query,Q383,year,2023,text_rule,SSRIs terbaru untuk ADHD 2023
+query,Q383,recency_flag,True,text_rule,SSRIs terbaru untuk ADHD 2023
+query,Q384,pregnancy_status,pregnant,text_rule,Iron preparations in pregnancy and Iron Deficiency Anaemia
+query,Q388,pregnancy_status,pregnancy_related,text_rule,Magnesium role in Preeclampsia pathophysiology
+query,Q390,recency_flag,True,text_rule,panduan klinis Ischaemic Stroke terbaru
+query,Q394,route,topical,text_rule,Topical calcineurin inhibitors adverse effects monitoring in Psoriasis
+query,Q395,dose_context_flag,True,text_rule,Vitamin A hepatic impairment dose in Stunting / Malnutrition
+query,Q395,hepatic_impairment_flag,True,text_rule,Vitamin A hepatic impairment dose in Stunting / Malnutrition
+query,Q396,dose_context_flag,True,text_rule,Norepinephrine dosing in Sepsis with diabetes
+query,Q398,year,2024,text_rule,Corticosteroids terbaru untuk Sepsis 2024
+query,Q398,recency_flag,True,text_rule,Corticosteroids terbaru untuk Sepsis 2024
+query,Q400,age_group,pediatric,text_rule,COPD pada anak dosis Salmeterol
+query,Q400,dose_context_flag,True,text_rule,COPD pada anak dosis Salmeterol
+query,Q404,dose_context_flag,True,text_rule,Omeprazole loading dose Peptic Ulcer Disease emergency
+query,Q406,pregnancy_status,pregnant,text_rule,Ischaemic Stroke with pregnancy first line drug
+query,Q407,age_group,pediatric,text_rule,Breast Cancer HER2-positive pada anak dosis Methylphenidate
+query,Q407,dose_context_flag,True,text_rule,Breast Cancer HER2-positive pada anak dosis Methylphenidate
+query,Q409,dose_context_flag,True,text_rule,Spironolactone dosing in Heart Failure with obesity
+query,Q411,age_group,elderly,text_rule,Alendronate pada pasien elderly Osteoporosis apa perlu adjustment
+query,Q411,dose_context_flag,True,text_rule,Alendronate pada pasien elderly Osteoporosis apa perlu adjustment
+query,Q413,year,2024,text_rule,SNRIs terbaru untuk Major Depressive Disorder 2024
+query,Q413,recency_flag,True,text_rule,SNRIs terbaru untuk Major Depressive Disorder 2024
+query,Q414,dose_context_flag,True,text_rule,Stable Angina emergency Atorvastatin loading dose berapa
+query,Q415,year,2023,text_rule,latest Breast Cancer HER2-positive management guidelines 2023
+query,Q415,recency_flag,True,text_rule,latest Breast Cancer HER2-positive management guidelines 2023
+query,Q417,comparison_flag,True,text_rule,Venlafaxine vs Venlafaxine untuk Major Depressive Disorder
+query,Q419,prior_treatment_failure_flag,True,text_rule,add on therapy Systemic Lupus Erythematosus after Methotrexate failure
+query,Q420,age_group,pediatric,text_rule,Atrial Fibrillation pada anak dosis Metoprolol
+query,Q420,dose_context_flag,True,text_rule,Atrial Fibrillation pada anak dosis Metoprolol
+query,Q421,dose_context_flag,True,text_rule,Bisoprolol loading dose Heart Failure emergency
+query,Q422,recency_flag,True,text_rule,kapan start Rivaroxaban di Deep Vein Thrombosis evidence terbaru terbaru
+query,Q423,pregnancy_status,pregnant,text_rule,prophylaxis Hypertension in Pregnancy Methyldopa kapan bisa dihentikan
+query,Q427,renal_function_group,renal_impairment,text_rule,kontraindikasi Lansoprazole pada Pulmonary Embolism dengan renal impairment
+query,Q429,dose_context_flag,True,text_rule,dosis Dupilumab untuk pasien Disseminated Intravascular Coagulation
+query,Q430,dose_context_flag,True,text_rule,Major Depressive Disorder dengan renal impairment penyesuaian dosis Venlafaxine
+query,Q430,renal_function_group,renal_impairment,text_rule,Major Depressive Disorder dengan renal impairment penyesuaian dosis Venlafaxine
+query,Q435,dose_context_flag,True,text_rule,Artemether-lumefantrine hepatic impairment dose in Typhoid Fever
+query,Q435,hepatic_impairment_flag,True,text_rule,Artemether-lumefantrine hepatic impairment dose in Typhoid Fever
+query,Q436,comparison_flag,True,text_rule,Dupilumab vs Cyclosporine untuk pasien Psoriasis mana lebih efektif
+query,Q437,age_group,elderly,text_rule,Parkinson Disease with elderly patients first line drug
+query,Q438,dose_context_flag,True,text_rule,Schizophrenia emergency Risperidone loading dose berapa
+query,Q439,dose_context_flag,True,text_rule,Secukinumab loading dose Disseminated Intravascular Coagulation emergency
+query,Q441,dose_context_flag,True,text_rule,Atorvastatin hepatic impairment dose in Stable Angina
+query,Q441,hepatic_impairment_flag,True,text_rule,Atorvastatin hepatic impairment dose in Stable Angina
+query,Q442,prior_treatment_failure_flag,True,text_rule,add on Prednisolone setelah Tiotropium gagal COPD
+query,Q444,dose_context_flag,True,text_rule,Rivaroxaban hepatic impairment dose in Community-acquired Pneumonia
+query,Q444,hepatic_impairment_flag,True,text_rule,Rivaroxaban hepatic impairment dose in Community-acquired Pneumonia
+query,Q445,recency_flag,True,text_rule,indikasi Losartan pada Heart Failure guideline terbaru
+query,Q446,pregnancy_status,pregnant,text_rule,Type 1 Diabetes Mellitus dengan pregnancy pilihan terapi
+query,Q447,comparison_flag,True,text_rule,Lansoprazole vs Metronidazole untuk Pulmonary Embolism
+query,Q448,comparison_flag,True,text_rule,Pembrolizumab vs Pembrolizumab untuk pasien Non-Small Cell Lung Cancer mana lebih efektif
+query,Q453,age_group,elderly,text_rule,Topiramate pada pasien elderly Migraine apa perlu adjustment
+query,Q453,dose_context_flag,True,text_rule,Topiramate pada pasien elderly Migraine apa perlu adjustment
+query,Q456,year,2023,text_rule,kapan start Zinc di Stunting / Malnutrition evidence terbaru 2023
+query,Q456,recency_flag,True,text_rule,kapan start Zinc di Stunting / Malnutrition evidence terbaru 2023
+query,Q460,recency_flag,True,text_rule,Sepsis guideline update terbaru summary
+query,Q463,renal_function_group,renal_impairment,text_rule,Tuberculosis with renal impairment first line drug
+query,Q466,recency_flag,True,text_rule,panduan klinis Major Depressive Disorder terbaru
+query,Q469,recency_flag,True,text_rule,indikasi Bedaquiline pada MDR Tuberculosis guideline terbaru
+query,Q470,age_group,pediatric,text_rule,HIV/AIDS pada anak dosis Amoxicillin
+query,Q470,dose_context_flag,True,text_rule,HIV/AIDS pada anak dosis Amoxicillin
+query,Q476,comparison_flag,True,text_rule,Bortezomib vs Prednisolone untuk Rheumatoid Arthritis
+query,Q479,pregnancy_status,pregnant,text_rule,BCR-ABL inhibitors in pregnancy and Chronic Myeloid Leukaemia
+query,Q480,dose_context_flag,True,text_rule,Venlafaxine dosing in Major Depressive Disorder with atrial fibrillation
+query,Q483,pregnancy_status,pregnant,text_rule,Hypertension dengan pregnancy pilihan drug terbaik
+query,Q485,prior_treatment_failure_flag,True,text_rule,Lansoprazole resistance in Peptic Ulcer Disease alternative therapy
+query,Q487,pregnancy_status,pregnant,text_rule,Centrally acting antihypertensives terbaru untuk Hypertension in Pregnancy 2025
+query,Q487,year,2025,text_rule,Centrally acting antihypertensives terbaru untuk Hypertension in Pregnancy 2025
+query,Q487,recency_flag,True,text_rule,Centrally acting antihypertensives terbaru untuk Hypertension in Pregnancy 2025
+query,Q488,pregnancy_status,pregnant,text_rule,Artemether-lumefantrine pada ibu hamil dengan Typhoid Fever
+query,Q494,recency_flag,True,text_rule,Corticosteroids terbaru untuk COPD terbaru
+query,Q499,hepatic_impairment_flag,True,text_rule,ACE inhibitors kontraindikasi pada Hypertension dengan hepatic impairment
+query,Q500,year,2025,text_rule,Antituberculotics terbaru untuk Tuberculosis 2025
+query,Q500,recency_flag,True,text_rule,Antituberculotics terbaru untuk Tuberculosis 2025
+content,C001,publication_year,2021,publication_metadata,2021
+content,C002,year,2023,text_rule,Clinical Practice Guideline: Type 1 Diabetes Mellitus Management 2023
+content,C002,publication_year,2023,publication_metadata,2023
+content,C003,prior_treatment_failure_flag,True,text_rule,A Case of Type 1 Diabetes Mellitus Resistant to Insulin degludec
+content,C003,publication_year,2021,publication_metadata,2021
+content,C004,publication_year,2021,publication_metadata,2021
+content,C005,publication_year,2022,publication_metadata,2022
+content,C006,dose_context_flag,True,text_rule,"Methimazole: Pharmacology, Dosing, and Clinical Use in Hyperthyroidism"
+content,C006,publication_year,2023,publication_metadata,2023
+content,C007,publication_year,2020,publication_metadata,2020
+content,C008,publication_year,2025,publication_metadata,2025
+content,C009,publication_year,2021,publication_metadata,2021
+content,C010,dose_context_flag,True,text_rule,Dosis DPP-4 inhibitors pada Type 2 Diabetes Mellitus: Referensi Cepat
+content,C010,publication_year,2025,publication_metadata,2025
+content,C011,publication_year,2024,publication_metadata,2024
+content,C012,publication_year,2025,publication_metadata,2025
+content,C013,year,2023,text_rule,Asia-Pacific Guideline: Type 1 Diabetes Mellitus in Primary Care 2023
+content,C013,publication_year,2023,publication_metadata,2023
+content,C014,publication_year,2021,publication_metadata,2021
+content,C015,year,2021,text_rule,Panduan Klinis: Tatalaksana Hyperthyroidism 2021
+content,C015,publication_year,2021,publication_metadata,2021
+content,C016,dose_context_flag,True,text_rule,Dose Adjustment of Desmopressin in Renal and Hepatic Impairment
+content,C016,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Desmopressin in Renal and Hepatic Impairment
+content,C016,publication_year,2024,publication_metadata,2024
+content,C017,publication_year,2023,publication_metadata,2023
+content,C018,publication_year,2024,publication_metadata,2024
+content,C019,year,2021,text_rule,Asia-Pacific Guideline: Diabetes Insipidus in Primary Care 2021
+content,C019,publication_year,2021,publication_metadata,2021
+content,C020,year,2021,text_rule,Clinical Practice Guideline: Type 2 Diabetes Mellitus Management 2021
+content,C020,publication_year,2021,publication_metadata,2021
+content,C021,dose_context_flag,True,text_rule,Dose Adjustment of Insulin glargine in Renal and Hepatic Impairment
+content,C021,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Insulin glargine in Renal and Hepatic Impairment
+content,C021,publication_year,2022,publication_metadata,2022
+content,C022,dose_context_flag,True,text_rule,Quick Reference: Vasopressin analogues Dosing in Diabetes Insipidus
+content,C022,publication_year,2024,publication_metadata,2024
+content,C023,publication_year,2023,publication_metadata,2023
+content,C024,publication_year,2021,publication_metadata,2021
+content,C025,comparison_flag,True,text_rule,Metoprolol versus Empagliflozin in Atrial Fibrillation: Head-to-Head Comparison
+content,C025,publication_year,2022,publication_metadata,2022
+content,C026,publication_year,2021,publication_metadata,2021
+content,C027,publication_year,2023,publication_metadata,2023
+content,C028,publication_year,2024,publication_metadata,2024
+content,C029,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C029,publication_year,2020,publication_metadata,2020
+content,C030,publication_year,2025,publication_metadata,2025
+content,C031,year,2021,text_rule,Clinical Practice Guideline: Heart Failure Management 2021
+content,C031,publication_year,2021,publication_metadata,2021
+content,C032,publication_year,2024,publication_metadata,2024
+content,C033,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C033,publication_year,2020,publication_metadata,2020
+content,C034,publication_year,2021,publication_metadata,2021
+content,C035,publication_year,2022,publication_metadata,2022
+content,C036,dose_context_flag,True,text_rule,Dosis Platelet aggregation inhibitors pada Stable Angina: Referensi Cepat
+content,C036,publication_year,2020,publication_metadata,2020
+content,C037,publication_year,2025,publication_metadata,2025
+content,C038,year,2024,text_rule,Clinical Summary: Heart Failure Management Update 2024
+content,C038,publication_year,2024,publication_metadata,2024
+content,C039,publication_year,2023,publication_metadata,2023
+content,C040,dose_context_flag,True,text_rule,Dose Adjustment of Atorvastatin in Renal and Hepatic Impairment
+content,C040,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Atorvastatin in Renal and Hepatic Impairment
+content,C040,publication_year,2025,publication_metadata,2025
+content,C041,publication_year,2022,publication_metadata,2022
+content,C042,publication_year,2022,publication_metadata,2022
+content,C043,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C043,publication_year,2020,publication_metadata,2020
+content,C044,publication_year,2024,publication_metadata,2024
+content,C045,publication_year,2021,publication_metadata,2021
+content,C046,publication_year,2023,publication_metadata,2023
+content,C047,publication_year,2025,publication_metadata,2025
+content,C048,year,2022,text_rule,Panduan Klinis: Tatalaksana Chronic Kidney Disease 2022
+content,C048,publication_year,2022,publication_metadata,2022
+content,C049,publication_year,2022,publication_metadata,2022
+content,C050,publication_year,2025,publication_metadata,2025
+content,C051,year,2022,text_rule,Clinical Practice Guideline: Nephrotic Syndrome Management 2022
+content,C051,publication_year,2022,publication_metadata,2022
+content,C052,year,2024,text_rule,Clinical Summary: Chronic Kidney Disease Management Update 2024
+content,C052,publication_year,2024,publication_metadata,2024
+content,C053,publication_year,2025,publication_metadata,2025
+content,C054,publication_year,2024,publication_metadata,2024
+content,C055,publication_year,2025,publication_metadata,2025
+content,C056,publication_year,2023,publication_metadata,2023
+content,C057,publication_year,2024,publication_metadata,2024
+content,C058,prior_treatment_failure_flag,True,text_rule,Case Series: SGLT2 inhibitors in Refractory Chronic Kidney Disease
+content,C058,publication_year,2024,publication_metadata,2024
+content,C059,publication_year,2022,publication_metadata,2022
+content,C060,publication_year,2023,publication_metadata,2023
+content,C061,publication_year,2024,publication_metadata,2024
+content,C062,year,2022,text_rule,Konsensus Nasional: Chronic Kidney Disease di Indonesia 2022
+content,C062,publication_year,2022,publication_metadata,2022
+content,C063,comparison_from_review,True,content_type_only,review
+content,C063,publication_year,2020,publication_metadata,2020
+content,C064,publication_year,2022,publication_metadata,2022
+content,C065,publication_year,2025,publication_metadata,2025
+content,C066,publication_year,2023,publication_metadata,2023
+content,C067,publication_year,2024,publication_metadata,2024
+content,C068,publication_year,2020,publication_metadata,2020
+content,C069,publication_year,2023,publication_metadata,2023
+content,C070,publication_year,2020,publication_metadata,2020
+content,C071,year,2022,text_rule,Asia-Pacific Guideline: Epilepsy in Primary Care 2022
+content,C071,publication_year,2022,publication_metadata,2022
+content,C072,publication_year,2020,publication_metadata,2020
+content,C073,dose_context_flag,True,text_rule,Quick Reference: Antiepileptics other Dosing in Migraine
+content,C073,publication_year,2021,publication_metadata,2021
+content,C074,publication_year,2023,publication_metadata,2023
+content,C075,pregnancy_status,pregnant,text_rule,Migraine in Pregnancy: Safety and Management Guide
+content,C075,publication_year,2025,publication_metadata,2025
+content,C076,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C076,publication_year,2024,publication_metadata,2024
+content,C077,publication_year,2021,publication_metadata,2021
+content,C078,publication_year,2022,publication_metadata,2022
+content,C079,publication_year,2025,publication_metadata,2025
+content,C080,publication_year,2025,publication_metadata,2025
+content,C081,publication_year,2020,publication_metadata,2020
+content,C082,publication_year,2022,publication_metadata,2022
+content,C083,publication_year,2020,publication_metadata,2020
+content,C084,dose_context_flag,True,text_rule,Dose Adjustment of Valproate in Renal and Hepatic Impairment
+content,C084,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Valproate in Renal and Hepatic Impairment
+content,C084,publication_year,2023,publication_metadata,2023
+content,C085,publication_year,2023,publication_metadata,2023
+content,C086,publication_year,2025,publication_metadata,2025
+content,C087,publication_year,2021,publication_metadata,2021
+content,C088,publication_year,2024,publication_metadata,2024
+content,C089,publication_year,2024,publication_metadata,2024
+content,C090,publication_year,2025,publication_metadata,2025
+content,C091,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C091,publication_year,2021,publication_metadata,2021
+content,C092,publication_year,2025,publication_metadata,2025
+content,C093,publication_year,2021,publication_metadata,2021
+content,C094,dose_context_flag,True,text_rule,"Tenofovir+Lamivudine: Pharmacology, Dosing, and Clinical Use in Urinary Tract Infection"
+content,C094,publication_year,2021,publication_metadata,2021
+content,C095,dose_context_flag,True,text_rule,Quick Reference: NRTIs combination Dosing in Urinary Tract Infection
+content,C095,publication_year,2020,publication_metadata,2020
+content,C096,publication_year,2022,publication_metadata,2022
+content,C097,publication_year,2020,publication_metadata,2020
+content,C098,publication_year,2020,publication_metadata,2020
+content,C099,publication_year,2020,publication_metadata,2020
+content,C100,publication_year,2025,publication_metadata,2025
+content,C101,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C101,publication_year,2025,publication_metadata,2025
+content,C102,publication_year,2022,publication_metadata,2022
+content,C103,publication_year,2020,publication_metadata,2020
+content,C104,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C104,publication_year,2020,publication_metadata,2020
+content,C105,comparison_from_review,True,content_type_only,review
+content,C105,publication_year,2022,publication_metadata,2022
+content,C106,publication_year,2021,publication_metadata,2021
+content,C107,prior_treatment_failure_flag,True,text_rule,A Case of HIV/AIDS Resistant to Levofloxacin
+content,C107,publication_year,2021,publication_metadata,2021
+content,C108,prior_treatment_failure_flag,True,text_rule,Case Series: NRTIs combination in Refractory Urinary Tract Infection
+content,C108,publication_year,2020,publication_metadata,2020
+content,C109,publication_year,2022,publication_metadata,2022
+content,C110,year,2025,text_rule,WHO Guideline Update: Malaria 2025
+content,C110,recency_flag,True,text_rule,WHO Guideline Update: Malaria 2025
+content,C110,publication_year,2025,publication_metadata,2025
+content,C111,publication_year,2025,publication_metadata,2025
+content,C112,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C112,publication_year,2025,publication_metadata,2025
+content,C113,publication_year,2021,publication_metadata,2021
+content,C114,publication_year,2022,publication_metadata,2022
+content,C115,prior_treatment_failure_flag,True,text_rule,Case Series: NRTIs combination in Refractory Urinary Tract Infection
+content,C115,publication_year,2024,publication_metadata,2024
+content,C116,dose_context_flag,True,text_rule,Dose Adjustment of Salmeterol in Renal and Hepatic Impairment
+content,C116,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Salmeterol in Renal and Hepatic Impairment
+content,C116,publication_year,2022,publication_metadata,2022
+content,C117,publication_year,2025,publication_metadata,2025
+content,C118,pregnancy_status,pregnant,text_rule,COPD in Pregnancy: Safety and Management Guide
+content,C118,publication_year,2021,publication_metadata,2021
+content,C119,year,2025,text_rule,Clinical Practice Guideline: Pulmonary Embolism Management 2025
+content,C119,publication_year,2025,publication_metadata,2025
+content,C120,publication_year,2024,publication_metadata,2024
+content,C121,year,2025,text_rule,Asia-Pacific Guideline: Community-acquired Pneumonia in Primary Care 2025
+content,C121,publication_year,2025,publication_metadata,2025
+content,C122,prior_treatment_failure_flag,True,text_rule,Case Series: Factor Xa inhibitors in Refractory Community-acquired Pneumonia
+content,C122,publication_year,2023,publication_metadata,2023
+content,C123,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C123,publication_year,2022,publication_metadata,2022
+content,C124,year,2024,text_rule,Konsensus Nasional: Asthma di Indonesia 2024
+content,C124,publication_year,2024,publication_metadata,2024
+content,C125,publication_year,2024,publication_metadata,2024
+content,C126,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C126,publication_year,2020,publication_metadata,2020
+content,C127,publication_year,2023,publication_metadata,2023
+content,C128,publication_year,2025,publication_metadata,2025
+content,C129,dose_context_flag,True,text_rule,Dosis Corticosteroids pada Asthma: Referensi Cepat
+content,C129,publication_year,2022,publication_metadata,2022
+content,C130,publication_year,2024,publication_metadata,2024
+content,C131,publication_year,2024,publication_metadata,2024
+content,C132,publication_year,2021,publication_metadata,2021
+content,C133,publication_year,2024,publication_metadata,2024
+content,C134,year,2025,text_rule,Scoping Review: Emerging Therapies in Pulmonary Embolism 2025
+content,C134,comparison_from_review,True,content_type_only,review
+content,C134,publication_year,2025,publication_metadata,2025
+content,C135,publication_year,2020,publication_metadata,2020
+content,C136,publication_year,2021,publication_metadata,2021
+content,C137,publication_year,2024,publication_metadata,2024
+content,C138,publication_year,2024,publication_metadata,2024
+content,C139,comparison_from_review,True,content_type_only,review
+content,C139,publication_year,2020,publication_metadata,2020
+content,C140,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C140,publication_year,2024,publication_metadata,2024
+content,C141,publication_year,2024,publication_metadata,2024
+content,C142,year,2023,text_rule,Asia-Pacific Guideline: Inflammatory Bowel Disease in Primary Care 2023
+content,C142,publication_year,2023,publication_metadata,2023
+content,C143,publication_year,2025,publication_metadata,2025
+content,C144,year,2025,text_rule,Clinical Practice Guideline: Inflammatory Bowel Disease Management 2025
+content,C144,publication_year,2025,publication_metadata,2025
+content,C145,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C145,publication_year,2021,publication_metadata,2021
+content,C146,dose_context_flag,True,text_rule,Quick Reference: Nitroimidazoles Dosing in Inflammatory Bowel Disease
+content,C146,publication_year,2024,publication_metadata,2024
+content,C147,publication_year,2020,publication_metadata,2020
+content,C148,year,2022,text_rule,Clinical Summary: Inflammatory Bowel Disease Management Update 2022
+content,C148,publication_year,2022,publication_metadata,2022
+content,C149,publication_year,2021,publication_metadata,2021
+content,C150,publication_year,2022,publication_metadata,2022
+content,C151,publication_year,2022,publication_metadata,2022
+content,C152,publication_year,2024,publication_metadata,2024
+content,C153,year,2021,text_rule,Konsensus Nasional: Inflammatory Bowel Disease di Indonesia 2021
+content,C153,publication_year,2021,publication_metadata,2021
+content,C154,publication_year,2025,publication_metadata,2025
+content,C155,publication_year,2021,publication_metadata,2021
+content,C156,publication_year,2024,publication_metadata,2024
+content,C157,publication_year,2024,publication_metadata,2024
+content,C158,publication_year,2020,publication_metadata,2020
+content,C159,publication_year,2020,publication_metadata,2020
+content,C160,year,2022,text_rule,Konsensus Nasional: Inflammatory Bowel Disease di Indonesia 2022
+content,C160,publication_year,2022,publication_metadata,2022
+content,C161,year,2025,text_rule,Asia-Pacific Guideline: Peptic Ulcer Disease in Primary Care 2025
+content,C161,publication_year,2025,publication_metadata,2025
+content,C162,publication_year,2024,publication_metadata,2024
+content,C163,dose_context_flag,True,text_rule,"Risperidone: Pharmacology, Dosing, and Clinical Use in Schizophrenia"
+content,C163,publication_year,2025,publication_metadata,2025
+content,C164,year,2021,text_rule,Clinical Summary: Major Depressive Disorder Management Update 2021
+content,C164,publication_year,2021,publication_metadata,2021
+content,C165,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C165,publication_year,2024,publication_metadata,2024
+content,C166,dose_context_flag,True,text_rule,Dosis SSRIs pada ADHD: Referensi Cepat
+content,C166,publication_year,2024,publication_metadata,2024
+content,C167,publication_year,2023,publication_metadata,2023
+content,C168,publication_year,2020,publication_metadata,2020
+content,C169,dose_context_flag,True,text_rule,Dose Adjustment of Olanzapine in Renal and Hepatic Impairment
+content,C169,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Olanzapine in Renal and Hepatic Impairment
+content,C169,publication_year,2020,publication_metadata,2020
+content,C170,publication_year,2023,publication_metadata,2023
+content,C171,publication_year,2022,publication_metadata,2022
+content,C172,pregnancy_status,pregnant,text_rule,Major Depressive Disorder in Pregnancy: Safety and Management Guide
+content,C172,publication_year,2025,publication_metadata,2025
+content,C173,comparison_flag,True,text_rule,Escitalopram versus Sertraline in Major Depressive Disorder: Head-to-Head Comparison
+content,C173,publication_year,2020,publication_metadata,2020
+content,C174,publication_year,2020,publication_metadata,2020
+content,C175,year,2020,text_rule,Clinical Summary: Bipolar Disorder Management Update 2020
+content,C175,publication_year,2020,publication_metadata,2020
+content,C176,dose_context_flag,True,text_rule,"Lithium: Pharmacology, Dosing, and Clinical Use in Bipolar Disorder"
+content,C176,publication_year,2021,publication_metadata,2021
+content,C177,publication_year,2021,publication_metadata,2021
+content,C178,prior_treatment_failure_flag,True,text_rule,A Case of Schizophrenia Resistant to Clozapine
+content,C178,publication_year,2023,publication_metadata,2023
+content,C179,publication_year,2023,publication_metadata,2023
+content,C180,publication_year,2020,publication_metadata,2020
+content,C181,publication_year,2023,publication_metadata,2023
+content,C182,dose_context_flag,True,text_rule,"Sertraline: Pharmacology, Dosing, and Clinical Use in Major Depressive Disorder"
+content,C182,publication_year,2022,publication_metadata,2022
+content,C183,year,2022,text_rule,Scoping Review: Emerging Therapies in Bipolar Disorder 2022
+content,C183,comparison_from_review,True,content_type_only,review
+content,C183,publication_year,2022,publication_metadata,2022
+content,C184,publication_year,2021,publication_metadata,2021
+content,C185,dose_context_flag,True,text_rule,Dosis BCR-ABL inhibitors pada Chronic Myeloid Leukaemia: Referensi Cepat
+content,C185,publication_year,2024,publication_metadata,2024
+content,C186,year,2022,text_rule,Konsensus Nasional: Chronic Lymphocytic Leukaemia di Indonesia 2022
+content,C186,publication_year,2022,publication_metadata,2022
+content,C187,year,2022,text_rule,Clinical Practice Guideline: Breast Cancer HER2-positive Management 2022
+content,C187,publication_year,2022,publication_metadata,2022
+content,C188,publication_year,2024,publication_metadata,2024
+content,C189,year,2020,text_rule,Clinical Practice Guideline: Colorectal Cancer Management 2020
+content,C189,publication_year,2020,publication_metadata,2020
+content,C190,prior_treatment_failure_flag,True,text_rule,Case Series: HER2-targeted agents in Refractory Non-Small Cell Lung Cancer
+content,C190,publication_year,2024,publication_metadata,2024
+content,C191,publication_year,2025,publication_metadata,2025
+content,C192,publication_year,2022,publication_metadata,2022
+content,C193,comparison_flag,True,text_rule,Meta-analysis: Ibrutinib versus Standard of Care in Chronic Lymphocytic Leukaemia
+content,C193,publication_year,2021,publication_metadata,2021
+content,C194,dose_context_flag,True,text_rule,Quick Reference: BTK inhibitors Dosing in Chronic Lymphocytic Leukaemia
+content,C194,publication_year,2021,publication_metadata,2021
+content,C195,publication_year,2020,publication_metadata,2020
+content,C196,year,2024,text_rule,Scoping Review: Emerging Therapies in Colorectal Cancer 2024
+content,C196,comparison_from_review,True,content_type_only,review
+content,C196,publication_year,2024,publication_metadata,2024
+content,C197,year,2023,text_rule,Konsensus Nasional: Chronic Myeloid Leukaemia di Indonesia 2023
+content,C197,publication_year,2023,publication_metadata,2023
+content,C198,dose_context_flag,True,text_rule,Dosis BCR-ABL inhibitors pada Chronic Myeloid Leukaemia: Referensi Cepat
+content,C198,publication_year,2022,publication_metadata,2022
+content,C199,publication_year,2020,publication_metadata,2020
+content,C200,publication_year,2021,publication_metadata,2021
+content,C201,publication_year,2021,publication_metadata,2021
+content,C202,publication_year,2020,publication_metadata,2020
+content,C203,publication_year,2023,publication_metadata,2023
+content,C204,publication_year,2020,publication_metadata,2020
+content,C205,comparison_flag,True,text_rule,Meta-analysis: Ibrutinib versus Standard of Care in Chronic Lymphocytic Leukaemia
+content,C205,publication_year,2023,publication_metadata,2023
+content,C206,publication_year,2020,publication_metadata,2020
+content,C207,publication_year,2025,publication_metadata,2025
+content,C208,publication_year,2024,publication_metadata,2024
+content,C209,publication_year,2020,publication_metadata,2020
+content,C210,publication_year,2022,publication_metadata,2022
+content,C211,publication_year,2021,publication_metadata,2021
+content,C212,publication_year,2022,publication_metadata,2022
+content,C213,publication_year,2024,publication_metadata,2024
+content,C214,comparison_flag,True,text_rule,Adalimumab versus Adalimumab in Gout: Head-to-Head Comparison
+content,C214,publication_year,2024,publication_metadata,2024
+content,C215,comparison_from_review,True,content_type_only,review
+content,C215,publication_year,2025,publication_metadata,2025
+content,C216,publication_year,2025,publication_metadata,2025
+content,C217,dose_context_flag,True,text_rule,"Adalimumab: Pharmacology, Dosing, and Clinical Use in Gout"
+content,C217,publication_year,2024,publication_metadata,2024
+content,C218,publication_year,2021,publication_metadata,2021
+content,C219,year,2022,text_rule,Konsensus Nasional: Osteoporosis di Indonesia 2022
+content,C219,publication_year,2022,publication_metadata,2022
+content,C220,publication_year,2025,publication_metadata,2025
+content,C221,comparison_from_review,True,content_type_only,review
+content,C221,publication_year,2023,publication_metadata,2023
+content,C222,renal_function_group,renal_impairment,text_rule,Challenging Case: Psoriatic Arthritis with Concurrent renal impairment
+content,C222,publication_year,2024,publication_metadata,2024
+content,C223,publication_year,2021,publication_metadata,2021
+content,C224,publication_year,2025,publication_metadata,2025
+content,C225,publication_year,2021,publication_metadata,2021
+content,C226,publication_year,2025,publication_metadata,2025
+content,C227,publication_year,2021,publication_metadata,2021
+content,C228,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C228,publication_year,2020,publication_metadata,2020
+content,C229,publication_year,2024,publication_metadata,2024
+content,C230,prior_treatment_failure_flag,True,text_rule,Case Series: IL-17 inhibitors in Refractory Gout
+content,C230,publication_year,2023,publication_metadata,2023
+content,C231,dose_context_flag,True,text_rule,Dose Adjustment of Apixaban in Renal and Hepatic Impairment
+content,C231,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Apixaban in Renal and Hepatic Impairment
+content,C231,publication_year,2021,publication_metadata,2021
+content,C232,publication_year,2022,publication_metadata,2022
+content,C233,year,2023,text_rule,WHO Guideline Update: Iron Deficiency Anaemia 2023
+content,C233,recency_flag,True,text_rule,WHO Guideline Update: Iron Deficiency Anaemia 2023
+content,C233,publication_year,2023,publication_metadata,2023
+content,C234,publication_year,2024,publication_metadata,2024
+content,C235,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C235,publication_year,2021,publication_metadata,2021
+content,C236,dose_context_flag,True,text_rule,Dose Adjustment of Rivaroxaban in Renal and Hepatic Impairment
+content,C236,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Rivaroxaban in Renal and Hepatic Impairment
+content,C236,publication_year,2025,publication_metadata,2025
+content,C237,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C237,publication_year,2021,publication_metadata,2021
+content,C238,publication_year,2022,publication_metadata,2022
+content,C239,year,2024,text_rule,Asia-Pacific Guideline: Deep Vein Thrombosis in Primary Care 2024
+content,C239,publication_year,2024,publication_metadata,2024
+content,C240,dose_context_flag,True,text_rule,Quick Reference: Iron preparations Dosing in Iron Deficiency Anaemia
+content,C240,publication_year,2025,publication_metadata,2025
+content,C241,publication_year,2024,publication_metadata,2024
+content,C242,age_group,elderly,text_rule,Challenging Case: Deep Vein Thrombosis with Concurrent elderly patients
+content,C242,publication_year,2020,publication_metadata,2020
+content,C243,publication_year,2021,publication_metadata,2021
+content,C244,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C244,publication_year,2022,publication_metadata,2022
+content,C245,publication_year,2022,publication_metadata,2022
+content,C246,year,2024,text_rule,Scoping Review: Emerging Therapies in Deep Vein Thrombosis 2024
+content,C246,comparison_from_review,True,content_type_only,review
+content,C246,publication_year,2024,publication_metadata,2024
+content,C247,publication_year,2024,publication_metadata,2024
+content,C248,publication_year,2020,publication_metadata,2020
+content,C249,year,2022,text_rule,Ringkasan Klinis: Tatalaksana Deep Vein Thrombosis Terkini 2022
+content,C249,publication_year,2022,publication_metadata,2022
+content,C250,publication_year,2022,publication_metadata,2022
+content,C251,prior_treatment_failure_flag,True,text_rule,A Case of Deep Vein Thrombosis Resistant to Rivaroxaban
+content,C251,publication_year,2024,publication_metadata,2024
+content,C252,publication_year,2020,publication_metadata,2020
+content,C253,publication_year,2025,publication_metadata,2025
+content,C254,pregnancy_status,pregnancy_related,text_rule,Clinical Practice Guideline: Preeclampsia Management 2022
+content,C254,year,2022,text_rule,Clinical Practice Guideline: Preeclampsia Management 2022
+content,C254,publication_year,2022,publication_metadata,2022
+content,C255,pregnancy_status,pregnant,text_rule,Practical Guide: Initiating Labetalol in Hypertension in Pregnancy
+content,C255,publication_year,2025,publication_metadata,2025
+content,C256,pregnancy_status,pregnancy_related,text_rule,New Insights into Preeclampsia Pathophysiology and Treatment
+content,C256,publication_year,2025,publication_metadata,2025
+content,C257,pregnancy_status,pregnant,text_rule,Switching Therapy in Hypertension in Pregnancy: A Step-by-Step Guide
+content,C257,publication_year,2021,publication_metadata,2021
+content,C258,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C258,publication_year,2023,publication_metadata,2023
+content,C259,pregnancy_status,pregnancy_related,text_rule,Panduan Klinis: Tatalaksana Preeclampsia 2020
+content,C259,year,2020,text_rule,Panduan Klinis: Tatalaksana Preeclampsia 2020
+content,C259,publication_year,2020,publication_metadata,2020
+content,C260,pregnancy_status,pregnant,text_rule,Hypertension in Pregnancy in anaemia: Special Considerations
+content,C260,publication_year,2024,publication_metadata,2024
+content,C261,pregnancy_status,pregnancy_related,text_rule,Ringkasan Klinis: Tatalaksana Preeclampsia Terkini 2020
+content,C261,year,2020,text_rule,Ringkasan Klinis: Tatalaksana Preeclampsia Terkini 2020
+content,C261,publication_year,2020,publication_metadata,2020
+content,C262,pregnancy_status,pregnant,text_rule,Preeclampsia in pregnancy: Special Considerations
+content,C262,publication_year,2022,publication_metadata,2022
+content,C263,pregnancy_status,pregnant,text_rule,Tinjauan Sistematis: Beta blockers non-selective pada Hypertension in Pregnancy
+content,C263,comparison_from_review,True,content_type_only,review
+content,C263,publication_year,2020,publication_metadata,2020
+content,C264,pregnancy_status,pregnancy_related,text_rule,Preeclampsia in Special Populations: Practical Guidance
+content,C264,publication_year,2022,publication_metadata,2022
+content,C265,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C265,publication_year,2023,publication_metadata,2023
+content,C266,pregnancy_status,pregnant,text_rule,Profil Obat Centrally acting antihypertensives pada Hypertension in Pregnancy
+content,C266,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C266,publication_year,2024,publication_metadata,2024
+content,C267,pregnancy_status,pregnant,text_rule,Hypertension in Pregnancy in Pregnancy: Safety and Management Guide
+content,C267,publication_year,2025,publication_metadata,2025
+content,C268,pregnancy_status,pregnant,text_rule,Methyldopa Drug Profile: Efficacy in Hypertension in Pregnancy
+content,C268,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C268,publication_year,2022,publication_metadata,2022
+content,C269,pregnancy_status,pregnant,text_rule,Preeclampsia in Pregnancy: Safety and Management Guide
+content,C269,publication_year,2020,publication_metadata,2020
+content,C270,pregnancy_status,pregnant,text_rule,Long-term Outcomes of Beta blockers non-selective Therapy in Hypertension in Pregnancy
+content,C270,publication_year,2024,publication_metadata,2024
+content,C271,pregnancy_status,pregnancy_related,text_rule,Panduan Praktis: Memulai Magnesium sulphate pada Preeclampsia
+content,C271,publication_year,2024,publication_metadata,2024
+content,C272,pregnancy_status,pregnant,text_rule,National Guideline: Hypertension in Pregnancy Diagnosis and Treatment
+content,C272,publication_year,2023,publication_metadata,2023
+content,C273,pregnancy_status,pregnancy_related,text_rule,Magnesium sulphate: Farmakologi dan Penggunaan Klinis pada Preeclampsia
+content,C273,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C273,publication_year,2025,publication_metadata,2025
+content,C274,pregnancy_status,pregnancy_related,text_rule,Treatment Intensification in Preeclampsia: When and How
+content,C274,publication_year,2023,publication_metadata,2023
+content,C275,pregnancy_status,pregnant,text_rule,Treatment Intensification in Hypertension in Pregnancy: When and How
+content,C275,publication_year,2020,publication_metadata,2020
+content,C276,pregnancy_status,pregnancy_related,text_rule,Efektivitas Magnesium pada Preeclampsia
+content,C276,publication_year,2024,publication_metadata,2024
+content,C277,dose_context_flag,True,text_rule,"Diazepam: Pharmacology, Dosing, and Clinical Use in Febrile Seizure"
+content,C277,publication_year,2022,publication_metadata,2022
+content,C278,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C278,publication_year,2022,publication_metadata,2022
+content,C279,publication_year,2023,publication_metadata,2023
+content,C280,publication_year,2025,publication_metadata,2025
+content,C281,publication_year,2025,publication_metadata,2025
+content,C282,publication_year,2020,publication_metadata,2020
+content,C283,publication_year,2023,publication_metadata,2023
+content,C284,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C284,publication_year,2023,publication_metadata,2023
+content,C285,publication_year,2025,publication_metadata,2025
+content,C286,comparison_from_review,True,content_type_only,review
+content,C286,publication_year,2025,publication_metadata,2025
+content,C287,publication_year,2024,publication_metadata,2024
+content,C288,publication_year,2025,publication_metadata,2025
+content,C289,publication_year,2025,publication_metadata,2025
+content,C290,publication_year,2022,publication_metadata,2022
+content,C291,publication_year,2021,publication_metadata,2021
+content,C292,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C292,publication_year,2024,publication_metadata,2024
+content,C293,year,2021,text_rule,Clinical Summary: Stunting / Malnutrition Management Update 2021
+content,C293,publication_year,2021,publication_metadata,2021
+content,C294,publication_year,2023,publication_metadata,2023
+content,C295,publication_year,2023,publication_metadata,2023
+content,C296,comparison_from_review,True,content_type_only,review
+content,C296,publication_year,2022,publication_metadata,2022
+content,C297,publication_year,2023,publication_metadata,2023
+content,C298,year,2020,text_rule,Clinical Practice Guideline: Stunting / Malnutrition Management 2020
+content,C298,publication_year,2020,publication_metadata,2020
+content,C299,publication_year,2022,publication_metadata,2022
+content,C300,prior_treatment_failure_flag,True,text_rule,Case Series: Calcineurin inhibitors in Refractory Disseminated Intravascular Coagulation
+content,C300,publication_year,2020,publication_metadata,2020
+content,C301,publication_year,2020,publication_metadata,2020
+content,C302,publication_year,2023,publication_metadata,2023
+content,C303,publication_year,2023,publication_metadata,2023
+content,C304,year,2024,text_rule,Ringkasan Klinis: Tatalaksana Sepsis Terkini 2024
+content,C304,publication_year,2024,publication_metadata,2024
+content,C305,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C305,publication_year,2020,publication_metadata,2020
+content,C306,hepatic_impairment_flag,True,text_rule,Sepsis in liver disease: Special Considerations
+content,C306,publication_year,2023,publication_metadata,2023
+content,C307,prior_treatment_failure_flag,True,text_rule,Case Series: IL-17 inhibitors in Refractory Disseminated Intravascular Coagulation
+content,C307,publication_year,2021,publication_metadata,2021
+content,C308,year,2025,text_rule,WHO Guideline Update: Disseminated Intravascular Coagulation 2025
+content,C308,recency_flag,True,text_rule,WHO Guideline Update: Disseminated Intravascular Coagulation 2025
+content,C308,publication_year,2025,publication_metadata,2025
+content,C309,publication_year,2023,publication_metadata,2023
+content,C310,dose_context_flag,True,text_rule,Quick Reference: IL-4/IL-13 inhibitors Dosing in Disseminated Intravascular Coagulation
+content,C310,publication_year,2020,publication_metadata,2020
+content,C311,publication_year,2025,publication_metadata,2025
+content,C312,prior_treatment_failure_flag,True,text_rule,A Case of Disseminated Intravascular Coagulation Resistant to Cyclosporine
+content,C312,publication_year,2023,publication_metadata,2023
+content,C313,publication_year,2024,publication_metadata,2024
+content,C314,dose_context_flag,True,text_rule,Dose Adjustment of Vancomycin in Renal and Hepatic Impairment
+content,C314,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Vancomycin in Renal and Hepatic Impairment
+content,C314,publication_year,2020,publication_metadata,2020
+content,C315,publication_year,2025,publication_metadata,2025
+content,C316,publication_year,2020,publication_metadata,2020
+content,C317,publication_year,2020,publication_metadata,2020
+content,C318,publication_year,2025,publication_metadata,2025
+content,C319,publication_year,2020,publication_metadata,2020
+content,C320,publication_year,2024,publication_metadata,2024
+content,C321,publication_year,2020,publication_metadata,2020
+content,C322,age_group,elderly,text_rule,Disseminated Intravascular Coagulation and elderly patients: Management Challenges
+content,C322,publication_year,2025,publication_metadata,2025
+content,C323,publication_year,2025,publication_metadata,2025
+content,C324,route,topical,text_rule,Successful Management of Severe Psoriasis with Tacrolimus topical
+content,C324,publication_year,2020,publication_metadata,2020
+content,C325,prior_treatment_failure_flag,True,text_rule,A Case of Psoriasis Resistant to Cyclosporine
+content,C325,publication_year,2021,publication_metadata,2021
+content,C326,publication_year,2022,publication_metadata,2022
+content,C327,publication_year,2021,publication_metadata,2021
+content,C328,publication_year,2024,publication_metadata,2024
+content,C329,dose_context_flag,True,text_rule,"Cyclosporine: Pharmacology, Dosing, and Clinical Use in Psoriasis"
+content,C329,publication_year,2023,publication_metadata,2023
+content,C330,publication_year,2023,publication_metadata,2023
+content,C331,route,topical,text_rule,Profil Keamanan Tacrolimus topical pada Psoriasis
+content,C331,publication_year,2022,publication_metadata,2022
+content,C332,age_group,elderly,text_rule,Psoriasis in elderly patients: Special Considerations
+content,C332,publication_year,2022,publication_metadata,2022
+content,C333,year,2023,text_rule,WHO Guideline Update: Psoriasis 2023
+content,C333,recency_flag,True,text_rule,WHO Guideline Update: Psoriasis 2023
+content,C333,publication_year,2023,publication_metadata,2023
+content,C334,route,topical,text_rule,Panduan Praktis: Memulai Tacrolimus topical pada Psoriasis
+content,C334,publication_year,2021,publication_metadata,2021
+content,C335,year,2025,text_rule,WHO Guideline Update: Psoriasis 2025
+content,C335,recency_flag,True,text_rule,WHO Guideline Update: Psoriasis 2025
+content,C335,publication_year,2025,publication_metadata,2025
+content,C336,prior_treatment_failure_flag,True,text_rule,A Case of Psoriasis Resistant to Cyclosporine
+content,C336,publication_year,2020,publication_metadata,2020
+content,C337,publication_year,2022,publication_metadata,2022
+content,C338,publication_year,2022,publication_metadata,2022
+content,C339,dose_context_flag,True,text_rule,Quick Reference: Calcineurin inhibitors Dosing in Psoriasis
+content,C339,publication_year,2022,publication_metadata,2022
+content,C340,publication_year,2020,publication_metadata,2020
+content,C341,route,topical,text_rule,Consensus Statement: Topical calcineurin inhibitors Use in Psoriasis
+content,C341,publication_year,2025,publication_metadata,2025
+content,C342,route,topical,text_rule,Tacrolimus topical: Farmakologi dan Penggunaan Klinis pada Psoriasis
+content,C342,dose_from_drug_profile,True,content_type_only,drug_profile
+content,C342,publication_year,2024,publication_metadata,2024
+content,C343,dose_context_flag,True,text_rule,Dose Adjustment of Dupilumab in Renal and Hepatic Impairment
+content,C343,hepatic_impairment_flag,True,text_rule,Dose Adjustment of Dupilumab in Renal and Hepatic Impairment
+content,C343,publication_year,2024,publication_metadata,2024
+content,C344,publication_year,2021,publication_metadata,2021
+content,C345,dose_context_flag,True,text_rule,Dosis Topical calcineurin inhibitors pada Psoriasis: Referensi Cepat
+content,C345,route,topical,text_rule,Dosis Topical calcineurin inhibitors pada Psoriasis: Referensi Cepat
+content,C345,publication_year,2021,publication_metadata,2021

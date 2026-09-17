@@ -1,0 +1,9 @@
+side,field,unique_terms,literal_supported,literal_support_fraction
+content,disease_entity,345,325,0.9420289855072463
+content,drug_class_entity,393,86,0.21882951653944022
+content,molecule_entity,399,128,0.3208020050125313
+content,therapeutic_area,345,0,0.0
+query,disease_entity,500,500,1.0
+query,drug_class_entity,529,99,0.18714555765595464
+query,molecule_entity,539,381,0.7068645640074211
+query,therapeutic_area,500,0,0.0

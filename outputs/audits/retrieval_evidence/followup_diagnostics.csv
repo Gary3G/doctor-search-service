@@ -1,0 +1,30 @@
+check,side,record_id,text,saved_value
+comparison_word_missed,content,C088,Perbandingan Valproate dan Valproate pada Parkinson Disease,False
+comparison_word_missed,content,C089,Perbandingan Topiramate dan Topiramate pada Migraine,False
+comparison_word_missed,content,C171,Perbandingan Venlafaxine dan Venlafaxine pada Major Depressive Disorder,False
+comparison_word_missed,content,C285,Perbandingan Diazepam dan Diazepam pada Febrile Seizure,False
+comparison_word_missed,content,C291,Perbandingan Diazepam dan Diazepam pada Febrile Seizure,False
+comparison_word_missed,content,C294,Perbandingan Zinc dan Zinc pada Stunting / Malnutrition,False
+comparison_word_missed,content,C315,Perbandingan Hydrocortisone dan Piperacillin-tazobactam pada Sepsis,False
+coordinated_renal_phrase_missed,content,C016,Dose Adjustment of Desmopressin in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C021,Dose Adjustment of Insulin glargine in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C040,Dose Adjustment of Atorvastatin in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C084,Dose Adjustment of Valproate in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C116,Dose Adjustment of Salmeterol in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C169,Dose Adjustment of Olanzapine in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C231,Dose Adjustment of Apixaban in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C236,Dose Adjustment of Rivaroxaban in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C314,Dose Adjustment of Vancomycin in Renal and Hepatic Impairment,
+coordinated_renal_phrase_missed,content,C343,Dose Adjustment of Dupilumab in Renal and Hepatic Impairment,
+safety_question_negation,query,Q006,kombinasi Metoprolol dan Metoprolol pada Heart Failure aman atau tidak,True
+safety_question_negation,query,Q033,dosis Semaglutide pada Obesity pasien hypertension aman tidak,True
+safety_question_negation,query,Q155,kombinasi Artemether-lumefantrine dan Artemether-lumefantrine pada Typhoid Fever aman atau tidak,True
+safety_question_negation,query,Q187,dosis Venlafaxine pada Major Depressive Disorder pasien hypertension aman tidak,True
+safety_question_negation,query,Q231,kombinasi Piperacillin-tazobactam dan Norepinephrine pada Sepsis aman atau tidak,True
+safety_question_negation,query,Q262,kombinasi Piperacillin-tazobactam dan Meropenem pada Sepsis aman atau tidak,True
+safety_question_negation,query,Q300,dosis Apixaban pada Community-acquired Pneumonia pasien CKD aman tidak,True
+safety_question_negation,query,Q327,kombinasi Desmopressin dan Desmopressin pada Diabetes Insipidus aman atau tidak,True
+safety_question_negation,query,Q328,kombinasi Piperacillin-tazobactam dan Hydrocortisone pada Sepsis aman atau tidak,True
+safety_question_negation,query,Q351,dosis Rifampicin pada Tuberculosis pasien pregnancy aman tidak,True
+literal_molecule_missing_from_metadata_candidate,content,C025,Metoprolol versus Empagliflozin in Atrial Fibrillation: Head-to-Head Comparison,Empagliflozin
+literal_molecule_missing_from_metadata_candidate,content,C315,Perbandingan Hydrocortisone dan Piperacillin-tazobactam pada Sepsis,Piperacillin-tazobactam

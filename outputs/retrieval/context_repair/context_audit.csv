@@ -1,0 +1,5 @@
+variant,title_comparison,title_renal,title_dosing,effective_comparison,effective_dosing,query_negation,context_positive_pairs
+legacy,5,1,33,17,60,10,14278
+cue_repairs,12,11,33,24,60,0,14509
+explicit_only,5,1,33,5,33,10,11506
+repaired_explicit,12,11,33,12,33,0,11737

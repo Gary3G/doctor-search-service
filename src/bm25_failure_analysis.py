@@ -64,7 +64,7 @@ def build_phase10_artifacts(output_dir: Path = REVIEW_DIR) -> dict:
         '# Phase 10: BM25 case review', '',
         '40 temporal-validation queries: 26 misses, 8 hits and 6 without positive judgments. '
         'Seed 42 within each stratum; purposive quotas are not population prevalence estimates. '
-        'Review is by Codex from titles and supplied metadata, not independent clinician adjudication. '
+        'Review is LLM-assisted and based on titles and supplied metadata, not independent clinician adjudication. '
         'Behavioral positives are observed engagement, not expected clinically relevant answers. '
         'Context mismatch labels include missing title evidence, not necessarily contradiction. '
         'No model changes or test-set selection occur in this phase.', '',
@@ -131,7 +131,7 @@ def build_phase10_artifacts(output_dir: Path = REVIEW_DIR) -> dict:
     manifest = dict(phase=10, protocol='temporal', split='validation', seed=CONFIG.random_seed,
                     quotas={'miss': 26, 'hit': 8, 'no_positive': 6}, query_count=len(cases),
                     selection='fixed quotas; sample sorted query IDs with pandas random_state=42',
-                    reviewer='Codex title/metadata review; not clinician gold',
+                    reviewer='LLM-assisted title/metadata review; not clinician gold',
                     limitations=['purposive sample', 'title-only content', 'weak behavioral evidence',
                                  'intent and slots are earlier pipeline outputs, not independent gold'],
                     versions={'pandas': pd.__version__},

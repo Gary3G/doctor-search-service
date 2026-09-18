@@ -173,7 +173,7 @@ def run(output_dir=OUTPUT):
         f"Topic gating retains {manifest['context_pairs_after']:,} of {manifest['context_pairs_before']:,} pairs with a positive context score. Missing topic evidence closes the gate but never excludes a document from retrieval.",
         '## Limits',
         'This experiment was motivated by earlier test inspection, so all confirmation is exploratory. Sparse, sometimes off-topic behavioral positives can reward clinically questionable results. No-positive queries retain undefined relevance metrics. Context retains the original dosing/drug-profile and comparison/review heuristics; exact numeric renal compatibility is not established. Separating explicit context from metadata proxies remains future work. Query/query_dedup and alternate-grade results are sensitivity checks, never used to choose weights. No claim of clinical improvement follows from these proxy metrics.',
-        'Codex assisted with code and interpretation; the executable makes no LLM calls or new judgments. Full rankings, validation grid, metrics, per-query deltas, slices and provenance are saved beside this report.'
+        'Code and interpretation were LLM-assisted; the executable makes no LLM calls or new judgments. Full rankings, validation grid, metrics, per-query deltas, slices and provenance are saved beside this report.'
     ])+'\n'
     # Narrative findings are consolidated in write_up/phase11_summary.md.
     log = pd.read_csv(EXPERIMENT_LOG_PATH)

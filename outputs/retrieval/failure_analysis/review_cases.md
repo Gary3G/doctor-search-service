@@ -1,6 +1,6 @@
 # Phase 10: BM25 case review
 
-40 temporal-validation queries: 26 misses, 8 hits and 6 without positive judgments. Seed 42 within each stratum; purposive quotas are not population prevalence estimates. Review is by Codex from titles and supplied metadata, not independent clinician adjudication. Behavioral positives are observed engagement, not expected clinically relevant answers. Context mismatch labels include missing title evidence, not necessarily contradiction. No model changes or test-set selection occur in this phase.
+40 temporal-validation queries: 26 misses, 8 hits and 6 without positive judgments. Seed 42 within each stratum; purposive quotas are not population prevalence estimates. The review was LLM-assisted and used titles and supplied metadata, not independent clinician adjudication. Behavioral positives are observed engagement, not expected clinically relevant answers. Context mismatch labels include missing title evidence, not necessarily contradiction. No model changes or test-set selection occur in this phase.
 
 ## Q003: interaksi obat Nivolumab dan Nivolumab pada Colorectal Cancer
 

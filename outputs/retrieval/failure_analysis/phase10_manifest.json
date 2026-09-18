@@ -10,7 +10,7 @@
   },
   "query_count": 40,
   "selection": "fixed quotas; sample sorted query IDs with pandas random_state=42",
-  "reviewer": "Codex title/metadata review; not clinician gold",
+  "reviewer": "LLM-assisted title/metadata review; not clinician gold",
   "limitations": [
     "purposive sample",
     "title-only content",

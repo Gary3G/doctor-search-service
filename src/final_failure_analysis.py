@@ -150,7 +150,7 @@ def build_phase14_artifacts(output_dir: Path = PHASE14_DIR) -> dict[str, str]:
         "Phase 12 runtime ranker (`with_predicted_hard_intent`). Cases cover compositional, "
         "contextual, intent, corpus-coverage, and evaluation-proxy failures; their frequencies "
         "are not prevalence estimates. Titles and supplied metadata are available, not article "
-        "bodies. Codex authored the semantic assessments; no clinician adjudication occurred. "
+        "bodies. An LLM-assisted review produced the semantic assessments; no clinician adjudication occurred. "
         "Unjudged means unobserved in the behavior logs, not irrelevant. No model or label was changed.", "",
     ]
 
@@ -274,7 +274,7 @@ def build_phase14_artifacts(output_dir: Path = PHASE14_DIR) -> dict[str, str]:
         "target": "relevance_grade >= 1",
         "case_ids": list(CASE_IDS),
         "selection": "purposive authored sample of frozen final-ranker eligible top-10 proxy misses",
-        "reviewer": "Codex title/metadata review; not clinician adjudication",
+        "reviewer": "LLM-assisted title/metadata review; not clinician adjudication",
         "mutations": "none to rankings, labels, weights, or test judgments",
         "limitations": [
             "purposive examples are not prevalence estimates",

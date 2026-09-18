@@ -19,7 +19,7 @@
     "Q435"
   ],
   "selection": "purposive authored sample of frozen final-ranker eligible top-10 proxy misses",
-  "reviewer": "Codex title/metadata review; not clinician adjudication",
+  "reviewer": "LLM-assisted title/metadata review; not clinician adjudication",
   "mutations": "none to rankings, labels, weights, or test judgments",
   "limitations": [
     "purposive examples are not prevalence estimates",

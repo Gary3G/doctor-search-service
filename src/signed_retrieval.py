@@ -160,7 +160,7 @@ def run(output_dir=OUTPUT):
         table(comparison.query("protocol == 'temporal' and split == 'test'").drop(columns=['protocol','split']).round(5)),
         '## Limits',
         'This is exploratory after previous test inspection. Behavioral positives are sparse and may be off-topic; unjudged zero gain does not mean irrelevant. Missing-positive query metrics remain undefined. Validation-selected weights are never changed based on test results. Alternate grades and query/query_dedup protocols are sensitivity only. Metadata completeness, coarse age groups and incomplete titles limit mismatch interpretation. No clinical improvement is established by the proxy alone.',
-        'Saved outputs include the full validation grid, configurations, rankings, per-query metrics, slices, grade sensitivities and input/code hashes. Codex assisted with implementation; this executable makes no LLM calls or new clinical judgments.'
+        'Saved outputs include the full validation grid, configurations, rankings, per-query metrics, slices, grade sensitivities and input/code hashes. Implementation was LLM-assisted; this executable makes no LLM calls or new clinical judgments.'
     ])+'\n'
     # Narrative findings are consolidated in write_up/phase11_summary.md.
     log=pd.read_csv(EXPERIMENT_LOG_PATH)

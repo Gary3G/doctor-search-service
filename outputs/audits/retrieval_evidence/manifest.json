@@ -4,7 +4,7 @@
   "selection_uses_relevance": false,
   "ranking_modified": false,
   "literal_support": "surface-form evidence only; unsupported does not mean incorrect; codes and ontology validity not independently verified",
-  "manual_review": "Codex semantic review of sampled text, not independent clinician annotation",
+  "manual_review": "LLM-assisted semantic review of sampled text, not independent clinician annotation",
   "sha256": {
     "/Users/hol/Documents/Task/doctor-search-service/data/processed/queries_with_contextual_slots.csv": "fc9407356a99779bd2a0cf1ce453d7344d650c84a333735adf4d46fe0ceaf0a1",
     "/Users/hol/Documents/Task/doctor-search-service/data/processed/content_with_contextual_slots.csv": "fa1d2dd6232aec35bf86061efd01f228a5c7f79f57579357819fa0cfa0161259",

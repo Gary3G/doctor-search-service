@@ -1,6 +1,6 @@
 # Phase 14: detailed residual failure analysis
 
-This is a purposive review of 12 eligible temporal-test top-10 misses from the frozen Phase 12 runtime ranker (`with_predicted_hard_intent`). Cases cover compositional, contextual, intent, corpus-coverage, and evaluation-proxy failures; their frequencies are not prevalence estimates. Titles and supplied metadata are available, not article bodies. Codex authored the semantic assessments; no clinician adjudication occurred. Unjudged means unobserved in the behavior logs, not irrelevant. No model or label was changed.
+This is a purposive review of 12 eligible temporal-test top-10 misses from the frozen Phase 12 runtime ranker (`with_predicted_hard_intent`). Cases cover compositional, contextual, intent, corpus-coverage, and evaluation-proxy failures; their frequencies are not prevalence estimates. Titles and supplied metadata are available, not article bodies. An LLM-assisted review produced the semantic assessments; no clinician adjudication occurred. Unjudged means unobserved in the behavior logs, not irrelevant. No model or label was changed.
 
 ## Q019: Rheumatoid Arthritis dengan renal impairment penyesuaian dosis Bortezomib
 

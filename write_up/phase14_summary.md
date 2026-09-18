@@ -6,7 +6,7 @@ Phase 14 reviews 12 representative residual errors from the frozen Phase 12 runt
 
 For every case, the generated report records the query, an expected answer requirement and closest title-level candidate, the top three retrieved titles, structured query decomposition, a case-specific failure explanation, and a proposed improvement. The evidence table preserves whether each item is behaviorally judged or unjudged and records its final-system rank. “Expected” means plausible from title and metadata; it is not a new relevance label.
 
-**Where an LLM was used:** Codex authored the 12 qualitative reviews from query text, supplied entities and slots, predicted intent, content titles and metadata, and behavior-derived judgments. This semantic review identified whether a miss was more consistent with ranking logic, corpus coverage, intent classification, or the evaluation proxy. The saved annotations are in `data/processed/phase14_failure_reviews.csv`.
+**Where an LLM was used:** An LLM-assisted process produced the 12 qualitative reviews from query text, supplied entities and slots, predicted intent, content titles and metadata, and behavior-derived judgments. This semantic review identified whether a miss was more consistent with ranking logic, corpus coverage, intent classification, or the evaluation proxy. The saved annotations are in `data/processed/phase14_failure_reviews.csv`.
 
 **Where an LLM was not used:** Case validation, evidence joins, rank lookup, decomposition serialization, category aggregation, artifact generation, and provenance hashing are deterministic. Rerunning `.venv/bin/python -m src.final_failure_analysis` makes no LLM calls and reproduces the saved review rather than independently regenerating its judgments.
 
@@ -49,7 +49,7 @@ Another surprise was the gap between intent classification and retrieval impact.
 
 ## Honest Evaluation
 
-This is a single Codex review of titles and supplied metadata, not clinician adjudication. Article body text is unavailable, so a title-level gap does not prove the content body lacks the answer. Conversely, a broadly matching title does not prove clinical relevance. The expected candidates are inspection aids and are not written back into the relevance labels.
+This is a single LLM-assisted review of titles and supplied metadata, not clinician adjudication. Article body text is unavailable, so a title-level gap does not prove the content body lacks the answer. Conversely, a broadly matching title does not prove clinical relevance. The expected candidates are inspection aids and are not written back into the relevance labels.
 
 The 12 fixed cases were deliberately chosen for interpretability and coverage; category counts are not population prevalence estimates. All cases come from a test set inspected in earlier phases, and Phase 14 is diagnostic rather than confirmatory. Behavior-derived relevance remains sparse and biased by exposure and engagement. Unjudged content receives zero computational gain but is not known to be irrelevant.
 

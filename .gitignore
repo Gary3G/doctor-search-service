@@ -4,6 +4,9 @@ __pycache__/
 .DS_Store
 .venv/
 
+# Local presentation planning notes.
+write_up/presentation_layout.md
+
 # Keep compact Phase 2 embedding matrices, but not the downloaded model weights.
 data/cache/huggingface/
 data/cache/matplotlib/
